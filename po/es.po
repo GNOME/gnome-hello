@@ -1,0 +1,49 @@
+# GnomeHello sample translation file.
+# Copyright (C) 1999 Havoc Pennington
+# Havoc Pennington <hp@pobox.com>, 1999.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-05-26 22:34-0500\n"
+"PO-Revision-Date: 1999-04-26 HO:MI+ZONE\n"
+"Last-Translator: Havoc Pennington <hp@pobox.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hello.c:48
+msgid "Say hello to specific people listed on the command line"
+msgstr ""
+
+#: src/hello.c:57
+msgid "Specify a message other than \"Hello, World!\""
+msgstr ""
+
+#: src/hello.c:58
+msgid "MESSAGE"
+msgstr ""
+
+#: src/hello.c:66
+msgid "Specify the geometry of the main window"
+msgstr ""
+
+#: src/hello.c:67
+msgid "GEOMETRY"
+msgstr ""
+
+#: src/hello.c:115
+msgid "You must specify someone to greet."
+msgstr ""
+
+#: src/hello.c:119
+msgid "Command line arguments are only allowed with --greet."
+msgstr ""
+
+#~ msgid "Gnome Hello"
+#~ msgstr "Gnome Hola"
+
+#~ msgid "Hello, World!"
+#~ msgstr "¡Hola, Mundo!"

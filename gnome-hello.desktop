@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gnome Hello
+Name[es]=Gnome Hola
+Comment=Hello World
+Comment[es]=Hola Mundo
+Exec=gnome-hello
+Icon=gnome-hello-logo.png
+Terminal=0
+Type=Application
