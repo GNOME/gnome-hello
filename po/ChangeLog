@@ -1,3 +1,7 @@
+2004-12-06  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* wa.po: Updated Walloon file
+
 2004-11-27  Raphael Higino  <raphaelh@cvs.gnome.org>
 
 	* pt_BR.po: Updated Brazilian Portuguese translation.
@@ -8,7 +12,7 @@
 
 2004-11-21  David Lodge <dave@cirt.net>
                                                                                 
-        * en_GB.po: Updated British English translation.
+	* en_GB.po: Updated British English translation.
                                                                                 
 2004-11-20  Miloslav Trmac  <mitr@volny.cz>
 
@@ -20,7 +24,7 @@
 
 2004-10-13  David Lodge <dave@cirt.net>
                                                                                 
-        * en_GB.po: Updated British English translation.
+	* en_GB.po: Updated British English translation.
                                                                                 
 2004-10-11  Mətin Əmirov  <metin@karegen.com>
 
@@ -60,7 +64,7 @@
 	
 2004-03-20  Robert Sedak  <robert.sedak@sk.htnet.hr>
 
-        * hr.po: Updated Croatian translation.
+	* hr.po: Updated Croatian translation.
 
 2004-03-04  Guntupalli Karunakar  <karunakar@freedomink.org>
 

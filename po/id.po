@@ -6,7 +6,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: gnome-hello\n"
 "POT-Creation-Date: 2003-09-18 12:04+0700\n"
 "PO-Revision-Date: 2004-02-05 13:09-0500\n"
 "Last-Translator: Iqbal \"ReZa\" Fazlurrahman <iqb4l@bonbon.net>\n"
