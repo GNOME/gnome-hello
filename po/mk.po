@@ -1,0 +1,114 @@
+# translation of gnome-hello.HEAD.po to 
+# translation of gnome-hello.HEAD.po to Macedonian
+# translation of gnome-hello.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2003
+# Vladislav Bidikov <bidikovi@mail.com.mk>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-06-13 20:27+0200\n"
+"PO-Revision-Date: 2003-06-15 09:43+0200\n"
+"Last-Translator: \n"
+"Language-Team:  <mk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Здраво Демо"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Пример апликација изработена со GNOME технологија"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Здраво"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Здраво, Свету!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Неможе да се парсира стрингот за геометријата %s"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "специјални поздрави до:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Поздравете ги луѓето излистани на командната линија"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Специфицирајте порака различна од \"Hello, World!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "ПОРАКА"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Специфицирајте ја геометријата на главниот прозор"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "ГЕОМЕТРИЈА"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Морате да означите некого да поздравите"
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Аргументи во командната линија се дозволени со --greet."
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "_Ново Здраво"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Создади ново здраво"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Ново"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Претходен"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Претходно здраво"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Следно"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Следно здраво"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "Ова не прави ништо и служи само за демонстрација."
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Здраво"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "Пример за GNOME апликација"
+
