@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-01-12 07:35-0500\n"
+"PO-Revision-Date: 2002-01-15 11:33+0200\n"
+"Last-Translator: Peteris Krisjanis <peteris.krisjanis@ttc.lv>\n"
+"Language-Team: Latvian <ll10nt@ttc.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Pasaki sveiki atsevišķiem cilvēkiem parāditiem komandrindā"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Pasaki citu ziņu kā \"Sveiki, Pasaule!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "ZIŅA"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Rakturot galvenā loga ģeometriju"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "ĢEOMETRIJA"
+
+#: src/hello.c:126
+msgid "You must specify someone to greet."
+msgstr "Jums jānorāda kāds, ko sveikt."
+
+#: src/hello.c:130
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Komandrindas argumenti atļauti tikai ar --greet."
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Sveiki, Pasaule!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Nevar parsēt ģeometrisko virkni `%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Speciāli sveicieni:\n"
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "_Jauns Sveiciens"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Izveidot jaunu sveicienu"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Jauns"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Iepr"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Iepriekšējais Sveiciens"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Nākošais"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Nakošais Sveiciens"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "Šis nedara neko; tā ir tikai demonstrācija."
+
+#: src/menus.c:174
+msgid "GnomeHello"
+msgstr "GnomeHello"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "Vienkārša GNOME aplikācija."
+
