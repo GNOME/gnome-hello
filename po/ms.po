@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello HEAD\n"
-"POT-Creation-Date: 2002-01-21 03:18+0800\n"
+"POT-Creation-Date: 2002-11-21 19:39+0800\n"
 "PO-Revision-Date: 2002-01-10 11:42+0800\n"
 "Last-Translator: Mohamad Afifi Omar <mr_mohd_afifi@yahoo.com>\n"
 "Language-Team: Bahasa Melayu <gabai-penyumbang@lists.sourceforge.net>\n"
@@ -13,6 +13,32 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.8\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "Demo GNOME Hello"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Contoh aplikasi menggunakan teknologi GNOME"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Hello, Dunia!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Tidak dapat menghantar geometri ayat `%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Ucapan Istimewa buat:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
@@ -35,31 +61,13 @@ msgstr "Nyatakan geometri tetingkap utama"
 msgid "GEOMETRY"
 msgstr "GEOMETRI"
 
-#: src/hello.c:126
+#: src/hello.c:129
 msgid "You must specify someone to greet."
 msgstr "Tuan mesti nyatakan seseorang untuk diucap."
 
-#: src/hello.c:130
+#: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
 msgstr "Command line argument hanya dibenarkan dengan --greet"
-
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Gnome Hello"
-
-#: src/app.c:51 src/menus.c:127
-msgid "Hello, World!"
-msgstr "Hello, Dunia!"
-
-#: src/app.c:92
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "Tidak dapat menghantar geometri ayat `%s'"
-
-#: src/app.c:101
-msgid "Special Greetings to:\n"
-msgstr "Ucapan Istimewa buat:\n"
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -94,9 +102,13 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "Tiada apa-apa, hanya satu demonstrasi."
 
 #: src/menus.c:174
-msgid "GnomeHello"
-msgstr "GnomeHello"
+#, fuzzy
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Satu contoh applikasi GNOME"
+
+#~ msgid "GnomeHello"
+#~ msgstr "GnomeHello"
