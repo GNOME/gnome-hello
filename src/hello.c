@@ -108,7 +108,7 @@ main(int argc, char** argv)
   (poptContext)pctx = g_value_get_pointer (&value);
 
   /* Argument parsing */
-  args = poptGetArgs(pctx);
+  args = (char **) poptGetArgs(pctx);
 
   if (greet_mode && args)
     {
