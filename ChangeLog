@@ -1,3 +1,8 @@
+2001-09-27  Glynn Foster <glynn.foster@sun.com>
+
+	* Tagged GNOME_HELLO_PRE_2.0 tag and branched
+	  for gnome-hello-1-4.
+
 1999-10-19  Yuri Syrota  <rasta@renome.rovno.ua>
 
 	* configure.in (ALL_LINGUAS): Added Ukrainian (uk)
