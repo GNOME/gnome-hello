@@ -1,4 +1,4 @@
-SUBDIRS = po intl src pixmaps doc
+SUBDIRS = po src pixmaps doc
 
 ## We dist autogen.sh since this is an example program
 ## Real-world programs do not need to distribute autogen.sh

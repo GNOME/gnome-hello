@@ -23,9 +23,6 @@ AC_SUBST(GNOME_HELLO_LIBS)
 
 ALL_LINGUAS="da de es fr gl nl no pl ru sv fi tr uk"
 
-dnl AM_GLIB_GNU_GETTEXT needs this variable for some reason
-BUILD_INCLUDED_LIBINTL=no
-AC_SUBST(BUILD_INCLUDED_LIBINTL)
 AM_GLIB_GNU_GETTEXT
 
 AC_SUBST(CFLAGS)
@@ -35,7 +32,6 @@ AC_SUBST(LDFLAGS)
 AC_OUTPUT([
 Makefile
 src/Makefile
-intl/Makefile
 po/Makefile.in
 pixmaps/Makefile
 doc/Makefile

@@ -1,5 +1,11 @@
 2001-09-27  Glynn Foster <glynn.foster@sun.com>
 
+	* configure.in, Makefile.am: Remove building
+	  of intl and silly AC_SUBST bits that aren't
+	  needed.
+
+2001-09-27  Glynn Foster <glynn.foster@sun.com>
+
        * ABOUT-NLS: updated
        * Makefile.am, autogen.sh, config.h.in
        * configure.in, src/Makefile.am
