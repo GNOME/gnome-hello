@@ -1,0 +1,9 @@
+*.gmo
+Makefile
+GnomeHello.pot
+POTFILES
+stamp-cat-id
+cat-id-tbl.c
+Makefile
+Makefile.in
+Makefile.in.in
