@@ -1,3 +1,8 @@
+2002-09-02  Glynn Foster  <glynn.foster@sun.com>
+
+	* gnome-hello.desktop.in: Update to give a better name
+	and better category I guess :/
+
 2002-02-09 John Fleck (jfleck@inkstain.net)
 
 	* help/C/gnome-hello.xml
