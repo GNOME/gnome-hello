@@ -1,3 +1,8 @@
+2002-06-03  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* vi.po: Added Vietnamese file
+	* lv.po: Fixed header
+
 2002-02-06  Abel Cheung  <maddog@linux.org.hk>
 
 	* zh_TW.po: New traditional Chinese translation.
