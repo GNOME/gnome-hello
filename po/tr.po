@@ -1,159 +1,102 @@
-# -------------------------------------------------------
-# Copyright (C) 1999 Free Software Foundation, Inc.
-#  Fatih Demir <kabalak@gmx.net>, 1999.
+# Turkish translation of gnome-hello.
+# Copyright (C) 1999-2001 Free Software Foundation, Inc.
+# Fatih Demir <kabalak@gmx.net>, 1999.
+# Ömer Fadýl USTA <omer_fad@hotmail.com>, 2001
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello  0.1\n"
-"POT-Creation-Date: 1999-11-25 18:38+0100\n"
-"PO-Revision-Date: 1999-11-25 18:11+0200\n"
-"Last-Translator: Fatih Demir <kabalak@gmx.net>\n"
-"Language-Team: Turkish Gnome Translation Team <gnotrap@gmx.net>\n"
+"POT-Creation-Date: 2001-12-23 07:31-0500\n"
+"PO-Revision-Date: 2001-12-24 17:02+0200\n"
+"Last-Translator: Ömer Fadýl USTA <omer_fad@hotmail.com>\n"
+"Language-Team: GNOME Turk <gnome-turk@gnome.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-9\n"
+"Content-Type: text/plain; charset=ISO-8859-9\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/app.c:45
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Komut Satýrýnda listelenen özgül insanlara merhabalaþýr"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "\"Merhaba, Dünya !\"'dan baþka bir mesaj ver"
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "MESAJ"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Ana pencerenin geometrisini belirle"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRÝ"
+
+#: src/hello.c:126
+msgid "You must specify someone to greet."
+msgstr "Selamlanacak birisini vermek zorundasýn ."
+
+#: src/hello.c:130
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Komutalar sadece --greet ile beraberen doðrudur ."
+
+#. ** gnomehello-widgets
+#: src/app.c:45
 msgid "Gnome Hello"
 msgstr "Gnome Hello"
 
-#: ../src/app.c:51 ../src/menus.c:122
+#: src/app.c:51 src/menus.c:122
 msgid "Hello, World!"
 msgstr "Merhaba, dünya !"
 
-#: ../src/app.c:55
-msgid "hello"
-msgstr ""
-
-#: ../src/app.c:55 ../src/menus.c:166
-msgid "GnomeHello"
-msgstr ""
-
-#: ../src/app.c:77
-msgid "delete_event"
-msgstr ""
-
-#: ../src/app.c:82
-msgid "clicked"
-msgstr ""
-
-#: ../src/app.c:106
+#: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "`%s'yi kullanamadým "
 
-#: ../src/app.c:115
+#: src/app.c:101
 msgid "Special Greetings to:\n"
 msgstr "Ve bunlarý özellikle selamlýyoruz :\n"
 
-#: ../src/app.c:124
-msgid "\n"
-msgstr ""
-
-#: ../src/hello.c:44
-msgid "greet"
-msgstr ""
-
-#: ../src/hello.c:49
-msgid "Say hello to specific people listed on the command line"
-msgstr ""
-
-#: ../src/hello.c:53
-msgid "message"
-msgstr ""
-
-#: ../src/hello.c:58
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "\"Merhaba, Dünya !\"'dan baþka bir mesaj ver"
-
-#: ../src/hello.c:59
-msgid "MESSAGE"
-msgstr ""
-
-#: ../src/hello.c:62
-msgid "geometry"
-msgstr ""
-
-#: ../src/hello.c:67
-msgid "Specify the geometry of the main window"
-msgstr "Ana pencerenin boyutlarýný belirle"
-
-#: ../src/hello.c:68
-msgid "GEOMETRY"
-msgstr ""
-
-#: ../src/hello.c:120
-msgid "You must specify someone to greet."
-msgstr "Selamlanacak birisini vermek zorundasýn ."
-
-#: ../src/hello.c:124
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Komutalar sadece --greet ile beraberen doðrudur ."
-
-#: ../src/hello.c:138
-msgid "save_yourself"
-msgstr ""
-
-#: ../src/hello.c:140
-msgid "die"
-msgstr ""
-
-#: ../src/hello.c:177
-msgid "--message"
-msgstr ""
-
-#: ../src/menus.c:35
+#: src/menus.c:35
 msgid "_New Hello"
 msgstr "Ye_ni Merhaba"
 
-#: ../src/menus.c:36 ../src/menus.c:85
+#: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr "Yeni bir Merhaba yarat"
+msgstr "Yeni bir Merhaba oluþtur"
 
-#: ../src/menus.c:70
-msgid "gnome-hello"
-msgstr ""
-
-#: ../src/menus.c:85
+#: src/menus.c:85
 msgid "New"
 msgstr "Yeni"
 
-#: ../src/menus.c:89
+#: src/menus.c:89
 msgid "Prev"
 msgstr "Önceki"
 
-#: ../src/menus.c:89
+#: src/menus.c:89
 msgid "Previous hello"
 msgstr "Önceki Merhaba"
 
-#: ../src/menus.c:90
+#: src/menus.c:90
 msgid "Next"
 msgstr "Önümüzdeki"
 
-#: ../src/menus.c:90
+#: src/menus.c:90
 msgid "Next hello"
 msgstr "Önümüzdeki Merhaba"
 
-#: ../src/menus.c:113
+#: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Bu hiç bir þey yapmýyor ; bu sadece bir deneydir ."
 
-#: ../src/menus.c:160
-msgid "Havoc Pennington <hp@pobox.com>"
-msgstr ""
+#: src/menus.c:169
+msgid "GnomeHello"
+msgstr "GnomeHello"
 
-#: ../src/menus.c:164
-msgid "gnome-hello-logo.png"
-msgstr ""
-
-#: ../src/menus.c:167
-msgid "(C) 1999 Havoc Pennington"
-msgstr "Telif Hakký : 1999 Havoc Pennington"
-
-#: ../src/menus.c:169
+#: src/menus.c:172
 msgid "A sample GNOME application."
 msgstr "GNOME için bir örnek uygulama ."
 
-#: ../src/menus.c:175
-msgid "destroy"
-msgstr ""
