@@ -18,7 +18,7 @@ AM_PROG_LIBTOOL
 
 GNOME_COMPILE_WARNINGS
 
-ALL_LINGUAS="da de es fr gl nl nn no pl ru sk sv fi tr uk"
+ALL_LINGUAS="da de es fr gl nl nn no pl ru sk sv fi tr uk zh_CN zh_TW"
 AM_GNU_GETTEXT
 
 AC_SUBST(CFLAGS)

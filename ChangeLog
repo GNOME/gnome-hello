@@ -1,3 +1,8 @@
+2002-02-06  Abel Cheung  <maddog@linux.org.hk>
+
+	* configure.in: Added "zh_CN" and "zh_TW" to ALL_LINGUAS.
+	* gnome-hello.desktop: Added traditional Chinese strings
+
 2001-10-28  Roy-Magne Mo <rmo@sunnmore.net>
 	* configure.in: Added "nn" to ALL_LINGUAS.
 
