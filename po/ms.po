@@ -102,7 +102,6 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "Tiada apa-apa, hanya satu demonstrasi."
 
 #: src/menus.c:174
-#, fuzzy
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
