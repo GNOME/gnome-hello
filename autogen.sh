@@ -1,70 +1,23 @@
-#! /bin/sh
-
-# $Id$
-#
-# Copyright (c) 2002  Daniel Elstner  <daniel.elstner@gmx.net>,
-#               2003  Murray Cumming  <murrayc@usa.net>
-#
-# This program is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License VERSION 2 as
-# published by the Free Software Foundation.  You are not allowed to
-# use any other version of the license; unless you got the explicit
-# permission from the author to do so.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
-
-# This is meant to be a well-documented, good example of an autogen.sh script
-# Please email gnome-devel-list@gnome.org if you think it isn't.
-
+#!/bin/sh
+# Run this to generate all the initial makefiles, etc.
 
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
-ORIGDIR=`pwd`
 
-# does $srcdir look like the gnome-hello source tree?
-if ! test -f $srcdir/src/hello.c; then
-    echo "error: $srcdir does not look like the gnome-hello source directory"
+REQUIRED_AUTOMAKE_VERSION=1.8
+
+PKG_NAME="gnome-hello"
+
+(test -f $srcdir/configure.ac \
+  && test -f $srcdir/README \
+  && test -d $srcdir/src) || {
+    echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
+    echo " top-level $PKG_NAME directory"
     exit 1
-fi
+}
 
-cd $srcdir
-
-# This installs the translation build infrastructure
-echo "- glib-gettextize."
-glib-gettextize --copy --force 	|| exit $?
-
-echo "- libtoolize."
-libtoolize --force || exit $?
-
-# intltool is used to merge translations into things like desktop items.
-echo "- intltoolize."
-intltoolize --copy --force || exit $?
-
-# if you have documentation that uses xmldocs.make and omf.make, this will
-# pull in the latest versions.
-echo "- gnome-doc-common"
-gnome-doc-common --copy || exit $?
-
-echo "- aclocal"
-aclocal $ACLOCAL_FLAGS || exit $?
-
-echo "- autoheader"
-autoheader || exit $?
-
-echo "- autoconf."
-autoconf || exit $?
-
-echo "- automake."
-automake --add-missing --gnu || exit $?
-
-cd $ORIGDIR
-echo "- configure"
-$srcdir/configure --enable-maintainer-mode ${1+"$@"} || exit $?
+which gnome-autogen.sh || {
+    echo "You need to install gnome-common from the GNOME CVS"
+    exit 1
+}
+USE_GNOME2_MACROS=1 USE_COMMON_DOC_BUILD=yes . gnome-autogen.sh

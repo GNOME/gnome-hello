@@ -22,4 +22,10 @@ stamp-h
 gnome-hello.desktop
 xmldocs.make
 omf.make
-
+INSTALL
+depcomp
+install-sh
+missing
+mkinstalldirs
+stamp-h1
+libtool

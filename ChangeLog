@@ -1,5 +1,12 @@
 2004-11-18  Mariano Suárez-Alvarez  <mariano@gnome.org>
 
+	* autogen.sh: use gnome-common's autogen.sh, using automake-1.8.
+	* configure.ac: update requirements, ask for a recent gtk, and bump
+	the version a bit to reflect the changes.
+	* .cvsignore, src/.cvsignore: update.
+
+2004-11-18  Mariano Suárez-Alvarez  <mariano@gnome.org>
+
 	* src/app.c: do not use GnomeApp but a regular window. 
 	* src/menus.c: use GtkUIManager instead of GnomeUIInfo and friends.
 	Use the GtkAboutDialog instead of the Gnome counterpart.
