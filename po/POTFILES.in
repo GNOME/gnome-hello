@@ -1,3 +1,4 @@
-src/hello.c
 src/app.c
+src/hello.c
+src/menus.c
 src/menus.c
