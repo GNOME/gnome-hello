@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "POT-Creation-Date: 2003-01-26 18:43+0100\n"
-"PO-Revision-Date: 2003-01-27 02:50+0200\n"
+"PO-Revision-Date: 2003-01-28 18:330+0200\n"
 "Last-Translator: Lauri Nurmi <lanurmi@iki.fi>\n"
 "Language-Team: Gnome Finnish Translation Team <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "Hei, maailma!"
 #: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Geometriamääritystä \"%s\" ei voitu tulkita."
+msgstr "Mittamääritystä \"%s\" ei voitu tulkita."
 
 #: src/app.c:101
 msgid "Special Greetings to:\n"
@@ -54,11 +54,11 @@ msgstr "VIESTI"
 
 #: src/hello.c:68
 msgid "Specify the geometry of the main window"
-msgstr "Määrittele pääikkunan geometria"
+msgstr "Määrittele pääikkunan mitat"
 
 #: src/hello.c:69
 msgid "GEOMETRY"
-msgstr "GEOMETRIA"
+msgstr "MITAT"
 
 #: src/hello.c:129
 msgid "You must specify someone to greet."
