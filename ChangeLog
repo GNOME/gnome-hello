@@ -1,3 +1,7 @@
+2003-02-20  Dmitry G. Mastrukov  <dmitry@taurussoft.org>
+
+	* configure.ac: Added Belarusian to ALL_LINGUAS.
+
 2003-02-02  Daniel Yacob  <locales@geez.org>
 
 	* configure.ac: Added Amharic (am) to ALL_LINGUAS
