@@ -1,26 +1,27 @@
+# translation of gnome-hello.HEAD.sk.po to Slovak
 # Slovak translations of GnomeHello.
-# Copyright (C) 2001 Free Software Foundation, Inc.
-# Martin Lacko <lacko@host.sk>, 2001.
+# Copyright (C) 2001,2003 Free Software Foundation, Inc.
+# Martin Lacko <lacko@host.sk>, 2001,2003.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GnomeHello\n"
-"POT-Creation-Date: 2003-01-17 10:38+0100\n"
-"PO-Revision-Date: 2001-10-02 16:15CEST\n"
+"Project-Id-Version: gnome-hello.HEAD.sk\n"
+"POT-Creation-Date: 2003-05-03 04:13+0200\n"
+"PO-Revision-Date: 2003-05-10 14:27+0200\n"
 "Last-Translator: Martin Lacko <lacko@host.sk>\n"
-"Language-Team: Slovak language <sk-i18n@lists.linux.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.8\n"
+"X-Generator: KBabel 1.0.1\n"
 
 #: gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr ""
+msgstr "GNOME Ahoj Demo"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr ""
+msgstr "Príklad aplikácie používajúcej technológiu GNOME"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -101,9 +102,8 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "Toto nevykonáva nič, je to iba ukážka."
 
 #: src/menus.c:174
-#, fuzzy
 msgid "GNOME Hello"
-msgstr "_Nové ahoj"
+msgstr "GNOME Ahoj"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
@@ -111,3 +111,4 @@ msgstr "Príklad GNOME aplikácie."
 
 #~ msgid "GnomeHello"
 #~ msgstr "GnomeAhoj"
+
