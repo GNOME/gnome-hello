@@ -18,8 +18,6 @@
  * USA
  */
 
-/*** gnomehello-apph */
-
 #ifndef GNOMEHELLO_APP_H
 #define GNOMEHELLO_APP_H
 
@@ -32,5 +30,3 @@ GtkWidget* hello_app_new(const gchar* message,
 void       hello_app_close(GtkWidget* app);
                          
 #endif
-
-/* gnomehello-apph ***/

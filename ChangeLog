@@ -1,3 +1,12 @@
+2004-11-18  Mariano Suárez-Alvarez  <mariano@gnome.org>
+
+	* src/app.c: do not use GnomeApp but a regular window. 
+	* src/menus.c: use GtkUIManager instead of GnomeUIInfo and friends.
+	Use the GtkAboutDialog instead of the Gnome counterpart.
+
+	Generally, update the coding style to be more gtkish, remove some
+	0 bit comments, and do some other minor changes.
+	
 2004-10-07  James Henstridge  <james@jamesh.id.au>
 
 	* src/app.c (hello_app_new): remove bogus gtk_widget_set_parent()

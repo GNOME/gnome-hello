@@ -18,91 +18,88 @@
  * USA
  */
 
-/*** gnomehello-menus */
-
 #include <config.h>
+#include <glib/gi18n.h>
 #include "menus.h"
 #include "app.h"
 
-static void nothing_cb(GtkWidget* widget, gpointer data);
-static void new_app_cb(GtkWidget* widget, gpointer data);
-static void close_cb  (GtkWidget* widget, gpointer data);
-static void exit_cb   (GtkWidget* widget, gpointer data);
-static void about_cb  (GtkWidget* widget, gpointer data);
+static void nothing_action_callback (GtkAction* action, gpointer data);
+static void new_action_callback     (GtkAction* action, gpointer data);
+static void close_action_callback   (GtkAction* action, gpointer data);
+static void quit_action_callback    (GtkAction* action, gpointer data);
+static void about_action_callback   (GtkAction* action, gpointer data);
 
+static const gchar *ui =
+  "<ui>"
+  "  <menubar>"
+  "    <menu action='file'>"
+  "      <menuitem action='new'/>"
+  "      <menuitem action='open'/>"
+  "      <menuitem action='save'/>"
+  "      <menuitem action='save-as'/>"
+  "      <separator/>"
+  "      <menuitem action='close'/>"
+  "      <menuitem action='quit'/>"
+  "    </menu>"
+  "    <menu action='edit'>"
+  "      <menuitem action='cut'/>"
+  "      <menuitem action='copy'/>"
+  "      <menuitem action='paste'/>"
+  "      <menuitem action='select-all'/>"
+  "      <menuitem action='clear'/>"
+  "      <separator/>"
+  "      <menuitem action='undo'/>"
+  "      <menuitem action='redo'/>"
+  "      <separator/>"
+  "      <menuitem action='find'/>"
+  "      <menuitem action='find-again'/>"
+  "      <menuitem action='replace'/>"
+  "      <separator/>"
+  "      <menuitem action='properties'/>"
+  "    </menu>"
+  "    <menu action='help'>"
+  "      <menuitem action='contents'/>"
+  "      <menuitem action='about'/>"
+  "    </menu>"
+  "  </menubar>"
+  "  <toolbar>"
+  "    <toolitem action='new'/>"
+  "    <separator/>"
+  "    <toolitem action='prev'/>"
+  "    <toolitem action='next'/>"
+  "  </toolbar>"
+  "</ui>";
 
-static GnomeUIInfo file_menu [] = {
-  GNOMEUIINFO_MENU_NEW_ITEM(N_("_New Hello"),
-                            N_("Create a new hello"),
-                            new_app_cb, NULL),
-
-  GNOMEUIINFO_MENU_OPEN_ITEM(nothing_cb, NULL),
-
-  GNOMEUIINFO_MENU_SAVE_ITEM(nothing_cb, NULL),
-
-  GNOMEUIINFO_MENU_SAVE_AS_ITEM(nothing_cb, NULL),
-
-  GNOMEUIINFO_SEPARATOR,
-
-  GNOMEUIINFO_MENU_CLOSE_ITEM(close_cb, NULL),
-
-  GNOMEUIINFO_MENU_EXIT_ITEM(exit_cb, NULL),
-
-  GNOMEUIINFO_END
-};
-
-static GnomeUIInfo edit_menu [] = {
-  GNOMEUIINFO_MENU_CUT_ITEM(nothing_cb, NULL), 
-  GNOMEUIINFO_MENU_COPY_ITEM(nothing_cb, NULL),
-  GNOMEUIINFO_MENU_PASTE_ITEM(nothing_cb, NULL),
-  GNOMEUIINFO_MENU_SELECT_ALL_ITEM(nothing_cb, NULL), 
-  GNOMEUIINFO_MENU_CLEAR_ITEM(nothing_cb, NULL),
-  GNOMEUIINFO_MENU_UNDO_ITEM(nothing_cb, NULL),
-  GNOMEUIINFO_MENU_REDO_ITEM(nothing_cb, NULL), 
-  GNOMEUIINFO_MENU_FIND_ITEM(nothing_cb, NULL), 
-  GNOMEUIINFO_MENU_FIND_AGAIN_ITEM(nothing_cb, NULL), 
-  GNOMEUIINFO_MENU_REPLACE_ITEM(nothing_cb, NULL),
-  GNOMEUIINFO_MENU_PROPERTIES_ITEM(nothing_cb, NULL),
-  GNOMEUIINFO_END
-};
-
-static GnomeUIInfo help_menu [] = {
-  GNOMEUIINFO_HELP ("gnome-hello"),
-  
-  GNOMEUIINFO_MENU_ABOUT_ITEM(about_cb, NULL),
-  
-  GNOMEUIINFO_END
-};
-
-static GnomeUIInfo menu [] = {
-  GNOMEUIINFO_MENU_FILE_TREE(file_menu),
-  GNOMEUIINFO_MENU_EDIT_TREE(edit_menu),
-  GNOMEUIINFO_MENU_HELP_TREE(help_menu),
-  GNOMEUIINFO_END
-};
-
-static GnomeUIInfo toolbar [] = {
-  GNOMEUIINFO_ITEM_STOCK (N_("New"), N_("Create a new hello"), new_app_cb, GTK_STOCK_NEW),
-
-  GNOMEUIINFO_SEPARATOR,
-
-  GNOMEUIINFO_ITEM_STOCK (N_("Prev"), N_("Previous hello"), nothing_cb, GTK_STOCK_GO_BACK),
-  GNOMEUIINFO_ITEM_STOCK (N_("Next"), N_("Next hello"), nothing_cb, GTK_STOCK_GO_FORWARD),
-
-  GNOMEUIINFO_END
-};
-
-
-void 
-hello_install_menus_and_toolbar(GtkWidget* app)
+static GtkActionEntry entries[] =
 {
-  gnome_app_create_toolbar_with_data(GNOME_APP(app), toolbar, app);
-  gnome_app_create_menus_with_data(GNOME_APP(app), menu, app);
-  gnome_app_install_menu_hints(GNOME_APP(app), menu);
-}
+  { "file", NULL, N_("_File"), NULL, NULL, NULL },
+  { "edit", NULL, N_("_Edit"), NULL, NULL, NULL },
+  { "help", NULL, N_("_Help"), NULL, NULL, NULL },
+  { "new", GTK_STOCK_NEW, N_("_New"), "<Ctrl>N", NULL, G_CALLBACK (new_action_callback) },
+  { "open", GTK_STOCK_OPEN, N_("_Open"), "<Ctrl>O", NULL, G_CALLBACK (nothing_action_callback) },
+  { "save", GTK_STOCK_SAVE, N_("_Save"), "<Ctrl>S", NULL, G_CALLBACK (nothing_action_callback) },
+  { "save-as", GTK_STOCK_SAVE_AS, N_("Save _As"), "<Ctrl><Shift>S", NULL, G_CALLBACK (nothing_action_callback) },
+  { "close", GTK_STOCK_CLOSE, N_("_Close"), "<Ctrl>W", NULL, G_CALLBACK (close_action_callback) },
+  { "quit", GTK_STOCK_QUIT, N_("_Quit"), "<Ctrl>Q", NULL, G_CALLBACK (quit_action_callback) },
+  { "cut", GTK_STOCK_CUT, N_("Cu_t"), "<Ctrl>X", NULL, G_CALLBACK (nothing_action_callback) },
+  { "copy", GTK_STOCK_COPY, N_("_Copy"), "<Ctrl>C", NULL, G_CALLBACK (nothing_action_callback) },
+  { "paste", GTK_STOCK_PASTE, N_("_Paste"), "<Ctrl>V", NULL, G_CALLBACK (nothing_action_callback) },
+  { "select-all", NULL, N_("Select _All"), "<Ctrl>A", NULL, G_CALLBACK (nothing_action_callback) },
+  { "clear", GTK_STOCK_CLEAR, N_("C_lear"), NULL, NULL, G_CALLBACK (nothing_action_callback) },
+  { "undo", GTK_STOCK_UNDO, N_("_Undo"), "<Ctrl>Z", NULL, G_CALLBACK (nothing_action_callback) },
+  { "redo", GTK_STOCK_REDO, N_("_Redo"), "<Ctrl><Shift>Z", NULL, G_CALLBACK (nothing_action_callback) },
+  { "find", GTK_STOCK_FIND, N_("_Find"), "<Ctrl>F", NULL, G_CALLBACK (nothing_action_callback) },
+  { "find-again", GTK_STOCK_FIND, N_("Find Ne_xt"), "<Ctrl>G", NULL, G_CALLBACK (nothing_action_callback) },
+  { "replace", GTK_STOCK_FIND_AND_REPLACE, N_("R_eplace"), "<Ctrl>R", NULL, G_CALLBACK (nothing_action_callback) },
+  { "properties", GTK_STOCK_PROPERTIES, N_("Pr_operties"), "<Ctrl>P", NULL, G_CALLBACK (nothing_action_callback) },
+  { "contents", GTK_STOCK_HELP, N_("_Contents"), "F1", NULL, G_CALLBACK (nothing_action_callback) },
+  { "about", GTK_STOCK_ABOUT, N_("_About"), NULL, NULL, G_CALLBACK (about_action_callback) },
+  { "prev", GTK_STOCK_GO_BACK, N_("_Previous"), NULL, NULL, G_CALLBACK (nothing_action_callback) },
+  { "next", GTK_STOCK_GO_FORWARD, N_("_Next"), NULL, NULL, G_CALLBACK (nothing_action_callback) },
+};
 
 static void 
-nothing_cb(GtkWidget* widget, gpointer data)
+nothing_action_callback (GtkAction* action, gpointer data)
 {
   GtkWidget* dialog;
   GtkWidget* app;
@@ -120,33 +117,33 @@ nothing_cb(GtkWidget* widget, gpointer data)
 }
 
 static void 
-new_app_cb(GtkWidget* widget, gpointer data)
+new_action_callback (GtkAction* action, gpointer data)
 {
   GtkWidget* app;
 
-  app = hello_app_new(_("Hello, World!"), NULL, NULL);
+  app = hello_app_new (_("Hello, World!"), NULL, NULL);
 
-  gtk_widget_show_all(app);
+  gtk_widget_show_all (app);
 }
 
 static void 
-close_cb(GtkWidget* widget, gpointer data)
+close_action_callback (GtkAction* action, gpointer data)
 {
   GtkWidget* app;
 
   app = (GtkWidget*) data;
 
-  hello_app_close(app);
+  hello_app_close (app);
 }
 
 static void 
-exit_cb(GtkWidget* widget, gpointer data)
+quit_action_callback (GtkAction* action, gpointer data)
 {
-  gtk_main_quit();
+  gtk_main_quit ();
 }
 
 static void 
-about_cb(GtkWidget* widget, gpointer data)
+about_action_callback (GtkAction* action, gpointer data)
 {
   static GtkWidget* dialog = NULL;
   GtkWidget* app;
@@ -155,46 +152,53 @@ about_cb(GtkWidget* widget, gpointer data)
 
   if (dialog != NULL) 
     {
-      gtk_window_present(GTK_WINDOW(dialog));
+      gtk_window_present (GTK_WINDOW (dialog));
     }
   else
     {        
+      const gchar *copyright = "\xc2\xa9 1999 Havoc Pennington";
       const gchar *authors[] = {
         "Havoc Pennington <hp@pobox.com>",
         NULL
       };
-      GdkPixbuf* logo;
-      GdkScreen *screen;
-      GtkIconTheme *icon_theme;
 
-      /* XXXX this does not follow icon theme changes ... */
-      screen = gtk_widget_get_screen(app);
-      icon_theme = gtk_icon_theme_get_for_screen(screen);
-      logo = gtk_icon_theme_load_icon(icon_theme,
-				      "gnome-hello-logo",
-				      48, 0, NULL);
+      dialog = gtk_about_dialog_new ();
 
-      dialog = gnome_about_new (_("GNOME Hello"), 
-				VERSION,
-                                "(C) 1999 Havoc Pennington",
-                                _("A sample GNOME application."),
-                                authors,
-				NULL,
-				NULL,
-                                logo);
+      gtk_about_dialog_set_name (GTK_ABOUT_DIALOG (dialog), _("GNOME Hello"));
+      gtk_about_dialog_set_version (GTK_ABOUT_DIALOG (dialog), VERSION);
+      gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (dialog), copyright);
+      gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (dialog), authors);
+      gtk_about_dialog_set_translator_credits (GTK_ABOUT_DIALOG (dialog), _("translator-credits"));
+      gtk_about_dialog_set_logo_icon_name (GTK_ABOUT_DIALOG (dialog), "gnome-hello-logo");
 
       gtk_window_set_transient_for (GTK_WINDOW (dialog), GTK_WINDOW (app));	
-      if (logo)
-	g_object_unref (logo);
 
-      g_signal_connect(G_OBJECT(dialog),
-                         "destroy",
-                         G_CALLBACK(gtk_widget_destroyed),
-                         &dialog); 
+      g_object_add_weak_pointer (G_OBJECT (dialog), (void**) &dialog);
 
-      gtk_widget_show(dialog);
+      gtk_widget_show (dialog);
     }
 }
 
+GtkUIManager *
+create_ui_manager (const gchar *group, gpointer user_data)
+{
+  GtkActionGroup *action_group;
+  GtkUIManager *ui_manager;
+  GError *error;
 
-/* gnomehello-menus ***/
+  action_group = gtk_action_group_new (group);
+  gtk_action_group_add_actions (action_group, entries, G_N_ELEMENTS (entries), user_data);
+  
+  ui_manager = gtk_ui_manager_new ();
+  gtk_ui_manager_insert_action_group (ui_manager, action_group, 0);
+
+  error = NULL;
+  if (!gtk_ui_manager_add_ui_from_string (ui_manager, ui, -1, &error))
+    {
+      g_message ("Building menus failed: %s", error->message);
+      g_error_free (error);
+      exit (1);
+    }
+
+  return ui_manager;
+}

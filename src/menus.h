@@ -18,16 +18,11 @@
  * USA
  */
 
-/*** gnomehello-menush */
-
 #ifndef GNOMEHELLO_MENUS_H
 #define GNOMEHELLO_MENUS_H
 
-#include <gnome.h>
+#include <gtk/gtk.h>
 
-void hello_install_menus_and_toolbar(GtkWidget* app);
-      
+GtkUIManager *create_ui_manager (const gchar *group, gpointer user_data);
+
 #endif
-
-/* gnomehello-menush ***/
-

@@ -18,100 +18,91 @@
  * USA
  */
 
-/*** gnomehello-app */
-
 #include <config.h>
+#include <glib/gi18n.h>
 #include "app.h"
 #include "menus.h"
 
 /* Keep a list of all open application windows */
-static GSList* app_list = NULL;
+static GSList *app_list = NULL;
 
-static gint delete_event_cb(GtkWidget* w, GdkEventAny* e, gpointer data);
-static void button_click_cb(GtkWidget* w, gpointer data);
+static gint delete_event_cb (GtkWidget *w, GdkEventAny *e, gpointer data);
+static void button_click_cb (GtkWidget *w, gpointer data);
 
-GtkWidget* 
-hello_app_new(const gchar* message, 
-              const gchar* geometry,
-              GSList* greet)
+GtkWidget * 
+hello_app_new (const gchar *message, 
+               const gchar *geometry,
+               GSList      *greet)
 {
-  GtkWidget* app;
-  GtkWidget* button;
-  GtkWidget* label;
-  GtkWidget* status;
-  GtkWidget* frame;
+  GtkWidget *app;
+  GtkWidget *vbox;
+  GtkWidget *button;
+  GtkWidget *alignment;
+  GtkWidget *label;
+  GtkWidget *menubar;
+  GtkUIManager *ui_manager;
+  GtkAccelGroup *accel_group;
 
   /*** gnomehello-widgets */
-  app = gnome_app_new(PACKAGE, _("Gnome Hello"));
+  app = gtk_window_new (GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_policy (GTK_WINDOW (app), FALSE, TRUE, FALSE);
+  gtk_window_set_default_size (GTK_WINDOW (app), 250, 350);
+  gtk_window_set_title (GTK_WINDOW (app), _("GNOME Hello"));
+  gtk_window_set_wmclass (GTK_WINDOW (app), "hello", "GnomeHello");
 
-  frame = gtk_frame_new(NULL);
+  vbox = gtk_vbox_new (FALSE, 0);
+  gtk_container_add (GTK_CONTAINER (app), vbox);
 
-  button = gtk_button_new();
+  ui_manager = create_ui_manager ("GnomeHelloActions", app);
 
-  label  = gtk_label_new(message ? message : _("Hello, World!"));
+  accel_group = gtk_ui_manager_get_accel_group (ui_manager);
+  gtk_window_add_accel_group (GTK_WINDOW (app), accel_group);
 
-  gtk_window_set_policy(GTK_WINDOW(app), FALSE, TRUE, FALSE);
-  gtk_window_set_default_size(GTK_WINDOW(app), 250, 350);
-  gtk_window_set_wmclass(GTK_WINDOW(app), "hello", "GnomeHello");
+  menubar = gtk_ui_manager_get_widget (ui_manager, "/menubar");
+  gtk_box_pack_start (GTK_BOX (vbox), menubar, FALSE, FALSE, 0);
 
-  gtk_frame_set_shadow_type(GTK_FRAME(frame), GTK_SHADOW_IN);
+  button = gtk_button_new ();
+  gtk_container_set_border_width (GTK_CONTAINER (button), 10);
+  gtk_box_pack_start (GTK_BOX (vbox), button, TRUE, TRUE, 0);
 
-  gtk_container_set_border_width(GTK_CONTAINER(button), 10);
+  label  = gtk_label_new (message ? message : _("Hello, World!"));
+  gtk_container_add (GTK_CONTAINER (button), label);
 
-  gtk_container_add(GTK_CONTAINER(button), label);
+  g_signal_connect (G_OBJECT (app),
+                    "delete_event",
+                    G_CALLBACK (delete_event_cb),
+                    NULL);
 
-  gtk_container_add(GTK_CONTAINER(frame), button);
-
-  gnome_app_set_contents(GNOME_APP(app), frame);
-
-  status = gnome_appbar_new(FALSE, TRUE, GNOME_PREFERENCES_NEVER);
-
-  gnome_app_set_statusbar(GNOME_APP(app), status);
-
-  hello_install_menus_and_toolbar(app);
-
-  /* gnomehello-widgets ***/
+  g_signal_connect (G_OBJECT (button),
+                    "clicked",
+                    G_CALLBACK (button_click_cb),
+                    label);
   
-  /*** gnomehello-signals */
-  g_signal_connect(G_OBJECT(app),
-                   "delete_event",
-                   G_CALLBACK(delete_event_cb),
-                   NULL);
-
-  g_signal_connect(G_OBJECT(button),
-                   "clicked",
-                   G_CALLBACK(button_click_cb),
-                   label);
-  /* gnomehello-signals ***/
-
-  /* gnomehello-geometry ***/
   if (geometry != NULL) 
     {
-      if (!gtk_window_parse_geometry (GTK_WINDOW(app), geometry)) 
+      if (!gtk_window_parse_geometry (GTK_WINDOW (app), geometry)) 
         {
-          g_error(_("Could not parse geometry string `%s'"), geometry);
+          g_error (_("Could not parse geometry string `%s'"), geometry);
         }
     }
 
-  /* gnomehello-geometry ***/
-
   if (greet != NULL)
     {
-      GtkWidget* dialog;
-      gchar* greetings = g_strdup(_("Special Greetings to:\n"));
-      GSList* tmp = greet;
+      GtkWidget *dialog;
+      gchar *greetings = g_strdup (_("Special Greetings to:\n"));
+      GSList *tmp = greet;
 
       while (tmp != NULL)
         {
-          gchar* old = greetings;
+          gchar *old = greetings;
 
-          greetings = g_strconcat(old, 
-                                  (gchar*) tmp->data,
-                                  "\n",
-                                  NULL);
-          g_free(old);
+          greetings = g_strconcat (old, 
+                                   (gchar *) tmp->data,
+                                   "\n",
+                                   NULL);
+          g_free (old);
 
-          tmp = g_slist_next(tmp);
+          tmp = g_slist_next (tmp);
         }
       
       dialog = gtk_message_dialog_new (GTK_WINDOW (app),
@@ -124,62 +115,56 @@ hello_app_new(const gchar* message,
 			G_CALLBACK (gtk_object_destroy), NULL);
       gtk_widget_show (dialog);
 
-      g_free(greetings);
-
+      g_free (greetings);
     }
 
-  app_list = g_slist_prepend(app_list, app);
+  app_list = g_slist_prepend (app_list, app);
+
+  gtk_widget_show_all (vbox);
 
   return app;
 }
 
 void       
-hello_app_close(GtkWidget* app)
+hello_app_close (GtkWidget *app)
 {
-  g_return_if_fail(GNOME_IS_APP(app));
+  app_list = g_slist_remove (app_list, app);
 
-  app_list = g_slist_remove(app_list, app);
-
-  gtk_widget_destroy(app);
+  gtk_widget_destroy (app);
 
   if (app_list == NULL)
     {
       /* No windows remaining */
-      gtk_main_quit();
+      gtk_main_quit ();
     }
 }
 
-/*** gnomehello-quit */
 static gint 
-delete_event_cb(GtkWidget* window, GdkEventAny* e, gpointer data)
+delete_event_cb (GtkWidget *window, GdkEventAny *e, gpointer data)
 {
-  hello_app_close(window);
+  hello_app_close (window);
 
   /* Prevent the window's destruction, since we destroyed it 
    * ourselves with hello_app_close()
    */
   return TRUE;
 }
-/* gnomehello-quit ***/
 
 static void 
-button_click_cb(GtkWidget* w, gpointer data)
+button_click_cb (GtkWidget *w, gpointer data)
 {
-  GtkWidget* label;
-  gchar* text;
-  gchar* tmp;
+  GtkWidget *label;
+  const gchar *text;
+  gchar *tmp;
 
-  label = GTK_WIDGET(data);
+  label = GTK_WIDGET (data);
 
-  gtk_label_get(GTK_LABEL(label), &text);
+  text = gtk_label_get_text (GTK_LABEL (label));
+  tmp = g_strdup (text);
 
-  tmp = g_strdup(text);
+  g_strreverse (tmp);
 
-  g_strreverse(tmp);
-
-  gtk_label_set_text(GTK_LABEL(label), tmp);
+  gtk_label_set_text (GTK_LABEL (label), tmp);
 
   g_free(tmp);
 }
-
-/* gnomehello-app ***/
