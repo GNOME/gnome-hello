@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 2003-01-17 10:38+0100\n"
-"PO-Revision-Date: 2002-11-28 13:21+0100\n"
+"POT-Creation-Date: 2003-01-19 21:08+0100\n"
+"PO-Revision-Date: 2003-01-19 21:08+0100\n"
 "Last-Translator: Christian Neumair <chris@gnome-de.org>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,11 +82,11 @@ msgstr "Neu"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Voriges"
+msgstr "Vorheriges"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Voriges Hallo"
+msgstr "Vorheriges Hallo"
 
 #: src/menus.c:90
 msgid "Next"
