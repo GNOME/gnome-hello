@@ -1,3 +1,6 @@
+2001-10-28  Roy-Magne Mo <rmo@sunnmore.net>
+	* configure.in: Added "nn" to ALL_LINGUAS.
+
 2001-10-18  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
 
 	* configure.in: Added "sk" to ALL_LINGUAS.
