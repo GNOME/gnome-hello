@@ -101,8 +101,7 @@ main(int argc, char** argv)
 				   argc, argv, 
 				   GNOME_PARAM_POPT_TABLE, options, 
 				   GNOME_PARAM_APP_DATADIR,DATADIR, NULL);
-
-  gnome_window_icon_set_default_from_file (GNOME_ICONDIR"/gnome-hello-logo.png");
+  gtk_window_set_default_icon_name ("gnome-hello-logo");
 
   g_value_init (&value, G_TYPE_POINTER);
   g_object_get_property (G_OBJECT(gnome_hello), 
@@ -126,11 +125,13 @@ main(int argc, char** argv)
     }
   else if (greet_mode && args == NULL)
     {
-      g_error(_("You must specify someone to greet."));
+      g_printerr(_("You must specify someone to greet.\n"));
+      return 1;
     }
   else if (args != NULL)
     {
-      g_error(_("Command line arguments are only allowed with --greet."));
+      g_printerr(_("Command line arguments are only allowed with --greet.\n"));
+      return 1;
     }
   else
     { 

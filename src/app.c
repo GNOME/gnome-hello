@@ -120,10 +120,11 @@ hello_app_new(const gchar* message,
 				       GTK_BUTTONS_OK,
 				       greetings,
 				       NULL);
+      g_signal_connect (dialog, "response",
+			G_CALLBACK (gtk_object_destroy), NULL);
+      gtk_widget_show (dialog);
 
       g_free(greetings);
-  
-      gtk_widget_set_parent(GTK_WIDGET(dialog), GTK_WIDGET(app));
 
     }
 

@@ -25,36 +25,46 @@
 # Please email gnome-devel-list@gnome.org if you think it isn't.
 
 
-dir=`echo "$0" | sed 's,[^/]*$,,'`
-test "x${dir}" = "x" && dir='.'
+srcdir=`dirname $0`
+test -z "$srcdir" && srcdir=.
+ORIGDIR=`pwd`
 
-if test "x`cd "${dir}" 2>/dev/null && pwd`" != "x`pwd`"
-then
-    echo "This script must be executed directly from the source directory."
+# does $srcdir look like the gnome-hello source tree?
+if ! test -f $srcdir/src/hello.c; then
+    echo "error: $srcdir does not look like the gnome-hello source directory"
     exit 1
 fi
 
-# This might not be necessary with newer autotools:
-rm -f config.cache
+cd $srcdir
 
-# We use glib-gettextize, which apparently does not add the intl directory 
-# (containing a local copy of libintl code), and therefore has a slightly different Makefile.
-echo "- glib-gettextize."	&& \
-  glib-gettextize --copy --force 	&& \
-echo "- libtoolize."		&& \
-  libtoolize --force	&& \
-echo "- intltoolize."		&& \
-  intltoolize --copy --force	&& \
-echo "- aclocal"		&& \
-  aclocal 			&& \
-echo "- autoheader"		&& \
-  autoheader			&& \
-echo "- autoconf."		&& \
-  autoconf			&& \
-echo "- automake."		&& \
-  automake --add-missing --gnu	&& \
-echo				&& \
-  ./configure "$@"		&& exit 0
+# This installs the translation build infrastructure
+echo "- glib-gettextize."
+glib-gettextize --copy --force 	|| exit $?
 
-exit 1
+echo "- libtoolize."
+libtoolize --force || exit $?
 
+# intltool is used to merge translations into things like desktop items.
+echo "- intltoolize."
+intltoolize --copy --force || exit $?
+
+# if you have documentation that uses xmldocs.make and omf.make, this will
+# pull in the latest versions.
+echo "- gnome-doc-common"
+gnome-doc-common --copy || exit $?
+
+echo "- aclocal"
+aclocal $ACLOCAL_FLAGS || exit $?
+
+echo "- autoheader"
+autoheader || exit $?
+
+echo "- autoconf."
+autoconf || exit $?
+
+echo "- automake."
+automake --add-missing --gnu || exit $?
+
+cd $ORIGDIR
+echo "- configure"
+$srcdir/configure --enable-maintainer-mode ${1+"$@"} || exit $?

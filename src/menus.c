@@ -155,9 +155,7 @@ about_cb(GtkWidget* widget, gpointer data)
 
   if (dialog != NULL) 
     {
-      g_assert(GTK_WIDGET_REALIZED(dialog));
-      gdk_window_show(dialog->window);
-      gdk_window_raise(dialog->window);
+      gtk_window_present(GTK_WINDOW(dialog));
     }
   else
     {        
@@ -165,13 +163,18 @@ about_cb(GtkWidget* widget, gpointer data)
         "Havoc Pennington <hp@pobox.com>",
         NULL
       };
-     GdkPixbuf* logo;
-     gchar* logo_filename = NULL;
+      GdkPixbuf* logo;
+      GdkScreen *screen;
+      GtkIconTheme *icon_theme;
 
-     logo_filename = g_strdup(DATADIR "/pixmaps/gnome-hello-logo.png");
+      /* XXXX this does not follow icon theme changes ... */
+      screen = gtk_widget_get_screen(app);
+      icon_theme = gtk_icon_theme_get_for_screen(screen);
+      logo = gtk_icon_theme_load_icon(icon_theme,
+				      "gnome-hello-logo",
+				      48, 0, NULL);
 
-     logo = gdk_pixbuf_new_from_file(logo_filename, NULL); 
-     dialog = gnome_about_new (_("GNOME Hello"), 
+      dialog = gnome_about_new (_("GNOME Hello"), 
 				VERSION,
                                 "(C) 1999 Havoc Pennington",
                                 _("A sample GNOME application."),
@@ -182,8 +185,7 @@ about_cb(GtkWidget* widget, gpointer data)
 
       gtk_window_set_transient_for (GTK_WINDOW (dialog), GTK_WINDOW (app));	
       if (logo)
-	gdk_pixbuf_unref (logo);
-      g_free(logo_filename);
+	g_object_unref (logo);
 
       g_signal_connect(G_OBJECT(dialog),
                          "destroy",

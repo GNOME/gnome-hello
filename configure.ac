@@ -1,11 +1,13 @@
-AC_INIT(src/hello.c)
+AC_INIT([gnome-hello], [2.0.2])
+AC_CONFIG_SRCDIR(src/hello.c)
 
+AM_INIT_AUTOMAKE(1.7)
 AM_CONFIG_HEADER(config.h)
 
-dnl Might as well give it a GNOME 2.0 version number
-AM_INIT_AUTOMAKE(gnome-hello, 2.0.2)
-
 AM_MAINTAINER_MODE
+
+dnl make sure we keep ACLOCAL_FLAGS around for maintainer builds to work
+AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
 AC_PROG_INTLTOOL([0.21])
 
@@ -20,9 +22,9 @@ LIBGNOME_REQUIRED=1.96.0
 LIBGNOMEUI_REQUIRED=1.96.0
 SCROLLKEEPER_REQUIRED=0.1.4
 
-PKG_CHECK_MODULES(GNOME_HELLO, libgnome-2.0 >= $LIBGNOME_REQUIRED libgnomeui-2.0 >= $LIBGNOMEUI_REQUIRED)
-AC_SUBST(GNOME_HELLO_CFLAGS)
-AC_SUBST(GNOME_HELLO_LIBS)
+PKG_CHECK_MODULES(GNOME_HELLO,
+  [libgnome-2.0 >= $LIBGNOME_REQUIRED dnl
+   libgnomeui-2.0 >= $LIBGNOMEUI_REQUIRED])
 
 dnl Test for Scrollkeeper
 
@@ -31,20 +33,16 @@ if test x$SCROLLKEEPER_CONFIG = xno; then
   AC_MSG_ERROR(Couldn't find scrollkeeper-config, please install the scrollkeeper package)
 fi
 
-AC_DEFINE_UNQUOTED(GNOME_ICONDIR, "${prefix}/share/pixmaps", "definition of GNOME_ICONDIR")
-
 ALL_LINGUAS="am az be bg ca cs da de el en_CA en_GB es fi fr gl he hr id it ja lv mn ms nl nn no pa pl pt pt_BR ru sk sr sr@Latn sv tr uk vi wa zh_CN zh_TW"
 
 GETTEXT_PACKAGE=gnome-hello-2.0
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
-AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", "definition of GETTEXT_PACKAGE")
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",
+                   [definition of GETTEXT_PACKAGE])
+AM_GLIB_DEFINE_LOCALEDIR(GNOMELOCALEDIR)
 
-AC_SUBST(CFLAGS)
-AC_SUBST(CPPFLAGS)
-AC_SUBST(LDFLAGS)
-
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 src/Makefile
 po/Makefile.in
@@ -52,3 +50,5 @@ pixmaps/Makefile
 help/Makefile
 help/C/Makefile
 ])
+
+AC_OUTPUT

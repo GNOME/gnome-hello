@@ -1,3 +1,36 @@
+2004-10-07  James Henstridge  <james@jamesh.id.au>
+
+	* src/app.c (hello_app_new): remove bogus gtk_widget_set_parent()
+	call.
+
+	* src/hello.c (main): abort()ing on bad user input is bad.
+
+	* src/menus.c (about_cb): use gtk_window_present() if the window
+	already exists.
+	Load the logo from the icon theme.
+
+	* src/hello.c (main): use gtk_window_set_default_icon_name() to
+	set the default window icon from the icon theme.
+
+	* src/Makefile.am (INCLUDES): don't bother defining GNOMELOCALEDIR
+	here, since it is handled in the configure script now.
+
+	* gnome-hello.desktop.in (Icon): leave the extension off the icon
+	name.
+
+	* pixmaps/Makefile.am: install the icon into the icon theme.
+
+	* Makefile.am (CLEANFILES, DISTCLEANFILES): remove some files
+	during clean and distclean.
+
+	* configure.ac: update configure script.  Remove some calls that
+	are unneeded with Automake >= 1.7.
+	Use AM_GLIB_DEFINE_LOCALEDIR to define the locale dir.
+
+	* autogen.sh: handle non-srcdir builds, and use gnome-doc-common
+	to pull in xmldocs.make and omf.make, pass $ACLOCAL_FLAGS to
+	aclocal.
+
 2004-05-01  Adam Weinberger  <adamw@gnome.org>
 
 	* configure.in: Added en_CA to ALL_LINGUAS.
