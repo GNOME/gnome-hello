@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: punlinux\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-03-04 16:57+0530\n"
+"PO-Revision-Date: 2004-01-29 14:22+0530\n"
+"Last-Translator: Amanpreet Singh Alam <amanlinux@netscape.net>\n"
+"Language-Team: KBST Punjab <kbstpunjab@netscape.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "ਗਨੋਮ ਹੈਲੋ"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "ਗਨੋਮ ਤਕਨੀਕ ਨਾਲ ਆਮ ਕਾਰਜ"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "ਗਨੋਮ ਹੈਲੋ"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "ਹੈਲੋ, ਪੰਜਾਬ !"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "ਜੁਮੈਟਰੀ ਸਤਰ `%s' ਨੂੰ ਪਾਰਸ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "ਖਾਸ ਸ਼ੁਭ ਸੁਨੇਹੇ:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "ਖਾਸ ਲੋਕਾਂ ਨੂੰ ਹੈਲੋ ਕਹੋ ਜੋ ਕਿ ਕਮਾਂਡ ਲਾਈਨ ਤੇ ਸੂਚੀਬਧ ਹਨ"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr " \"ਹੈਲੋ ਪੰਜਾਬ!\" ਦੀ ਬਜਾਏ ਖਾਸ ਸੁਨੇਹਾ"
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "ਸੁਨੇਹਾ"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "ਮੁਖ ਝਰੋਖੇ ਦਾ ਰੇਖਾਗਣਿਤ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "ਰੇਖਾਗਣਿਤ "
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "ਸਤਿਕਾਰ ਸੁਨੇਹੇ ਲਈ ਕੁਝ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "ਸਿਰਫ਼ ਸਤਿਕਾਰ ਸੁਨੇਹੇ ਨਾਲ ਹੀ ਕਮਾਂਡ ਨਾਲ ਆਰਗੂਮੈਂਟ ਦਿਤੇ ਜਾ ਸਕਦੇ ਹਨ"
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "ਨਵਾਂ ਹੈਲੋ"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "ਨਵਾਂ ਹੈਲੋ ਬਣਾਉ"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "ਨਵਾਂ"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "ਪਿਛਲਾ"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "ਪਿਛਲਾ ਹੈਲੋ"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "ਅਗਲਾ"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "ਅਗਲਾ ਹੈਲੋ"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "ਇਹ ਕੁਝ ਵੀ ਨਹੀ ਹੈ, ਸਿਰਫ਼ ਪ੍ਰਦਰਸ਼ਨ ਹੈ"
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "ਗਨੋਮ ਹੈਲੋ"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "ਆਮ ਗਨੋਮ ਕਾਰਜ"

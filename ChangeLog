@@ -1,3 +1,7 @@
+2004-03-04  Guntupalli Karunakar  <karunakar@freedomink.org>
+
+	* configure.ac: Added "pa" (Punjabi) to ALL_LINGUAS.
+
 2004-02-24  Jordi Mallach  <jordi@sindominio.net>
 
 	* configure.ac (ALL_LINGUAS): Added "ca" (Catalan) to ALL_LINGUAS.
