@@ -1,16 +1,16 @@
 # Dutch translation of gnome-hello
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>, 1999.
-# Tino Meinen <a.t.meinen@chello.nl>, 2003.
+# Tino Meinen <a.t.meinen@chello.nl>, 2003, 2004
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello gnome2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-10-10 03:27+0200\n"
-"PO-Revision-Date: 2004-10-10 13:17+0200\n"
+"POT-Creation-Date: 2004-12-17 19:18+0100\n"
+"PO-Revision-Date: 2004-12-18 00:23+0100\n"
 "Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
-"Language-Team: Dutch <vertaling@nl.linux.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,90 +21,171 @@ msgstr "GNOME Hallo-demo"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr "Voorbeeld-toepassing met GNOME-technologie"
+msgstr "Voorbeeldtoepassing met GNOME-technologie"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Gnome Hallo"
+#: src/app.c:50 src/menus.c:167
+msgid "GNOME Hello"
+msgstr "GNOME Hallo"
 
-#: src/app.c:51 src/menus.c:127
+#: src/app.c:68 src/menus.c:124
 msgid "Hello, World!"
 msgstr "Hallo Wereld!"
 
-#: src/app.c:92
+#: src/app.c:85
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Kan de geometrietekenreeks '%s' niet verwerken"
 
-#: src/app.c:101
+#: src/app.c:92
 msgid "Special Greetings to:\n"
 msgstr "De groeten aan:\n"
 
-#: src/hello.c:50
+#: src/hello.c:47
 msgid "Say hello to specific people listed on the command line"
 msgstr "Bepaalde mensen groeten die genoemd worden op de opdrachtregel"
 
-#: src/hello.c:59
+#: src/hello.c:56
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Geef een bericht anders dan \"Hallo, Wereld!\""
 
-#: src/hello.c:60
+#: src/hello.c:57
 msgid "MESSAGE"
 msgstr "BERICHT"
 
-#: src/hello.c:68
+#: src/hello.c:65
 msgid "Specify the geometry of the main window"
 msgstr "Geef de geometrie van het hoofdvenster"
 
-#: src/hello.c:69
+#: src/hello.c:66
 msgid "GEOMETRY"
 msgstr "GEOMETRIE"
 
-#: src/hello.c:128
+#: src/hello.c:114
 msgid "You must specify someone to greet.\n"
 msgstr "U moet iemand opgegeven om te groeten.\n"
 
-#: src/hello.c:133
+#: src/hello.c:119
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Argumenten op de opdrachtregel, zijn alleen toegestaan met --greet.\n"
 
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "_Nieuwe Hallo"
+#: src/menus.c:75
+msgid "_File"
+msgstr "_Bestand"
 
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Maak een nieuwe hallo"
+#: src/menus.c:76
+msgid "_Edit"
+msgstr "Be_werken"
+
+#: src/menus.c:77
+msgid "_Help"
+msgstr "_Hulp"
+
+#: src/menus.c:78
+msgid "_New"
+msgstr "_Nieuw"
+
+#: src/menus.c:79
+msgid "_Open"
+msgstr "_Openen"
+
+#: src/menus.c:80
+msgid "_Save"
+msgstr "Op_slaan"
+
+#: src/menus.c:81
+msgid "Save _As"
+msgstr "Opslaan _als"
+
+#: src/menus.c:82
+msgid "_Close"
+msgstr "Sl_uiten"
+
+#: src/menus.c:83
+msgid "_Quit"
+msgstr "A_fsluiten"
+
+#: src/menus.c:84
+msgid "Cu_t"
+msgstr "K_nippen"
 
 #: src/menus.c:85
-msgid "New"
-msgstr "Nieuw"
+msgid "_Copy"
+msgstr "_Kopiëren"
+
+#: src/menus.c:86
+msgid "_Paste"
+msgstr "_Plakken"
+
+#: src/menus.c:87
+msgid "Select _All"
+msgstr "_Alles selecteren"
+
+#: src/menus.c:88
+msgid "C_lear"
+msgstr "_Wissen"
 
 #: src/menus.c:89
-msgid "Prev"
-msgstr "Vorige"
-
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Vorige hallo"
+msgid "_Undo"
+msgstr "_Ongedaan maken"
 
 #: src/menus.c:90
-msgid "Next"
-msgstr "Volgende"
+msgid "_Redo"
+msgstr "O_pnieuw doen"
 
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Volgende hallo"
+#: src/menus.c:91
+msgid "_Find"
+msgstr "_Zoeken"
 
-#: src/menus.c:116
+#: src/menus.c:92
+msgid "Find Ne_xt"
+msgstr "_Volgende zoeken"
+
+#: src/menus.c:93
+msgid "R_eplace"
+msgstr "Ve_rvangen"
+
+#: src/menus.c:94
+msgid "Pr_operties"
+msgstr "_Eigenschappen"
+
+#: src/menus.c:95
+msgid "_Contents"
+msgstr "_Inhoud"
+
+#: src/menus.c:96
+msgid "_About"
+msgstr "I_nfo"
+
+#: src/menus.c:97
+msgid "_Previous"
+msgstr "V_orige"
+
+#: src/menus.c:98
+msgid "_Next"
+msgstr "_Volgende"
+
+#: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dit doet niets; is hier alleen ter demonstratie."
 
-#: src/menus.c:177
-msgid "GNOME Hello"
-msgstr "GNOME Hallo"
+#: src/menus.c:171
+msgid "translator-credits"
+msgstr "Tino Meinen"
 
-#: src/menus.c:180
-msgid "A sample GNOME application."
-msgstr "Een voorbeeld GNOME-toepassing"
+#~ msgid "Gnome Hello"
+#~ msgstr "Gnome Hallo"
+
+#~ msgid "_New Hello"
+#~ msgstr "_Nieuwe Hallo"
+
+#~ msgid "Create a new hello"
+#~ msgstr "Maak een nieuwe hallo"
+
+#~ msgid "Prev"
+#~ msgstr "Vorige"
+
+#~ msgid "Next hello"
+#~ msgstr "Volgende hallo"
+
+#~ msgid "A sample GNOME application."
+#~ msgstr "Een voorbeeld GNOME-toepassing"
