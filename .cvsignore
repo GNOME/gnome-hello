@@ -20,3 +20,6 @@ ltmain.sh
 stamp-h.in
 stamp-h
 gnome-hello.desktop
+xmldocs.make
+omf.make
+
