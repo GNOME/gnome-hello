@@ -1,39 +1,39 @@
-# gnome-utils's Portuguese translation
+# gnome-hello's Portuguese translation
 # Copyright (C) 1999-2001 Free Software Foundation, Inc.
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2001
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2003
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.0\n"
-"POT-Creation-Date: 2003-01-17 10:38+0100\n"
-"PO-Revision-Date: 2001-12-17 01:36+0000\n"
+"Project-Id-Version: 2.2\n"
+"POT-Creation-Date: 2003-04-05 03:29+0100\n"
+"PO-Revision-Date: 2003-04-05 03:36+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
-"Language-Team: Portuguese <none@none.org>\n"
+"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr ""
+msgstr "Demo GNOME Ol√°"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr ""
+msgstr "Aplica√ß√£o de amostra que utiliza tecnologias GNOME"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Ol· Gnome"
+msgstr "Ol√° Gnome"
 
 #: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
-msgstr "Ol·, Mundo!"
+msgstr "Ol√°, Mundo!"
 
 #: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Incapaz de parsear express„o de geometria `%s'"
+msgstr "Incapaz de parsear express√£o de geometria `%s'"
 
 #: src/app.c:101
 msgid "Special Greetings to:\n"
@@ -41,11 +41,11 @@ msgstr "Agradecimentos Especiais para:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
-msgstr "Diz ol· na linha de comando a pessoas especificadas numa lista"
+msgstr "Diz ol√° na linha de comando a pessoas especificadas numa lista"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Especificar uma mensagem que n„o \"Ol· Mundo!\""
+msgstr "Especificar uma mensagem que n√£o \"Ol√° Mundo!\""
 
 #: src/hello.c:60
 msgid "MESSAGE"
@@ -61,19 +61,19 @@ msgstr "GEOMETRIA"
 
 #: src/hello.c:129
 msgid "You must specify someone to greet."
-msgstr "Tem de especificar alguÈm a cumprimentar."
+msgstr "Tem de especificar algu√©m a cumprimentar."
 
 #: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Argumentos de linha de comando s„o apenas permitidos com --greet."
+msgstr "Argumentos de linha de comando s√£o apenas permitidos com --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
-msgstr "_Novo Ol·"
+msgstr "_Novo Ol√°"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr "Criar um novo ol·"
+msgstr "Criar um novo ol√°"
 
 #: src/menus.c:85
 msgid "New"
@@ -85,7 +85,7 @@ msgstr "Ant"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Ol· Anterior"
+msgstr "Ol√° Anterior"
 
 #: src/menus.c:90
 msgid "Next"
@@ -93,20 +93,19 @@ msgstr "Seg"
 
 #: src/menus.c:90
 msgid "Next hello"
-msgstr "Ol· Seguinte"
+msgstr "Ol√° Seguinte"
 
 #: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Isto n„o faz nada; È apenas uma demonstraÁ„o."
+msgstr "Isto n√£o faz nada; √© apenas uma demonstra√ß√£o."
 
 #: src/menus.c:174
-#, fuzzy
 msgid "GNOME Hello"
-msgstr "_Novo Ol·"
+msgstr "Ol√° GNOME"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "Uma aplicaÁ„o de amostra GNOME"
+msgstr "Uma aplica√ß√£o de amostra GNOME."
 
 #~ msgid "GnomeHello"
-#~ msgstr "Ol·Gnome"
+#~ msgstr "Ol√°Gnome"
