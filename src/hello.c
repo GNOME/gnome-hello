@@ -21,6 +21,7 @@
 /*** gnomehello */
 
 #include <config.h>
+#include <glib-object.h>
 #include <gnome.h>
 
 #include "app.h"
@@ -80,28 +81,33 @@ struct poptOption options[] = {
 /* gnomehello-popttable ***/
 
 int 
-main(int argc, char* argv[])
+main(int argc, char** argv)
 {
   /*** gnomehello-parsing */
   GtkWidget* app;
-  
-  poptContext pctx;
-
+  GnomeProgram *gnome_hello;
+  GnomeClient* client;
+  GValue value = {0,};
+  poptContext pctx; 
+  GSList* greet = NULL;
   char** args;
   int i;
 
-  GSList* greet = NULL;
-
-  GnomeClient* client;
 
   bindtextdomain(PACKAGE, GNOMELOCALEDIR);  
   textdomain(PACKAGE);
 
-  gnome_init_with_popt_table(PACKAGE, VERSION, argc, argv, 
-                             options, 0, &pctx);  
+  gnome_hello = gnome_program_init(PACKAGE, VERSION, LIBGNOMEUI_MODULE,
+				   argc, argv, 
+				   GNOME_PARAM_POPT_TABLE, options, NULL);
+
+  g_value_init (&value, G_TYPE_POINTER);
+  g_object_get_property (G_OBJECT(gnome_hello), 
+			   GNOME_PARAM_POPT_CONTEXT, &value);
+  
+  (poptContext)pctx = g_value_get_pointer (&value);
 
   /* Argument parsing */
-
   args = poptGetArgs(pctx);
 
   if (greet_mode && args)
@@ -111,8 +117,8 @@ main(int argc, char* argv[])
         {
           greet = g_slist_prepend(greet, args[i]);
           ++i;
-        }
-      /* Put them in order */
+        } 
+      /* Put them in order */ 
       greet = g_slist_reverse(greet); 
     }
   else if (greet_mode && args == NULL)
@@ -128,17 +134,17 @@ main(int argc, char* argv[])
       g_assert(!greet_mode && args == NULL);
     }
 
-  poptFreeContext(pctx);
+  poptFreeContext(pctx); 
   /* gnomehello-parsing ***/
 
   /* Session Management */
   
   /*** gnomehello-client */
   client = gnome_master_client ();
-  gtk_signal_connect (GTK_OBJECT (client), "save_yourself",
-                      GTK_SIGNAL_FUNC (save_session), argv[0]);
-  gtk_signal_connect (GTK_OBJECT (client), "die",
-                      GTK_SIGNAL_FUNC (session_die), NULL);
+  g_signal_connect (G_OBJECT (client), "save_yourself",
+                      G_CALLBACK (save_session), argv[0]);
+  g_signal_connect (G_OBJECT (client), "die",
+                      G_CALLBACK (session_die), NULL);
   /* gnomehello-client ***/
 
   

@@ -73,35 +73,21 @@ hello_app_new(const gchar* message,
   /* gnomehello-widgets ***/
   
   /*** gnomehello-signals */
-  gtk_signal_connect(GTK_OBJECT(app),
-                     "delete_event",
-                     GTK_SIGNAL_FUNC(delete_event_cb),
-                     NULL);
+  g_signal_connect(G_OBJECT(app),
+                   "delete_event",
+                   G_CALLBACK(delete_event_cb),
+                   NULL);
 
-  gtk_signal_connect(GTK_OBJECT(button),
-                     "clicked",
-                     GTK_SIGNAL_FUNC(button_click_cb),
-                     label);
+  g_signal_connect(G_OBJECT(button),
+                   "clicked",
+                   G_CALLBACK(button_click_cb),
+                   label);
   /* gnomehello-signals ***/
 
-  /*** gnomehello-geometry */
+  /* gnomehello-geometry ***/
   if (geometry != NULL) 
     {
-      gint x, y, w, h;
-      if ( gnome_parse_geometry( geometry, 
-                                 &x, &y, &w, &h ) ) 
-        {
-          if (x != -1)
-            {
-              gtk_widget_set_uposition(app, x, y);
-            }
-
-          if (w != -1) 
-            {
-              gtk_window_set_default_size(GTK_WINDOW(app), w, h);
-            }
-        }
-      else 
+      if (!gtk_window_parse_geometry (GTK_WINDOW(app), geometry)) 
         {
           g_error(_("Could not parse geometry string `%s'"), geometry);
         }
@@ -131,8 +117,9 @@ hello_app_new(const gchar* message,
       dialog = gnome_ok_dialog(greetings);
 
       g_free(greetings);
+  
+      gtk_widget_set_parent(GTK_WIDGET(dialog), GTK_WIDGET(app));
 
-      gnome_dialog_set_parent(GNOME_DIALOG(dialog), GTK_WINDOW(app));
     }
 
   app_list = g_slist_prepend(app_list, app);

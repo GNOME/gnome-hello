@@ -160,23 +160,29 @@ about_cb(GtkWidget* widget, gpointer data)
         "Havoc Pennington <hp@pobox.com>",
         NULL
       };
+     GdkPixbuf* logo;
+     GError *error;
+     gchar* logo_filename;
 
-      gchar* logo = gnome_pixmap_file("gnome-hello-logo.png");
+     logo_filename = g_strdup(DATADIR "/pixmaps/gnome-hello-logo.png");
 
-      dialog = gnome_about_new (_("GnomeHello"), VERSION,
+     logo = gdk_pixbuf_new_from_file(g_strdup(logo_filename), NULL);
+     dialog = gnome_about_new (_("GnomeHello"), 
+				VERSION,
                                 "(C) 1999 Havoc Pennington",
-                                authors,
                                 _("A sample GNOME application."),
+                                authors,
+				NULL,
+				NULL,
                                 logo);
 
       g_free(logo);
+      g_free(logo_filename);
 
-      gtk_signal_connect(GTK_OBJECT(dialog),
+      g_signal_connect(G_OBJECT(dialog),
                          "destroy",
-                         GTK_SIGNAL_FUNC(gtk_widget_destroyed),
-                         &dialog);
-
-      gnome_dialog_set_parent(GNOME_DIALOG(dialog), GTK_WINDOW(app));
+                         G_CALLBACK(gtk_widget_destroyed),
+                         &dialog); 
 
       gtk_widget_show(dialog);
     }

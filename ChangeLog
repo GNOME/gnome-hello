@@ -1,6 +1,15 @@
 2001-09-27  Glynn Foster <glynn.foster@sun.com>
 
-	* Tagged GNOME_HELLO_PRE_2.0 tag and branched
+       * ABOUT-NLS: updated
+       * Makefile.am, autogen.sh, config.h.in
+       * configure.in, src/Makefile.am
+       * src/app.c, src/hello.c, src/menus.c:
+         Ported to GNOME 2.0. Probably still a few bugs
+         remaining.
+
+2001-09-27  Glynn Foster <glynn.foster@sun.com>
+
+	* Tagged GNOME_HELLO_PRE_2_0 tag and branched
 	  for gnome-hello-1-4.
 
 1999-10-19  Yuri Syrota  <rasta@renome.rovno.ua>
