@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Sergey Panov  <sipan@mit.edu>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-07-30 09:26-0400\n"
+"PO-Revision-Date: 1999-07-30 09:26-0400\n"
+"Last-Translator: Sergey Panov  <sipan@mit.edu>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hello.c:49
+msgid "Say hello to specific people listed on the command line"
+msgstr "Приветствует людей указанных на командной строке"
+
+#: src/hello.c:58
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Заказать приветствие отличное от \"Hello, World!\""
+
+#: src/hello.c:59
+msgid "MESSAGE"
+msgstr "СООБЩЕНИЕ"
+
+#: src/hello.c:67
+msgid "Specify the geometry of the main window"
+msgstr "Задать геометрию основного окна"
+
+#: src/hello.c:68
+msgid "GEOMETRY"
+msgstr "ГЕОМЕТРИЯ"
+
+#: src/hello.c:120
+msgid "You must specify someone to greet."
+msgstr "Вы должны указать кого приветствовать."
+
+#: src/hello.c:124
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Аргументы командной строки разрешены только с --greet."
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:122
+msgid "Hello, World!"
+msgstr "Hello, World!"
+
+#: src/app.c:106
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Невозможно разобрать описание геометрии `%s'"
+
+#: src/app.c:115
+msgid "Special Greetings to:\n"
+msgstr "Особое приветствие для:\n"
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "Новое Hello"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Создать новое hello"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Новое"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Пред."
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Предыдущее hello"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "След."
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Следующее hello"
+
+#: src/menus.c:113
+msgid "This does nothing; it is only a demonstration."
+msgstr "Не делает ничего; просто демонстрация."
+
+#: src/menus.c:166
+msgid "GnomeHello"
+msgstr "GnomeHello"
+
+#: src/menus.c:169
+msgid "A sample GNOME application."
+msgstr "Пример GNOME приложения"
