@@ -1,0 +1,110 @@
+# Translation of gnome-hello to Croatian
+# Copyright (C) Croatian team
+# Translators: Automatski Prijevod <>,
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello 0\n"
+"POT-Creation-Date: 2003-11-06 18:09+0100\n"
+"PO-Revision-Date: 2003-11-07 18:42+CET\n"
+"Last-Translator: auto\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: TransDict server\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr ""
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr ""
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Dobar dan"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Dobar dan, svijete!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr ""
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr ""
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr ""
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr ""
+
+#: src/hello.c:60
+#, fuzzy
+msgid "MESSAGE"
+msgstr "Poruka"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr ""
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRIJA"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr ""
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr ""
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr ""
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr ""
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Novi"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Pret"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr ""
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Dalje"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr ""
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "Ovo ne radi ništa, ovo je samo demonstracija."
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr ""
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr ""
+
