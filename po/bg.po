@@ -1,12 +1,13 @@
 # Bulgarian translation of Gnome Hello po file.
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Alexander Shopov <al_shopov@web.bg>, 2002.
+# small updates for completeness - Yanko Kaneti <yaneti@declera.com> , 2002
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNOME 2 RC1\n"
-"POT-Creation-Date: 2002-06-17 12:40+0200\n"
-"PO-Revision-Date: 2002-06-17 21:26EET\n"
+"Project-Id-Version: GNOME 2\n"
+"POT-Creation-Date: 2002-09-11 13:49+0300\n"
+"PO-Revision-Date: 2002-09-10 14:00+0300\n"
 "Last-Translator: Alexander Shopov <al_shopov@yahoo.com>\n"
 "Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +18,7 @@ msgstr ""
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Гном здравей"
+msgstr "GNOME здравей"
 
 #: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
@@ -52,11 +53,11 @@ msgstr "Укажи геометрията на главния прозорец"
 msgid "GEOMETRY"
 msgstr "ГЕОМЕТРИЯ"
 
-#: src/hello.c:126
+#: src/hello.c:129
 msgid "You must specify someone to greet."
 msgstr "Трябва да укажете някой, когото да поздравите."
 
-#: src/hello.c:130
+#: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
 msgstr "Атрибутите на командния ред се приемат единствено с --greet."
 
@@ -93,10 +94,18 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "Това не прави нищо, а е само демонстрация."
 
 #: src/menus.c:174
-msgid "GnomeHello"
-msgstr "Гном Здравей"
+msgid "GNOME Hello"
+msgstr "GNOME Здравей"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Примерно Гном приложение"
 
+#. gnomehello-menus **
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Здравей Демо"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Примерно приложение използващо GNOME технологии"
