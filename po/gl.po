@@ -1,4 +1,4 @@
-# Galician translation of gnome-libs.
+# Galician translation of gnome-hello.
 #
 # Se desexas colaborar connosco na traducción de programas libres ó galego,
 # vai mira-la páxina do noso grupo:  http://www.ctv.es/USERS/jtarrio/trans
