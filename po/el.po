@@ -1,0 +1,111 @@
+# Gnome-hello
+# Copyright (C) Free Software Foundation Inc 2002
+# This file is distributed under the same license as the PACKAGE package.
+# Kostas Papadimas <pkst@gmx.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-11-17 04:39+0100\n"
+"PO-Revision-Date: 2002-11-17 17:45+0200\n"
+"Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Hello Επίδειξη"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Μια εφαρμογή επίδειξης που χρησιμοποιεί τις τεχνολογίες του GNOME "
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Hello, World!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Αδυναμία διαβίβασης αλφαριθμητικού γεωμετρίας`%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Ευχαριστίες σε:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Πείτε hello σε συγκεκριμένους ανθρώπους που αναφέρονται στην γραμμή εντολών"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Καθορίστε ένα άλλο μήνυμα από το  \"Hello, World!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "ΜΗΝΥΜΑ"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Καθορίστε την γεωμετρία του κύριου παραθύρου"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "ΓΕΩΜΕΤΡΙΑ"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Πρέπει να καθορίσετε ποιόν θα χαιρετίσετε"
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Επιχειρήματα στην γραμμή εντολών επιτρέπονατι μόνο με --greet."
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "_Νέο Hello"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Δημιουργία νέου hello"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Νέο"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Προηγ"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Προηγούμενο hello"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Επόμενο"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Επόμενο hello"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "Αυτό δεν κάνει τίποτα, είναι μόνο μια επίδειξη"
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "Μια εφαρμογή επίδειξης του GNOME"
+
