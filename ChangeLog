@@ -1,3 +1,12 @@
+2003-07-18  Murray Cumming  <murrayc@usa.net>
+
+	* Copied in new copies of omf.make and xmldocs.make.
+	* docs/C/Makefile.am and docs/es/Makefile.am: Including the new
+	xmldocs.make instead of the ancient and non-existant sgmldocs.make.
+	* Makefile: Copied in the distcleancheck_listfiles magic lines from
+	the same file in gedit.
+	* Still gives the scroollkeeper errors during distcheck.
+
 2003-07-14  Murray Cumming  <murrayc@usa.net>
 
 	* autogen.sh:

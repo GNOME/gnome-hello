@@ -3,5 +3,5 @@ lang = C
 omffile = gnome-hello-C.omf
 sgml_ents =
 figs =
-include $(top_srcdir)/sgmldocs.make
+include $(top_srcdir)/xmldocs.make
 dist-hook: app-dist-hook
