@@ -35,7 +35,7 @@ if test x$SCROLLKEEPER_CONFIG = xno; then
   AC_MSG_ERROR(Couldn't find scrollkeeper-config, please install the scrollkeeper package)
 fi
 
-ALL_LINGUAS="am az be bg ca cs da de el en_CA en_GB es fi fr gl he hr id it ja ka lv mn ms nl nn no pa pl pt pt_BR ru sk sr sr@Latn sv tr uk vi wa zh_CN zh_TW"
+ALL_LINGUAS="am az be bg ca cs da de el en_CA en_GB es fi fr gl he hr id it ja ka lv mn ms nl nn no pa pl pt pt_BR ru rw sk sr sr@Latn sv tr uk vi wa zh_CN zh_TW"
 
 GETTEXT_PACKAGE=gnome-hello-2.0
 AC_SUBST(GETTEXT_PACKAGE)
