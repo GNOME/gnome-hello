@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 2001-10-28 02:42+0200\n"
+"POT-Creation-Date: 2001-11-03 16:31+0100\n"
 "PO-Revision-Date: 2001-10-28 02:23+0200\n"
 "Last-Translator: Roy-Magne Mo <rmo@sunnmore.net>\n"
 "Language-Team: Norwegian <nn@li.org>\n"
@@ -31,7 +31,6 @@ msgid "Specify the geometry of the main window"
 msgstr "Spesifiser geometrien for hovudvindauget"
 
 #: src/hello.c:68
-#, fuzzy
 msgid "GEOMETRY"
 msgstr "GEOMETRY"
 
