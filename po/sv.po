@@ -1,100 +1,103 @@
-# Swedish translation for Gnome Hello.
-# Copyright (C) 1999 Free Software Foundation, Inc.
-# Tomas Ögren <stric@ing.umu.se>, 1999.
+# Swedish messages for gnome-hello.
+# Copyright (C) 1999, 2000, 2001, 2002 Free Software Foundation, Inc.
+# Tomas Ã–gren <stric@ing.umu.se>, 1999.
+# Christian Rose <menthos@menthos.com>, 2002.
+#
+# $Id$
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 1999-08-18 13:56-0400\n"
-"PO-Revision-Date: 1999-06-28 05:00+0200\n"
-"Last-Translator: Tomas Ögren <stric@ing.umu.se>\n"
+"Project-Id-Version: gnome-hello\n"
+"POT-Creation-Date: 2002-01-27 20:55+0100\n"
+"PO-Revision-Date: 2002-01-27 20:55+0100\n"
+"Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: src/hello.c:49
-msgid "Say hello to specific people listed on the command line"
-msgstr "Säg hej till personerna angivna på kommandoraden"
-
-#: src/hello.c:58
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Specifiera ett annat meddelande än \"Hej, Världen!\""
-
-#: src/hello.c:59
-msgid "MESSAGE"
-msgstr "MEDDELANDE"
-
-#: src/hello.c:67
-msgid "Specify the geometry of the main window"
-msgstr "Specifiera geometrin på huvudfönstret"
-
-#: src/hello.c:68
-msgid "GEOMETRY"
-msgstr "GEOMETRI"
-
-#: src/hello.c:120
-msgid "You must specify someone to greet."
-msgstr "Du måste säga vem jag ska hälsa till."
-
-#: src/hello.c:124
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Kommandoradsargument tillåts endast med --greet."
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Hej Gnome"
+msgstr "Gnome Hello"
 
-#: src/app.c:51 src/menus.c:122
+#: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
-msgstr "Hej, Världen!"
+msgstr "Hej vÃ¤rlden!"
 
-#: src/app.c:106
+#: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Kunde ej tolka geometri-strängen `%s'"
+msgstr "Kunde inte tolka geometristrÃ¤ngen \"%s\""
 
-#: src/app.c:115
+#: src/app.c:101
 msgid "Special Greetings to:\n"
-msgstr "Speciella hälsningar till:\n"
+msgstr "Speciella hÃ¤lsningar till:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "SÃ¤g hej till personerna angivna pÃ¥ kommandoraden"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Specifiera ett annat meddelande Ã¤n \"Hej, VÃ¤rlden!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "MEDDELANDE"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Ange geometrin pÃ¥ huvudfÃ¶nstret"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRI"
+
+#: src/hello.c:126
+msgid "You must specify someone to greet."
+msgstr "Du mÃ¥ste sÃ¤ga vem jag ska hÃ¤lsa till."
+
+#: src/hello.c:130
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Kommandoradsargument tillÃ¥ts endast med --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
-msgstr "_Ny Hej"
+msgstr "_Nytt hej"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr "Skapa en ny hej"
+msgstr "Skapa ett nytt hej"
 
 #: src/menus.c:85
 msgid "New"
-msgstr "Ny"
+msgstr "Nytt"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Föreg"
+msgstr "FÃ¶reg"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Föregående hej"
+msgstr "FÃ¶regÃ¥ende hej"
 
 #: src/menus.c:90
 msgid "Next"
-msgstr "Nästa"
+msgstr "NÃ¤sta"
 
 #: src/menus.c:90
 msgid "Next hello"
-msgstr "Nästa hej"
+msgstr "NÃ¤sta hej"
 
-#: src/menus.c:113
+#: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Detta gör ingenting; det är bara en demonstration."
+msgstr "Detta gÃ¶r ingenting; det Ã¤r bara en demonstration."
 
-#: src/menus.c:166
+#: src/menus.c:174
 msgid "GnomeHello"
-msgstr "GnomeHej"
+msgstr "GnomeHello"
 
-#: src/menus.c:169
+#: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "Ett exempel på en GNOME applikation."
+msgstr "Ett exempel pÃ¥ ett GNOME-program."

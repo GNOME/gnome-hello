@@ -1,3 +1,8 @@
+2002-01-27  Christian Rose  <menthos@menthos.com>
+
+	* POTFILES.in: Sorted and added missing newline at the end.
+	* sv.po: Updated and converted to UTF-8.
+
 2002-01-21  Wang Jian  <lark@linux.net.cn>
 
 	* zh_CN.po: Added Simplified Chinese translation by
@@ -77,3 +82,4 @@
 1999-06-28  Tomas Ogren  <stric@ing.umu.se>
 
 	* sv.po: New file
+
