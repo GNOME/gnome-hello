@@ -43,8 +43,6 @@ echo "- glib-gettextize."	&& \
   glib-gettextize --copy --force 	&& \
 echo "- intltoolize."		&& \
   intltoolize --copy --force	&& \
-echo "- libtoolize."		&& \
-  libtoolize --copy --force --automake 	&& \
 # We use aclocal-1.4 because that's required for automake-1.4 later.
 # Otherwise we get "automake requires `AM_CONFIG_HEADER', not `AC_CONFIG_HEADER'"
 echo "- aclocal"		&& \
