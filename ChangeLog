@@ -1,5 +1,9 @@
 2001-09-28  Glynn Foster <glynn.foster@sun.com>
 
+	* Forgot the omf files on previous commit.
+
+2001-09-28  Glynn Foster <glynn.foster@sun.com>
+
 	* doc/C/Makefile.am:
 	* doc/C/gnome-hello-C.omf:
 	* doc/es/Makefile.am:
