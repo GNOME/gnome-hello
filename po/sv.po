@@ -1,0 +1,101 @@
+# Swedish translation for Gnome Hello.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Tomas Ögren <stric@ing.umu.se>, 1999.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello 0.1\n"
+"POT-Creation-Date: 1999-06-28 05:00+0200\n"
+"PO-Revision-Date: 1999-06-28 05:00+0200\n"
+"Last-Translator: Tomas Ögren <stric@ing.umu.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: src/hello.c:49
+msgid "Say hello to specific people listed on the command line"
+msgstr "Säg hej till personerna angivna på kommandoraden"
+
+#: src/hello.c:58
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Specifiera ett annat meddelande än \"Hej, Världen!\""
+
+#: src/hello.c:59
+msgid "MESSAGE"
+msgstr "MEDDELANDE"
+
+#: src/hello.c:67
+msgid "Specify the geometry of the main window"
+msgstr "Specifiera geometrin på huvudfönstret"
+
+#: src/hello.c:68
+msgid "GEOMETRY"
+msgstr "GEOMETRI"
+
+#: src/hello.c:120
+msgid "You must specify someone to greet."
+msgstr "Du måste säga vem jag ska hälsa till."
+
+#: src/hello.c:124
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Kommandoradsargument tillåts endast med --greet."
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Hej Gnome"
+
+#: src/app.c:51 src/menus.c:122
+msgid "Hello, World!"
+msgstr "Hej, Världen!"
+
+#: src/app.c:106
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Kunde ej tolka geometri-strängen `%s'"
+
+#: src/app.c:115
+msgid "Special Greetings to:\n"
+msgstr "Speciella hälsningar till:\n"
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "_Ny Hej"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Skapa en ny hej"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Ny"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Föreg"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Föregående hej"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Nästa"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Nästa hej"
+
+#: src/menus.c:112
+msgid "This does nothing; it is only a demonstration."
+msgstr "Detta gör ingenting; det är bara en demonstration."
+
+#: src/menus.c:166
+msgid "GnomeHello"
+msgstr "GnomeHej"
+
+#: src/menus.c:169
+msgid "A sample GNOME application."
+msgstr "Ett exempel på en GNOME applikation."

@@ -1,5 +1,10 @@
 1999-06-28  Tomas Ogren  <stric@ing.umu.se>
 
+	* configure.in: Added sv.po
+	* po/sv.po: New file
+
+1999-06-28  Tomas Ogren  <stric@ing.umu.se>
+
 	* app.c, menus.c: Put config.h before gnome.h
 
 1999-06-27  Havoc Pennington  <hp@pobox.com>
