@@ -1,4 +1,4 @@
-# Norwegian translation of gnome-hello (bokmål dialect).
+# Norwegian translation of gnome-hello (nynorsk dialect).
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Kjartan Maraas <kmaraas@online.no>, 1999.
 # Roy-Magne Mo <rmo@sunnmore.net>, 2001
@@ -24,15 +24,16 @@ msgstr "Spesifiser ei anna melding enn \"Hello, World!\""
 
 #: src/hello.c:59
 msgid "MESSAGE"
-msgstr "MELDING"
+msgstr "MESSAGE"
 
 #: src/hello.c:67
 msgid "Specify the geometry of the main window"
 msgstr "Spesifiser geometrien for hovudvindauget"
 
 #: src/hello.c:68
+#, fuzzy
 msgid "GEOMETRY"
-msgstr "GEOMETRI"
+msgstr "GEOMETRY"
 
 #: src/hello.c:120
 msgid "You must specify someone to greet."
@@ -40,7 +41,7 @@ msgstr "Du må spesifisere nokon du vil helse."
 
 #: src/hello.c:124
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Kommandolinjeflagg er kun tillate med --greet."
+msgstr "Kommandolinjeflagg er berre tillate med --greet."
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -90,7 +91,7 @@ msgstr "Neste hallo"
 
 #: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
-msgstr "Dette gjer ingenting; det er kun ein demonstrasjon."
+msgstr "Dette gjer ingenting; det er berre ein demonstrasjon."
 
 #: src/menus.c:166
 msgid "GnomeHello"
