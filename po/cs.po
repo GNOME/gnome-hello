@@ -1,13 +1,13 @@
 # Czech translation of gnome-hello
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-hello package.
-# Miloslav Trmac <mitr@volny.cz>, 2002.
+# Miloslav Trmac <mitr@volny.cz>, 2002, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2003-01-17 10:38+0100\n"
-"PO-Revision-Date: 2002-12-09 20:28+0100\n"
+"POT-Creation-Date: 2003-02-06 11:07+0100\n"
+"PO-Revision-Date: 2003-02-07 18:16+0100\n"
 "Last-Translator: Miloslav Trmac <mitr@volny.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "Nový"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Přechozí"
+msgstr "Předchozí"
 
 #: src/menus.c:89
 msgid "Previous hello"
