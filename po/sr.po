@@ -7,10 +7,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello 2.2\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2003-05-05 00:57+0200\n"
-"Last-Translator: Бранко Ивановић <popeye@one.ekof.bg.ac.yu>\n"
+"Project-Id-Version: gnome-hello\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-11-29 06:02+0100\n"
+"PO-Revision-Date: 2003-11-29 06:00+0100\n"
+"Last-Translator: Данило Шеган <danilo@prevod.org>\n"
 "Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -102,7 +103,7 @@ msgstr "Следећи поздрав"
 
 #: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Ово не ради ништач; у питању је само демонстрација."
+msgstr "Ово не ради ништа; у питању је само демонстрација."
 
 #: src/menus.c:174
 msgid "GNOME Hello"

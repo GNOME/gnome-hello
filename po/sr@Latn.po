@@ -7,10 +7,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello 2.2\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2003-05-05 00:57+0200\n"
-"Last-Translator: Branko Ivanović <popeye@one.ekof.bg.ac.yu>\n"
+"Project-Id-Version: gnome-hello\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-11-29 06:02+0100\n"
+"PO-Revision-Date: 2003-11-29 06:00+0100\n"
+"Last-Translator: Danilo Šegan <danilo@prevod.org>\n"
 "Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -24,7 +25,7 @@ msgstr "Pozdravni Gnom Demo"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr "Primer programa koji koristi Gnom teхnologiju"
+msgstr "Primer programa koji koristi Gnom tehnologiju"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -86,11 +87,11 @@ msgstr "Novi"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Pretхodni"
+msgstr "Prethodni"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Pretхodni pozdrav"
+msgstr "Prethodni pozdrav"
 
 #: src/menus.c:90
 msgid "Next"
@@ -102,7 +103,7 @@ msgstr "Sledeći pozdrav"
 
 #: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Ovo ne radi ništač; u pitanju je samo demonstracija."
+msgstr "Ovo ne radi ništa; u pitanju je samo demonstracija."
 
 #: src/menus.c:174
 msgid "GNOME Hello"
