@@ -20,9 +20,9 @@
 
 /*** gnomehello-app */
 
+#include <config.h>
 #include "app.h"
 #include "menus.h"
-#include <config.h>
 
 /* Keep a list of all open application windows */
 static GSList* app_list = NULL;

@@ -20,9 +20,9 @@
 
 /*** gnomehello-menus */
 
+#include <config.h>
 #include "menus.h"
 #include "app.h"
-#include <config.h>
 
 static void nothing_cb(GtkWidget* widget, gpointer data);
 static void new_app_cb(GtkWidget* widget, gpointer data);
