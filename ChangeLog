@@ -1,3 +1,7 @@
+2001-11-24  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* configure.in: Added "az" and "wa" to ALL_LINGUAS.
+
 2001-10-18  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
 
 	* configure.in: Added "sk" to ALL_LINGUAS.
