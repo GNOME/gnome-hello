@@ -3,7 +3,7 @@
 # $Id$
 #
 # Copyright (c) 2002  Daniel Elstner  <daniel.elstner@gmx.net>,
-                2003  Murray Cumming  <murrayc@usa.net>
+#               2003  Murray Cumming  <murrayc@usa.net>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License VERSION 2 as

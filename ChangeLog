@@ -5,6 +5,8 @@
 	* The macros and intl directories are no longer needed, so
 	they are not checked out of CVS - they were cvs shared
 	directories.
+	* configure.in: Use the 3rd argument of "AC_DEFINE" instead of
+	acconfig.h,
 
 2002-12-11  Christian Neumair  <chris@gnome-de.org>
 

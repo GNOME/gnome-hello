@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2003-01-16 00:36+0100\n"
+"POT-Creation-Date: 2003-01-16 15:40+0100\n"
 "PO-Revision-Date: 1999-07-30 09:26-0400\n"
 "Last-Translator: Sergey Panov  <sipan@mit.edu>\n"
 "Language-Team: Russian <ru@li.org>\n"
