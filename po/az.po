@@ -1,5 +1,5 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# gnome-hello tərcüməsi.
+# Copyright (C) 2003 Free Software Foundation, Inc.
 # Azerbaijani Turkic <linuxaz@azerimail.net>, 2001
 #
 msgid ""
