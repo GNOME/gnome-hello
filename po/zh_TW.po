@@ -1,34 +1,34 @@
-# Traditional chinese translation for GnomeHello.
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Abel Cheung <maddog@linux.org.hk>, 2002.
+# traditional Chinese translation for gnome-hello
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Abel Cheung <maddog@linux.org.hk>, 2002-2003.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GnomeHello 2.0\n"
-"POT-Creation-Date: 2003-01-17 10:38+0100\n"
+"Project-Id-Version: gnome-hello 2.0\n"
+"POT-Creation-Date: 2003-01-23 03:48+0100\n"
 "PO-Revision-Date: 2002-02-06 11:46+0800\n"
 "Last-Translator: Abel Cheung <maddog@linux.org.hk>\n"
-"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr ""
+msgstr "GNOME Hello 示範"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr ""
+msgstr "用來示範 GNOME 技術的範例程式"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Gnome Hello"
+msgstr "GNOME Hello"
 
 #: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
-msgstr "你好！"
+msgstr "您好！"
 
 #: src/app.c:92
 #, c-format
@@ -45,7 +45,7 @@ msgstr "向在指定列裡指定的人打招呼"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "指定代替「你好！」的訊息。"
+msgstr "指定代替「您好！」的訊息。"
 
 #: src/hello.c:60
 msgid "MESSAGE"
@@ -61,7 +61,7 @@ msgstr "位置大小"
 
 #: src/hello.c:129
 msgid "You must specify someone to greet."
-msgstr "你必須指定想打招呼的人。"
+msgstr "閣下必須指定想打招呼的人。"
 
 #: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
@@ -100,13 +100,9 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "它沒有實際作用，只是一個示範。"
 
 #: src/menus.c:174
-#, fuzzy
 msgid "GNOME Hello"
-msgstr "新增訊息(_N)"
+msgstr "GNOME Hello"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "一個 Gnome 的範例程式。"
-
-#~ msgid "GnomeHello"
-#~ msgstr "GnomeHello"
+msgstr "一個 GNOME 的範例程式。"
