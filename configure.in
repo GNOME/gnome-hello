@@ -49,7 +49,6 @@ Makefile
 src/Makefile
 po/Makefile.in
 pixmaps/Makefile
-doc/Makefile
-doc/C/Makefile
-doc/es/Makefile
+help/Makefile
+help/C/Makefile
 ])

@@ -1,4 +1,4 @@
-SUBDIRS = po src pixmaps doc
+SUBDIRS = po src pixmaps help
 
 appdir = $(datadir)/applications
 app_in_files = gnome-hello.desktop.in

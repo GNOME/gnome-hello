@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML 4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<book id="gnome-hello">
+  <bookinfo>
+    <title>GnomeHello User's Guide</title>
+    <authorgroup>
+      <author>
+	<firstname>Havoc</firstname> <surname>Pennington</surname>
+	<affiliation>
+	  <address>
+	    <email>hp@pobox.com</email>
+	  </address>
+	</affiliation>
+      </author>
+    </authorgroup>
+    <copyright>
+      <year>1998, 1999</year> <holder>Havoc Pennington</holder>
+    </copyright>
+    <legalnotice>
+      <para>This documentation is free software; you can redistribute
+	it and/or modify it under the terms of the GNU General Public
+	License as published by the Free Software Foundation; either
+	version 2 of the License, or (at your option) any later
+	version.</para>
+      
+      <para>This program is distributed in the hope that it will be
+	useful, but WITHOUT ANY WARRANTY; without even the implied
+	warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	See the GNU General Public License for more details.</para>
+      
+      <para>You should have received a copy of the GNU General Public
+	License along with this program; if not, write to the Free
+	Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
+	MA 02111-1307 USA</para>
+      
+      <para>For more details see the file COPYING in the source
+	distribution of GNOME.</para>
+    </legalnotice>
+  </bookinfo>
+
+  <toc></toc>
+
+  <chapter id="intro">
+    <title>Introduction.</title>
+      <para>This is the GnomeHello user's guide. It doesn't contain
+      any actual information; we are just demonstrating how to install
+      help files.</para>
+  </chapter>
+ 
+   <chapter id="advanced">
+      <title>Advanced GnomeHello.</title> 
+      <para> GnomeHello is a complex program, with many advanced features. </para>
+   </chapter>
+
+</book>
+
+
+
+
+

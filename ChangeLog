@@ -1,3 +1,24 @@
+2002-09-02 John Fleck (jfleck@inkstain.net)
+
+	adding G2 docs build stuff
+	adding:
+	* omf.make
+	* xmldocs.make
+	* help/
+	* help/Makefile.am
+	* help/C/Makefile.am
+	* help/C/
+	* help/C/gnome-hello-C.omf
+	* help/C/gnome-hello.xml
+	* help/C/legal.xml
+	* help/C/figures/
+	* help/C/figures/gnome-hello.png
+	remove
+	* sgmldocs.make
+	change
+	* configure.in
+	* Makefile.am
+
 2002-09-02  Glynn Foster  <glynn.foster@sun.com>
 
 	* Makefile.am, NEWS, README, acconfig.h, autogen.sh, config.h.in,
