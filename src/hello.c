@@ -26,7 +26,7 @@
 #include "app.h"
 
 
-static gint session_die(GnomeClient* client, gpointer client_data);
+static void session_die(GnomeClient* client, gpointer client_data);
 
 static gint save_session(GnomeClient *client, gint phase, 
                          GnomeSaveStyle save_style,
@@ -187,11 +187,10 @@ save_session (GnomeClient *client, gint phase, GnomeSaveStyle save_style,
 /* gnomehello-save-session ***/
 
 /*** gnomehello-session-die */
-static gint 
+static void
 session_die(GnomeClient* client, gpointer client_data)
 {
   gtk_main_quit ();
-  return TRUE;
 }
 /* gnomehello-session-die ***/
 

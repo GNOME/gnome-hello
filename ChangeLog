@@ -1,3 +1,8 @@
+1999-08-25  Havoc Pennington  <hp@pobox.com>
+
+	* src/hello.c (session_die): "die" signal has no return value.
+	Doh.
+
 1999-07-30  Sergey Panov  <sipan@mit.edu>
 
         * configure.in: Added ru to ALL_LINGUAS
