@@ -1,3 +1,8 @@
+2004-11-22  Danilo Šegan  <dsegan@gmx.net>
+
+	* src/menus.c (create_ui_manager): Add call to
+	gtk_action_group_set_translation_domain().
+
 2004-11-18  Mariano Suárez-Alvarez  <mariano@gnome.org>
 
 	* autogen.sh: use gnome-common's autogen.sh, using automake-1.8.

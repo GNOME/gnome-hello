@@ -187,8 +187,8 @@ create_ui_manager (const gchar *group, gpointer user_data)
   GError *error;
 
   action_group = gtk_action_group_new (group);
+  gtk_action_group_set_translation_domain(action_group, NULL);
   gtk_action_group_add_actions (action_group, entries, G_N_ELEMENTS (entries), user_data);
-  
   ui_manager = gtk_ui_manager_new ();
   gtk_ui_manager_insert_action_group (ui_manager, action_group, 0);
 
