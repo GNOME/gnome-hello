@@ -109,9 +109,9 @@ nothing_cb(GtkWidget* widget, gpointer data)
   
   app = (GtkWidget*) data;
 
-  dialog = gnome_ok_dialog(_("This does nothing; it is only a demonstration."));
-
-  gnome_dialog_set_parent(GNOME_DIALOG(dialog), GTK_WINDOW(app));
+  dialog = gnome_ok_dialog_parented(
+          _("This does nothing; it is only a demonstration."),
+          GTK_WINDOW(app));
 }
 
 static void 

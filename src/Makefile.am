@@ -3,9 +3,9 @@ INCLUDES = -I$(top_srcdir) -I$(includedir) $(GNOME_INCLUDEDIR) \
          -DG_LOG_DOMAIN=\"GnomeHello\" -DGNOMELOCALEDIR=\""$(datadir)/locale"\" \
 	-I../intl -I$(top_srcdir)/intl
 
-bin_PROGRAMS = hello
+bin_PROGRAMS = gnome-hello
 
-hello_SOURCES =         \
+gnome_hello_SOURCES =         \
         app.c           \
         hello.c         \
         menus.c		\
@@ -13,4 +13,4 @@ hello_SOURCES =         \
 	hello.h		\
 	menus.h
 
-hello_LDADD = $(GNOMEUI_LIBS) $(GNOME_LIBDIR) $(INTLLIBS)
+gnome_hello_LDADD = $(GNOMEUI_LIBS) $(GNOME_LIBDIR) $(INTLLIBS)
