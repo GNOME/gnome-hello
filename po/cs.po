@@ -1,0 +1,109 @@
+# Czech translation of gnome-hello
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+# Miloslav Trmac <mitr@volny.cz>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello VERSION\n"
+"POT-Creation-Date: 2002-12-09 04:41+0100\n"
+"PO-Revision-Date: 2002-12-09 20:28+0100\n"
+"Last-Translator: Miloslav Trmac <mitr@volny.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME demo Ahoj"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Ukázková aplikace používající technologie GNOME"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Ahoj"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Ahoj, světe!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Nemohu zpracovat řetězec geometrie `%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Speciální pozdravy pro:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Řekněte ahoj konkrétním lidem vypsaným na příkazové řádce"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Zadejte zprávu jinou než \"Ahoj, světe!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "ZPRÁVA"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Zadejte geometrii hlavního okna"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRIE"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Musíte určit někoho, koho pozdravit."
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Argumenty příkazové řádky jsou povoleny jen s --greet."
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "_Nový pozdrav"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Vytvořit nový pozdrav"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Nový"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Přechozí"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Předchozí pozdrav"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Další"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Další pozdrav"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "Toto nic nedělá; je to jen ukázka."
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Ahoj"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "Ukázková aplikace GNOME."
