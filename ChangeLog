@@ -1,3 +1,7 @@
+2002-09-01  Gustavo Maciel Dias Vieira  <gdvieira@zaz.com.br>
+
+	* configure.in: Added pt_BR to ALL_LINGUAS.
+
 2002-02-06  Abel Cheung  <maddog@linux.org.hk>
 
 	* configure.in: Added "zh_CN" and "zh_TW" to ALL_LINGUAS.
