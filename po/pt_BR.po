@@ -1,111 +1,194 @@
-# gnome-hello: translation to Brazilian Portuguese (pt_BR)
-# Copyright (C) 2002 Free Software Foundation, Inc.
+# Brazilian Portuguese translation of gnome-hello.
+# Copyright (C) 2002-2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-hello package.
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2002.
-# based on the translation to Portuguese (pt) by
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2001
+# Raphael Higino <raphaelh@uai.com.br>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.0\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2002-11-23 00:52-0200\n"
-"Last-Translator: Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"Project-Id-Version: gnome-hello\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-11-22 11:08+0100\n"
+"PO-Revision-Date: 2004-11-22 11:30-0200\n"
+"Last-Translator: Raphael Higino <raphaelh@uai.com.br>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr "Demonstração GNOME Hello"
+msgstr "Demonstração do GNOME Hello"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr "Aplicação de exemplo usando as tecnologias GNOME"
+msgstr "Aplicação de exemplo usando as tecnologias do GNOME"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Olá Gnome"
-
-#: src/app.c:51 src/menus.c:127
-msgid "Hello, World!"
-msgstr "Olá, Mundo!"
-
-#: src/app.c:92
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "Incapaz de analisar expressão de geometria `%s'"
-
-#: src/app.c:101
-msgid "Special Greetings to:\n"
-msgstr "Agradecimentos Especiais para:\n"
-
-#: src/hello.c:50
-msgid "Say hello to specific people listed on the command line"
-msgstr "Diz olá para pessoas especificas, listadas na linha de comando"
-
-#: src/hello.c:59
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Especificar uma mensagem diferente de \"Olá Mundo!\""
-
-#: src/hello.c:60
-msgid "MESSAGE"
-msgstr "MENSAGEM"
-
-#: src/hello.c:68
-msgid "Specify the geometry of the main window"
-msgstr "Especificar a geometria da janela principal"
-
-#: src/hello.c:69
-msgid "GEOMETRY"
-msgstr "GEOMETRIA"
-
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Você tem que especificar alguém para cumprimentar."
-
-#: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Argumentos de linha de comando são permitidos apenas com --greet."
-
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "_Novo Olá"
-
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Criar um novo olá"
-
-#: src/menus.c:85
-msgid "New"
-msgstr "Novo"
-
-#: src/menus.c:89
-msgid "Prev"
-msgstr "Anterior"
-
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Olá anterior"
-
-#: src/menus.c:90
-msgid "Next"
-msgstr "Seguinte"
-
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Olá seguinte"
-
-#: src/menus.c:116
-msgid "This does nothing; it is only a demonstration."
-msgstr "Isto não faz nada; é apenas uma demonstração."
-
-#: src/menus.c:174
+#: src/app.c:50 src/menus.c:167
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: src/menus.c:177
-msgid "A sample GNOME application."
-msgstr "Uma aplicação de demonstração do GNOME"
+#: src/app.c:68 src/menus.c:124
+msgid "Hello, World!"
+msgstr "Olá, Mundo!"
+
+#: src/app.c:85
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Não foi possível analisar a expressão de geometria '%s'"
+
+#: src/app.c:92
+msgid "Special Greetings to:\n"
+msgstr "Agradecimentos Especiais para:\n"
+
+#: src/hello.c:47
+msgid "Say hello to specific people listed on the command line"
+msgstr "Diz olá para pessoas específicas, listadas na linha de comando"
+
+#: src/hello.c:56
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Especifica uma mensagem diferente de \"Olá, Mundo!\""
+
+#: src/hello.c:57
+msgid "MESSAGE"
+msgstr "MENSAGEM"
+
+#: src/hello.c:65
+msgid "Specify the geometry of the main window"
+msgstr "Especifica a geometria da janela principal"
+
+#: src/hello.c:66
+msgid "GEOMETRY"
+msgstr "GEOMETRIA"
+
+#: src/hello.c:114
+msgid "You must specify someone to greet.\n"
+msgstr "Você deve especificar alguém para cumprimentar.\n"
+
+#: src/hello.c:119
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Argumentos de linha de comando só são permitidos com --greet.\n"
+
+#: src/menus.c:75
+msgid "_File"
+msgstr "_Arquivo"
+
+#: src/menus.c:76
+msgid "_Edit"
+msgstr "_Editar"
+
+#: src/menus.c:77
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: src/menus.c:78
+msgid "_New"
+msgstr "_Novo"
+
+#: src/menus.c:79
+msgid "_Open"
+msgstr "_Abrir"
+
+#: src/menus.c:80
+msgid "_Save"
+msgstr "_Salvar"
+
+#: src/menus.c:81
+msgid "Save _As"
+msgstr "Salvar _Como"
+
+#: src/menus.c:82
+msgid "_Close"
+msgstr "_Fechar"
+
+#: src/menus.c:83
+msgid "_Quit"
+msgstr "Sai_r"
+
+#: src/menus.c:84
+msgid "Cu_t"
+msgstr "Recor_tar"
+
+#: src/menus.c:85
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: src/menus.c:86
+msgid "_Paste"
+msgstr "C_olar"
+
+#: src/menus.c:87
+msgid "Select _All"
+msgstr "Selecionar _Tudo"
+
+#: src/menus.c:88
+msgid "C_lear"
+msgstr "_Limpar"
+
+#: src/menus.c:89
+msgid "_Undo"
+msgstr "_Desfazer"
+
+#: src/menus.c:90
+msgid "_Redo"
+msgstr "_Refazer"
+
+#: src/menus.c:91
+msgid "_Find"
+msgstr "_Localizar"
+
+#: src/menus.c:92
+msgid "Find Ne_xt"
+msgstr "Localizar Pró_xima"
+
+#: src/menus.c:93
+msgid "R_eplace"
+msgstr "_Substituir"
+
+#: src/menus.c:94
+msgid "Pr_operties"
+msgstr "Pr_opriedades"
+
+#: src/menus.c:95
+msgid "_Contents"
+msgstr "_Conteúdo"
+
+#: src/menus.c:96
+msgid "_About"
+msgstr "_Sobre"
+
+#: src/menus.c:97
+msgid "_Previous"
+msgstr "_Anterior"
+
+#: src/menus.c:98
+msgid "_Next"
+msgstr "_Próxima"
+
+#: src/menus.c:113
+msgid "This does nothing; it is only a demonstration."
+msgstr "Isso não faz nada; é apenas uma demonstração."
+
+#: src/menus.c:171
+msgid "translator-credits"
+msgstr ""
+"Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
+"Raphael Higino <raphaelh@uai.com.br>"
+
+#~ msgid "Gnome Hello"
+#~ msgstr "Olá Gnome"
+
+#~ msgid "_New Hello"
+#~ msgstr "_Novo Olá"
+
+#~ msgid "Create a new hello"
+#~ msgstr "Criar um novo olá"
+
+#~ msgid "Prev"
+#~ msgstr "Anterior"
+
+#~ msgid "Next hello"
+#~ msgstr "Olá seguinte"
+
+#~ msgid "A sample GNOME application."
+#~ msgstr "Uma aplicação de demonstração do GNOME"
