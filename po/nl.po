@@ -1,30 +1,31 @@
-# gnome-hello nl.po
+# Dutch translation of gnome-hello
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>, 1999.
+# Tino Meinen <a.t.meinen@chello.nl>, 2003.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2003-01-16 15:40+0100\n"
-"PO-Revision-Date: 1999-06-28 13:29+0200\n"
-"Last-Translator: Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>\n"
-"Language-Team: nl <nl@li.com>\n"
+"Project-Id-Version: gnome-hello gnome2\n"
+"POT-Creation-Date: 2003-01-16 11:02+0100\n"
+"PO-Revision-Date: 2003-01-16 18:18+0100\n"
+"Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
+"Language-Team: Dutch <vertaling@nl.linux.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr ""
+msgstr "GNOME Hallo-demo"
 
 #: gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr ""
+msgstr "Voorbeeld-toepassing met GNOME-technologie"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Gnome Hello"
+msgstr "Gnome Hallo"
 
 #: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
@@ -33,15 +34,15 @@ msgstr "Hallo Wereld!"
 #: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Kan de geometrie string niet parsen '%s'"
+msgstr "Kan de geometrietekenreeks '%s' niet verwerken"
 
 #: src/app.c:101
 msgid "Special Greetings to:\n"
-msgstr "Speciale Begroeting aan:\n"
+msgstr "De groeten aan:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
-msgstr "Zeg hallo tegen de aangegeven mensen op de opdrachtregel"
+msgstr "Bepaalde mensen groeten die genoemd worden op de opdrachtregel"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
@@ -61,11 +62,11 @@ msgstr "GEOMETRIE"
 
 #: src/hello.c:129
 msgid "You must specify someone to greet."
-msgstr "Er moet iemand aangegeven worden om te groeten."
+msgstr "U moet iemand opgegeven om te groeten."
 
 #: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Argumenten op de opdrachtregen zijn alleen toegestaan met --greet."
+msgstr "Argumenten op de opdrachtregel, zijn alleen toegestaan met --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -81,7 +82,7 @@ msgstr "Nieuw"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Vorig"
+msgstr "Vorige"
 
 #: src/menus.c:89
 msgid "Previous hello"
@@ -89,7 +90,7 @@ msgstr "Vorige hallo"
 
 #: src/menus.c:90
 msgid "Next"
-msgstr "Volgend"
+msgstr "Volgende"
 
 #: src/menus.c:90
 msgid "Next hello"
@@ -97,16 +98,12 @@ msgstr "Volgende hallo"
 
 #: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Dit doet niets; is alleen ter demonstratie."
+msgstr "Dit doet niets; is hier alleen ter demonstratie."
 
 #: src/menus.c:174
-#, fuzzy
 msgid "GNOME Hello"
-msgstr "_Nieuwe Hallo"
+msgstr "GNOME Hallo"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "Een voorbeeld GNOME applicatie."
-
-#~ msgid "GnomeHello"
-#~ msgstr "GnomeHello"
+msgstr "Een voorbeeld GNOME-toepassing"
