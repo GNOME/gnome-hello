@@ -1,3 +1,8 @@
+2002-02-09 John Fleck (jfleck@inkstain.net)
+
+	* help/C/gnome-hello.xml
+	converting doc to <article> so you can actually read it
+
 2002-09-02 John Fleck (jfleck@inkstain.net)
 
 	adding G2 docs build stuff

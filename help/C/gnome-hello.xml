@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML 4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
-<book id="gnome-hello">
-  <bookinfo>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML 4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article id="gnome-hello">
+  <articleinfo>
     <title>GnomeHello User's Guide</title>
     <authorgroup>
       <author>
@@ -36,23 +36,21 @@
       <para>For more details see the file COPYING in the source
 	distribution of GNOME.</para>
     </legalnotice>
-  </bookinfo>
+  </articleinfo>
 
-  <toc></toc>
-
-  <chapter id="intro">
+  <sect1 id="intro">
     <title>Introduction.</title>
       <para>This is the GnomeHello user's guide. It doesn't contain
       any actual information; we are just demonstrating how to install
       help files.</para>
-  </chapter>
+  </sect1>
  
-   <chapter id="advanced">
+   <sect1 id="advanced">
       <title>Advanced GnomeHello.</title> 
       <para> GnomeHello is a complex program, with many advanced features. </para>
-   </chapter>
+   </sect1>
 
-</book>
+</article>
 
 
 
