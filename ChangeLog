@@ -1,3 +1,13 @@
+2002-09-02  Glynn Foster  <glynn.foster@sun.com>
+
+	* Makefile.am, NEWS, README, acconfig.h, autogen.sh, config.h.in,
+	 configure.in: Updates to build.
+
+	* pixmaps/Makefile.am, src/Makefile.am, src/hello.c, src/menus.c,
+	gnome-hello.desktop.in: Now use the new intltool stuff for 
+	desktop files. Include Categories keyword. Add window icon. Update
+	build stuff.
+
 2002-08-28  Gustavo Noronha Silva  <kov@debian.org>
 
 	* configure.in (ALL_LINGUAS): Added Brazilian Portuguese (pt_BR).

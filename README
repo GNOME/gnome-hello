@@ -1,3 +1,4 @@
-
-This is GnomeHello, an example program for my book about Gnome development.
-
+This is GNOME Hello, an example program for my book about GNOME development.
+GNOME Hello has been ported to the GNOME 2.0 Platform. If you are looking
+for the original source that corresponds to the book, then you will need to
+checkout the source from the 'gnome-hello-1-4' branch.

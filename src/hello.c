@@ -93,13 +93,16 @@ main(int argc, char** argv)
   char** args;
   int i;
 
-
-  bindtextdomain(PACKAGE, GNOMELOCALEDIR);  
-  textdomain(PACKAGE);
+  bindtextdomain(GETTEXT_PACKAGE, GNOMELOCALEDIR);  
+  bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
+  textdomain(GETTEXT_PACKAGE);
 
   gnome_hello = gnome_program_init(PACKAGE, VERSION, LIBGNOMEUI_MODULE,
 				   argc, argv, 
-				   GNOME_PARAM_POPT_TABLE, options, NULL);
+				   GNOME_PARAM_POPT_TABLE, options, 
+				   GNOME_PARAM_APP_DATADIR,DATADIR, NULL);
+
+  gnome_window_icon_set_default_from_file (GNOME_ICONDIR"/gnome-hello-logo.png");
 
   g_value_init (&value, G_TYPE_POINTER);
   g_object_get_property (G_OBJECT(gnome_hello), 

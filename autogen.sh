@@ -4,7 +4,7 @@
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
-PKG_NAME="Gnome Hello Demonstration Application"
+PKG_NAME="GNOME Hello Demonstration Application"
 
 (test -f $srcdir/configure.in \
   && test -f $srcdir/ChangeLog \

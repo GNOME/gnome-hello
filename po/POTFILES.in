@@ -3,3 +3,4 @@
 src/app.c
 src/hello.c
 src/menus.c
+gnome-hello.desktop.in

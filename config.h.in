@@ -7,7 +7,8 @@
 #undef HAVE_LC_MESSAGES
 #undef HAVE_STPCPY
 #undef ENABLE_NLS
-
+#undef GNOME_ICONDIR
+#undef GETTEXT_PACKAGE
 
 /* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
    systems. This function is required for `alloca.c' support on those systems.
@@ -16,6 +17,9 @@
 
 /* Define if using `alloca.c'. */
 #undef C_ALLOCA
+
+/* always defined to indicate that i18n is enabled */
+#undef ENABLE_NLS
 
 /* Define if you have `alloca', as a function or macro. */
 #undef HAVE_ALLOCA
@@ -37,6 +41,9 @@
 
 /* Define if you have the `getpagesize' function. */
 #undef HAVE_GETPAGESIZE
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
 
 /* Define if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H

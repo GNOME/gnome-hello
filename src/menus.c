@@ -171,7 +171,7 @@ about_cb(GtkWidget* widget, gpointer data)
      logo_filename = g_strdup(DATADIR "/pixmaps/gnome-hello-logo.png");
 
      logo = gdk_pixbuf_new_from_file(logo_filename, NULL); 
-     dialog = gnome_about_new (_("GnomeHello"), 
+     dialog = gnome_about_new (_("GNOME Hello"), 
 				VERSION,
                                 "(C) 1999 Havoc Pennington",
                                 _("A sample GNOME application."),
@@ -180,7 +180,9 @@ about_cb(GtkWidget* widget, gpointer data)
 				NULL,
                                 logo);
 
-      /* g_free(logo); */
+      gtk_window_set_transient_for (GTK_WINDOW (dialog), GTK_WINDOW (app));	
+      if (logo)
+	gdk_pixbuf_unref (logo);
       g_free(logo_filename);
 
       g_signal_connect(G_OBJECT(dialog),
