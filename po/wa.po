@@ -1,30 +1,56 @@
 # Translation into the walloon language.
 #
-# Si vos voloz donner on côp di spale pol ratoûrnaedje di Gnome (ou des
-# ôtes libes programes) sicrijhoz-mu a l' adresse emile
-# <srtxg@chanae.alphanet.ch>; nos avans co bråmint di l' ovraedje a fé.
+# Si vos voloz donner on cÃ´p di spale pol ratournaedje di Gnome (ou des
+# Ã´tes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avans co brÃ¥mint di l' ovraedje a fÃ©.
 #
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 2001
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 2001,2003
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 2.0\n"
-"POT-Creation-Date: 2001-11-24 13:21+0100\n"
+"POT-Creation-Date: 2003-01-12 15:31+0100\n"
 "PO-Revision-Date: 2001-02-07 17:37+0100\n"
 "Last-Translator: Pablo Saratxaga <srtxg@chanae.alphanet.ch>\n"
 "Language-Team: walon <linux-wa@chanae.alphanet.ch>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME BondjoÃ» di mostraedje"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Programe po mostrer l'Â eployaedje des tecnolodjeyes di GNOME"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome BondjoÃ»"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "BondjoÃ», Daegn!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Dji n'Â sai lere li tchinne di djeyometreye Â«%sÂ»"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Salutaedjes sipeciÃ¥s a:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
-msgstr "Dijhoz bondjoû ås ûzeus ki vos dnez sol roye di comande"
+msgstr "Dijhoz bondjoÃ» Ã¥s uzeus ki vos dnez sol roye di comande"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Diner on messaedje ôte kel classike «Bondjoû, Daegn!»"
+msgstr "Diner on messaedje Ã´te kel classike Â«BondjoÃ», Daegn!Â»"
 
 #: src/hello.c:60
 msgid "MESSAGE"
@@ -32,45 +58,27 @@ msgstr "MESSAEDJE"
 
 #: src/hello.c:68
 msgid "Specify the geometry of the main window"
-msgstr "Diner li djeometreye del mwaisse purnea"
+msgstr "Diner li djeyometreye do mwaisse purnea"
 
 #: src/hello.c:69
 msgid "GEOMETRY"
-msgstr "DJEOMETREYE"
+msgstr "DJEYOMETREYE"
 
-#: src/hello.c:126
+#: src/hello.c:129
 msgid "You must specify someone to greet."
-msgstr "Vos dvoz dner ene sakî po-z evoyer li messaedje di bondjoû."
+msgstr "Vos dvoz dner ene sakÃ® po-z evoyer li messaedje di bondjoÃ»."
 
-#: src/hello.c:130
+#: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Les tchûzes sol roye di comande n' alèt k' avou --greet."
-
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Gnome Bondjoû"
-
-#: src/app.c:51 src/menus.c:122
-msgid "Hello, World!"
-msgstr "Bondjoû, Daegn!"
-
-#: src/app.c:92
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "Dji n' sai lere li tchinne di djeometreye «%s»"
-
-#: src/app.c:101
-msgid "Special Greetings to:\n"
-msgstr "Salutaedjes sipeciås a:\n"
+msgstr "Les tchuzes sol roye di comande n'Â alÃ¨t k'Â avou --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
-msgstr "_Novea bondjoû"
+msgstr "_Novea bondjoÃ»"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr "Fé on novea bondjoû"
+msgstr "FÃ© on novea bondjoÃ»"
 
 #: src/menus.c:85
 msgid "New"
@@ -82,24 +90,24 @@ msgstr "Di dvant"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Bondjoû di dvant"
+msgstr "BondjoÃ» di dvant"
 
 #: src/menus.c:90
 msgid "Next"
-msgstr "Shûvant"
+msgstr "Shuvant"
 
 #: src/menus.c:90
 msgid "Next hello"
-msgstr "Bondjoû shûvant"
+msgstr "BondjoÃ» shuvant"
 
-#: src/menus.c:113
+#: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Çouchal ni fwait rén; c' est djusse on egzimpe."
+msgstr "Ã‡ouchal ni fwait rÃ©n; c'Â est djusse on egzimpe."
 
-#: src/menus.c:169
-msgid "GnomeHello"
-msgstr "GnomeBondjoû"
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME bondjoÃ»"
 
-#: src/menus.c:172
+#: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "On egzimpe di programe GNOME."
