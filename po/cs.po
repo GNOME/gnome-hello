@@ -1,13 +1,15 @@
 # Czech translation of gnome-hello
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2002, 2003, 2004 gnome-hello'S COPYRIGHT HOLDER
+# Copyright (C) 2004 Miloslav Trmac <mitr@volny.cz>
 # This file is distributed under the same license as the gnome-hello package.
-# Miloslav Trmac <mitr@volny.cz>, 2002, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2002, 2003, 2004
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2003-02-07 18:16+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-10-08 11:25+0200\n"
+"PO-Revision-Date: 2004-10-08 18:13+0200\n"
 "Last-Translator: Miloslav Trmac <mitr@volny.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -60,13 +62,13 @@ msgstr "Zadejte geometrii hlavního okna"
 msgid "GEOMETRY"
 msgstr "GEOMETRIE"
 
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Musíte určit někoho, koho pozdravit."
+#: src/hello.c:128
+msgid "You must specify someone to greet.\n"
+msgstr "Musíte určit, koho pozdravit.\n"
 
 #: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Argumenty příkazové řádky jsou povoleny jen s --greet."
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Parametry na příkazovém řádku jsou povoleny jen s --greet.\n"
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -100,10 +102,10 @@ msgstr "Další pozdrav"
 msgid "This does nothing; it is only a demonstration."
 msgstr "Toto nic nedělá; je to jen ukázka."
 
-#: src/menus.c:174
+#: src/menus.c:177
 msgid "GNOME Hello"
 msgstr "GNOME Ahoj"
 
-#: src/menus.c:177
+#: src/menus.c:180
 msgid "A sample GNOME application."
 msgstr "Ukázková aplikace GNOME."
