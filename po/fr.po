@@ -1,7 +1,7 @@
 # gnome-hello fr.po
 # Copyright (C) 1999,2001 Free Software Foundation, Inc.
 # Vincent Renardias <vincent@ldsol.com>, 1999.
-# Christophe Merlet (RedFox) <redfox@eikonex.org>, 2001.
+# maintainer: Christophe Merlet (RedFox) <redfox@eikonex.org>, 2001.
 #
 msgid ""
 msgstr ""
