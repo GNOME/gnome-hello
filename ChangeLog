@@ -1,3 +1,10 @@
+2002-01-03  Josh Barrow  <drleary@mac.com>
+
+	* src/Makefile.am:
+	* src/app.c: (hello_app_new):
+	* src/menus.c: (nothing_cb):
+	Changed to use the non-deprecated, preferred way of flight.
+
 2001-12-17  Duarte Loreto <happyguy_pt@hotmail.com>
 
         * configure.in: Added Portuguese to ALL_LINGUAS.

@@ -82,12 +82,12 @@ static GnomeUIInfo menu [] = {
 };
 
 static GnomeUIInfo toolbar [] = {
-  GNOMEUIINFO_ITEM_STOCK (N_("New"), N_("Create a new hello"), nothing_cb, GNOME_STOCK_PIXMAP_NEW),
+  GNOMEUIINFO_ITEM_STOCK (N_("New"), N_("Create a new hello"), nothing_cb, GTK_STOCK_NEW),
 
   GNOMEUIINFO_SEPARATOR,
 
-  GNOMEUIINFO_ITEM_STOCK (N_("Prev"), N_("Previous hello"), nothing_cb, GNOME_STOCK_PIXMAP_BACK),
-  GNOMEUIINFO_ITEM_STOCK (N_("Next"), N_("Next hello"), nothing_cb, GNOME_STOCK_PIXMAP_FORWARD),
+  GNOMEUIINFO_ITEM_STOCK (N_("Prev"), N_("Previous hello"), nothing_cb, GTK_STOCK_GO_BACK),
+  GNOMEUIINFO_ITEM_STOCK (N_("Next"), N_("Next hello"), nothing_cb, GTK_STOCK_GO_FORWARD),
 
   GNOMEUIINFO_END
 };
@@ -109,9 +109,14 @@ nothing_cb(GtkWidget* widget, gpointer data)
   
   app = (GtkWidget*) data;
 
-  dialog = gnome_ok_dialog_parented(
-          _("This does nothing; it is only a demonstration."),
-          GTK_WINDOW(app));
+  dialog = gtk_message_dialog_new (GTK_WINDOW (app),
+				   GTK_DIALOG_MODAL | GTK_DIALOG_DESTROY_WITH_PARENT,
+				   GTK_MESSAGE_INFO,
+				   GTK_BUTTONS_OK,
+				   _("This does nothing; it is only a demonstration."));
+
+  gtk_dialog_run (GTK_DIALOG (dialog));
+  gtk_widget_destroy (dialog);
 }
 
 static void 

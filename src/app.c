@@ -114,7 +114,12 @@ hello_app_new(const gchar* message,
           tmp = g_slist_next(tmp);
         }
       
-      dialog = gnome_ok_dialog(greetings);
+      dialog = gtk_message_dialog_new (GTK_WINDOW (app),
+				       GTK_DIALOG_DESTROY_WITH_PARENT,
+				       GTK_MESSAGE_INFO,
+				       GTK_BUTTONS_OK,
+				       greetings,
+				       NULL);
 
       g_free(greetings);
   

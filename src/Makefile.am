@@ -4,6 +4,8 @@ INCLUDES = -I$(top_srcdir)				\
            -DG_LOG_DOMAIN=\"GnomeHello\"		\
 	   -DGNOMELOCALEDIR=\""$(datadir)/locale"\"	\
 	   -DDATADIR=\""$(datadir)"\"			\
+	   -DG_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECATED \
+	   -DGDK_DISABLE_DEPRECATED -DGNOME_DISABLE_DEPRECATED \
 	   -I../intl -I$(top_srcdir)/intl
 
 bin_PROGRAMS = gnome-hello
