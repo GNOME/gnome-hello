@@ -1,6 +1,6 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
+gnome-hello.desktop.in
 src/app.c
 src/hello.c
 src/menus.c
-gnome-hello.desktop.in
