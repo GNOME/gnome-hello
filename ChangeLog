@@ -1,0 +1,13 @@
+1999-06-27  Havoc Pennington  <hp@pobox.com>
+
+	* hello.c: Put config.h before gnome.h. Doh.
+
+1999-06-27  Havoc Pennington  <hp@pobox.com>
+
+	* Initial import of version that went into GTK+/Gnome Application 
+	Development, first edition. All ChangeLog entries above this
+	adapt the program to new GNOME versions, fix bugs, or otherwise
+	enhance it.
+
+	
+

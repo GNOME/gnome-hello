@@ -20,8 +20,8 @@
 
 /*** gnomehello */
 
-#include <gnome.h>
 #include <config.h>
+#include <gnome.h>
 
 #include "app.h"
 
