@@ -4,9 +4,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello VERSION\n"
+"Project-Id-Version: gnome-hello 0.1\n"
 "POT-Creation-Date: 1999-07-08 18:53-0500\n"
-"PO-Revision-Date: 1999-07-08 01:09+0200\n"
+"PO-Revision-Date: 1999-07-10 14:31+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@online.no>\n"
 "Language-Team: Norwegian <no@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,37 +35,37 @@ msgstr "GEOMETRI"
 
 #: src/hello.c:120
 msgid "You must specify someone to greet."
-msgstr ""
+msgstr "Du må spesifisere noen du vil hilse."
 
 #: src/hello.c:124
 msgid "Command line arguments are only allowed with --greet."
-msgstr ""
+msgstr "Commandolinjeflagg tillates kun med --greet."
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr ""
+msgstr "Gnome Hallo"
 
 #: src/app.c:51 src/menus.c:122
 msgid "Hello, World!"
-msgstr ""
+msgstr "Hallo verden!"
 
 #: src/app.c:106
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr ""
+msgstr "Kunne ikke tolke geometristreng `%s'"
 
 #: src/app.c:115
 msgid "Special Greetings to:\n"
-msgstr ""
+msgstr "Spesielle hilsener til:\n"
 
 #: src/menus.c:35
 msgid "_New Hello"
-msgstr ""
+msgstr "_Ny hallo"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr ""
+msgstr "Lag en ny hallo"
 
 #: src/menus.c:85
 msgid "New"
@@ -89,12 +89,12 @@ msgstr "Neste hallo"
 
 #: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
-msgstr ""
+msgstr "Dette gjør ingenting; det er kun en demonstrasjon."
 
 #: src/menus.c:166
 msgid "GnomeHello"
-msgstr ""
+msgstr "GnomeHallo"
 
 #: src/menus.c:169
 msgid "A sample GNOME application."
-msgstr ""
+msgstr "En eksempelapplikasjon for GNOME."
