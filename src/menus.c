@@ -82,7 +82,7 @@ static GnomeUIInfo menu [] = {
 };
 
 static GnomeUIInfo toolbar [] = {
-  GNOMEUIINFO_ITEM_STOCK (N_("New"), N_("Create a new hello"), nothing_cb, GTK_STOCK_NEW),
+  GNOMEUIINFO_ITEM_STOCK (N_("New"), N_("Create a new hello"), new_app_cb, GTK_STOCK_NEW),
 
   GNOMEUIINFO_SEPARATOR,
 

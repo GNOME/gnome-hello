@@ -3,7 +3,7 @@ AC_INIT(src/hello.c)
 AM_CONFIG_HEADER(config.h)
 
 dnl Might as well give it a GNOME 2.0 version number
-AM_INIT_AUTOMAKE(gnome-hello, 2.0)
+AM_INIT_AUTOMAKE(gnome-hello, 2.0.1)
 
 AM_MAINTAINER_MODE
 

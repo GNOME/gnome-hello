@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
-"POT-Creation-Date: 2003-01-16 15:40+0100\n"
+"POT-Creation-Date: 2003-01-17 10:38+0100\n"
 "PO-Revision-Date: 1999-08-08 15:01+CET\n"
 "Last-Translator: GNOME PL Team\n"
 "Language-Team: Polish <gnomepl@pandora.info.bielsko.pl>\n"
