@@ -2,45 +2,46 @@
 # Copyright (C) 1999 Havoc Pennington
 # Havoc Pennington <hp@pobox.com>, 1999.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-07-08 18:53-0500\n"
-"PO-Revision-Date: 1999-04-26 HO:MI+ZONE\n"
-"Last-Translator: Havoc Pennington <hp@pobox.com>\n"
+"Project-Id-Version: gnome-hello 0.1\n"
+"POT-Creation-Date: 1999-04-16 16:43+0200\n"
+"PO-Revision-Date: 1998-11-21 12:14+0100\n"
+"Last-Translator: Pablo Saratxaga <srtxg@chanae.alphanet.ch>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Date: 1998-11-21 12:14+0100\n"
+"From: Pablo Saratxaga <srtxg@chanae.alphanet.ch>\n"
 
 #: src/hello.c:49
 msgid "Say hello to specific people listed on the command line"
-msgstr ""
+msgstr "Mandar un saludo a la lista de personas dada en la líne de comando"
 
 #: src/hello.c:58
 msgid "Specify a message other than \"Hello, World!\""
-msgstr ""
+msgstr "Especificar un mensaje distinto de \"¡Hola, Mundo!\""
 
 #: src/hello.c:59
 msgid "MESSAGE"
-msgstr ""
+msgstr "MENSAJE"
 
 #: src/hello.c:67
 msgid "Specify the geometry of the main window"
-msgstr ""
+msgstr "Especificar la geometría de la ventana principal"
 
 #: src/hello.c:68
 msgid "GEOMETRY"
-msgstr ""
+msgstr "GEOMETRÍA"
 
 #: src/hello.c:120
 msgid "You must specify someone to greet."
-msgstr ""
+msgstr "Debe especificar una persona a quien saludar."
 
 #: src/hello.c:124
 msgid "Command line arguments are only allowed with --greet."
-msgstr ""
+msgstr "Los argumentos en la línea de comando solo son válidos con --greet."
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -54,50 +55,48 @@ msgstr "¡Hola, Mundo!"
 #: src/app.c:106
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr ""
+msgstr "No pude analyzar la cadena de texto de geometría '%s'"
 
 #: src/app.c:115
 msgid "Special Greetings to:\n"
-msgstr ""
+msgstr "Saludos especiales a:\n"
 
 #: src/menus.c:35
-#, fuzzy
 msgid "_New Hello"
-msgstr "Gnome Hola"
+msgstr "_Nuevo Saludo"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr ""
+msgstr "Crea un nuevo saludo"
 
 #: src/menus.c:85
 msgid "New"
-msgstr ""
+msgstr "Nuevo"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr ""
+msgstr "Anterior"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr ""
+msgstr "Saludo anterior"
 
 #: src/menus.c:90
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: src/menus.c:90
 msgid "Next hello"
-msgstr ""
+msgstr "Saludo siguiente"
 
 #: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
-msgstr ""
+msgstr "Esto no hace nada; es solo una muestra."
 
 #: src/menus.c:166
-#, fuzzy
 msgid "GnomeHello"
-msgstr "Gnome Hola"
+msgstr "GnomeHello"
 
 #: src/menus.c:169
 msgid "A sample GNOME application."
-msgstr ""
+msgstr "Una muestra de programa para GNOME."
