@@ -1,3 +1,16 @@
+2003-07-14  Murray Cumming  <murrayc@usa.net>
+
+	* autogen.sh:
+	- Put libtoolize back, to unbreak the build. libtool is for use of 
+	libraries as well as for creating libraries.
+	- Used regular aclocal and automake, because I think the problems
+	that required the -1.4 versions are now solved.
+	- We now seem to get scrollkeeper errors that stop distcheck from
+	working, so I hope someone finds an explanation or solution for that.
+	* omf-install/Makefile.am: Copied the contents from 
+	gedit/omf-install/Makefile.am which I think has a good chance of
+	being up-to-date. The distcheck error is still there though.
+
 2003-06-03  Malcolm Tredinnick <malcolm@commsecure.com.au>
 	
 	* autogen.sh: No need to call libtoolize, since we're not

@@ -41,19 +41,18 @@ rm -f config.cache
 # (containing a local copy of libintl code), and therefore has a slightly different Makefile.
 echo "- glib-gettextize."	&& \
   glib-gettextize --copy --force 	&& \
+echo "- libtoolize."		&& \
+  libtoolize --force	&& \
 echo "- intltoolize."		&& \
   intltoolize --copy --force	&& \
-# We use aclocal-1.4 because that's required for automake-1.4 later.
-# Otherwise we get "automake requires `AM_CONFIG_HEADER', not `AC_CONFIG_HEADER'"
 echo "- aclocal"		&& \
-  aclocal-1.4 			&& \
+  aclocal 			&& \
 echo "- autoheader"		&& \
   autoheader			&& \
 echo "- autoconf."		&& \
   autoconf			&& \
-# We use automake-1.4 because later versions cause a failure during distcheck's distuninstall.
 echo "- automake."		&& \
-  automake-1.4 --add-missing --gnu	&& \
+  automake --add-missing --gnu	&& \
 echo				&& \
   ./configure "$@"		&& exit 0
 

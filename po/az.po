@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 2.0\n"
-"POT-Creation-Date: 2003-03-22 12:08+0100\n"
+"POT-Creation-Date: 2003-07-14 20:04+0200\n"
 "PO-Revision-Date: 2003-03-22 21:40+0200\n"
 "Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
 "Language-Team: Azerbaijani Turkic <linuxaz@azerimail.net>\n"
@@ -26,8 +26,7 @@ msgstr "GNOME texnologiyalarını işlədən nümunə proqram"
 msgid "Gnome Hello"
 msgstr "Gnome Salamlaşma"
 
-#: src/app.c:51
-#: src/menus.c:127
+#: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
 msgstr "Xoş gördük, Dünya!"
 
@@ -72,8 +71,7 @@ msgstr "Əmr sətiri arqumentləri təkcə --greet ilə qəbul edilir."
 msgid "_New Hello"
 msgstr "_Yeni Salamlaşma"
 
-#: src/menus.c:36
-#: src/menus.c:85
+#: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
 msgstr "Yeni salamlaşma yarat"
 
@@ -108,4 +106,3 @@ msgstr "GNOME Salamlaşma"
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Sadə GNOME təminatı."
-

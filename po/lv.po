@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2002-11-09 04:39+0100\n"
+"POT-Creation-Date: 2003-07-14 20:04+0200\n"
 "PO-Revision-Date: 2002-11-09 22:03+0200\n"
 "Last-Translator: Artis Trops <hornet@navigators.lv>\n"
 "Language-Team: Latvian <ll10nt@ttc.lv>\n"
@@ -26,8 +26,7 @@ msgstr "Parauga aplikācija, kas lieto GNOME tehnoloģijas"
 msgid "Gnome Hello"
 msgstr "Gnome Sveiciens"
 
-#: src/app.c:51
-#: src/menus.c:127
+#: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
 msgstr "Sveika Pasaule!"
 
@@ -37,12 +36,8 @@ msgid "Could not parse geometry string `%s'"
 msgstr "Nevar parsēt ģeometrisko virkni `%s'"
 
 #: src/app.c:101
-msgid ""
-"Special Greetings to:\n"
-""
-msgstr ""
-"Speciāli sveicieni:\n"
-""
+msgid "Special Greetings to:\n"
+msgstr "Speciāli sveicieni:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
@@ -76,8 +71,7 @@ msgstr "Komandrindas argumenti atļauti tikai ar --greet."
 msgid "_New Hello"
 msgstr "_Jauns Sveiciens"
 
-#: src/menus.c:36
-#: src/menus.c:85
+#: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
 msgstr "Izveidot jaunu sveicienu"
 
@@ -112,4 +106,3 @@ msgstr "GNOME Sveiciens"
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Parauga GNOME aplikācija."
-
