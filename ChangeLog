@@ -1,3 +1,8 @@
+2003-09-18 	Mohammad DAMT  <mdamt@bisnisweb.com> 
+
+	* configure.ac: Added Indonesian ('id') to ALL_LINGUAS 
+	* po/id.po:	Added Indonesian translation 
+
 2003-08-03  Carlos Perelló Marín <carlos@gnome.org>
 
 	* ABOUT-NLS: Removed, it should not be at cvs.gnome.org

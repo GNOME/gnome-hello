@@ -1,0 +1,112 @@
+# Indonesian translation of  Gnome-Hello.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Iqbal "ReZa" Fazlurrahman <iqb4l@bonbon.net>, 2003.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-09-18 12:04+0700\n"
+"PO-Revision-Date: 2003-09-18 12:14+0700\n"
+"Last-Translator: Iqbal \"ReZa\" Fazlurrahman <iqb4l@bonbon.net>\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Hello Demo"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Contoh aplikasi menggunakan teknologi GNOME"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Apa kabar dunia!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Tidak dapat menguraikan geometry string `%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Sambutan khusus untuk:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr ""
+"Katakan hello kepada orang secara spesifik yang terdaftar pada baris perintah"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Tetapkan sebuah pesan selain dari \"Hello, World!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "PESAN"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Tentukan ukuran window utama"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Kamu harus menetapkan seseorang yang akan disambut."
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Argumen perintah hanya diperbolehkan dengan --greet."
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "Hello baru"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Buat sebuah hello baru"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "Buat baru"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Sebelumnya"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Hello sebelumnya"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Hello berikutnya"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "Tidak ada apa-apa. Cuma demo saja."
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "Sebuah contoh aplikasi GNOME."
