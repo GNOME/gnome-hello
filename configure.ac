@@ -33,7 +33,7 @@ fi
 
 AC_DEFINE_UNQUOTED(GNOME_ICONDIR, "${prefix}/share/pixmaps", "definition of GNOME_ICONDIR")
 
-ALL_LINGUAS="am az be bg cs da de el es fi fr gl he hr id it ja lv mn ms nl nn no pl pt pt_BR ru sk sr sr@Latn sv tr uk vi wa zh_CN zh_TW"
+ALL_LINGUAS="am az be bg ca cs da de el es fi fr gl he hr id it ja lv mn ms nl nn no pl pt pt_BR ru sk sr sr@Latn sv tr uk vi wa zh_CN zh_TW"
 
 GETTEXT_PACKAGE=gnome-hello-2.0
 AC_SUBST(GETTEXT_PACKAGE)
