@@ -127,6 +127,3 @@
 /* Version number of package */
 #undef VERSION
 
-/* define if compiled symbols have a leading underscore */
-#undef WITH_SYMBOL_UNDERSCORE
-

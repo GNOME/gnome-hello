@@ -2,11 +2,10 @@
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Kjartan Maraas <kmaraas@online.no>, 1999.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 1999-07-08 01:09+0200\n"
+"POT-Creation-Date: 1999-07-08 18:53-0500\n"
 "PO-Revision-Date: 1999-07-08 01:09+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@online.no>\n"
 "Language-Team: Norwegian <no@li.org>\n"
@@ -35,7 +34,8 @@ msgid "GEOMETRY"
 msgstr "GEOMETRI"
 
 #: src/hello.c:120
-msgid "You must specify someone to greet.""
+msgid "You must specify someone to greet."
+msgstr ""
 
 #: src/hello.c:124
 msgid "Command line arguments are only allowed with --greet."

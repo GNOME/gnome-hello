@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 1999-06-28 05:00+0200\n"
+"POT-Creation-Date: 1999-07-08 18:53-0500\n"
 "PO-Revision-Date: 1999-06-28 05:00+0200\n"
 "Last-Translator: Tomas Ögren <stric@ing.umu.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
@@ -88,7 +88,7 @@ msgstr "Nästa"
 msgid "Next hello"
 msgstr "Nästa hej"
 
-#: src/menus.c:112
+#: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Detta gör ingenting; det är bara en demonstration."
 

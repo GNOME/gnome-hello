@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 1999-06-28 13:29+0200\n"
+"POT-Creation-Date: 1999-07-08 18:53-0500\n"
 "PO-Revision-Date: 1999-06-28 13:29+0200\n"
 "Last-Translator: Vincent Renardias <vincent@ldsol.com>\n"
 "Language-Team: Vincent Renardias <vincent@ldsol.com>\n"
@@ -39,7 +39,8 @@ msgstr "Vous devez spécifier un nom de personne à saluer."
 
 #: src/hello.c:124
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Les paramétres en ligne de commande sont seulement authorisés avec --greet."
+msgstr ""
+"Les paramétres en ligne de commande sont seulement authorisés avec --greet."
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -87,7 +88,7 @@ msgstr "Suivant"
 msgid "Next hello"
 msgstr "Bonjour suivant"
 
-#: src/menus.c:112
+#: src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Cela ne fait rien; c'est seulement une démonstration."
 
