@@ -1,3 +1,13 @@
+2001-09-28  Glynn Foster <glynn.foster@sun.com>
+
+	* doc/C/Makefile.am:
+	* doc/C/gnome-hello-C.omf:
+	* doc/es/Makefile.am:
+	* doc/es/gnome-hello-es.omf:
+	* sgmldocs.make:
+	  More stuff to have scrollkeeper support. I think
+	  it's mostly working now.
+
 2001-09-27  Glynn Foster <glynn.foster@sun.com>
 
 	* src/menus.c: (about_cb): Fixed up the about
