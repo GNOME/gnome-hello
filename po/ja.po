@@ -1,0 +1,109 @@
+# gnome-hello ja.po
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-hello package.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello HEAD\n"
+"POT-Creation-Date: 2003-03-05 05:07+0100\n"
+"PO-Revision-Date: 2003-03-17 22:26+0900\n"
+"Last-Translator: KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Hello デモ"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "GNOME テクノロジを利用したサンプルアプリケーション"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "こんにちは、世界!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "位置情報 '%s' を解釈できませんでした"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "特別な挨拶の相手:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "コマンドラインに列挙された人たちに挨拶してください"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "\"こんにちは、世界!\" 以外のメッセージを指定してください"
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "メッセージ"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "メインウィンドウの位置を指定してください"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "位置"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "挨拶を伝える人を指定しなければなりません"
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "コマンドライン引数は --greet に続けなければなりません。"
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "新規 Hello(_N)"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "新規の挨拶を作成"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "新規"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "前へ"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "前の挨拶へ"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "次へ"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "次の挨拶へ"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "これは何もしません; ただのデモンストレーションです。"
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "サンプル GNOME アプリケーション。"
