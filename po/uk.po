@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 1999-10-19 17:33+0200\n"
+"PO-Revision-Date: 2004-02-05 13:03-0500\n"
 "Last-Translator: Yuri Syrota <rasta@renome.rovno.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=koi8-u\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gnome-hello.desktop.in.h:1
@@ -24,89 +24,89 @@ msgstr ""
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Прив╕тання GNOME"
+msgstr "п÷я─п╦п╡я√я┌п╟п╫п╫я▐ GNOME"
 
 #: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
-msgstr "Прив╕т, Св╕т!"
+msgstr "п÷я─п╦п╡я√я┌, п║п╡я√я┌!"
 
 #: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Неможливо роз╕брати опис геометр╕╖ `%s'"
+msgstr "п²п╣п╪п╬п╤п╩п╦п╡п╬ я─п╬п╥я√п╠я─п╟я┌п╦ п╬п©п╦я│ пЁп╣п╬п╪п╣я┌я─я√я≈ `%s'"
 
 #: src/app.c:101
 msgid "Special Greetings to:\n"
-msgstr "Особлив╕ в╕тання для:\n"
+msgstr "п·я│п╬п╠п╩п╦п╡я√ п╡я√я┌п╟п╫п╫я▐ п╢п╩я▐:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
-msgstr "В╕та╓ людей вказаних в командному рядку"
+msgstr "п▓я√я┌п╟я■ п╩я▌п╢п╣п╧ п╡п╨п╟п╥п╟п╫п╦я┘ п╡ п╨п╬п╪п╟п╫п╢п╫п╬п╪я┐ я─я▐п╢п╨я┐"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Вказати прив╕тання ╕нше н╕ж \"Hello, World!\""
+msgstr "п▓п╨п╟п╥п╟я┌п╦ п©я─п╦п╡я√я┌п╟п╫п╫я▐ я√п╫я┬п╣ п╫я√п╤ \"Hello, World!\""
 
 #: src/hello.c:60
 msgid "MESSAGE"
-msgstr "ПОВ╤ДОМЛЕННЯ"
+msgstr "п÷п·п▓п├п■п·п°п⌡п∙п²п²п╞"
 
 #: src/hello.c:68
 msgid "Specify the geometry of the main window"
-msgstr "Вказати геометр╕ю головного в╕кна"
+msgstr "п▓п╨п╟п╥п╟я┌п╦ пЁп╣п╬п╪п╣я┌я─я√я▌ пЁп╬п╩п╬п╡п╫п╬пЁп╬ п╡я√п╨п╫п╟"
 
 #: src/hello.c:69
 msgid "GEOMETRY"
-msgstr "ГЕОМЕТР╤Я"
+msgstr "п⌠п∙п·п°п∙п╒п═п├п╞"
 
 #: src/hello.c:129
 msgid "You must specify someone to greet."
-msgstr "Ви мусите вказати кого прив╕тати."
+msgstr "п▓п╦ п╪я┐я│п╦я┌п╣ п╡п╨п╟п╥п╟я┌п╦ п╨п╬пЁп╬ п©я─п╦п╡я√я┌п╟я┌п╦."
 
 #: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Параметри командного рядка дозволен╕ лише з --greet."
+msgstr "п÷п╟я─п╟п╪п╣я┌я─п╦ п╨п╬п╪п╟п╫п╢п╫п╬пЁп╬ я─я▐п╢п╨п╟ п╢п╬п╥п╡п╬п╩п╣п╫я√ п╩п╦я┬п╣ п╥ --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
-msgstr "Нове Прив╕тання"
+msgstr "п²п╬п╡п╣ п÷я─п╦п╡я√я┌п╟п╫п╫я▐"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr "Створення нового прив╕тання"
+msgstr "п║я┌п╡п╬я─п╣п╫п╫я▐ п╫п╬п╡п╬пЁп╬ п©я─п╦п╡я√я┌п╟п╫п╫я▐"
 
 #: src/menus.c:85
 msgid "New"
-msgstr "Нове"
+msgstr "п²п╬п╡п╣"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Попередн╓"
+msgstr "п÷п╬п©п╣я─п╣п╢п╫я■"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Попередн╓ прив╕тання"
+msgstr "п÷п╬п©п╣я─п╣п╢п╫я■ п©я─п╦п╡я√я┌п╟п╫п╫я▐"
 
 #: src/menus.c:90
 msgid "Next"
-msgstr "Наступне"
+msgstr "п²п╟я│я┌я┐п©п╫п╣"
 
 #: src/menus.c:90
 msgid "Next hello"
-msgstr "Наступне прив╕тання"
+msgstr "п²п╟я│я┌я┐п©п╫п╣ п©я─п╦п╡я√я┌п╟п╫п╫я▐"
 
 #: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Не робить н╕чого; це лише демонстрац╕я."
+msgstr "п²п╣ я─п╬п╠п╦я┌я▄ п╫я√я┤п╬пЁп╬; я├п╣ п╩п╦я┬п╣ п╢п╣п╪п╬п╫я│я┌я─п╟я├я√я▐."
 
 #: src/menus.c:174
 #, fuzzy
 msgid "GNOME Hello"
-msgstr "Нове Прив╕тання"
+msgstr "п²п╬п╡п╣ п÷я─п╦п╡я√я┌п╟п╫п╫я▐"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "Приклад програми для GNOME."
+msgstr "п÷я─п╦п╨п╩п╟п╢ п©я─п╬пЁя─п╟п╪п╦ п╢п╩я▐ GNOME."
 
 #~ msgid "GnomeHello"
 #~ msgstr "GnomeHello"

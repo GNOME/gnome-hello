@@ -1,3 +1,18 @@
+2004-02-06  Alexander Winston  <alexander.winston@comcast.net>
+
+	* de.po: Converted to UTF-8.
+	* gl.po: Converted to UTF-8.
+	* id.po: Converted to UTF-8.
+	* it.po: Converted to UTF-8.
+	* ms.po: Converted to UTF-8.
+	* nn.po: Converted to UTF-8.
+	* ru.po: Converted to UTF-8.
+	* tr.po: Converted to UTF-8.
+	* uk.po: Converted to UTF-8.
+
+	With the help of iconv(1), all translations should now be in the
+	UTF-8 character encoding. Rejoice in their beauty!
+
 2004-02-06  Robert Sedak  <robert.sedak@sk.htnet.hr>
 
 	* hr.po: Updated Croatian translation.

@@ -1,18 +1,18 @@
 # Turkish translation of gnome-hello.
 # Copyright (C) 1999-2001 Free Software Foundation, Inc.
 # Fatih Demir <kabalak@gmx.net>, 1999.
-# Ömer Fadýl USTA <omer_fad@hotmail.com>, 2001
+# Ã–mer FadÄ±l USTA <omer_fad@hotmail.com>, 2001
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello  0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2003-12-28 21:42+0000\n"
-"PO-Revision-Date: 2001-12-24 17:02+0200\n"
-"Last-Translator: Ömer Fadýl USTA <omer_fad@hotmail.com>\n"
+"PO-Revision-Date: 2004-02-05 13:04-0500\n"
+"Last-Translator: Ã–mer FadÄ±l USTA <omer_fad@hotmail.com>\n"
 "Language-Team: GNOME Turk <gnome-turk@gnome.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-9\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gnome-hello.desktop.in.h:1
@@ -30,24 +30,24 @@ msgstr "Gnome Hello"
 
 #: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
-msgstr "Merhaba, dünya !"
+msgstr "Merhaba, dÃ¼nya !"
 
 #: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "`%s'yi kullanamadým "
+msgstr "`%s'yi kullanamadÄ±m "
 
 #: src/app.c:101
 msgid "Special Greetings to:\n"
-msgstr "Ve bunlarý özellikle selamlýyoruz :\n"
+msgstr "Ve bunlarÄ± Ã¶zellikle selamlÄ±yoruz :\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
-msgstr "Komut Satýrýnda listelenen özgül insanlara merhabalaþýr"
+msgstr "Komut SatÄ±rÄ±nda listelenen Ã¶zgÃ¼l insanlara merhabalaÅŸÄ±r"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "\"Merhaba, Dünya !\"'dan baþka bir mesaj ver"
+msgstr "\"Merhaba, DÃ¼nya !\"'dan baÅŸka bir mesaj ver"
 
 #: src/hello.c:60
 msgid "MESSAGE"
@@ -59,15 +59,15 @@ msgstr "Ana pencerenin geometrisini belirle"
 
 #: src/hello.c:69
 msgid "GEOMETRY"
-msgstr "GEOMETRÝ"
+msgstr "GEOMETRÄ°"
 
 #: src/hello.c:129
 msgid "You must specify someone to greet."
-msgstr "Selamlanacak birisini vermek zorundasýn ."
+msgstr "Selamlanacak birisini vermek zorundasÄ±n ."
 
 #: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
-msgstr "Komutalar sadece --greet ile beraberen doðrudur ."
+msgstr "Komutalar sadece --greet ile beraberen doÄŸrudur ."
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -75,7 +75,7 @@ msgstr "Ye_ni Merhaba"
 
 #: src/menus.c:36 src/menus.c:85
 msgid "Create a new hello"
-msgstr "Yeni bir Merhaba oluþtur"
+msgstr "Yeni bir Merhaba oluÅŸtur"
 
 #: src/menus.c:85
 msgid "New"
@@ -83,23 +83,23 @@ msgstr "Yeni"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Önceki"
+msgstr "Ã–nceki"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Önceki Merhaba"
+msgstr "Ã–nceki Merhaba"
 
 #: src/menus.c:90
 msgid "Next"
-msgstr "Önümüzdeki"
+msgstr "Ã–nÃ¼mÃ¼zdeki"
 
 #: src/menus.c:90
 msgid "Next hello"
-msgstr "Önümüzdeki Merhaba"
+msgstr "Ã–nÃ¼mÃ¼zdeki Merhaba"
 
 #: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
-msgstr "Bu hiç bir þey yapmýyor ; bu sadece bir deneydir ."
+msgstr "Bu hiÃ§ bir ÅŸey yapmÄ±yor ; bu sadece bir deneydir ."
 
 #: src/menus.c:174
 #, fuzzy
@@ -108,7 +108,7 @@ msgstr "Ye_ni Merhaba"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "GNOME için bir örnek uygulama ."
+msgstr "GNOME iÃ§in bir Ã¶rnek uygulama ."
 
 #~ msgid "GnomeHello"
 #~ msgstr "GnomeHello"
