@@ -1,10 +1,12 @@
 [Desktop Entry]
 Name=Gnome Hello
 Name[es]=Gnome Hola
+Name[fi]=GNOME-hei
 Name[no]=Gnome hallo
 Name[sv]=Gnome Hej
 Comment=Hello World
 Comment[es]=Hola Mundo
+Comment[fi]=Hei, maailma
 Comment[sv]=Hej Världen
 Comment[no]=Hallo verden
 Exec=gnome-hello
