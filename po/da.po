@@ -6,13 +6,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 2002-09-29 19:06+0200\n"
+"POT-Creation-Date: 2003-01-16 00:36+0100\n"
 "PO-Revision-Date: 2002-09-29 19:06+0200\n"
 "Last-Translator: Ole Laursen <olau@hardworking.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "Gnome hej-demonstration"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Eksempelprogram der bruger Gnome-teknologier"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -99,12 +107,3 @@ msgstr "Gnome-hej"
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Et eksempelprogram til Gnome."
-
-#. gnomehello-menus **
-#: gnome-hello.desktop.in.h:1
-msgid "GNOME Hello Demo"
-msgstr "Gnome hej-demonstration"
-
-#: gnome-hello.desktop.in.h:2
-msgid "Sample application using GNOME technologies"
-msgstr "Eksempelprogram der bruger Gnome-teknologier"

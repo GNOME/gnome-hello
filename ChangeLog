@@ -1,3 +1,11 @@
+2003-01-16  Murray Cumming  <murrayc@usa.net>
+
+	* Updated autogen.sh to be a standalone script, with some
+	comments about the specific steps and versions used.
+	* The macros and intl directories are no longer needed, so
+	they are not checked out of CVS - they were cvs shared
+	directories.
+
 2002-12-11  Christian Neumair  <chris@gnome-de.org>
 
 	* help/.cvsignore, help/C/.cvsignore: Added.

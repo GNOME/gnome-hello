@@ -5,13 +5,39 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0\n"
-"POT-Creation-Date: 2001-12-16 07:27-0500\n"
+"POT-Creation-Date: 2003-01-16 00:36+0100\n"
 "PO-Revision-Date: 2001-12-17 01:36+0000\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <none@none.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr ""
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr ""
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Olá Gnome"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Olá, Mundo!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Incapaz de parsear expressão de geometria `%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Agradecimentos Especiais para:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
@@ -33,31 +59,13 @@ msgstr "Especificar a geometria da janela principal"
 msgid "GEOMETRY"
 msgstr "GEOMETRIA"
 
-#: src/hello.c:126
+#: src/hello.c:129
 msgid "You must specify someone to greet."
 msgstr "Tem de especificar alguém a cumprimentar."
 
-#: src/hello.c:130
+#: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
 msgstr "Argumentos de linha de comando são apenas permitidos com --greet."
-
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Olá Gnome"
-
-#: src/app.c:51 src/menus.c:122
-msgid "Hello, World!"
-msgstr "Olá, Mundo!"
-
-#: src/app.c:92
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "Incapaz de parsear expressão de geometria `%s'"
-
-#: src/app.c:101
-msgid "Special Greetings to:\n"
-msgstr "Agradecimentos Especiais para:\n"
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -87,14 +95,18 @@ msgstr "Seg"
 msgid "Next hello"
 msgstr "Olá Seguinte"
 
-#: src/menus.c:113
+#: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
 msgstr "Isto não faz nada; é apenas uma demonstração."
 
-#: src/menus.c:169
-msgid "GnomeHello"
-msgstr "OláGnome"
+#: src/menus.c:174
+#, fuzzy
+msgid "GNOME Hello"
+msgstr "_Novo Olá"
 
-#: src/menus.c:172
+#: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Uma aplicação de amostra GNOME"
+
+#~ msgid "GnomeHello"
+#~ msgstr "OláGnome"

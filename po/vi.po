@@ -4,13 +4,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2002-05-14 19:24+0200\n"
+"POT-Creation-Date: 2003-01-16 00:36+0100\n"
 "PO-Revision-Date: 2002-05-23 20:11+0700\n"
 "Last-Translator: pclouds <pclouds@gmx.net>\n"
 "Language-Team: GnomeVI <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr ""
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr ""
 
 #. ** gnomehello-widgets
 #: src/app.c:45
@@ -50,11 +58,11 @@ msgstr "Xác định tọa độ cửa sổ chính"
 msgid "GEOMETRY"
 msgstr "TỌA ĐỘ"
 
-#: src/hello.c:126
+#: src/hello.c:129
 msgid "You must specify someone to greet."
 msgstr "Bạn phải xác định ai cần chào hỏi."
 
-#: src/hello.c:130
+#: src/hello.c:133
 msgid "Command line arguments are only allowed with --greet."
 msgstr "Đối số dòng lệnh chỉ có thể là --greet."
 
@@ -91,9 +99,13 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "Chương trình này không làm gì cả; chỉ là một ví dụ minh họa."
 
 #: src/menus.c:174
-msgid "GnomeHello"
-msgstr "GnomeHello"
+#, fuzzy
+msgid "GNOME Hello"
+msgstr "_Lời chào mới"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Ứng dụng mẫu của GNOME."
+
+#~ msgid "GnomeHello"
+#~ msgstr "GnomeHello"

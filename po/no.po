@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 1999-08-18 13:56-0400\n"
+"POT-Creation-Date: 2003-01-16 00:36+0100\n"
 "PO-Revision-Date: 1999-07-10 14:31+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@online.no>\n"
 "Language-Team: Norwegian <no@li.org>\n"
@@ -13,51 +13,59 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: src/hello.c:49
-msgid "Say hello to specific people listed on the command line"
-msgstr "Si hallo til spesifikke personer som listes på kommandolinjen"
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr ""
 
-#: src/hello.c:58
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Spesifiser en annen melding enn \"Hello, World!\""
-
-#: src/hello.c:59
-msgid "MESSAGE"
-msgstr "MELDING"
-
-#: src/hello.c:67
-msgid "Specify the geometry of the main window"
-msgstr "Spesifiser geometrien for hovedvinduet"
-
-#: src/hello.c:68
-msgid "GEOMETRY"
-msgstr "GEOMETRI"
-
-#: src/hello.c:120
-msgid "You must specify someone to greet."
-msgstr "Du må spesifisere noen du vil hilse."
-
-#: src/hello.c:124
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Commandolinjeflagg tillates kun med --greet."
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr ""
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
 msgstr "Gnome Hallo"
 
-#: src/app.c:51 src/menus.c:122
+#: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
 msgstr "Hallo verden!"
 
-#: src/app.c:106
+#: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Kunne ikke tolke geometristreng `%s'"
 
-#: src/app.c:115
+#: src/app.c:101
 msgid "Special Greetings to:\n"
 msgstr "Spesielle hilsener til:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Si hallo til spesifikke personer som listes på kommandolinjen"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Spesifiser en annen melding enn \"Hello, World!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "MELDING"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Spesifiser geometrien for hovedvinduet"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRI"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Du må spesifisere noen du vil hilse."
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Commandolinjeflagg tillates kun med --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -87,14 +95,18 @@ msgstr "Neste"
 msgid "Next hello"
 msgstr "Neste hallo"
 
-#: src/menus.c:113
+#: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dette gjør ingenting; det er kun en demonstrasjon."
 
-#: src/menus.c:166
-msgid "GnomeHello"
-msgstr "GnomeHallo"
+#: src/menus.c:174
+#, fuzzy
+msgid "GNOME Hello"
+msgstr "_Ny hallo"
 
-#: src/menus.c:169
+#: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "En eksempelapplikasjon for GNOME."
+
+#~ msgid "GnomeHello"
+#~ msgstr "GnomeHallo"

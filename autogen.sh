@@ -1,22 +1,59 @@
-#!/bin/sh
-# Run this to generate all the initial makefiles, etc.
+#! /bin/sh
 
-srcdir=`dirname $0`
-test -z "$srcdir" && srcdir=.
+# $Id$
+#
+# Copyright (c) 2002  Daniel Elstner  <daniel.elstner@gmx.net>,
+                2003  Murray Cumming  <murrayc@usa.net>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License VERSION 2 as
+# published by the Free Software Foundation.  You are not allowed to
+# use any other version of the license; unless you got the explicit
+# permission from the author to do so.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-PKG_NAME="GNOME Hello Demonstration Application"
 
-(test -f $srcdir/configure.in \
-  && test -f $srcdir/ChangeLog \
-  && test -d $srcdir/src) || {
-    echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
-    echo " top-level gnome directory"
+dir=`echo "$0" | sed 's,[^/]*$,,'`
+test "x${dir}" = "x" && dir='.'
+
+if test "x`cd "${dir}" 2>/dev/null && pwd`" != "x`pwd`"
+then
+    echo "This script must be executed directly from the source directory."
     exit 1
-}
+fi
 
+# This might not be necessary with newer autotools:
+rm -f config.cache
 
-which gnome-autogen.sh || {
-    echo "You need to install gnome-common from the GNOME CVS"
-    exit 1
-}
-USE_GNOME2_MACROS=1 . gnome-autogen.sh
+# We use glib-gettextize, which apparently does not add the intl directory 
+# (containing a local copy of libintl code), and therefore has a slightly different Makefile.
+echo "- glib-gettextize."	&& \
+  glib-gettextize --copy --force 	&& \
+echo "- intltoolize."		&& \
+  intltoolize --copy --force	&& \
+echo "- libtoolize."		&& \
+  libtoolize --copy --force --automake 	&& \
+# We use aclocal-1.4 because that's required for automake-1.4 later.
+# Otherwise we get "automake requires `AM_CONFIG_HEADER', not `AC_CONFIG_HEADER'"
+echo "- aclocal"		&& \
+  aclocal-1.4 			&& \
+echo "- autoheader"		&& \
+  autoheader			&& \
+echo "- autoconf."		&& \
+  autoconf			&& \
+# We use automake-1.4 because later versions cause a failure during distcheck's distuninstall.
+echo "- automake."		&& \
+  automake-1.4 --add-missing --gnu	&& \
+echo				&& \
+  ./configure "$@"		&& exit 0
+
+exit 1
+

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.0\n"
-"POT-Creation-Date: 1999-08-18 13:56-0400\n"
+"POT-Creation-Date: 2003-01-16 00:36+0100\n"
 "PO-Revision-Date: 1999-08-15 02:15+0200\n"
 "Last-Translator: Mikko Rauhala <mjr@iki.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -13,51 +13,59 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:49
-msgid "Say hello to specific people listed on the command line"
-msgstr "Sano \"hei\" komentorivill‰ listatuille ihmisille"
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr ""
 
-#: src/hello.c:58
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "M‰‰rittele muu viesti kuin \"Hei, maailma!\""
-
-#: src/hello.c:59
-msgid "MESSAGE"
-msgstr "VIESTI"
-
-#: src/hello.c:67
-msgid "Specify the geometry of the main window"
-msgstr "M‰‰rittele p‰‰ikkunan geometria"
-
-#: src/hello.c:68
-msgid "GEOMETRY"
-msgstr "GEOMETRIA"
-
-#: src/hello.c:120
-msgid "You must specify someone to greet."
-msgstr "Sinun t‰ytyy m‰‰ritell‰ joku, jota tervehti‰."
-
-#: src/hello.c:124
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Komentoriviparametrit sallittuja vain parametrilla --greet."
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr ""
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
 msgstr "GNOME-hei"
 
-#: src/app.c:51 src/menus.c:122
+#: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
 msgstr "Hei, maailma!"
 
-#: src/app.c:106
+#: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Geometriam‰‰rityst‰ '%s' ei voitu tulkita."
 
-#: src/app.c:115
+#: src/app.c:101
 msgid "Special Greetings to:\n"
 msgstr "Erikoistervehdykset seuraaville:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Sano \"hei\" komentorivill‰ listatuille ihmisille"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "M‰‰rittele muu viesti kuin \"Hei, maailma!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "VIESTI"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "M‰‰rittele p‰‰ikkunan geometria"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRIA"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Sinun t‰ytyy m‰‰ritell‰ joku, jota tervehti‰."
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Komentoriviparametrit sallittuja vain parametrilla --greet."
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -87,14 +95,18 @@ msgstr "Seuraava"
 msgid "Next hello"
 msgstr "Seuraava \"hei\""
 
-#: src/menus.c:113
+#: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
 msgstr "T‰m‰ ei tee mit‰‰n, onpahan vain demonstraatio."
 
-#: src/menus.c:166
-msgid "GnomeHello"
-msgstr "GNOME-hei"
+#: src/menus.c:174
+#, fuzzy
+msgid "GNOME Hello"
+msgstr "_Uusi \"Hei\""
 
-#: src/menus.c:169
+#: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Esimerkinomainen GNOME-sovellus."
+
+#~ msgid "GnomeHello"
+#~ msgstr "GNOME-hei"

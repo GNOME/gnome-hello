@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello VERSION\n"
-"POT-Creation-Date: 2002-11-17 04:39+0100\n"
+"POT-Creation-Date: 2003-01-16 00:36+0100\n"
 "PO-Revision-Date: 2002-11-17 17:45+0200\n"
 "Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
@@ -43,7 +43,8 @@ msgstr "Ευχαριστίες σε:\n"
 
 #: src/hello.c:50
 msgid "Say hello to specific people listed on the command line"
-msgstr "Πείτε hello σε συγκεκριμένους ανθρώπους που αναφέρονται στην γραμμή εντολών"
+msgstr ""
+"Πείτε hello σε συγκεκριμένους ανθρώπους που αναφέρονται στην γραμμή εντολών"
 
 #: src/hello.c:59
 msgid "Specify a message other than \"Hello, World!\""
@@ -108,4 +109,3 @@ msgstr "GNOME Hello"
 #: src/menus.c:177
 msgid "A sample GNOME application."
 msgstr "Μια εφαρμογή επίδειξης του GNOME"
-
