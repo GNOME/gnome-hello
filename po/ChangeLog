@@ -1,3 +1,9 @@
+2002-01-30  Ole Laursen  <olau@hardworking.dk>
+
+	* da.po: Fixed a few bugs in the Danish translation (as if people
+	care for translation bugs in Gnome Hello :-), and converted it to
+	UTF-8.
+
 2002-01-27  Christian Rose  <menthos@menthos.com>
 
 	* POTFILES.in: Sorted and added missing newline at the end.
