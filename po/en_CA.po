@@ -1,0 +1,113 @@
+# English/Canada translation of gnome-hello.
+# Copyright (C) 2004 THE gnome-hello'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+# Adam Weinberger <adamw@gnome.org>, 2004.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-05-01 13:13-0400\n"
+"PO-Revision-Date: 2004-05-01 13:14-0400\n"
+"Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
+"Language-Team: English/Canada <adamw@FreeBSD.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Hello Demo"
+
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Sample application using GNOME technologies"
+
+#. ** gnomehello-widgets
+#: src/app.c:45
+msgid "Gnome Hello"
+msgstr "Gnome Hello"
+
+#: src/app.c:51 src/menus.c:127
+msgid "Hello, World!"
+msgstr "Hello, World!"
+
+#: src/app.c:92
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Could not parse geometry string `%s'"
+
+#: src/app.c:101
+msgid "Special Greetings to:\n"
+msgstr "Special Greetings to:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Say hello to specific people listed on the command line"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Specify a message other than \"Hello, World!\""
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "MESSAGE"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Specify the geometry of the main window"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "You must specify someone to greet."
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Command line arguments are only allowed with --greet."
+
+#: src/menus.c:35
+msgid "_New Hello"
+msgstr "_New Hello"
+
+#: src/menus.c:36 src/menus.c:85
+msgid "Create a new hello"
+msgstr "Create a new hello"
+
+#: src/menus.c:85
+msgid "New"
+msgstr "New"
+
+#: src/menus.c:89
+msgid "Prev"
+msgstr "Prev"
+
+#: src/menus.c:89
+msgid "Previous hello"
+msgstr "Previous hello"
+
+#: src/menus.c:90
+msgid "Next"
+msgstr "Next"
+
+#: src/menus.c:90
+msgid "Next hello"
+msgstr "Next hello"
+
+#: src/menus.c:116
+msgid "This does nothing; it is only a demonstration."
+msgstr "This does nothing; it is only a demonstration."
+
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: src/menus.c:177
+msgid "A sample GNOME application."
+msgstr "A sample GNOME application."
+
