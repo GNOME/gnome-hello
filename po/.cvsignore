@@ -1,9 +1,11 @@
 *.gmo
-Makefile
 GnomeHello.pot
-POTFILES
-stamp-cat-id
-cat-id-tbl.c
+Makefile
 Makefile
 Makefile.in
 Makefile.in.in
+POTFILES
+cat-id-tbl.c
+gnome-hello-2.0.pot
+messages.mo
+stamp-cat-id
