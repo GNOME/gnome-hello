@@ -1,3 +1,8 @@
+2001-09-30  Glynn Foster <glynn.foster@sun.com>
+	
+	* Apparently I forgot to commit sgmldocs.make.
+	  Hey, it was Friday, give me a break :P
+
 2001-09-28  Glynn Foster <glynn.foster@sun.com>
 
 	* Give the docs proper categories
