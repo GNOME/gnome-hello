@@ -2,7 +2,6 @@
 # Copyright (C) 1999 Free Software Foundation, Inc.
 #  Fatih Demir <kabalak@gmx.net>, 1999.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello  0.1\n"
