@@ -1,11 +1,11 @@
 # Translation of gnome-hello to Croatiann
 # Copyright (C) Croatiann team
-# Translators: Automatski Prijevod <>,
+# Translators: Automatski Prijevod <>,Robert Sedak <robert.sedak@sk.tel.hr>,
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0\n"
-"POT-Creation-Date: 2004-02-01 17:02+0100\n"
-"PO-Revision-Date: 2004-02-05 23:48+CET\n"
+"POT-Creation-Date: 2004-03-20 14:52+0100\n"
+"PO-Revision-Date: 2004-03-20 14:52+CET\n"
 "Last-Translator: auto\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "MIME-Version: 1.0\n"
@@ -47,9 +47,8 @@ msgid "Specify a message other than \"Hello, World!\""
 msgstr ""
 
 #: src/hello.c:60
-#, fuzzy
 msgid "MESSAGE"
-msgstr "Poruka"
+msgstr "PORUKA"
 
 #: src/hello.c:68
 msgid "Specify the geometry of the main window"
@@ -100,9 +99,8 @@ msgid "This does nothing; it is only a demonstration."
 msgstr "Ovo ne radi ništa, ovo je samo demonstracija."
 
 #: src/menus.c:174
-#, fuzzy
 msgid "GNOME Hello"
-msgstr "Gnome Dobar dan"
+msgstr "GNOME Dobar dan"
 
 #: src/menus.c:177
 msgid "A sample GNOME application."
