@@ -21,6 +21,10 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 
+# This is meant to be a well-documented, good example of an autogen.sh script
+# Please email gnome-devel-list@gnome.org if you think it isn't.
+
+
 dir=`echo "$0" | sed 's,[^/]*$,,'`
 test "x${dir}" = "x" && dir='.'
 
