@@ -1,3 +1,7 @@
+1999-09-26  Havoc Pennington  <hp@pobox.com>
+
+	* Makefile.am (EXTRA_DIST): Put autogen.sh in the distribution.
+
 1999-09-25  Kjartan MAraas  <kmaraas@online.no>
 
 	* configure.in: Added da to ALL_LINGUAS.
