@@ -1,3 +1,11 @@
+2001-10-28  Roy-Magne Mo  <rmo@sunnmore.net>
+
+	* no.po: Added Norwegian (nynorsk) translation
+
+2001-10-28  gettextize  <bug-gnu-utils@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.10.40.
+
 2001-10-18  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
 
 	* sk.po: Added Slovak translation from Martin Lacko <lacko@host.sk>.
