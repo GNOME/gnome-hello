@@ -1,3 +1,7 @@
+2003-03-10  Gil "Dolfin" Osher <dolfin@rpg.org.il>
+
+	* configure.ac: Added Hebrew (he) to ALL_LINGUAS.
+
 2003-02-20  Dmitry G. Mastrukov  <dmitry@taurussoft.org>
 
 	* configure.ac: Added Belarusian to ALL_LINGUAS.
