@@ -1,5 +1,17 @@
 2001-09-27  Glynn Foster <glynn.foster@sun.com>
 
+	* src/menus.c: (about_cb): Fixed up the about
+	  dialog a bit although default background is 
+          broken in libgnomeui at the momment.
+	
+	* configure.in: Added check for scrollkeeper.
+	* doc/C/gnome-hello.sgml, doc/es/gnome-hello.sgml:
+	  Convert to Docbook 4.1
+	* omf-install/Makefile.am: Added scrollkeeper stuff.
+	  Thanks to Greg LeBlanc for this :)
+
+2001-09-27  Glynn Foster <glynn.foster@sun.com>
+
 	* configure.in, Makefile.am: Remove building
 	  of intl and silly AC_SUBST bits that aren't
 	  needed.

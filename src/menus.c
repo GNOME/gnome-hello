@@ -161,12 +161,11 @@ about_cb(GtkWidget* widget, gpointer data)
         NULL
       };
      GdkPixbuf* logo;
-     GError *error;
-     gchar* logo_filename;
+     gchar* logo_filename = NULL;
 
      logo_filename = g_strdup(DATADIR "/pixmaps/gnome-hello-logo.png");
 
-     logo = gdk_pixbuf_new_from_file(g_strdup(logo_filename), NULL);
+     logo = gdk_pixbuf_new_from_file(logo_filename, NULL); 
      dialog = gnome_about_new (_("GnomeHello"), 
 				VERSION,
                                 "(C) 1999 Havoc Pennington",
@@ -176,7 +175,7 @@ about_cb(GtkWidget* widget, gpointer data)
 				NULL,
                                 logo);
 
-      g_free(logo);
+      /* g_free(logo); */
       g_free(logo_filename);
 
       g_signal_connect(G_OBJECT(dialog),
