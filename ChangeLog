@@ -1,3 +1,7 @@
+2003-04-26  Takeshi AIHANA <aihana@gnome.gr.jp>
+
+	* configure.ac: Added 'ja' into ALL_LINGUAS.
+
 2003-03-10  Gil "Dolfin" Osher <dolfin@rpg.org.il>
 
 	* configure.ac: Added Hebrew (he) to ALL_LINGUAS.
