@@ -1,8 +1,34 @@
 <?xml version="1.0"?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML 4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
-<article id="gnome-hello">
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+  <!ENTITY legal SYSTEM "legal.xml">
+  <!ENTITY appversion "2.0">
+  <!ENTITY manrevision "2.0">
+  <!ENTITY date "September 2002">
+  <!ENTITY app "<application>GNOME Hello</application>">
+  <!-- Information about the entities
+       The legal.xml file contains legal information, there is no need to edit the file. 
+       Use the appversion entity to specify the version of the application.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the name of the application. -->
+]>
+<article id="index" lang="en">
   <articleinfo>
-    <title>GnomeHello User's Guide</title>
+    <title>&app; Manual V&manrevision;</title>
+<copyright> 
+      <year>1998</year> 
+      <year>1999</year> 
+      <holder>Havoc Pennington</holder> 
+    </copyright> 
+    <copyright> 
+      <year>2002</year> 
+      <holder>John Fleck</holder> 
+    </copyright>
+    <publisher> 
+      <publishername> GNOME Documentation Project </publishername> 
+    </publisher> 
+    &legal;
     <authorgroup>
       <author>
 	<firstname>Havoc</firstname> <surname>Pennington</surname>
@@ -12,42 +38,79 @@
 	  </address>
 	</affiliation>
       </author>
+      <author>
+	<firstname>John</firstname> 
+		<surname>Fleck</surname> 
+		<affiliation> 
+	  		<orgname>GNOME Documentation Project</orgname> 
+	  		<address> <email>jfleck@inkstain.net</email> </address> 
+		</affiliation> 
+      </author> 
     </authorgroup>
-    <copyright>
-      <year>1998, 1999</year> <holder>Havoc Pennington</holder>
-    </copyright>
-    <legalnotice>
-      <para>This documentation is free software; you can redistribute
-	it and/or modify it under the terms of the GNU General Public
-	License as published by the Free Software Foundation; either
-	version 2 of the License, or (at your option) any later
-	version.</para>
-      
-      <para>This program is distributed in the hope that it will be
-	useful, but WITHOUT ANY WARRANTY; without even the implied
-	warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-	See the GNU General Public License for more details.</para>
-      
-      <para>You should have received a copy of the GNU General Public
-	License along with this program; if not, write to the Free
-	Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
-	MA 02111-1307 USA</para>
-      
-      <para>For more details see the file COPYING in the source
-	distribution of GNOME.</para>
-    </legalnotice>
+    <revhistory>
+      <revision>
+	<revnumber>GNOME Hello Manual V 0</revnumber>
+	<date>1998</date>
+	<revdescription>
+	  <para role="author">Havoc Pennington</para>
+	</revdescription>
+      </revision>
+      <revision>
+	<revnumber>GNOME Hello Manual V 1</revnumber>
+	<date>1998</date>
+	<revdescription>
+	  <para role="author">Havoc Pennington</para>
+	</revdescription>
+      </revision>
+      <revision>
+	<revnumber>GNOME Hello Manual V &appversion;</revnumber>
+	<date>2002</date>
+	<revdescription>
+	  <para role="author">John Fleck
+	    <email>jfleck@inkstain.net</email>
+	  </para>
+	</revdescription>
+      </revision>
+    </revhistory>
+
+    <releaseinfo>This manual describes version &appversion; of GNOME Hello.
+    </releaseinfo> 
+      <legalnotice> 
+      <title>Feedback</title> 
+      <para>To report a bug or make a suggestion regarding the &app; application or
+      this manual, follow the directions in the <ulink url="ghelp:gnome-feedback"
+	  type="help">GNOME Feedback Page</ulink>. 
+      </para>
+      </legalnotice>
   </articleinfo>
 
   <sect1 id="intro">
     <title>Introduction.</title>
-      <para>This is the GnomeHello user's guide. It doesn't contain
-      any actual information; we are just demonstrating how to install
+      <para>This is the &app; user's guide. It does not contain
+      any actual information. We are demonstrating how to install
       help files.</para>
+    <figure id="mainwindow-fig"> 
+	<title>&app; Window</title> 
+	<screenshot> 
+	  <mediaobject> 
+	    <imageobject><imagedata
+		fileref="figures/gnome-hello.png" format="PNG"/> 
+	    </imageobject>
+	    
+	    <textobject> 
+	      <phrase>Shows &app; main window.</phrase> 
+	    </textobject> 
+	  </mediaobject> 
+	</screenshot> 
+    </figure>
   </sect1>
  
    <sect1 id="advanced">
       <title>Advanced GnomeHello.</title> 
-      <para> GnomeHello is a complex program, with many advanced features. </para>
+      <para> GnomeHello is a complex program, with many advanced
+      features.</para>
+
+
    </sect1>
 
 </article>

@@ -1,3 +1,9 @@
+Thu Sep  5 20:57:59 MDT 2002 John Fleck <jfleck@inkstain.net>
+
+	* help/C/gnome-hello.xml
+	finished updating the help doc to match the template,
+	added screenshot!
+
 2002-09-02  Glynn Foster  <glynn.foster@sun.com>
 
 	* gnome-hello.desktop.in: Update to give a better name
