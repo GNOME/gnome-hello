@@ -6,59 +6,67 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 1999-08-18 13:56-0400\n"
-"PO-Revision-Date: 2000-06-10 22:55+02:00\n"
-"Last-Translator: Karsten Weiss <karsten@addx.au.s.shuttle.de>\n"
+"POT-Creation-Date: 2002-12-11 18:47+0100\n"
+"PO-Revision-Date: 2002-11-28 13:21+0100\n"
+"Last-Translator: Christian Neumair <chris@gnome-de.org>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/hello.c:49
-msgid "Say hello to specific people listed on the command line"
-msgstr "Die in der Kommandozeile angegebenen Personen grüßen"
+#: gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Hallo-Demo"
 
-#: src/hello.c:58
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Eine andere Nachricht als \"Hallo, Welt!\" benutzen"
-
-#: src/hello.c:59
-msgid "MESSAGE"
-msgstr "NACHRICHT"
-
-#: src/hello.c:67
-msgid "Specify the geometry of the main window"
-msgstr "Die Geometrie des Hauptfensters"
-
-#: src/hello.c:68
-msgid "GEOMETRY"
-msgstr "GEOMETRIE"
-
-#: src/hello.c:120
-msgid "You must specify someone to greet."
-msgstr "Sie müssen eine zu grüßende Person angeben."
-
-#: src/hello.c:124
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Kommandozeilenargumente sind nur bei der Option --greet zulässig."
+#: gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr "Beispiel-Anwendung zur Demonstration der GNOME-Technologien"
 
 #. ** gnomehello-widgets
 #: src/app.c:45
 msgid "Gnome Hello"
-msgstr "Gnome Hallo"
+msgstr "GNOME Hallo"
 
-#: src/app.c:51 src/menus.c:122
+#: src/app.c:51 src/menus.c:127
 msgid "Hello, World!"
 msgstr "Hallo, Welt!"
 
-#: src/app.c:106
+#: src/app.c:92
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Der Geometriestring `%s' konnte nicht geparst werden."
+msgstr "Die Geometriezeichenkette »%s« konnte nicht verarbeitet werden"
 
-#: src/app.c:115
+#: src/app.c:101
 msgid "Special Greetings to:\n"
 msgstr "Besondere Grüße an:\n"
+
+#: src/hello.c:50
+msgid "Say hello to specific people listed on the command line"
+msgstr "Die in der Kommandozeile angegebenen Personen grüßen"
+
+#: src/hello.c:59
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Eine andere Nachricht als »Hallo, Welt!« verwenden"
+
+#: src/hello.c:60
+msgid "MESSAGE"
+msgstr "NACHRICHT"
+
+#: src/hello.c:68
+msgid "Specify the geometry of the main window"
+msgstr "Die Geometrie des Hauptfensters"
+
+#: src/hello.c:69
+msgid "GEOMETRY"
+msgstr "GEOMETRIE"
+
+#: src/hello.c:129
+msgid "You must specify someone to greet."
+msgstr "Sie müssen eine zu grüßende Person angeben."
+
+#: src/hello.c:133
+msgid "Command line arguments are only allowed with --greet."
+msgstr "Kommandozeilenargumente sind nur bei der Option --greet zulässig."
 
 #: src/menus.c:35
 msgid "_New Hello"
@@ -74,11 +82,11 @@ msgstr "Neu"
 
 #: src/menus.c:89
 msgid "Prev"
-msgstr "Vorheriges"
+msgstr "Voriges"
 
 #: src/menus.c:89
 msgid "Previous hello"
-msgstr "Vorheriges Hallo"
+msgstr "Voriges Hallo"
 
 #: src/menus.c:90
 msgid "Next"
@@ -88,14 +96,14 @@ msgstr "Nächstes"
 msgid "Next hello"
 msgstr "Nächstes Hallo"
 
-#: src/menus.c:113
+#: src/menus.c:116
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dieser Knopf tut nichts. Dies ist nur ein Beispiel."
 
-#: src/menus.c:166
-msgid "GnomeHello"
-msgstr "GnomeHallo"
+#: src/menus.c:174
+msgid "GNOME Hello"
+msgstr "GNOME Hallo"
 
-#: src/menus.c:169
+#: src/menus.c:177
 msgid "A sample GNOME application."
-msgstr "Eine GNOME Beispielanwendung."
+msgstr "Eine GNOME-Beispielanwendung."
