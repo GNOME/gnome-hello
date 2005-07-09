@@ -1,109 +1,177 @@
 # GnomeHello German translation file.
 # Copyright (C) 1999 Havoc Pennington
 # Karsten Weiss <karsten@addx.au.s.shuttle.de>, 1999.
-# (Feel free to update this file without asking!)
-#
+# Hendrik Brandt <heb@gnome-de.org>, 2005.
+# Christian Neumair <chris@gnome-de.org>, 2005.
+# 
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello 0.1\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2004-02-05 13:10-0500\n"
-"Last-Translator: Christian Neumair <chris@gnome-de.org>\n"
-"Language-Team: German <de@li.org>\n"
+"Project-Id-Version: gnome-hello HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-09 20:19+0200\n"
+"PO-Revision-Date: 2005-07-09 20:24+0200\n"
+"Last-Translator: Hendrik Brandt <heb@gnome-de.org>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
-#: gnome-hello.desktop.in.h:1
+#: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
 msgstr "GNOME Hallo-Demo"
 
-#: gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
 msgstr "Beispiel-Anwendung zur Demonstration der GNOME-Technologien"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
+#: ../src/app.c:50 ../src/menus.c:167
+msgid "GNOME Hello"
 msgstr "GNOME Hallo"
 
-#: src/app.c:51 src/menus.c:127
+#: ../src/app.c:68 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr "Hallo, Welt!"
 
-#: src/app.c:92
+#: ../src/app.c:85
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Die Geometriezeichenkette »%s« konnte nicht verarbeitet werden"
 
-#: src/app.c:101
+#: ../src/app.c:92
 msgid "Special Greetings to:\n"
 msgstr "Besondere Grüße an:\n"
 
-#: src/hello.c:50
+#: ../src/hello.c:47
 msgid "Say hello to specific people listed on the command line"
 msgstr "Die in der Kommandozeile angegebenen Personen grüßen"
 
-#: src/hello.c:59
+#: ../src/hello.c:56
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Eine andere Nachricht als »Hallo, Welt!« verwenden"
 
-#: src/hello.c:60
+#: ../src/hello.c:57
 msgid "MESSAGE"
 msgstr "NACHRICHT"
 
-#: src/hello.c:68
+#: ../src/hello.c:65
 msgid "Specify the geometry of the main window"
 msgstr "Die Geometrie des Hauptfensters"
 
-#: src/hello.c:69
+#: ../src/hello.c:66
 msgid "GEOMETRY"
 msgstr "GEOMETRIE"
 
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Sie müssen eine zu grüßende Person angeben."
+#: ../src/hello.c:114
+msgid "You must specify someone to greet.\n"
+msgstr "Sie müssen eine zu grüßende Person angeben.\n"
 
-#: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Kommandozeilenargumente sind nur bei der Option --greet zulässig."
+#: ../src/hello.c:119
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Kommandozeilenargumente sind nur bei der Option --greet zulässig.\n"
 
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "_Neues Hallo"
+#: ../src/menus.c:75
+msgid "_File"
+msgstr "_Datei"
 
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Ein neues Hallo erzeugen"
+#: ../src/menus.c:76
+msgid "_Edit"
+msgstr "_Bearbeiten"
 
-#: src/menus.c:85
-msgid "New"
-msgstr "Neu"
+#: ../src/menus.c:77
+msgid "_Help"
+msgstr "_Hilfe"
 
-#: src/menus.c:89
-msgid "Prev"
-msgstr "Vorheriges"
+#: ../src/menus.c:78
+msgid "_New"
+msgstr "_Neu"
 
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Vorheriges Hallo"
+#: ../src/menus.c:79
+msgid "_Open"
+msgstr "Ö_ffnen"
 
-#: src/menus.c:90
-msgid "Next"
-msgstr "Nächstes"
+#: ../src/menus.c:80
+msgid "_Save"
+msgstr "_Speichern"
 
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Nächstes Hallo"
+#: ../src/menus.c:81
+msgid "Save _As"
+msgstr "Speichern _unter"
 
-#: src/menus.c:116
+#: ../src/menus.c:82
+msgid "_Close"
+msgstr "S_chließen"
+
+#: ../src/menus.c:83
+msgid "_Quit"
+msgstr "_Beenden"
+
+#: ../src/menus.c:84
+msgid "Cu_t"
+msgstr "A_usschneiden"
+
+#: ../src/menus.c:85
+msgid "_Copy"
+msgstr "_Kopieren"
+
+#: ../src/menus.c:86
+msgid "_Paste"
+msgstr "_Einfügen"
+
+#: ../src/menus.c:87
+msgid "Select _All"
+msgstr "_Alles auswählen"
+
+#: ../src/menus.c:88
+msgid "C_lear"
+msgstr "_Leeren"
+
+#: ../src/menus.c:89
+msgid "_Undo"
+msgstr "_Rückgänig"
+
+#: ../src/menus.c:90
+msgid "_Redo"
+msgstr "_Wiederholen"
+
+#: ../src/menus.c:91
+msgid "_Find"
+msgstr "_Suchen"
+
+#: ../src/menus.c:92
+msgid "Find Ne_xt"
+msgstr "_Weitersuchen"
+
+#: ../src/menus.c:93
+msgid "R_eplace"
+msgstr "E_rsetzen"
+
+#: ../src/menus.c:94
+msgid "Pr_operties"
+msgstr "E_instellungen"
+
+#: ../src/menus.c:95
+msgid "_Contents"
+msgstr "I_nhalt"
+
+#: ../src/menus.c:96
+msgid "_About"
+msgstr "_Info"
+
+#: ../src/menus.c:97
+msgid "_Previous"
+msgstr "_Vorheriges"
+
+#: ../src/menus.c:98
+msgid "_Next"
+msgstr "_Nächstes"
+
+#: ../src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dieser Knopf tut nichts. Dies ist nur ein Beispiel."
 
-#: src/menus.c:174
-msgid "GNOME Hello"
-msgstr "GNOME Hallo"
+#: ../src/menus.c:171
+msgid "translator-credits"
+msgstr "Hendrik Brandt <heb@gnome-de.org>"
+""
 
-#: src/menus.c:177
-msgid "A sample GNOME application."
-msgstr "Eine GNOME-Beispielanwendung."
