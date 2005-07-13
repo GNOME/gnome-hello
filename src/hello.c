@@ -94,7 +94,7 @@ main (int argc, char **argv)
   g_object_get_property (G_OBJECT(gnome_hello), 
 			 GNOME_PARAM_POPT_CONTEXT, &value);
   
-  (poptContext)pctx = g_value_get_pointer (&value);
+  pctx = (poptContext) g_value_get_pointer (&value);
 
   args = (char **) poptGetArgs(pctx);
 

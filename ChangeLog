@@ -1,3 +1,7 @@
+2005-07-13  Cody Russell  <bratsche@gnome.org>
+
+	* src/hello.c (main): Fixed a compile error.
+
 2005-04-01  Steve Murphy  <murf@e-tools.com>
 
         * configure.ac: Added "rw" to ALL_LINGUAS.
