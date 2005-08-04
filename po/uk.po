@@ -1,11 +1,13 @@
 # Ukrainian translation of gnome-hello.
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Yuri Syrota <rasta@renome.rovno.ua>, 1999.
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2005
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-04 15:14+0300\n"
 "PO-Revision-Date: 2004-02-05 13:03-0500\n"
 "Last-Translator: Yuri Syrota <rasta@renome.rovno.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -13,100 +15,159 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: gnome-hello.desktop.in.h:1
+#: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr ""
+msgstr "Демонстраційна програма GNOME Hello"
 
-#: gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr ""
+msgstr "Приклад програми, що використовує технології GNOME"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
+#: ../src/app.c:50 ../src/menus.c:167
+msgid "GNOME Hello"
 msgstr "Привітання GNOME"
 
-#: src/app.c:51 src/menus.c:127
+#: ../src/app.c:68 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr "Привіт, Світ!"
 
-#: src/app.c:92
+#: ../src/app.c:85
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Неможливо розібрати опис геометрії `%s'"
+msgstr "Не вдається розібрати опис геометрії `%s'"
 
-#: src/app.c:101
+#: ../src/app.c:92
 msgid "Special Greetings to:\n"
 msgstr "Особливі вітання для:\n"
 
-#: src/hello.c:50
+#: ../src/hello.c:47
 msgid "Say hello to specific people listed on the command line"
 msgstr "Вітає людей вказаних в командному рядку"
 
-#: src/hello.c:59
+#: ../src/hello.c:56
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Вказати привітання інше ніж \"Hello, World!\""
 
-#: src/hello.c:60
+#: ../src/hello.c:57
 msgid "MESSAGE"
 msgstr "ПОВІДОМЛЕННЯ"
 
-#: src/hello.c:68
+#: ../src/hello.c:65
 msgid "Specify the geometry of the main window"
 msgstr "Вказати геометрію головного вікна"
 
-#: src/hello.c:69
+#: ../src/hello.c:66
 msgid "GEOMETRY"
 msgstr "ГЕОМЕТРІЯ"
 
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Ви мусите вказати кого привітати."
+#: ../src/hello.c:114
+msgid "You must specify someone to greet.\n"
+msgstr "необхідно вказати вказати кого привітати.\n"
 
-#: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Параметри командного рядка дозволені лише з --greet."
+#: ../src/hello.c:119
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Параметри командного рядка дозволені лише з --greet.\n"
 
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "Нове Привітання"
+#: ../src/menus.c:75
+msgid "_File"
+msgstr "_Файл"
 
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Створення нового привітання"
+#: ../src/menus.c:76
+msgid "_Edit"
+msgstr "_Правка"
 
-#: src/menus.c:85
-msgid "New"
-msgstr "Нове"
+#: ../src/menus.c:77
+msgid "_Help"
+msgstr "_Довідка"
 
-#: src/menus.c:89
-msgid "Prev"
-msgstr "Попереднє"
+#: ../src/menus.c:78
+msgid "_New"
+msgstr "_Створити"
 
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Попереднє привітання"
+#: ../src/menus.c:79
+msgid "_Open"
+msgstr "_Відкрити"
 
-#: src/menus.c:90
-msgid "Next"
-msgstr "Наступне"
+#: ../src/menus.c:80
+msgid "_Save"
+msgstr "З_берегти"
 
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Наступне привітання"
+#: ../src/menus.c:81
+msgid "Save _As"
+msgstr "Зберегти _як"
 
-#: src/menus.c:116
+#: ../src/menus.c:82
+msgid "_Close"
+msgstr "_Закрити"
+
+#: ../src/menus.c:83
+msgid "_Quit"
+msgstr "Ви_йти"
+
+#: ../src/menus.c:84
+msgid "Cu_t"
+msgstr "_Вирізати"
+
+#: ../src/menus.c:85
+msgid "_Copy"
+msgstr "_Копіювати"
+
+#: ../src/menus.c:86
+msgid "_Paste"
+msgstr "Вст_авити"
+
+#: ../src/menus.c:87
+msgid "Select _All"
+msgstr "Виді_лити все"
+
+#: ../src/menus.c:88
+msgid "C_lear"
+msgstr "О_чистити"
+
+#: ../src/menus.c:89
+msgid "_Undo"
+msgstr "В_ернути"
+
+#: ../src/menus.c:90
+msgid "_Redo"
+msgstr "Повт_орити"
+
+#: ../src/menus.c:91
+msgid "_Find"
+msgstr "З_найти"
+
+#: ../src/menus.c:92
+msgid "Find Ne_xt"
+msgstr "Зна_йти далі"
+
+#: ../src/menus.c:93
+msgid "R_eplace"
+msgstr "_Замінити"
+
+#: ../src/menus.c:94
+msgid "Pr_operties"
+msgstr "В_ластивості"
+
+#: ../src/menus.c:95
+msgid "_Contents"
+msgstr "_Зміст"
+
+#: ../src/menus.c:96
+msgid "_About"
+msgstr "_Про програму"
+
+#: ../src/menus.c:97
+msgid "_Previous"
+msgstr "_Попереднє"
+
+#: ../src/menus.c:98
+msgid "_Next"
+msgstr "_Наступне"
+
+#: ../src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Не робить нічого; це лише демонстрація."
 
-#: src/menus.c:174
-#, fuzzy
-msgid "GNOME Hello"
-msgstr "Нове Привітання"
-
-#: src/menus.c:177
-msgid "A sample GNOME application."
-msgstr "Приклад програми для GNOME."
-
-#~ msgid "GnomeHello"
-#~ msgstr "GnomeHello"
+#: ../src/menus.c:171
+msgid "translator-credits"
+msgstr "Дзюманенко Максим <mvd@mylinux.ua>"
