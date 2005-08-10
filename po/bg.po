@@ -1,110 +1,179 @@
 # Bulgarian translation of Gnome Hello po file.
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Alexander Shopov <al_shopov@web.bg>, 2002.
-# small updates for completeness - Yanko Kaneti <yaneti@declera.com> , 2002
-#
+# Yanko Kaneti <yaneti@declera.com> , 2002
+# Rostislav "zbrox" Raykov <zbrox@i-space.org>, 2005.
 msgid ""
 msgstr ""
 "Project-Id-Version: GNOME 2\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2002-09-10 14:00+0300\n"
-"Last-Translator: Alexander Shopov <al_shopov@yahoo.com>\n"
-"Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-10 19:41+0300\n"
+"PO-Revision-Date: 2005-08-10 19:44+0300\n"
+"Last-Translator: Rostislav Raykov <zbrox@i-space.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: gnome-hello.desktop.in.h:1
+#: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr "GNOME Здравей Демо"
+msgstr "GNOME Здравей - демонстрация"
 
-#: gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
 msgstr "Примерно приложение използващо GNOME технологии"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "GNOME здравей"
+#: ../src/app.c:50 ../src/menus.c:167
+msgid "GNOME Hello"
+msgstr "GNOME Здравей"
 
-#: src/app.c:51 src/menus.c:127
+#: ../src/app.c:68 ../src/menus.c:124
 msgid "Hello, World!"
-msgstr "Здравей, Свят!"
+msgstr "Здравей, свят!"
 
-#: src/app.c:92
+#: ../src/app.c:85
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Не успях да анализирам низа за геометрията `%s'"
 
-#: src/app.c:101
+#: ../src/app.c:92
 msgid "Special Greetings to:\n"
 msgstr "Специални поздрави за:\n"
 
-#: src/hello.c:50
+#: ../src/hello.c:47
 msgid "Say hello to specific people listed on the command line"
 msgstr "Кажи здравей на хората изброени на командния ред"
 
-#: src/hello.c:59
+#: ../src/hello.c:56
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Използвай друго съобщение вместо \"Здравей, Свят!\""
+msgstr "Използвне на друго съобщение вместо „Здравей, свят!“"
 
-#: src/hello.c:60
+#: ../src/hello.c:57
 msgid "MESSAGE"
 msgstr "СЪОБЩЕНИЕ"
 
-#: src/hello.c:68
+#: ../src/hello.c:65
 msgid "Specify the geometry of the main window"
 msgstr "Укажи геометрията на главния прозорец"
 
-#: src/hello.c:69
+#: ../src/hello.c:66
 msgid "GEOMETRY"
 msgstr "ГЕОМЕТРИЯ"
 
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Трябва да укажете някой, когото да поздравите."
+#: ../src/hello.c:114
+msgid "You must specify someone to greet.\n"
+msgstr "Трябва да укажете някой, когото да поздравите.\n"
 
-#: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Атрибутите на командния ред се приемат единствено с --greet."
+#: ../src/hello.c:119
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Атрибутите на командния ред се приемат единствено с --greet.\n"
 
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "_Ново Здравей"
+#: ../src/menus.c:75
+msgid "_File"
+msgstr "_Файл"
 
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Създава ново Здравей"
+#: ../src/menus.c:76
+msgid "_Edit"
+msgstr "_Редактиране"
 
-#: src/menus.c:85
-msgid "New"
-msgstr "Нов"
+#: ../src/menus.c:77
+msgid "_Help"
+msgstr "_Помощ"
 
-#: src/menus.c:89
-msgid "Prev"
-msgstr "Пред"
+#: ../src/menus.c:78
+msgid "_New"
+msgstr "_Ново"
 
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Предишно Здравей"
+#: ../src/menus.c:79
+msgid "_Open"
+msgstr "_Отваряне"
 
-#: src/menus.c:90
-msgid "Next"
-msgstr "Следв"
+#: ../src/menus.c:80
+msgid "_Save"
+msgstr "_Запазване"
 
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Следващо Здравей"
+#: ../src/menus.c:81
+msgid "Save _As"
+msgstr "Запазване _като"
 
-#: src/menus.c:116
+#: ../src/menus.c:82
+msgid "_Close"
+msgstr "З_атваряне"
+
+#: ../src/menus.c:83
+msgid "_Quit"
+msgstr "Затва_ряне на програмата"
+
+#: ../src/menus.c:84
+msgid "Cu_t"
+msgstr "_Отрязване"
+
+#: ../src/menus.c:85
+msgid "_Copy"
+msgstr "_Копиране"
+
+#: ../src/menus.c:86
+msgid "_Paste"
+msgstr "_Поставяне"
+
+#: ../src/menus.c:87
+msgid "Select _All"
+msgstr "Избиране _на всичко"
+
+#: ../src/menus.c:88
+msgid "C_lear"
+msgstr "_Изчистване"
+
+#: ../src/menus.c:89
+msgid "_Undo"
+msgstr "_Връщане"
+
+#: ../src/menus.c:90
+msgid "_Redo"
+msgstr "_Отказване на връщането"
+
+#: ../src/menus.c:91
+msgid "_Find"
+msgstr "Търсене"
+
+#: ../src/menus.c:92
+msgid "Find Ne_xt"
+msgstr "Отк_риване на следващо"
+
+#: ../src/menus.c:93
+msgid "R_eplace"
+msgstr "З_аменяне"
+
+#: ../src/menus.c:94
+msgid "Pr_operties"
+msgstr "Настройки"
+
+#: ../src/menus.c:95
+msgid "_Contents"
+msgstr "_Потребителско ръководство"
+
+#: ../src/menus.c:96
+msgid "_About"
+msgstr "_Относно"
+
+#: ../src/menus.c:97
+msgid "_Previous"
+msgstr "_Предишно"
+
+#: ../src/menus.c:98
+msgid "_Next"
+msgstr "_Следващо"
+
+#: ../src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
 msgstr "Това не прави нищо, а е само демонстрация."
 
-#: src/menus.c:174
-msgid "GNOME Hello"
-msgstr "GNOME Здравей"
-
-#: src/menus.c:177
-msgid "A sample GNOME application."
-msgstr "Примерно Гном приложение"
+#: ../src/menus.c:171
+msgid "translator-credits"
+msgstr ""
+"Ростислав „zbrox“ Райков <zbrox@i-space.org>\n"
+"\n"
+"Проектът за превод на GNOME има нужда от подкрепа.\n"
+"Научете повече за нас на http://gnome.cult.bg\n"
+"Докладвайте за грешки на http://gnome.cult.bg/bugs"

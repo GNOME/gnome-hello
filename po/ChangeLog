@@ -1,3 +1,8 @@
+2004-11-06  Alexander Shopov  <ash@contact.bg>
+
+	* bg.po: Small bugfixes prompted by
+	Radostin Radnev <radnev@yahoo.com>
+
 2005-08-04  Maxim Dziumanenko <mvd@mylinux.ua>
 
 	* uk.po: Updated Ukrainian translation.
@@ -8,7 +13,7 @@
 
 2005-04-01  Steve Murphy  <murf@e-tools.com>
 
-        * rw.po: Added Kinyarwanda translation.
+	* rw.po: Added Kinyarwanda translation.
 
 2005-03-28  Josep Puigdemont  <josep@imatge-sintetica.com>
 
