@@ -1,3 +1,7 @@
+2005-08-13  Clytie Siddall <clytie@riverland.net.au>
+
+        * vi.po: Updated Vietnamese translation.
+
 2005-08-10  Alexander Shopov  <ash@contact.bg>
 
 	* bg.po: Updated Bulgarian translation by
@@ -39,7 +43,7 @@
 
 	* pt_BR.po: Updated Brazilian Portuguese translation.
 
-2004-11-22  Danilo � egan  <dsegan@gmx.net>
+2004-11-22  Danilo � egan  <dsegan@gmx.net>
 
 	* sr.po, sr@Latn.po: Updated Serbian translation.
 
@@ -136,7 +140,7 @@
 
 	* mn.po: Added Mongolian translation by Dulmandakh.
 
-2003-11-29  Danilo � egan  <dsegan@gmx.net>
+2003-11-29  Danilo � egan  <dsegan@gmx.net>
 
 	* sr.po, sr@Latn.po: Fixed Serbian translation, thanks to
 	Aleksandar Jelenak <jelenak@netlinkplus.net> for spotting it.
@@ -157,7 +161,7 @@
 
 	* sk.po: Updated Slovak translation by Martin Lacko <lacko@host.sk>.
 
-2003-05-06  Danilo � egan  <dsegan@gmx.net>
+2003-05-06  Danilo � egan  <dsegan@gmx.net>
 
 	* sr.po, sr@Latn.po: Added Serbian translation by 
 	http://Prevod.org/.
