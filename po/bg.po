@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNOME 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-10 19:41+0300\n"
-"PO-Revision-Date: 2005-08-10 19:44+0300\n"
+"POT-Creation-Date: 2005-08-30 13:32+0300\n"
+"PO-Revision-Date: 2005-08-30 13:34+0300\n"
 "Last-Translator: Rostislav Raykov <zbrox@i-space.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Здравей, свят!"
 #: ../src/app.c:85
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Не успях да анализирам низа за геометрията `%s'"
+msgstr "Неуспех при анализирането на низа за геометрията „%s“"
 
 #: ../src/app.c:92
 msgid "Special Greetings to:\n"
@@ -151,7 +151,7 @@ msgstr "Настройки"
 
 #: ../src/menus.c:95
 msgid "_Contents"
-msgstr "_Потребителско ръководство"
+msgstr "_Ръководство"
 
 #: ../src/menus.c:96
 msgid "_About"
