@@ -1,3 +1,8 @@
+2005-09-21  Jordi Mallach  <jordi@sindominio.net>
+
+	* src/app.c (button_click_cb): Use g_utf8_strreverse() to avoid
+	Nasty Things when reversing text.
+
 2005-07-13  Cody Russell  <bratsche@gnome.org>
 
 	* src/hello.c (main): Fixed a compile error.
