@@ -145,38 +145,20 @@ quit_action_callback (GtkAction* action, gpointer data)
 static void 
 about_action_callback (GtkAction* action, gpointer data)
 {
-  static GtkWidget* dialog = NULL;
-  GtkWidget* app;
+  GtkWindow* app = GTK_WINDOW (data);
+  const gchar *authors[] = {
+    "Havoc Pennington <hp@pobox.com>",
+    NULL
+  };
 
-  app = (GtkWidget*) data;
-
-  if (dialog != NULL) 
-    {
-      gtk_window_present (GTK_WINDOW (dialog));
-    }
-  else
-    {        
-      const gchar *copyright = "\xc2\xa9 1999 Havoc Pennington";
-      const gchar *authors[] = {
-        "Havoc Pennington <hp@pobox.com>",
-        NULL
-      };
-
-      dialog = gtk_about_dialog_new ();
-
-      gtk_about_dialog_set_name (GTK_ABOUT_DIALOG (dialog), _("GNOME Hello"));
-      gtk_about_dialog_set_version (GTK_ABOUT_DIALOG (dialog), VERSION);
-      gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (dialog), copyright);
-      gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (dialog), authors);
-      gtk_about_dialog_set_translator_credits (GTK_ABOUT_DIALOG (dialog), _("translator-credits"));
-      gtk_about_dialog_set_logo_icon_name (GTK_ABOUT_DIALOG (dialog), "gnome-hello-logo");
-
-      gtk_window_set_transient_for (GTK_WINDOW (dialog), GTK_WINDOW (app));	
-
-      g_object_add_weak_pointer (G_OBJECT (dialog), (void**) &dialog);
-
-      gtk_widget_show (dialog);
-    }
+  gtk_show_about_dialog (app,
+                         "name", _("GNOME Hello"),
+                         "version", VERSION,
+                         "copyright", "\xc2\xa9 1999 Havoc Pennington",
+                         "authors", authors,
+                         "translator-credits", _("translator-credits"),
+                         "logo-icon-name", "gnome-hello-logo",
+                         NULL);
 }
 
 GtkUIManager *

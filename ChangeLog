@@ -1,3 +1,10 @@
+2006-03-26  Christian Persch  <chpe@cvs.gnome.org>
+
+	* src/app.c: (button_click_cb): Fix build.
+	* src/hello.c: (main): Use GOption argument parsing.
+	* src/menus.c: (about_action_callback): Fix about dialogue with
+	gtk+ 2.9.
+
 2005-09-21  Jordi Mallach  <jordi@sindominio.net>
 
 	* src/app.c (button_click_cb): Use g_utf8_strreverse() to avoid

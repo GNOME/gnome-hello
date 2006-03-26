@@ -160,9 +160,8 @@ button_click_cb (GtkWidget *w, gpointer data)
   label = GTK_WIDGET (data);
 
   text = gtk_label_get_text (GTK_LABEL (label));
-  tmp = g_strdup (text);
 
-  g_utf8_strreverse (tmp);
+  tmp = g_utf8_strreverse (text, -1);
 
   gtk_label_set_text (GTK_LABEL (label), tmp);
 

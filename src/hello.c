@@ -33,70 +33,75 @@ static gint save_session (GnomeClient *client, gint phase,
                           gint is_fast, gpointer client_data);
 
 
-static int greet_mode = FALSE;
+static gboolean greet_mode = FALSE;
 static char* message  = NULL;
 static char* geometry = NULL;
+static char **args = NULL;
 
-struct poptOption options[] = {
+static GOptionEntry option_entries[] =
+{
   {
     "greet",
     'g',
-    POPT_ARG_NONE,
-    &greet_mode,
     0,
+    G_OPTION_ARG_NONE,
+    &greet_mode,
     N_("Say hello to specific people listed on the command line"),
     NULL
   },
   { 
     "message",
     'm',
-    POPT_ARG_STRING,
-    &message,
     0,
+    G_OPTION_ARG_STRING,
+    &message,
     N_("Specify a message other than \"Hello, World!\""),
     N_("MESSAGE")
   },
   { 
     "geometry",
-    '\0',
-    POPT_ARG_STRING,
-    &geometry,
     0,
+    0,
+    G_OPTION_ARG_STRING,
+    &geometry,
     N_("Specify the geometry of the main window"),
     N_("GEOMETRY")
   },
-  POPT_TABLEEND
+  { 
+    G_OPTION_REMAINING,
+    0,
+    0,
+    G_OPTION_ARG_STRING_ARRAY,
+    &args,
+    NULL,
+    NULL
+  }
 };
 
 int 
 main (int argc, char **argv)
 {
   GtkWidget *app;
-  GnomeProgram *gnome_hello;
+  GOptionContext *context;
+  GnomeProgram *program;
   GnomeClient *client;
-  GValue value = {0,};
-  poptContext pctx; 
   GSList *greet = NULL;
-  char **args;
   int i;
 
   bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);  
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
   textdomain (GETTEXT_PACKAGE);
 
-  gnome_hello = gnome_program_init (PACKAGE, VERSION, LIBGNOMEUI_MODULE,
-				    argc, argv, 
-				    GNOME_PARAM_POPT_TABLE, options, 
-				    GNOME_PARAM_APP_DATADIR,DATADIR, NULL);
+  context = g_option_context_new (_("- GNOME Hello"));
+  g_option_context_add_main_entries (context, option_entries, GETTEXT_PACKAGE);
+
+  program = gnome_program_init (PACKAGE, VERSION, LIBGNOMEUI_MODULE,
+				argc, argv, 
+				GNOME_PARAM_GOPTION_CONTEXT, context,
+				GNOME_PARAM_APP_DATADIR,DATADIR,
+				NULL);
+
   gtk_window_set_default_icon_name ("gnome-hello-logo");
-
-  g_value_init (&value, G_TYPE_POINTER);
-  g_object_get_property (G_OBJECT(gnome_hello), 
-			 GNOME_PARAM_POPT_CONTEXT, &value);
-  
-  pctx = (poptContext) g_value_get_pointer (&value);
-
-  args = (char **) poptGetArgs(pctx);
 
   if (greet_mode && args)
     {
@@ -119,17 +124,11 @@ main (int argc, char **argv)
       g_printerr (_("Command line arguments are only allowed with --greet.\n"));
       return 1;
     }
-  else
-    { 
-      g_assert (!greet_mode && args == NULL);
-    }
-
-  poptFreeContext (pctx); 
 
   client = gnome_master_client ();
-  g_signal_connect (G_OBJECT (client), "save_yourself",
+  g_signal_connect (client, "save_yourself",
                     G_CALLBACK (save_session), argv[0]);
-  g_signal_connect (G_OBJECT (client), "die",
+  g_signal_connect (client, "die",
                     G_CALLBACK (session_die), NULL);
   
   app = hello_app_new (message, geometry, greet);
@@ -139,6 +138,8 @@ main (int argc, char **argv)
   gtk_widget_show_all(app);
 
   gtk_main();
+
+  g_object_unref (program);
 
   return 0;
 }
