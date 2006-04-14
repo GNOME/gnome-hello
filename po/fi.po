@@ -2,14 +2,14 @@
 # Copyright (C) 1999 the Free Software Foundation
 # Mikko Rauhala <mjr@iki.fi>, 1999.
 # Lauri Nurmi <lanurmi@iki.fi>, 2003.
-# Ilkka Tuohela <hile@iki.fi>, 2005.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2006.
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-15 02:14+0300\n"
-"PO-Revision-Date: 2005-08-15 02:14+0300\n"
+"POT-Creation-Date: 2006-04-14 20:34+0300\n"
+"PO-Revision-Date: 2006-04-14 20:35+0300\n"
 "Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Gnomen Hei -esimerkki"
 msgid "Sample application using GNOME technologies"
 msgstr "Gnome-teknologiaa käyttävä esimerkkisovellus"
 
-#: ../src/app.c:50 ../src/menus.c:167
+#: ../src/app.c:50 ../src/menus.c:155
 msgid "GNOME Hello"
 msgstr "Gnomen Hei"
 
@@ -42,31 +42,35 @@ msgstr "Mittamääritystä \"%s\" ei voitu tulkita."
 msgid "Special Greetings to:\n"
 msgstr "Erikoistervehdykset seuraaville:\n"
 
-#: ../src/hello.c:47
+#: ../src/hello.c:49
 msgid "Say hello to specific people listed on the command line"
 msgstr "Sano \"hei\" komentorivillä listatuille ihmisille"
 
-#: ../src/hello.c:56
+#: ../src/hello.c:58
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Määrittele muu viesti kuin \"Hei, maailma!\""
 
-#: ../src/hello.c:57
+#: ../src/hello.c:59
 msgid "MESSAGE"
 msgstr "VIESTI"
 
-#: ../src/hello.c:65
+#: ../src/hello.c:67
 msgid "Specify the geometry of the main window"
 msgstr "Määrittele pääikkunan mitat"
 
-#: ../src/hello.c:66
+#: ../src/hello.c:68
 msgid "GEOMETRY"
 msgstr "MITAT"
 
-#: ../src/hello.c:114
+#: ../src/hello.c:95
+msgid "- GNOME Hello"
+msgstr "- Gnomen Hei"
+
+#: ../src/hello.c:119
 msgid "You must specify someone to greet.\n"
 msgstr "Sinun täytyy määritellä joku, jota tervehtiä.\n"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:124
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Komentoriviargumentit ovat sallittuja vain valitsimella --greet.\n"
 
@@ -170,7 +174,7 @@ msgstr "_Seuraava"
 msgid "This does nothing; it is only a demonstration."
 msgstr "Tämä ei tee mitään, onpahan vain demonstraatio."
 
-#: ../src/menus.c:171
+#: ../src/menus.c:159
 msgid "translator-credits"
 msgstr ""
 "Ilkka Tuohela, 2005\n"
@@ -178,4 +182,3 @@ msgstr ""
 "Mikko Rauhala, 1999\n"
 "\n"
 "http://gnome.fi/"
-
