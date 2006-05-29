@@ -1,3 +1,15 @@
+2006-05-29  Christian Persch  <chpe@cvs.gnome.org>
+
+	* Makefile.am:
+	* autogen.sh:
+	* configure.ac:
+	* doc/Makefile.am:
+	* help/Makefile.am:
+	* pixmaps/Makefile.am:
+	* po/LINGUAS:
+	* src/Makefile.am:
+	Use automake 1.9, po/LINGUAS and goption argument parsing.
+
 2006-04-17  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* configure.ac: Remove obsolete entry for no_NO.

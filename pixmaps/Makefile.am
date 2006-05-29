@@ -1,7 +1,16 @@
-# we install the gnome-hello icon into the hicolor icon theme, which is the
-# base class of all icon themes.  This way it is guaranteed to be available.
 icondir = $(datadir)/icons/hicolor/48x48/apps
-
 icon_DATA = gnome-hello-logo.png
 
-EXTRA_DIST = $(icon_DATA)
+gtk_update_icon_cache = gtk-update-icon-cache -f -t $(datadir)/icons/hicolor
+
+install-data-hook:
+	@-if test -z "$(DESTDIR)"; then \
+		echo "Updating Gtk icon cache."; \
+		$(gtk_update_icon_cache); \
+	else \
+		echo "*** Icon cache not updated.  After install, run this:"; \
+		echo "***   $(gtk_update_icon_cache)"; \
+	fi
+
+EXTRA_DIST = \
+ 	$(icon_DATA)
