@@ -29,3 +29,6 @@ missing
 mkinstalldirs
 stamp-h1
 libtool
+compile
+*.tar.gz
+*.tar.bz2
