@@ -48,7 +48,7 @@ fi
 # Internationalisation
 # ********************
 
-IT_PROG_INTLTOOL([0.34.90])
+IT_PROG_INTLTOOL([0.35.0])
 
 GETTEXT_PACKAGE=gnome-hello-2.0
 AC_SUBST([GETTEXT_PACKAGE])
