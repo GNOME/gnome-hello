@@ -1,4 +1,4 @@
-AC_INIT([GNOME Hello], [2.0.3],[mailto:desktop-devel-list@gnome.org],[gnome-hello])
+AC_INIT([GNOME Hello],[2.0.3],[mailto:desktop-devel-list@gnome.org],[gnome-hello])
 
 AM_INIT_AUTOMAKE([1.9 foreign dist-bzip2 no-dist-gzip])
 

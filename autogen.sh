@@ -4,8 +4,6 @@
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
-REQUIRED_AUTOMAKE_VERSION=1.8
-
 PKG_NAME="gnome-hello"
 
 (test -f $srcdir/src/Makefile.am) || {
