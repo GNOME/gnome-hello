@@ -1,5 +1,9 @@
 2007-01-22  Mariano Suárez-Alvarez  <mariano@gnome.org>
 
+	* Makefile.am: actually install the .desktop file.
+
+2007-01-22  Mariano Suárez-Alvarez  <mariano@gnome.org>
+
 	* src/app.c(hello_app_new): remove unused variable and use 
 	gtk_window_set_resizable instead of the deprecated 
 	gtk_window_set_policy.

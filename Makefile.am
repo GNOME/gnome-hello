@@ -2,7 +2,7 @@ SUBDIRS = src pixmaps po help
 
 desktopdir = $(datadir)/applications
 desktop_in_files = gnome-hello.desktop.in
-desktop_DATA = $(app_in_files:.desktop.in=.desktop)
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 @INTLTOOL_DESKTOP_RULE@
 
