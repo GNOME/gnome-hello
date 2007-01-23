@@ -13,7 +13,7 @@ PKG_NAME="gnome-hello"
 }
 
 which gnome-autogen.sh || {
-    echo "You need to install gnome-common from the GNOME CVS"
+    echo "You need to install gnome-common from the GNOME SVN repository"
     exit 1
 }
 

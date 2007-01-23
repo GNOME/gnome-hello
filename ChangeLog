@@ -1,3 +1,13 @@
+2007-01-22  Mariano Suárez-Alvarez  <mariano@gnome.org>
+
+	* src/app.c(hello_app_new): remove unused variable and use 
+	gtk_window_set_resizable instead of the deprecated 
+	gtk_window_set_policy.
+	* autogen.sh: change error message to point to SVN instead 
+	of CVS.
+	
+	Fix a bit the coding style in a couple of places.
+
 2007-01-21  Christian Persch  <chpe@svn.gnome.org>
 
 	* autogen.sh:

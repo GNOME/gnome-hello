@@ -34,8 +34,8 @@ static gint save_session (GnomeClient *client, gint phase,
 
 
 static gboolean greet_mode = FALSE;
-static char* message  = NULL;
-static char* geometry = NULL;
+static char *message  = NULL;
+static char *geometry = NULL;
 static char **args = NULL;
 
 static GOptionEntry option_entries[] =
@@ -137,7 +137,7 @@ main (int argc, char **argv)
 
   gtk_widget_show_all(app);
 
-  gtk_main();
+  gtk_main ();
 
   g_object_unref (program);
 
@@ -177,7 +177,7 @@ save_session (GnomeClient       *client,
 
 static void
 session_die (GnomeClient* client, 
-             gpointer client_data)
+             gpointer     client_data)
 {
   gtk_main_quit ();
 }

@@ -37,7 +37,6 @@ hello_app_new (const gchar *message,
   GtkWidget *app;
   GtkWidget *vbox;
   GtkWidget *button;
-  GtkWidget *alignment;
   GtkWidget *label;
   GtkWidget *menubar;
   GtkUIManager *ui_manager;
@@ -45,7 +44,7 @@ hello_app_new (const gchar *message,
 
   /*** gnomehello-widgets */
   app = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-  gtk_window_set_policy (GTK_WINDOW (app), FALSE, TRUE, FALSE);
+  gtk_window_set_resizable (GTK_WINDOW (app), TRUE);
   gtk_window_set_default_size (GTK_WINDOW (app), 250, 350);
   gtk_window_set_title (GTK_WINDOW (app), _("GNOME Hello"));
   gtk_window_set_wmclass (GTK_WINDOW (app), "hello", "GnomeHello");
@@ -140,7 +139,9 @@ hello_app_close (GtkWidget *app)
 }
 
 static gint 
-delete_event_cb (GtkWidget *window, GdkEventAny *e, gpointer data)
+delete_event_cb (GtkWidget   *window, 
+                 GdkEventAny *e, 
+                 gpointer     data)
 {
   hello_app_close (window);
 
@@ -151,7 +152,8 @@ delete_event_cb (GtkWidget *window, GdkEventAny *e, gpointer data)
 }
 
 static void 
-button_click_cb (GtkWidget *w, gpointer data)
+button_click_cb (GtkWidget *w, 
+                 gpointer   data)
 {
   GtkWidget *label;
   const gchar *text;
