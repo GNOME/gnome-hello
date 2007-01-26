@@ -16,7 +16,13 @@
 <article id="index" lang="en">
   <articleinfo>
     <title>&app; Manual V&manrevision;</title>
-<copyright> 
+    <abstract role="description">
+      <para> 
+        This document describes the GNOME Hello application, which is a
+        demonstration of basic GNOME program functionality.
+      </para>
+    </abstract>
+    <copyright> 
       <year>1998</year> 
       <year>1999</year> 
       <holder>Havoc Pennington</holder> 
@@ -30,7 +36,7 @@
     </publisher> 
     &legal;
     <authorgroup>
-      <author>
+      <author role="maintainer">
 	<firstname>Havoc</firstname> <surname>Pennington</surname>
 	<affiliation>
 	  <address>

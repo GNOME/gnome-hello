@@ -1,3 +1,11 @@
+2007-01-26  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
+
+	* configure.ac:
+	* help/C/gnome-hello-C.omf:
+	* help/C/gnome-hello.xml:
+	* help/Makefile.am:
+	* help/gnome-hello.omf.in: Updated to gnome-doc-utils.
+
 2007-01-22  Mariano Suárez-Alvarez  <mariano@gnome.org>
 
 	* Makefile.am: actually install the .desktop file.

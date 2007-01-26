@@ -17,6 +17,7 @@ AC_PROG_LIBTOOL
 # *****
 
 GNOME_COMMON_INIT
+GNOME_DOC_INIT
 GNOME_DEBUG_CHECK
 GNOME_COMPILE_WARNINGS([maximum])
 GNOME_MAINTAINER_MODE_DEFINES
@@ -69,7 +70,6 @@ src/Makefile
 po/Makefile.in
 pixmaps/Makefile
 help/Makefile
-help/C/Makefile
 ])
 
 AC_OUTPUT
