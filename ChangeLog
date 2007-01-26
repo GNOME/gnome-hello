@@ -1,5 +1,9 @@
 2007-01-26  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
 
+	* Makefile.am: Added gnome-doc-utils.make to EXTRA_DIST
+
+2007-01-26  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
+
 	* configure.ac:
 	* help/C/gnome-hello-C.omf:
 	* help/C/gnome-hello.xml:

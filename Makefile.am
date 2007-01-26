@@ -13,6 +13,7 @@ EXTRA_DIST = \
 	intltool-extract.in	\
 	intltool-merge.in	\
 	intltool-update.in	\
+	gnome-doc-utils.make	\
 	$(desktop_in_files)	
 
 CLEANFILES = \
