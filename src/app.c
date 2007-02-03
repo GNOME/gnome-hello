@@ -47,7 +47,6 @@ hello_app_new (const gchar *message,
   gtk_window_set_resizable (GTK_WINDOW (app), TRUE);
   gtk_window_set_default_size (GTK_WINDOW (app), 250, 350);
   gtk_window_set_title (GTK_WINDOW (app), _("GNOME Hello"));
-  gtk_window_set_wmclass (GTK_WINDOW (app), "hello", "GnomeHello");
 
   vbox = gtk_vbox_new (FALSE, 0);
   gtk_container_add (GTK_CONTAINER (app), vbox);
