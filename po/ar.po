@@ -1,56 +1,52 @@
-# Arabic translations for PACKAGE package.
-# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2006.
-#
+# Arabic translations for THIS package.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as THIS package.
+# Automatically generated, 2007.
+# Djihed Afifi <djihed@gmail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: Project\n"
+"Project-Id-Version: Arabic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-11-17 21:14+0000\n"
-"PO-Revision-Date: 2006-11-18 00:47+0100\n"
+"POT-Creation-Date: 2007-04-21 22:52+0100\n"
+"PO-Revision-Date: 2007-04-14 18:49+0100\n"
 "Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language-Team: Arabeyes <doc@arabeyes.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n == 0 ? 0 : n == 1 ? 1 : n == 2 ? 2 : n >= 3 && n <= 10 ? 3 : n >= 11 && n <= 99 ? 4 : 5;\n"
-"X-Poedit-Language: Arabic\n"
 
 #: ../gnome-hello.desktop.in.h:1
 #, fuzzy
 msgid "GNOME Hello Demo"
-msgstr "تفضيلات آي أوف جنوم"
+msgstr "سطح مكتب جنوم عن بعيد"
 
 #: ../gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
 msgstr ""
 
-#: ../src/app.c:50
-#: ../src/menus.c:155
+#: ../src/app.c:49 ../src/menus.c:155
 #, fuzzy
 msgid "GNOME Hello"
-msgstr "جنوم اهلا"
+msgstr "متصفّح مساعدة جنوم"
 
-#: ../src/app.c:68
-#: ../src/menus.c:124
-#, fuzzy
+#: ../src/app.c:66 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr "اهلا، يا عالم!"
 
-#: ../src/app.c:85
+#: ../src/app.c:83
 #, fuzzy, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "لم يمكن اعراب السلسلة \"%s\" كلوحة ألوان\n"
+msgstr "تعذّر تحليل عنوان URL `%s'"
 
-#: ../src/app.c:92
+#: ../src/app.c:90
 #, fuzzy
 msgid "Special Greetings to:\n"
-msgstr "ا_ستعادة الحالة الأصلية"
+msgstr "الأهداف الخاصة"
 
 #: ../src/hello.c:49
+#, fuzzy
 msgid "Say hello to specific people listed on the command line"
-msgstr ""
+msgstr "يجب تحديد مفتاح أو أكثر عند سطر اﻻوامر\n"
 
 #: ../src/hello.c:58
 msgid "Specify a message other than \"Hello, World!\""
@@ -59,121 +55,116 @@ msgstr ""
 #: ../src/hello.c:59
 #, fuzzy
 msgid "MESSAGE"
-msgstr "رسالة"
+msgstr "صورة"
 
 #: ../src/hello.c:67
 #, fuzzy
 msgid "Specify the geometry of the main window"
-msgstr "فشل تلحيظ النافذة الرئيسية"
+msgstr "ارتفاع النّافذة الرّئيسيّة."
 
 #: ../src/hello.c:68
 #, fuzzy
 msgid "GEOMETRY"
-msgstr "هندسة"
+msgstr "جنوم"
 
 #: ../src/hello.c:95
 #, fuzzy
 msgid "- GNOME Hello"
-msgstr "جنوم اهلا"
+msgstr "متصفّح مساعدة جنوم"
 
 #: ../src/hello.c:119
 #, fuzzy
 msgid "You must specify someone to greet.\n"
-msgstr "يجب أن تأكد نوع الطلب الذي تريد تشغيله\n"
+msgstr "يجب تحديد بعض المفاتيح لكسرها\n"
 
 #: ../src/hello.c:124
+#, fuzzy
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr ""
+"خطأ في متغيّرات سطر الأوامر، رجاء إستخدم الخيار --help لمراجعة كيفيّة "
+"الإستعمال."
 
 #: ../src/menus.c:75
 #, fuzzy
 msgid "_File"
-msgstr "_ملف"
+msgstr "/ملف"
 
 #: ../src/menus.c:76
 #, fuzzy
 msgid "_Edit"
-msgstr "_تحرير"
+msgstr "_تحرير/"
 
 #: ../src/menus.c:77
 #, fuzzy
 msgid "_Help"
-msgstr "م_ساعدة"
+msgstr "مساعدة"
 
 #: ../src/menus.c:78
-#, fuzzy
 msgid "_New"
 msgstr "_جديد"
 
 #: ../src/menus.c:79
-#, fuzzy
 msgid "_Open"
-msgstr "_فتح"
+msgstr "ا_فتح"
 
 #: ../src/menus.c:80
-#, fuzzy
 msgid "_Save"
-msgstr "_حفظ"
+msgstr "حفظ"
 
 #: ../src/menus.c:81
-#, fuzzy
 msgid "Save _As"
 msgstr "ا_حفظ باسم"
 
 #: ../src/menus.c:82
 #, fuzzy
 msgid "_Close"
-msgstr "أ_غلق"
+msgstr "أغلق"
 
 #: ../src/menus.c:83
 #, fuzzy
 msgid "_Quit"
-msgstr "إ_نهي"
+msgstr "اخرج"
 
 #: ../src/menus.c:84
 #, fuzzy
 msgid "Cu_t"
-msgstr "_قص"
+msgstr "قص"
 
 #: ../src/menus.c:85
 #, fuzzy
 msgid "_Copy"
-msgstr "_نسخ"
+msgstr "ان_سخ"
 
 #: ../src/menus.c:86
 #, fuzzy
 msgid "_Paste"
-msgstr "_لصق"
+msgstr "_توقّف مؤقّت"
 
 #: ../src/menus.c:87
 #, fuzzy
 msgid "Select _All"
-msgstr "اختيا_ر الكل"
+msgstr "اختر الكل"
 
 #: ../src/menus.c:88
-#, fuzzy
 msgid "C_lear"
 msgstr "_مسح"
 
 #: ../src/menus.c:89
-#, fuzzy
 msgid "_Undo"
-msgstr "إ_لغاء"
+msgstr "تراجع"
 
 #: ../src/menus.c:90
-#, fuzzy
 msgid "_Redo"
-msgstr "_إعادة"
+msgstr "عكس تراجع"
 
 #: ../src/menus.c:91
-#, fuzzy
 msgid "_Find"
-msgstr "_إيجاد"
+msgstr "ا_بحث"
 
 #: ../src/menus.c:92
 #, fuzzy
 msgid "Find Ne_xt"
-msgstr "إيجاد الت_الي"
+msgstr "إبحث عن النص:"
 
 #: ../src/menus.c:93
 #, fuzzy
@@ -183,35 +174,34 @@ msgstr "ا_ستبدال"
 #: ../src/menus.c:94
 #, fuzzy
 msgid "Pr_operties"
-msgstr "_تفضيلات"
+msgstr "خصائص"
 
 #: ../src/menus.c:95
 #, fuzzy
 msgid "_Contents"
-msgstr "_المحتويات"
+msgstr "المحتويات"
 
 #: ../src/menus.c:96
 #, fuzzy
 msgid "_About"
-msgstr "_حول"
+msgstr "_6 عن البرنامج"
 
 #: ../src/menus.c:97
 #, fuzzy
 msgid "_Previous"
-msgstr "_السابق"
+msgstr "سابقا"
 
 #: ../src/menus.c:98
 #, fuzzy
 msgid "_Next"
-msgstr "ال_تالي"
+msgstr "التالي"
 
 #: ../src/menus.c:113
-#, fuzzy
 msgid "This does nothing; it is only a demonstration."
-msgstr "هذا لا يفعل شيئاً، إنه عرض فقط"
+msgstr "هذا لا يفعل شيئاً، للعرض فقط."
 
 #: ../src/menus.c:159
 #, fuzzy
 msgid "translator-credits"
-msgstr "Yousef Raffah يوسف رفه (yousef@raffah.com)"
+msgstr "المترجمون:"
 
