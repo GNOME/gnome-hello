@@ -1,0 +1,182 @@
+# Occitan translation of gnome-hello.
+# Copyright (C) 1999-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-hello package.
+#
+# Yannig MARCHEGAY (yannig@marchegay.org) - 2006-2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello 2.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-26 14:40+0200\n"
+"PO-Revision-Date: 2007-07-29 11:34+0200\n"
+"Last-Translator: Yannig MARCHEGAY <yannig@marchegay.org>\n"
+"Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);"
+
+#: ../gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr ""
+
+#: ../gnome-hello.desktop.in.h:2
+msgid "Sample application using GNOME technologies"
+msgstr ""
+
+#: ../src/app.c:50 ../src/menus.c:155
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: ../src/app.c:68 ../src/menus.c:124
+msgid "Hello, World!"
+msgstr ""
+
+#: ../src/app.c:85
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr ""
+
+#: ../src/app.c:92
+msgid "Special Greetings to:\n"
+msgstr ""
+
+#: ../src/hello.c:49
+msgid "Say hello to specific people listed on the command line"
+msgstr ""
+
+#: ../src/hello.c:58
+msgid "Specify a message other than \"Hello, World!\""
+msgstr ""
+
+#: ../src/hello.c:59
+msgid "MESSAGE"
+msgstr "MESSATGE"
+
+#: ../src/hello.c:67
+msgid "Specify the geometry of the main window"
+msgstr ""
+
+#: ../src/hello.c:68
+msgid "GEOMETRY"
+msgstr "GEOMETRIA"
+
+#: ../src/hello.c:95
+msgid "- GNOME Hello"
+msgstr "- GNOME Hello"
+
+#: ../src/hello.c:119
+msgid "You must specify someone to greet.\n"
+msgstr ""
+
+#: ../src/hello.c:124
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr ""
+
+#: ../src/menus.c:75
+msgid "_File"
+msgstr "_Fichièr"
+
+#: ../src/menus.c:76
+msgid "_Edit"
+msgstr "_Edicion"
+
+#: ../src/menus.c:77
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../src/menus.c:78
+msgid "_New"
+msgstr "_Nòu"
+
+#: ../src/menus.c:79
+msgid "_Open"
+msgstr "_Dubrir"
+
+#: ../src/menus.c:80
+msgid "_Save"
+msgstr "_Enregistrar"
+
+#: ../src/menus.c:81
+msgid "Save _As"
+msgstr "Enregistrar _coma"
+
+#: ../src/menus.c:82
+msgid "_Close"
+msgstr "_Barrar"
+
+#: ../src/menus.c:83
+msgid "_Quit"
+msgstr "_Sortir"
+
+#: ../src/menus.c:84
+msgid "Cu_t"
+msgstr "_Copar"
+
+#: ../src/menus.c:85
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: ../src/menus.c:86
+msgid "_Paste"
+msgstr "_Pegar"
+
+#: ../src/menus.c:87
+msgid "Select _All"
+msgstr "_Tot seleccionar"
+
+#: ../src/menus.c:88
+msgid "C_lear"
+msgstr "_Suprimir"
+
+#: ../src/menus.c:89
+msgid "_Undo"
+msgstr "_Anullar"
+
+#: ../src/menus.c:90
+msgid "_Redo"
+msgstr "_Tornar far"
+
+#: ../src/menus.c:91
+msgid "_Find"
+msgstr "_Recèrcar"
+
+#: ../src/menus.c:92
+msgid "Find Ne_xt"
+msgstr "Recèrcar lo seguent"
+
+#: ../src/menus.c:93
+msgid "R_eplace"
+msgstr "R_emplaçar"
+
+#: ../src/menus.c:94
+msgid "Pr_operties"
+msgstr "Pr_opietats"
+
+#: ../src/menus.c:95
+msgid "_Contents"
+msgstr "_Somari"
+
+#: ../src/menus.c:96
+msgid "_About"
+msgstr "_A prepaus"
+
+#: ../src/menus.c:97
+msgid "_Previous"
+msgstr "_Precedent"
+
+#: ../src/menus.c:98
+msgid "_Next"
+msgstr "_Seguent"
+
+#: ../src/menus.c:113
+msgid "This does nothing; it is only a demonstration."
+msgstr ""
+
+#: ../src/menus.c:159
+msgid "translator-credits"
+msgstr ""
+"La còla occitana de revirada d'Ubuntu, 2006 - ubuntu-l10n-"
+"oci@lists.ubuntu.com"
+
