@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-hello 2.0.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-08-26 14:40+0200\n"
-"PO-Revision-Date: 2007-08-07 14:21+0200\n"
+"PO-Revision-Date: 2007-08-19 19:44+0200\n"
 "Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr ""
+msgstr "GNOME Hello Demo"
 
 #: ../gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
