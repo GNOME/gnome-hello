@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello/help trunk\n"
+"POT-Creation-Date: 2007-08-26 03:59+0100\n"
+"PO-Revision-Date: 2007-08-27 01:04+0900\n"
+"Last-Translator: Satoru SATOH <ss@gnome.gr.jp>\n"
+"Language-Team: Japanse <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-hello.xml:103(None)
+msgid ""
+"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+msgstr "@@image: 'figures/gnome-hello.png'; md5=87cac2c1da2948229488e94b5eb92687"
+
+#: C/gnome-hello.xml:18(title)
+msgid "<application>GNOME Hello</application> Manual V2.0"
+msgstr "<application>GNOME Hello</application> マニュアル v2.0"
+
+#: C/gnome-hello.xml:20(para)
+msgid ""
+"This document describes the GNOME Hello application, which is a "
+"demonstration of basic GNOME program functionality."
+msgstr "このドキュメントは基本的な GNOME プログラムの機能を"
+"デモするための GNOME Hello アプリケーションについて説明しています。"
+
+#: C/gnome-hello.xml:26(year) C/gnome-hello.xml:59(date)
+#: C/gnome-hello.xml:66(date)
+msgid "1998"
+msgstr "1998"
+
+#: C/gnome-hello.xml:27(year)
+msgid "1999"
+msgstr "1999"
+
+#: C/gnome-hello.xml:28(holder) C/gnome-hello.xml:61(para)
+#: C/gnome-hello.xml:68(para)
+msgid "Havoc Pennington"
+msgstr "Havoc Pennington"
+
+#: C/gnome-hello.xml:31(year) C/gnome-hello.xml:73(date)
+msgid "2002"
+msgstr "2002"
+
+#: C/gnome-hello.xml:32(holder)
+msgid "John Fleck"
+msgstr "John Fleck"
+
+#: C/gnome-hello.xml:35(publishername) C/gnome-hello.xml:51(orgname)
+msgid "GNOME Documentation Project"
+msgstr "GNOME ドキュメントプロジェクト"
+
+# 参考訳: http://www.opensource.jp/fdl/fdl.ja.html
+#: C/gnome-hello.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr "この文書を、フリーソフトウェア財団発行の GNU フリー文書利用許諾契約書 (GFDL) "
+"のバージョン 1.1 かそれ以降が定める条件の下で複製、頒布、あるいは改変すること"
+"を許可します。変更不可部分、表カバーテキスト、裏カバーテキストは存在しませ"
+"ん。この利用許諾契約書 (GFDL) の複製は<ulink type=\"help\" url=\"ghelp:fdl\">"
+"このリンク</ulink> またはこのマニュアルと一緒に配布されているファイル "
+"COPYING-DOCS を参照して下さい。"
+
+#: C/gnome-hello.xml:12(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr "このマニュアルは GFDL の下で配布される GNOME マニュアルのコレクションの一部で"
+"す。コレクションと別にこのマニュアルを配布したい場合は、ライセンスの第六節に"
+"あるようにライセンスのコピーをマニュアルに加えれば配布できます。"
+
+#: C/gnome-hello.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr "製品やサービスを区別するために企業によって利用されている名称の多くは登録商標"
+"です。これらの名称が GNOME ドキュメントで使われていて GNOME ドキュメントプロ"
+"ジェクトのメンバーが商標と認識している場合、これらの名前を大文字あるいは語句"
+"の最初の文字を大文字で記述しています。"
+
+# 訳すべきか?
+#: C/gnome-hello.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+
+#: C/gnome-hello.xml:55(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+
+#: C/gnome-hello.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr "ドキュメントおよび変更されているドキュメントは次の GNU フリー文書利用許諾契約"
+"書 (GFDL) の下で頒布されます: <placeholder-1/>"
+
+#: C/gnome-hello.xml:40(firstname)
+msgid "Havoc"
+msgstr "Havoc"
+
+#: C/gnome-hello.xml:40(surname)
+msgid "Pennington"
+msgstr "Pennington"
+
+#: C/gnome-hello.xml:43(email)
+msgid "hp@pobox.com"
+msgstr "hp@pobox.com"
+
+#: C/gnome-hello.xml:48(firstname)
+msgid "John"
+msgstr "John"
+
+#: C/gnome-hello.xml:49(surname)
+msgid "Fleck"
+msgstr "Fleck"
+
+#: C/gnome-hello.xml:52(email)
+msgid "jfleck@inkstain.net"
+msgstr "jfleck@inkstain.net"
+
+#: C/gnome-hello.xml:58(revnumber)
+msgid "GNOME Hello Manual V 0"
+msgstr "GNOME Hello マニュアル v0"
+
+#: C/gnome-hello.xml:65(revnumber)
+msgid "GNOME Hello Manual V 1"
+msgstr "GNOME Hello マニュアル v1"
+
+#: C/gnome-hello.xml:72(revnumber)
+msgid "GNOME Hello Manual V 2.0"
+msgstr "GNOME Hello マニュアル v2.0"
+
+#: C/gnome-hello.xml:75(para)
+msgid "John Fleck <email>jfleck@inkstain.net</email>"
+msgstr "John Fleck <email>jfleck@inkstain.net</email>"
+
+#: C/gnome-hello.xml:82(releaseinfo)
+msgid "This manual describes version 2.0 of GNOME Hello."
+msgstr "このマニュアルは GNOME Hello のバージョン 2.0 について説明しています。"
+
+#: C/gnome-hello.xml:85(title)
+msgid "Feedback"
+msgstr "フィードバック"
+
+#: C/gnome-hello.xml:86(para)
+msgid ""
+"To report a bug or make a suggestion regarding the <application>GNOME Hello</"
+"application> application or this manual, follow the directions in the <ulink "
+"url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+msgstr "<application>GNOME Hello</application> アプリケーションまたは"
+"マニュアルについてバグの報告や提案がある場合は、"
+"<ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME "
+"フィードバックページ</ulink> の指示に従って下さい。"
+
+#: C/gnome-hello.xml:94(title)
+msgid "Introduction."
+msgstr "はじめに"
+
+#: C/gnome-hello.xml:95(para)
+msgid ""
+"This is the <application>GNOME Hello</application> user's guide. It does not "
+"contain any actual information. We are demonstrating how to install help "
+"files."
+msgstr "これは <application>GNOME Hello</application> のユーザーガイドです。"
+"実際には何も情報はなく、ヘルプファイルのインストール方法をデモしています。"
+
+#: C/gnome-hello.xml:99(title)
+msgid "<application>GNOME Hello</application> Window"
+msgstr "<application>GNOME Hello</application> ウィンドウ"
+
+#: C/gnome-hello.xml:0(application)
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: C/gnome-hello.xml:107(phrase)
+msgid "Shows <placeholder-1/> main window."
+msgstr "<placeholder-1/> メインウィンドウの表示"
+
+#: C/gnome-hello.xml:115(title)
+msgid "Advanced GnomeHello."
+msgstr "GnomeHello の高度な機能"
+
+#: C/gnome-hello.xml:116(para)
+msgid "GnomeHello is a complex program, with many advanced features."
+msgstr "GnomeHello は複雑なプログラムであり、高度な機能を沢山持っています。"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/gnome-hello.xml:0(None)
+msgid "translator-credits"
+msgstr "Satoru Sato <ss@gnome.gr.jp>\n"
+"日本 GNOME ユーザー会 <http://www.gnome.gr.jp>"

@@ -1,3 +1,9 @@
+2007-08-27  Satoru SATOH <ss@gnome.gr.jp>
+
+	* help/Makefile.am: Added ja to DOC_LINGUAS.
+	* help/ja/ja.po: Added Japanese translation.
+	* help/ja/figures/gnome-hello.png: Added a screenshot image.
+
 2007-02-04  Christian Persch  <chpe@svn.gnome.org>
 
 	* doc/C/Makefile.am:
