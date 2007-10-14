@@ -6,4 +6,4 @@ DOC_ENTITIES = legal.xml
 DOC_INCLUDES = 
 DOC_FIGURES = figures/gnome-hello.png
 
-DOC_LINGUAS = ja sv
+DOC_LINGUAS = ja oc sv
