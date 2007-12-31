@@ -1,16 +1,14 @@
-# translation of oc.po to Occitan
+# Translation of oc.po to Occitan
 # Occitan translation of gnome-hello.
 # Copyright (C) 1999-2006, 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-hello package.
 #
-# Yannig MARCHEGAY (yannig@marchegay.org) - 2006-2007
-#
-# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007.
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
 msgid ""
 msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-10-13 17:48+0200\n"
+"POT-Creation-Date: 2007-12-27 13:30+0100\n"
 "PO-Revision-Date: 2007-11-20 14:31+0100\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
@@ -18,7 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: KBabel 1.11.4\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
@@ -161,7 +158,7 @@ msgstr "Pr_opietats"
 
 #: ../src/menus.c:95
 msgid "_Contents"
-msgstr "_Somari"
+msgstr "_Ensenhador"
 
 #: ../src/menus.c:96
 msgid "_About"
@@ -173,7 +170,7 @@ msgstr "Precedent"
 
 #: ../src/menus.c:98
 msgid "_Next"
-msgstr "Seguent"
+msgstr "_Seguent"
 
 #: ../src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
@@ -181,5 +178,4 @@ msgstr ""
 
 #: ../src/menus.c:159
 msgid "translator-credits"
-msgstr "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org)"
-
+msgstr "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>"
