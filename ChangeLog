@@ -1,5 +1,11 @@
 2008-06-02  Claude Paroz  <claude@2xlibre.net>
 
+    * help/Makefile.am: Added fr to DOC_LINGUAS.
+	* help/fr/fr.po: Added French translation.
+	* help/ja/figures/gnome-hello.png: Added screenshot.
+
+2008-06-02  Claude Paroz  <claude@2xlibre.net>
+
 	* src/app.c: (hello_app_new): Make the toolbar appear.
 
 2008-06-02  Claude Paroz  <claude@2xlibre.net>
