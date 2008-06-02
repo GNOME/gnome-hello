@@ -39,6 +39,7 @@ hello_app_new (const gchar *message,
   GtkWidget *button;
   GtkWidget *label;
   GtkWidget *menubar;
+  GtkWidget *toolbar;
   GtkUIManager *ui_manager;
   GtkAccelGroup *accel_group;
 
@@ -58,6 +59,8 @@ hello_app_new (const gchar *message,
 
   menubar = gtk_ui_manager_get_widget (ui_manager, "/menubar");
   gtk_box_pack_start (GTK_BOX (vbox), menubar, FALSE, FALSE, 0);
+  toolbar = gtk_ui_manager_get_widget (ui_manager, "/toolbar");
+  gtk_box_pack_start (GTK_BOX (vbox), toolbar, FALSE, FALSE, 0);
 
   button = gtk_button_new ();
   gtk_container_set_border_width (GTK_CONTAINER (button), 10);
