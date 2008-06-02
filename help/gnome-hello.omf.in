@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <omf>
   <resource>
-    <subject category="GNOME|Tutorials"/>
+    <subject category="GNOME|Development|Tutorials"/>
     <type>
       user's guide
     </type>

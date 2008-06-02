@@ -84,14 +84,14 @@
       <legalnotice> 
       <title>Feedback</title> 
       <para>To report a bug or make a suggestion regarding the &app; application or
-      this manual, follow the directions in the <ulink url="ghelp:gnome-feedback"
+      this manual, follow the directions in the <ulink url="ghelp:user-guide?feedback"
 	  type="help">GNOME Feedback Page</ulink>. 
       </para>
       </legalnotice>
   </articleinfo>
 
   <sect1 id="intro">
-    <title>Introduction.</title>
+    <title>Introduction</title>
       <para>This is the &app; user's guide. It does not contain
       any actual information. We are demonstrating how to install
       help files.</para>
@@ -112,7 +112,7 @@
   </sect1>
  
    <sect1 id="advanced">
-      <title>Advanced GnomeHello.</title> 
+      <title>Advanced GnomeHello</title> 
       <para> GnomeHello is a complex program, with many advanced
       features.</para>
 
