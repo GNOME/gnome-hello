@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-07 10:21+0100\n"
+"POT-Creation-Date: 2008-07-02 08:58+0200\n"
 "PO-Revision-Date: 2008-02-26 22:16+0100\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
@@ -25,20 +25,20 @@ msgstr ""
 msgid "Sample application using GNOME technologies"
 msgstr ""
 
-#: ../src/app.c:49 ../src/menus.c:155
+#: ../src/app.c:50 ../src/menus.c:155
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:66 ../src/menus.c:124
+#: ../src/app.c:69 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr ""
 
-#: ../src/app.c:83
+#: ../src/app.c:86
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr ""
 
-#: ../src/app.c:90
+#: ../src/app.c:93
 msgid "Special Greetings to:\n"
 msgstr ""
 
