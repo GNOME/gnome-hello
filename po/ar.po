@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arabic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-04-21 22:52+0100\n"
+"POT-Creation-Date: 2008-07-31 11:07+0100\n"
 "PO-Revision-Date: 2007-04-14 18:49+0100\n"
 "Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
 "Language-Team: Arabeyes <doc@arabeyes.org>\n"
@@ -24,21 +24,21 @@ msgstr "سطح مكتب جنوم عن بعيد"
 msgid "Sample application using GNOME technologies"
 msgstr ""
 
-#: ../src/app.c:49 ../src/menus.c:155
+#: ../src/app.c:50 ../src/menus.c:155
 #, fuzzy
 msgid "GNOME Hello"
 msgstr "متصفّح مساعدة جنوم"
 
-#: ../src/app.c:66 ../src/menus.c:124
+#: ../src/app.c:69 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr "اهلا، يا عالم!"
 
-#: ../src/app.c:83
+#: ../src/app.c:86
 #, fuzzy, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "تعذّر تحليل عنوان URL `%s'"
 
-#: ../src/app.c:90
+#: ../src/app.c:93
 #, fuzzy
 msgid "Special Greetings to:\n"
 msgstr "الأهداف الخاصة"
@@ -73,12 +73,12 @@ msgid "- GNOME Hello"
 msgstr "متصفّح مساعدة جنوم"
 
 #: ../src/hello.c:119
-#, fuzzy
+#, fuzzy, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "يجب تحديد بعض المفاتيح لكسرها\n"
 
 #: ../src/hello.c:124
-#, fuzzy
+#, fuzzy, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr ""
 "خطأ في متغيّرات سطر الأوامر، رجاء إستخدم الخيار --help لمراجعة كيفيّة "
@@ -204,4 +204,3 @@ msgstr "هذا لا يفعل شيئاً، للعرض فقط."
 #, fuzzy
 msgid "translator-credits"
 msgstr "المترجمون:"
-
