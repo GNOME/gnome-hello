@@ -1,3 +1,8 @@
+2008-09-18  Christian Persch  <chpe@gnome.org>
+
+	* Makefile.am:
+	* autogen.sh: Fix dist with intltool 0.40.0.
+
 2008-06-02  Claude Paroz  <claude@2xlibre.net>
 
     * help/Makefile.am: Added fr to DOC_LINGUAS.
