@@ -1,3 +1,9 @@
+2008-10-05  Mario Blättermann <mariobl@svn.gnome.org>
+
+	* help/Makefile.am: Added de to DOC_LINGUAS.
+	* help/de/de.po: Added German translation.
+	* help/de/figures/gnome-hello.png: Added screenshot.
+
 2008-09-18  Christian Persch  <chpe@gnome.org>
 
 	* Makefile.am:
