@@ -1,17 +1,15 @@
 # translation of gnome-hello.HEAD.sk.po to Slovak
 # Slovak translations of GnomeHello.
-# Copyright (C) 2001, 2003, 2005 Free Software Foundation, Inc.
+# Copyright (C) 2001, 2003, 2005, 2009 Free Software Foundation, Inc.
 # Martin Lacko <lacko@host.sk>, 2001,2003.
-# Marcel Telka <marcel@telka.sk>, 2005.
-#
-# $Id$
+# Marcel Telka <marcel@telka.sk>, 2005, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-10-17 22:11+0200\n"
-"PO-Revision-Date: 2005-10-17 22:28+0200\n"
+"POT-Creation-Date: 2009-01-18 14:07+0100\n"
+"PO-Revision-Date: 2009-01-19 14:08+0100\n"
 "Last-Translator: Marcel Telka <marcel@telka.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -26,48 +24,54 @@ msgstr "GNOME Ahoj Demo"
 msgid "Sample application using GNOME technologies"
 msgstr "Príklad aplikácie používajúcej technológiu GNOME"
 
-#: ../src/app.c:50 ../src/menus.c:167
+#: ../src/app.c:50 ../src/menus.c:155
 msgid "GNOME Hello"
 msgstr "GNOME Ahoj"
 
-#: ../src/app.c:68 ../src/menus.c:124
+#: ../src/app.c:69 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr "Ahoj, Svet!"
 
-#: ../src/app.c:85
+#: ../src/app.c:86
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Nemôžem rozdeliť reťazec geometrie `%s'"
 
-#: ../src/app.c:92
+#: ../src/app.c:93
 msgid "Special Greetings to:\n"
 msgstr "Špeciálne pozdravy pre:\n"
 
-#: ../src/hello.c:47
+#: ../src/hello.c:49
 msgid "Say hello to specific people listed on the command line"
 msgstr "Povedať ahoj pre ľudí zadaných v príkazovom riadku"
 
-#: ../src/hello.c:56
+#: ../src/hello.c:58
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Zadajte správu odlišnú od \"Ahoj, Svet!\""
 
-#: ../src/hello.c:57
+#: ../src/hello.c:59
 msgid "MESSAGE"
 msgstr "SPRÁVA"
 
-#: ../src/hello.c:65
+#: ../src/hello.c:67
 msgid "Specify the geometry of the main window"
 msgstr "Zadajte geometriu hlavného okna"
 
-#: ../src/hello.c:66
+#: ../src/hello.c:68
 msgid "GEOMETRY"
 msgstr "GEOMETRIA"
 
-#: ../src/hello.c:114
+#: ../src/hello.c:95
+msgid "- GNOME Hello"
+msgstr "- GNOME Ahoj"
+
+#: ../src/hello.c:119
+#, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Musíte zadať niekoho, koho chcete pozdraviť.\n"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:124
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Argumenty príkazového riadku sú povolené iba s --greet.\n"
 
@@ -171,6 +175,6 @@ msgstr "_Nasledujúce"
 msgid "This does nothing; it is only a demonstration."
 msgstr "Toto nevykonáva nič, je to iba ukážka."
 
-#: ../src/menus.c:171
+#: ../src/menus.c:159
 msgid "translator-credits"
 msgstr "Marcel Telka <marcel@telka.sk>"
