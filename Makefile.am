@@ -17,3 +17,13 @@ CLEANFILES = \
 	$(desktop_DATA)
 
 DISTCLEANFILES =
+
+# Build ChangeLog from GIT  history
+ChangeLog:
+	@if test -d $(top_srcdir)/.git; then \
+		GIT_DIR="$(top_srcdir)/.git" git log --stat > $@; \
+	fi
+
+dist: ChangeLog
+
+.PHONY: ChangeLog
