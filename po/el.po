@@ -1,20 +1,17 @@
-# Gnome-hello
-# Copyright (C) Free Software Foundation Inc 2002
-# This file is distributed under the same license as the PACKAGE package.
-# Kostas Papadimas <pkst@gmx.net>
-#
+# Greek translation of gnome-hello
+# Copyright (C) 2002 - 2009 Free Software Foundation, Inc
+# This file is distributed under the same license as the gnome-hello package.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello VERSION\n"
+"Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-09-12 12:07+0300\n"
-"PO-Revision-Date: 2002-11-17 17:45+0200\n"
-"Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"POT-Creation-Date: 2009-05-08 18:09+0100\n"
+"PO-Revision-Date: 2009-05-02 10:34+0300\n"
+"Last-Translator: Μάριος Ζηντίλης <m.zindilis@dmajor.org>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.6\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
@@ -28,16 +25,16 @@ msgstr "Μια εφαρμογή επίδειξης που χρησιμοποιε
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:68 ../src/menus.c:124
+#: ../src/app.c:69 ../src/menus.c:124
 msgid "Hello, World!"
 msgstr "Hello, World!"
 
-#: ../src/app.c:85
+#: ../src/app.c:86
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Αδυναμία διαβίβασης αλφαριθμητικού γεωμετρίας`%s'"
+msgstr "Αδυναμία διαβίβασης αλφαριθμητικού γεωμετρίας `%s'"
 
-#: ../src/app.c:92
+#: ../src/app.c:93
 msgid "Special Greetings to:\n"
 msgstr "Ευχαριστίες σε:\n"
 
@@ -63,141 +60,124 @@ msgid "GEOMETRY"
 msgstr "ΓΕΩΜΕΤΡΙΑ"
 
 #: ../src/hello.c:95
-#, fuzzy
 msgid "- GNOME Hello"
-msgstr "GNOME Hello"
+msgstr "- GNOME Hello"
 
 #: ../src/hello.c:119
-#, fuzzy
+#, c-format
 msgid "You must specify someone to greet.\n"
-msgstr "Πρέπει να καθορίσετε ποιόν θα χαιρετίσετε"
+msgstr "Πρέπει να καθορίσετε ποιόν θα χαιρετίσετε.\n"
 
 #: ../src/hello.c:124
-#, fuzzy
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
-msgstr "Επιχειρήματα στη γραμμή εντολών επιτρέπονατι μόνο με --greet."
+msgstr "Επιχειρήματα στη γραμμή εντολών επιτρέπονται μόνο με --greet.\n"
 
 #: ../src/menus.c:75
 msgid "_File"
-msgstr ""
+msgstr "_Αρχείο"
 
 #: ../src/menus.c:76
 msgid "_Edit"
-msgstr ""
+msgstr "_Επεξεργασία"
 
 #: ../src/menus.c:77
 msgid "_Help"
-msgstr ""
+msgstr "_Βοήθεια"
 
 #: ../src/menus.c:78
-#, fuzzy
 msgid "_New"
-msgstr "Νέο"
+msgstr "_Νέο"
 
 #: ../src/menus.c:79
 msgid "_Open"
-msgstr ""
+msgstr "Άν_οιγμα"
 
 #: ../src/menus.c:80
 msgid "_Save"
-msgstr ""
+msgstr "_Αποθήκευση"
 
 #: ../src/menus.c:81
 msgid "Save _As"
-msgstr ""
+msgstr "Αποθήκευση _ως"
 
 #: ../src/menus.c:82
 msgid "_Close"
-msgstr ""
+msgstr "_Κλείσιμο"
 
 #: ../src/menus.c:83
 msgid "_Quit"
-msgstr ""
+msgstr "Έ_ξοδος"
 
 #: ../src/menus.c:84
 msgid "Cu_t"
-msgstr ""
+msgstr "_Αποκοπή"
 
 #: ../src/menus.c:85
 msgid "_Copy"
-msgstr ""
+msgstr "Α_ντιγραφή"
 
 #: ../src/menus.c:86
 msgid "_Paste"
-msgstr ""
+msgstr "_Επικόλληση"
 
 #: ../src/menus.c:87
 msgid "Select _All"
-msgstr ""
+msgstr "Επιλ_ογή όλων"
 
 #: ../src/menus.c:88
 msgid "C_lear"
-msgstr ""
+msgstr "Κα_θαρισμός"
 
 #: ../src/menus.c:89
 msgid "_Undo"
-msgstr ""
+msgstr "Αναίρε_ση"
 
 #: ../src/menus.c:90
 msgid "_Redo"
-msgstr ""
+msgstr "Ακύρωση αναίρεσ_ης"
 
 #: ../src/menus.c:91
 msgid "_Find"
-msgstr ""
+msgstr "_Εύρεση"
 
 #: ../src/menus.c:92
 msgid "Find Ne_xt"
-msgstr ""
+msgstr "Εύρεση επό_μενου"
 
 #: ../src/menus.c:93
 msgid "R_eplace"
-msgstr ""
+msgstr "Α_ντικατάσταση"
 
 #: ../src/menus.c:94
 msgid "Pr_operties"
-msgstr ""
+msgstr "Ι_διότητες"
 
 #: ../src/menus.c:95
 msgid "_Contents"
-msgstr ""
+msgstr "_Περιεχόμενο"
 
 #: ../src/menus.c:96
 msgid "_About"
-msgstr ""
+msgstr "Π_ερί"
 
 #: ../src/menus.c:97
-#, fuzzy
 msgid "_Previous"
-msgstr "Προηγούμενο hello"
+msgstr "_Προηγούμενο"
 
 #: ../src/menus.c:98
-#, fuzzy
 msgid "_Next"
-msgstr "Επόμενο"
+msgstr "_Επόμενο"
 
 #: ../src/menus.c:113
 msgid "This does nothing; it is only a demonstration."
-msgstr "Αυτό δεν κάνει τίποτα, είναι μόνο μια επίδειξη"
+msgstr "Αυτό δεν κάνει τίποτα, είναι μόνο μια επίδειξη."
 
 #: ../src/menus.c:159
 msgid "translator-credits"
 msgstr ""
-
-#~ msgid "Gnome Hello"
-#~ msgstr "Gnome Hello"
-
-#~ msgid "_New Hello"
-#~ msgstr "_Νέο Hello"
-
-#~ msgid "Create a new hello"
-#~ msgstr "Δημιουργία νέου hello"
-
-#~ msgid "Prev"
-#~ msgstr "Προηγ"
-
-#~ msgid "Next hello"
-#~ msgstr "Επόμενο hello"
-
-#~ msgid "A sample GNOME application."
-#~ msgstr "Μια εφαρμογή επίδειξης του GNOME"
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Κώστας Παπαδήμας <pkst@gmx.net>\n"
+" Μάριος Ζηντίλης <m.zindilis@dmajor.org>\n"
+"\n"
+"Για περισσότερα δείτε: http://gnome.gr"
