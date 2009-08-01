@@ -1,0 +1,37 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="guide"
+  id="01-what-can-do">
+  
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>What can you do with <app>GNOME Hello</app>.</desc>
+    <revision version="0.1" date="2009-08-01" status="final"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+
+    <license>Creative Commons Share Alike 3.0</license>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+  </info>
+
+  <title>What <app>GNOME Hello</app> does</title>
+  
+  <p>
+    At the moment <app>GNOME Hello</app> can't do many things.
+  </p>
+  <p>
+    This is just a demonstration on how to install help files and how to use Mallard, 
+    the new syntax for writing GNOME documentation.
+  </p>
+  <p>
+    If you want to learn more about Mallard, see the 
+    <link href="http://live.gnome.org/ProjectMallard">Project Mallard</link> home page.
+  </p>
+
+</page>

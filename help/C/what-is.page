@@ -1,0 +1,29 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="guide"
+  id="03-what-is">
+  
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Description of <app>GNOME Hello</app>.</desc>
+    <revision version="0.1" date="2009-08-01" status="final"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+
+    <license>Creative Commons Share Alike 3.0</license>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+  </info>
+
+  <title>What is <app>GNOME Hello</app></title>
+  
+  <p>
+    <app>GNOME Hello</app> is a very complex program, with many nice features and nice options.
+  </p>
+
+</page>

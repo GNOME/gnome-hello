@@ -1,0 +1,35 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="guide"
+  id="02-what-is-like">
+  
+  <info>
+    <link type="guide" xref="index"/>
+    <link type="seealso" xref="03-what-is"/>
+    <desc>Pictures of <app>GNOME Hello</app>.</desc>
+    <revision version="0.1" date="2009-08-01" status="final"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+
+    <license>Creative Commons Share Alike 3.0</license>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+  </info>
+
+  <title>What does <app>GNOME Hello</app> look like?</title>
+  
+  <p>
+    This is how <app>GNOME Hello</app> looks like.
+  </p>
+  <p>
+    <media type="image" mime="img/png" src="figures/gnome-hello.png">
+      <app>GNOME Hello</app> fantastic interface.
+    </media>
+  </p>
+
+</page>
