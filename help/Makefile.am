@@ -2,7 +2,7 @@ include $(top_srcdir)/gnome-doc-utils.make
 dist-hook: doc-dist-hook
 
 DOC_ID = gnome-hello
-DOC_ENTITIES = legal.xml
+DOC_INCLUDES = legal.xml
 DOC_FIGURES = figures/gnome-hello.png
 
 DOC_PAGES = index.page \
