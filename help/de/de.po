@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2009-08-04 11:16+0000\n"
-"PO-Revision-Date: 2009-08-06 19:17+0100\n"
+"POT-Creation-Date: 2009-08-10 13:44+0000\n"
+"PO-Revision-Date: 2009-08-26 21:51+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -10,6 +10,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
+
+#: C/legal.xml:4(link)
+#| msgid "Creative Commons Share Alike 3.0"
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#: C/legal.xml:3(p)
+#| msgid "What can you do with <placeholder-1/>."
+msgid "This work is licensed under a <placeholder-1/>."
+msgstr "Dieses Werk ist unter <placeholder-1/> lizensiert."
+
+#: C/legal.xml:6(p)
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"Als besondere Ausnahme geben Ihnen die Urheberrechtsinhaber die Genehmigung, "
+"den in diesem Dokument enthaltenen Beispielcode ohne Einschränkung unter den "
+"Bedingungen Ihrer Wahl zu verbreiten."
 
 #: C/what-can-do.page:7(app) C/what-can-do.page:26(app)
 #: C/what-is-like.page:8(app) C/what-is-like.page:27(app)
@@ -34,7 +54,6 @@ msgstr "milo@ubuntu.com"
 
 #: C/what-can-do.page:14(year) C/what-is-like.page:15(year)
 #: C/what-is.page:14(year) C/index.page:13(year)
-#| msgid "2002"
 msgid "2009"
 msgstr "2009"
 
@@ -49,12 +68,10 @@ msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
 #: C/what-can-do.page:23(title)
-#| msgid "<application>GNOME Hello</application> Window"
 msgid "What <app>GNOME Hello</app> does"
 msgstr "<application>GNOME-Hallo</application>-Fenster"
 
 #: C/what-can-do.page:25(p)
-#| msgid "Shows <placeholder-1/> main window."
 msgid "At the moment <placeholder-1/> can't do many things."
 msgstr "Momentan kann <placeholder-1/> nicht viele Dinge tun."
 
@@ -86,14 +103,12 @@ msgid "What does <app>GNOME Hello</app> look like?"
 msgstr "Wie sieht <app>GNOME-Hallo</app> aus?"
 
 #: C/what-is-like.page:26(p)
-#| msgid "Shows <placeholder-1/> main window."
 msgid "This is how <placeholder-1/> looks like."
 msgstr "So sieht <placeholder-1/> aus."
 
 #: C/what-is-like.page:30(media)
-#| msgid "Shows <placeholder-1/> main window."
 msgid "<placeholder-1/> fantastic interface."
-msgstr "Die fantastische Schnittstelle von <placeholder-1/>."
+msgstr "Die fantastische Benutzeroberfläche von <placeholder-1/>."
 
 #: C/what-is.page:7(desc)
 msgid "Description of <placeholder-1/>."
@@ -104,7 +119,6 @@ msgid "What is <app>GNOME Hello</app>"
 msgstr "Was ist <app>GNOME-Hallo</app>"
 
 #: C/what-is.page:25(p)
-#| msgid "GnomeHello is a complex program, with many advanced features."
 msgid ""
 "<placeholder-1/> is a very complex program, with many nice features and nice "
 "options."
