@@ -11,4 +11,4 @@ DOC_PAGES = index.page \
   what-can-do.page
 
 
-DOC_LINGUAS = de es fr ja oc pt_BR sv zh_CN
+DOC_LINGUAS = de el es fr ja oc pt_BR sv zh_CN
