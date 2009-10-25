@@ -12,3 +12,5 @@ DOC_PAGES = index.page \
 
 
 DOC_LINGUAS = de el es fr ja oc pt_BR sv zh_CN
+
+-include $(top_srcdir)/git.mk

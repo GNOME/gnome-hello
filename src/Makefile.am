@@ -27,3 +27,5 @@ gnome_hello_LDFLAGS = \
 gnome_hello_LDADD = \
 	$(GNOME_HELLO_LIBS)	\
  	$(INTLLIBS)
+
+-include $(top_srcdir)/git.mk
