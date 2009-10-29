@@ -6,28 +6,30 @@
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2009.
+# Jorge González <jorgegonz@svn.gnome.org>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello.help.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-10 13:44+0000\n"
-"PO-Revision-Date: 2009-08-12 11:19+0200\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: ES <gnome-es@gnome.org>\n"
+"POT-Creation-Date: 2009-10-20 17:40+0000\n"
+"PO-Revision-Date: 2009-10-29 07:56+0100\n"
+"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: C/legal.xml:4(link)
-msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
-msgstr ""
-"Licencia Creative Commons Share Alike 3.0 de Atribución de Estados Unidos"
-
 #: C/legal.xml:3(p)
-msgid "This work is licensed under a <placeholder-1/>."
-msgstr "Este trabajo es licenciado bajo <placeholder-1/>."
+msgid ""
+"This work is licensed under a <link href=\"http://creativecommons.org/"
+"licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 United "
+"States License</link>."
+msgstr ""
+"Este trabajo está licenciado bajo <link href=\"http://creativecommons.org/"
+"licenses/by-sa/3.0/us/\">Licencia Creative Commons Reconocimiento-Compartir "
+"Igual 3.0 de Estados Unidos</link>."
 
 #: C/legal.xml:6(p)
 msgid ""
@@ -39,16 +41,9 @@ msgstr ""
 "permiso para copiar, modificar y distribuir el código de ejemplo que figura "
 "en este documento bajo los términos de su elección, sin restricción alguna."
 
-#: C/what-can-do.page:7(app) C/what-can-do.page:26(app)
-#: C/what-is-like.page:8(app) C/what-is-like.page:27(app)
-#: C/what-is-like.page:31(app) C/what-is.page:7(app) C/what-is.page:26(app)
-#: C/index.page:21(title)
-msgid "GNOME Hello"
-msgstr "GNOME Hello"
-
 #: C/what-can-do.page:7(desc)
-msgid "What can you do with <placeholder-1/>."
-msgstr "Lo que puede hacer con <placeholder-1/>."
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Qué se puede hacer con<app>GNOME Hello</app>."
 
 #: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
 #: C/what-is.page:10(name) C/index.page:9(name)
@@ -80,8 +75,8 @@ msgid "What <app>GNOME Hello</app> does"
 msgstr "Qué hace <app>GNOME Hello</app>"
 
 #: C/what-can-do.page:25(p)
-msgid "At the moment <placeholder-1/> can't do many things."
-msgstr "Por el momento <placeholder-1/> no puede hacer muchas cosas."
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "Por el momento <app>GNOME Hello</app> no puede hacer muchas cosas."
 
 #: C/what-can-do.page:28(p)
 msgid ""
@@ -91,35 +86,45 @@ msgstr ""
 "Esto es sólo una demostración de cómo instalar archivos de ayuda y usar "
 "Mallard, la nueva sintaxis para escribir documentación de GNOME."
 
-#: C/what-can-do.page:34(link)
-msgid "Project Mallard"
-msgstr "Proyecto Mallard"
-
 #: C/what-can-do.page:32(p)
 msgid ""
-"If you want to learn more about Mallard, see the <placeholder-1/> home page."
+"If you want to learn more about Mallard, see the <link href=\"http://live."
+"gnome.org/ProjectMallard\">Project Mallard</link> home page."
 msgstr ""
-"Si quiere saber más sobre Mallard, visite la página web <placeholder-1/>."
+"Si quiere saber más sobre Mallard, visite la página web <link href=\"http://"
+"live.gnome.org/ProjectMallard\">Proyecto Mallard</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/what-is-like.page:30(None)
+msgid ""
+"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+msgstr ""
+"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
 
 #: C/what-is-like.page:8(desc)
-msgid "Pictures of <placeholder-1/>."
-msgstr "Imágenes de <placeholder-1/>."
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Imágenes de <app>GNOME Hello</app>."
 
 #: C/what-is-like.page:24(title)
 msgid "What does <app>GNOME Hello</app> look like?"
 msgstr "¿Qué parece <app>GNOME Hello</app>?"
 
 #: C/what-is-like.page:26(p)
-msgid "This is how <placeholder-1/> looks like."
-msgstr "Así es como <placeholder-1/> es."
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "<app>GNOME Hello</app> se parece a esto."
+
+#: C/what-is-like.page:31(app) C/index.page:21(title)
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
 
 #: C/what-is-like.page:30(media)
 msgid "<placeholder-1/> fantastic interface."
 msgstr "Fantástica interfaz de <placeholder-1/>."
 
 #: C/what-is.page:7(desc)
-msgid "Description of <placeholder-1/>."
-msgstr "Descripción de <placeholder-1/>."
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Descripción de <app>GNOME Hello</app>."
 
 #: C/what-is.page:23(title)
 msgid "What is <app>GNOME Hello</app>"
@@ -127,21 +132,38 @@ msgstr "Que es <app>GNOME Hello</app>"
 
 #: C/what-is.page:25(p)
 msgid ""
-"<placeholder-1/> is a very complex program, with many nice features and nice "
-"options."
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
 msgstr ""
-"<placeholder-1/> es un programa complejo, con características y opciones muy "
-"interesantes."
+"<app>GNOME Hello</app> es un programa complejo, con características y "
+"opciones muy interesantes."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)
 msgid "translator-credits"
 msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009"
 
-#~ msgid ""
-#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
 #~ msgstr ""
-#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ "Licencia Creative Commons Share Alike 3.0 de Atribución de Estados Unidos"
+
+#~ msgid "This work is licensed under a <placeholder-1/>."
+#~ msgstr "Este trabajo es licenciado bajo <placeholder-1/>."
+
+#~ msgid "What can you do with <placeholder-1/>."
+#~ msgstr "Lo que puede hacer con <placeholder-1/>."
+
+#~ msgid "Project Mallard"
+#~ msgstr "Proyecto Mallard"
+
+#~ msgid "Pictures of <placeholder-1/>."
+#~ msgstr "Imágenes de <placeholder-1/>."
+
+#~ msgid "This is how <placeholder-1/> looks like."
+#~ msgstr "Así es como <placeholder-1/> es."
+
+#~ msgid "Description of <placeholder-1/>."
+#~ msgstr "Descripción de <placeholder-1/>."
 
 #~ msgid "<application>GNOME Hello</application> Manual V2.0"
 #~ msgstr "Versión 2.0 del manual de <application>GNOME Hello</application>"
