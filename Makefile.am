@@ -1,5 +1,7 @@
 SUBDIRS = src pixmaps po help
 
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+
 NULL =
 
 desktopdir = $(datadir)/applications

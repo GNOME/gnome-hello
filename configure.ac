@@ -1,27 +1,25 @@
+AC_PREREQ(2.61)
 AC_INIT([GNOME Hello],[2.0.3],[mailto:desktop-devel-list@gnome.org],[gnome-hello])
 
 AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([1.9 foreign dist-bzip2 no-dist-gzip])
+AM_INIT_AUTOMAKE([1.10 foreign dist-bzip2 no-dist-gzip])
+AM_MAINTAINER_MODE
+m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
-m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([no])])
-
-if test -z "$enable_maintainer_mode"; then
-  enable_maintainer_mode=yes
-fi
-AM_MAINTAINER_MODE([enable])
-
+# Check for programs
 AC_PROG_CC
-AC_ISC_POSIX
-AC_HEADER_STDC
-AC_PROG_LIBTOOL
+
+# Initialize libtool
+LT_PREREQ([2.2.6])
+LT_INIT
 
 # *****
 # GNOME
 # *****
 
-GNOME_COMMON_INIT
 GNOME_DOC_INIT([0.17.3])
 GNOME_DEBUG_CHECK
 GNOME_COMPILE_WARNINGS([maximum])
@@ -54,12 +52,12 @@ fi
 # Internationalisation
 # ********************
 
-IT_PROG_INTLTOOL([0.35.0])
+IT_PROG_INTLTOOL([0.40.0])
 
-GETTEXT_PACKAGE=gnome-hello-2.0
-AC_SUBST([GETTEXT_PACKAGE])
+AC_SUBST([GETTEXT_PACKAGE], [gnome-hello])
+AM_GNU_GETTEXT_VERSION([0.17])
 AM_GLIB_GNU_GETTEXT
-AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"],[gettext domain])
+AC_DEFINE([GETTEXT_PACKAGE], [PACKAGE_TARNAME], [Define to the gettext package name.])
 
 # *************************************
 # *************************************

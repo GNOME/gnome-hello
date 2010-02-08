@@ -13,12 +13,11 @@ PKG_NAME="gnome-hello"
 }
 
 which gnome-autogen.sh || {
-    echo "You need to install gnome-common from the GNOME SVN repository"
+    echo "You need to install gnome-common module and make"
+    echo "sure the gnome-autogen.sh script is in your \$PATH."
     exit 1
 }
 
-REQUIRED_AUTOMAKE_VERSION=1.9
-REQUIRED_INTLTOOL_VERSION=0.40.0
 USE_COMMON_DOC_BUILD=yes
 
 . gnome-autogen.sh
