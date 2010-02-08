@@ -18,10 +18,13 @@
  * USA
  */
 
-#include <config.h>
+#include "config.h"
+
 #include <glib-object.h>
-#include <gnome.h>
 #include <glib/gi18n.h>
+
+#include <libgnomeui/gnome-ui-init.h>
+#include <libgnomeui/gnome-client.h>
 
 #include "app.h"
 

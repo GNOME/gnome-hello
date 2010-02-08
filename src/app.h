@@ -21,7 +21,7 @@
 #ifndef GNOMEHELLO_APP_H
 #define GNOMEHELLO_APP_H
 
-#include <gnome.h>
+#include <gtk/gtk.h>
 
 GtkWidget* hello_app_new(const gchar* message, 
                          const gchar* geometry,

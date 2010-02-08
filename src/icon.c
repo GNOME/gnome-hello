@@ -20,8 +20,11 @@
 
 /*** gnomehello-icon */
 
-#include <gnome.h>
-#include <config.h>
+#include "config.h"
+
+#include <gtk/gtk.h>
+#include <gdk/gdkx.h>
+
 #include "icon.h"
 
 void 
@@ -34,7 +37,6 @@ hello_set_icon(GtkWindow* window, const gchar* filename)
 
 }
 
-#include <gdk/gdkx.h>
 void
 gdk_get_icon_sizes(GdkIconSize** size_list, guint* count)
 {
