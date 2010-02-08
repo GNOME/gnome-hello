@@ -27,11 +27,12 @@
 #include "menus.h"
 #include "app.h"
 
-static void nothing_action_callback (GtkAction* action, gpointer data);
-static void new_action_callback     (GtkAction* action, gpointer data);
-static void close_action_callback   (GtkAction* action, gpointer data);
-static void quit_action_callback    (GtkAction* action, gpointer data);
-static void about_action_callback   (GtkAction* action, gpointer data);
+static void nothing_action_callback   (GtkAction* action, gpointer data);
+static void new_action_callback       (GtkAction* action, gpointer data);
+static void close_action_callback     (GtkAction* action, gpointer data);
+static void quit_action_callback      (GtkAction* action, gpointer data);
+static void contents_action_callback  (GtkAction* action, gpointer data);
+static void about_action_callback     (GtkAction* action, gpointer data);
 
 static const gchar *ui =
   "<ui>"
@@ -96,7 +97,7 @@ static GtkActionEntry entries[] =
   { "find-again", GTK_STOCK_FIND, N_("Find Ne_xt"), "<Ctrl>G", NULL, G_CALLBACK (nothing_action_callback) },
   { "replace", GTK_STOCK_FIND_AND_REPLACE, N_("R_eplace"), "<Ctrl>R", NULL, G_CALLBACK (nothing_action_callback) },
   { "properties", GTK_STOCK_PROPERTIES, N_("Pr_operties"), "<Ctrl>P", NULL, G_CALLBACK (nothing_action_callback) },
-  { "contents", GTK_STOCK_HELP, N_("_Contents"), "F1", NULL, G_CALLBACK (nothing_action_callback) },
+  { "contents", GTK_STOCK_HELP, N_("_Contents"), "F1", NULL, G_CALLBACK (contents_action_callback) },
   { "about", GTK_STOCK_ABOUT, N_("_About"), NULL, NULL, G_CALLBACK (about_action_callback) },
   { "prev", GTK_STOCK_GO_BACK, N_("_Previous"), NULL, NULL, G_CALLBACK (nothing_action_callback) },
   { "next", GTK_STOCK_GO_FORWARD, N_("_Next"), NULL, NULL, G_CALLBACK (nothing_action_callback) },
@@ -144,6 +145,31 @@ static void
 quit_action_callback (GtkAction* action, gpointer data)
 {
   gtk_main_quit ();
+}
+
+static void
+contents_action_callback (GtkAction* action, gpointer data)
+{
+  GError *error = NULL;
+
+  gtk_show_uri (NULL, "ghelp:gnome-hello",  gtk_get_current_event_time (), &error);
+
+  if (error != NULL)
+    {
+      GtkWidget *d;
+      d = gtk_message_dialog_new (NULL,
+                                  GTK_DIALOG_MODAL | GTK_DIALOG_DESTROY_WITH_PARENT,
+                                  GTK_MESSAGE_ERROR, GTK_BUTTONS_CLOSE,
+                                  "%s", _("Unable to open help file"));
+      gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (d),
+                                                "%s", error->message);
+
+      g_signal_connect (d, "response", G_CALLBACK (gtk_widget_destroy), NULL);
+
+      gtk_window_present (GTK_WINDOW (d));
+
+      g_error_free (error);
+    }
 }
 
 static void 
