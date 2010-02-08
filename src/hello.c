@@ -23,17 +23,7 @@
 #include <glib-object.h>
 #include <glib/gi18n.h>
 
-#include <libgnomeui/gnome-ui-init.h>
-#include <libgnomeui/gnome-client.h>
-
 #include "app.h"
-
-
-static void session_die  (GnomeClient* client, gpointer client_data);
-static gint save_session (GnomeClient *client, gint phase, 
-                          GnomeSaveStyle save_style,
-                          gint is_shutdown, GnomeInteractStyle interact_style,
-                          gint is_fast, gpointer client_data);
 
 
 static gboolean greet_mode = FALSE;
@@ -78,6 +68,9 @@ static GOptionEntry option_entries[] =
     &args,
     NULL,
     NULL
+  },
+  {
+    NULL
   }
 };
 
@@ -85,9 +78,7 @@ int
 main (int argc, char **argv)
 {
   GtkWidget *app;
-  GOptionContext *context;
-  GnomeProgram *program;
-  GnomeClient *client;
+  GError *error = NULL;
   GSList *greet = NULL;
   int i;
 
@@ -95,15 +86,20 @@ main (int argc, char **argv)
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
   textdomain (GETTEXT_PACKAGE);
 
-  context = g_option_context_new (_("- GNOME Hello"));
-  g_option_context_add_main_entries (context, option_entries, GETTEXT_PACKAGE);
+  /* Initialize GTK+ program */
+  if (!gtk_init_with_args (&argc, &argv,
+                           _("- GNOME Hello"),
+                           option_entries,
+                           GETTEXT_PACKAGE,
+                           &error))
+    {
+      g_printerr (_("%s\nRun '%s --help' to see a full list of available command line options.\n"),
+                  error->message, argv[0]);
+      g_error_free (error);
+      return 1;
+    }
 
-  program = gnome_program_init (PACKAGE, VERSION, LIBGNOMEUI_MODULE,
-				argc, argv, 
-				GNOME_PARAM_GOPTION_CONTEXT, context,
-				GNOME_PARAM_APP_DATADIR,DATADIR,
-				NULL);
-
+  /* Set default window icon */
   gtk_window_set_default_icon_name ("gnome-hello-logo");
 
   if (greet_mode && args)
@@ -128,12 +124,6 @@ main (int argc, char **argv)
       return 1;
     }
 
-  client = gnome_master_client ();
-  g_signal_connect (client, "save_yourself",
-                    G_CALLBACK (save_session), argv[0]);
-  g_signal_connect (client, "die",
-                    G_CALLBACK (session_die), NULL);
-  
   app = hello_app_new (message, geometry, greet);
 
   g_slist_free (greet);
@@ -142,45 +132,5 @@ main (int argc, char **argv)
 
   gtk_main ();
 
-  g_object_unref (program);
-
   return 0;
-}
-
-static gint
-save_session (GnomeClient       *client, 
-              gint               phase, 
-              GnomeSaveStyle     save_style,
-              gint               is_shutdown, 
-              GnomeInteractStyle interact_style,
-              gint               is_fast, 
-              gpointer           client_data)
-{
-  gchar **argv;
-  guint argc;
-
-  argv = g_new0 (gchar*, 4);
-  argc = 0;
-
-  argv[argc++] = client_data;
-
-  if (message != NULL)
-    {
-      argv[argc++] = "--message";
-      argv[argc++] = message;
-    }
-
-  argv[argc] = NULL;
-  
-  gnome_client_set_clone_command (client, argc, argv);
-  gnome_client_set_restart_command (client, argc, argv);
-
-  return TRUE;
-}
-
-static void
-session_die (GnomeClient* client, 
-             gpointer     client_data)
-{
-  gtk_main_quit ();
 }

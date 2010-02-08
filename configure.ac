@@ -30,12 +30,10 @@ GNOME_MAINTAINER_MODE_DEFINES
 # ***************************
 
 LIBGTK_REQUIRED=2.6.0
-LIBGNOMEUI_REQUIRED=2.14.0
 SCROLLKEEPER_REQUIRED=0.3.14
 
 PKG_CHECK_MODULES([GNOME_HELLO],
-  [libgnomeui-2.0 >= $LIBGNOMEUI_REQUIRED
-   gtk+-2.0 >= $LIBGTK_REQUIRED])
+   [gtk+-2.0 >= $LIBGTK_REQUIRED])
 
 # *************
 # Documentation
