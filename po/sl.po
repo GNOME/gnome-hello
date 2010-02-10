@@ -1,23 +1,25 @@
+# Slovenian translation of gnome-hello.
 # Copyright (C) 2005-2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-hello package.
 #
 # Matjaž Horvat <m@owca.info>, 2006.
-# Matej Urbančič <matej.urban@gmail.com>, 2007
+# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-10-21 03:59+0100\n"
-"PO-Revision-Date: 2007-10-21 10:13+0100\n"
-"Last-Translator: Matej Urbančič <matej.urban@gmail.com>\n"
-"Language-Team: Slovenian <sl@li.org>\n"
+"POT-Creation-Date: 2010-02-08 18:49+0000\n"
+"PO-Revision-Date: 2010-02-10 09:14+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
 "X-Poedit-Language: Slovenian\n"
-"X-Poedit-Country: Slovenia\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
@@ -27,158 +29,173 @@ msgstr "GNOME Demo pozdrav"
 msgid "Sample application using GNOME technologies"
 msgstr "Vzorčni program GNOME tehnologij"
 
-#: ../src/app.c:49
-#: ../src/menus.c:155
+#: ../src/app.c:52
+#: ../src/menus.c:185
 msgid "GNOME Hello"
-msgstr "Pozdrav Gnome"
+msgstr "Pozdrav GNOME"
 
-#: ../src/app.c:66
-#: ../src/menus.c:124
+#: ../src/app.c:71
+#: ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Pozdravljen svet!"
 
-#: ../src/app.c:83
+#: ../src/app.c:88
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Ni mogoče razčleniti geometrijske niti `%s'"
 
-#: ../src/app.c:90
+#: ../src/app.c:95
 msgid "Special Greetings to:\n"
 msgstr "Poseben pozdrav za:\n"
 
-#: ../src/hello.c:49
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
-msgstr "Pozdravite določene ljudi, ki so izpisani v ukazni vrstici"
+msgstr "Pozdravite ljudi, ki so določeni v seznamu ukazne vrstice"
 
-#: ../src/hello.c:58
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Določitev sporočila, ki ni \"Pozdravljen, svet!\""
 
-#: ../src/hello.c:59
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "SPOROČILO"
 
-#: ../src/hello.c:67
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Določitev geometrije glavnega okna"
 
-#: ../src/hello.c:68
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GEOMETRIJA"
 
-#: ../src/hello.c:95
+#: ../src/hello.c:91
 msgid "- GNOME Hello"
 msgstr "- Pozdrav Gnome"
 
-#: ../src/hello.c:119
-msgid "You must specify someone to greet.\n"
-msgstr "Določiti morate pozdravno osebo.\n"
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Zaženite '%s --help' za podroben pregled celotnega seznama možnosti ukazne vrstice.\n"
 
-#: ../src/hello.c:124
+#: ../src/hello.c:118
+#, c-format
+msgid "You must specify someone to greet.\n"
+msgstr "Določiti je treba pozdravno osebo.\n"
+
+#: ../src/hello.c:123
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Ukazni argumenti so dovoljeni samo z zastavico --greet.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Datoteka"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
 msgstr "_Uredi"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "_Pomoč"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Novo"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
 msgstr "_Odpri"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "_Shrani"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "Shrani _kot"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "_Zapri"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
-msgstr "_Izhod"
+msgstr "_Končaj"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "I_zreži"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Kopiraj"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "_Prilepi"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "Izberi _vse"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "Po_čisti"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "_Razveljavi"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
-msgstr "_Ponovi"
+msgstr "_Ponovno uveljavi"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "_Poišči"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
 msgstr "Najdi _naslednje"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "_Zamenjaj"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "_Lastnosti"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Vsebina"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "_O programu"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
-msgstr "_Predhodna"
+msgstr "_Predhodni"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "_Naslednja"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
-msgstr "To ne počne ničesar, je le demonstracija."
+msgstr "Ukaz ne naredi ničesar; namenjen je le demonstraciji delovanja."
 
-#: ../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Ni mogoče odpreti datoteke pomoči"
+
+#: ../src/menus.c:189
 msgid "translator-credits"
 msgstr "Matej Urbančič"
 
