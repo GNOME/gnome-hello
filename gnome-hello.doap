@@ -14,22 +14,6 @@
 
   <maintainer>
     <foaf:Person>
-      <foaf:name>Andre Klapper</foaf:name>
-      <foaf:mbox rdf:resource="mailto:a9016009%40gmx.de" />
-      <gnome:userid>aklapper</gnome:userid>
-    </foaf:Person>
-  </maintainer>
-
-  <maintainer>
-    <foaf:Person>
-      <foaf:name>Baptiste Mille-Mathias</foaf:name>
-      <foaf:mbox rdf:resource="mailto:baptiste.millemathias%40gmail.com" />
-      <gnome:userid>baptistem</gnome:userid>
-    </foaf:Person>
-  </maintainer>
-
-  <maintainer>
-    <foaf:Person>
       <foaf:name>Claude Paroz</foaf:name>
       <foaf:mbox rdf:resource="mailto:claude%402xlibre.net" />
       <gnome:userid>claudep</gnome:userid>
@@ -41,14 +25,6 @@
       <foaf:name>Christian Persch</foaf:name>
       <foaf:mbox rdf:resource="mailto:chpe%40gnome.org" />
       <gnome:userid>chpe</gnome:userid>
-    </foaf:Person>
-  </maintainer>
-
-  <maintainer>
-    <foaf:Person>
-      <foaf:name>Olav Vitters</foaf:name>
-      <foaf:mbox rdf:resource="mailto:olavi%40bkor.dhs.org" />
-      <gnome:userid>ovitters</gnome:userid>
     </foaf:Person>
   </maintainer>
 
