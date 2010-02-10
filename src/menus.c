@@ -175,20 +175,55 @@ contents_action_callback (GtkAction* action, gpointer data)
 static void 
 about_action_callback (GtkAction* action, gpointer data)
 {
-  GtkWindow* app = GTK_WINDOW (data);
+  GtkWindow *app = GTK_WINDOW (data);
+  gchar *license_translated;
+
   const gchar *authors[] = {
     "Havoc Pennington <hp@pobox.com>",
     NULL
   };
 
+  const gchar *copyright = _("Copyright © 1999 Havoc Pennington\n"
+                             "Copyright © 1999 - 2010 GNOME Hello Contributors");
+
+  const gchar *documentation_credits[] = {
+    "Milo Casagrande <milo@ubuntu.com>",
+    NULL
+  };
+
+  const gchar *license[] = {
+    N_("Thi program is free software; you can redistribute it and/or modify "
+       "it under the terms of the GNU General Public License as published by "
+       "the Free Software Foundation; either version 2 of the License, or "
+       "(at your option) any later version."),
+    N_("This program is distributed in the hope that it will be useful, "
+       "but WITHOUT ANY WARRANTY; without even the implied warranty of "
+       "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the "
+       "GNU General Public License for more details."),
+    N_("You should have received a copy of the GNU General Public License "
+       "along with this program; if not, write to the Free Software Foundation, Inc., "
+       "51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA")
+  };
+  license_translated = g_strjoin ("\n\n",
+                                  _(license[0]),
+                                  _(license[1]),
+                                  _(license[2]),
+                                  NULL);
+
   gtk_show_about_dialog (app,
-                         "name", _("GNOME Hello"),
-                         "version", VERSION,
-                         "copyright", "\xc2\xa9 1999 Havoc Pennington",
                          "authors", authors,
-                         "translator-credits", _("translator-credits"),
+                         "comments", _("Sample application using GNOME technologies"),
+                         "copyright", _(copyright),
+                         "documenters", documentation_credits,
+                         "license", license_translated,
                          "logo-icon-name", "gnome-hello-logo",
+                         "title", _("About GNOME Hello"),
+                         "translator-credits", _("translator-credits"),
+                         "version", PACKAGE_VERSION,
+                         "wrap-license", TRUE,
                          NULL);
+
+  g_free (license_translated);
 }
 
 GtkUIManager *

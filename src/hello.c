@@ -99,6 +99,9 @@ main (int argc, char **argv)
       return 1;
     }
 
+  /* Set the human-readable name for the application */
+  g_set_application_name (_("GNOME Hello"));
+
   /* Set default window icon */
   gtk_window_set_default_icon_name ("gnome-hello-logo");
 
