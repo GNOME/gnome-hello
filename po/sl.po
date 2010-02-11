@@ -8,9 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-08 18:49+0000\n"
-"PO-Revision-Date: 2010-02-10 09:14+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-hello&component=general\n"
+"POT-Creation-Date: 2010-02-10 19:51+0000\n"
+"PO-Revision-Date: 2010-02-11 08:03+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +26,13 @@ msgid "GNOME Hello Demo"
 msgstr "GNOME Demo pozdrav"
 
 #: ../gnome-hello.desktop.in.h:2
+#: ../src/menus.c:215
 msgid "Sample application using GNOME technologies"
 msgstr "Vzorčni program GNOME tehnologij"
 
+#. Set the human-readable name for the application
 #: ../src/app.c:52
-#: ../src/menus.c:185
+#: ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "Pozdrav GNOME"
 
@@ -81,12 +83,12 @@ msgstr ""
 "%s\n"
 "Zaženite '%s --help' za podroben pregled celotnega seznama možnosti ukazne vrstice.\n"
 
-#: ../src/hello.c:118
+#: ../src/hello.c:121
 #, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Določiti je treba pozdravno osebo.\n"
 
-#: ../src/hello.c:123
+#: ../src/hello.c:126
 #, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Ukazni argumenti so dovoljeni samo z zastavico --greet.\n"
@@ -195,7 +197,31 @@ msgstr "Ukaz ne naredi ničesar; namenjen je le demonstraciji delovanja."
 msgid "Unable to open help file"
 msgstr "Ni mogoče odpreti datoteke pomoči"
 
-#: ../src/menus.c:189
+#: ../src/menus.c:186
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Avtorske pravice © 1999 Havoc Pennington\n"
+"Avtorske pravice © 1999 - 2010 GNOME Hello skupina"
+
+#: ../src/menus.c:195
+msgid "Thi program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Program je prosti program. Lahko ga razširjate in/ali spreminjate pod pogoji licence GNU General Public License kot jo je objavila organizacija Free Software Foundation; bodisi pod različico 2 ali (po vašem mnenju) katerokoli kasnejšo različico."
+
+#: ../src/menus.c:199
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Ta program je na voljo v upanju, da bo uporaben, vendar je BREZ VSAKRŠNEGA JAMSTVA; tudi brez jamstva o USTREZNOSTI ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Za več podrobnosti si oglejte besedilo splošnega javnega dovoljenja (GNU GPL)."
+
+#: ../src/menus.c:203
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr "S programom bi morali dobiti tudi kopijo Splošnega Javnega dovoljenja (GNU General Public License); v primeru, da je niste, stopite v stik s Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
+
+#: ../src/menus.c:220
+msgid "About GNOME Hello"
+msgstr "O programu"
+
+#: ../src/menus.c:221
 msgid "translator-credits"
 msgstr "Matej Urbančič"
 
