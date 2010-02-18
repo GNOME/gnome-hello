@@ -1,0 +1,124 @@
+# Czech translation for gnome-hello.
+# Copyright (C) 2010 the author(s) of gnome-hello.
+# This file is distributed under the same license as the gnome-hello package.
+# Marek Černocký <marek@manet.cz>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello master\n"
+"POT-Creation-Date: 2010-02-11 14:04+0000\n"
+"PO-Revision-Date: 2010-02-17 20:18+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: C/legal.xml:3(p)
+msgid "This work is licensed under a <link href=\"http://creativecommons.org/licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 United States License</link>."
+msgstr "Tato práce je licencovaná pod <link href=\"http://creativecommons.org/licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 United States License</link>."
+
+#: C/legal.xml:6(p)
+msgid "As a special exception, the copyright holders give you permission to copy, modify, and distribute the example code contained in this document under the terms of your choosing, without restriction."
+msgstr "Jako speciální výjimku vám držitelé autorských práv udělují oprávnění kopírovat, měnit a šířit ukázkový kód obsažený v tomto dokumentu a to za podmínek, které si zvolíte, bez omezení."
+
+#: C/what-can-do.page:7(desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Co můžete dělat s <app>GNOME Ahoj</app>."
+
+#: C/what-can-do.page:10(name)
+#: C/what-is-like.page:11(name)
+#: C/what-is.page:10(name)
+#: C/index.page:9(name)
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#: C/what-can-do.page:11(email)
+#: C/what-is-like.page:12(email)
+#: C/what-is.page:11(email)
+#: C/index.page:10(email)
+msgid "milo@ubuntu.com"
+msgstr "milo@ubuntu.com"
+
+#: C/what-can-do.page:14(year)
+#: C/what-is-like.page:15(year)
+#: C/what-is.page:14(year)
+#: C/index.page:13(year)
+msgid "2009"
+msgstr "2009"
+
+#: C/what-can-do.page:15(name)
+#: C/what-is-like.page:16(name)
+#: C/what-is.page:15(name)
+#: C/index.page:14(name)
+msgid "GNOME Documentation Project"
+msgstr "Dokumentační projekt GNOME"
+
+#: C/what-can-do.page:18(license)
+#: C/what-is-like.page:19(license)
+#: C/what-is.page:18(license)
+#: C/index.page:17(license)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#: C/what-can-do.page:23(title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Co <app>GNOME Ahoj</app> dělá"
+
+#: C/what-can-do.page:25(p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "V současné době toho <app>GNOME Ahoj</app> moc nedělá."
+
+#: C/what-can-do.page:28(p)
+msgid "This is just a demonstration on how to install help files and how to use Mallard, the new syntax for writing GNOME documentation."
+msgstr "Jedná se jen o ukázku, jak instalovat soubory s nápovědou a jak použít Mallard, novou syntaxi pro psaní dokumentace pro GNOME."
+
+#: C/what-can-do.page:32(p)
+msgid "If you want to learn more about Mallard, see the <link href=\"http://live.gnome.org/ProjectMallard\">Project Mallard</link> home page."
+msgstr "Pokud se o projektu Mallard chcete dovědět více, navštivte jeho domovskou stránku <link href=\"http://live.gnome.org/ProjectMallard\">projektu Mallard</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/what-is-like.page:30(None)
+msgid "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+msgstr "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+
+#: C/what-is-like.page:8(desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Obrázky aplikace <app>GNOME Ahoj</app>."
+
+#: C/what-is-like.page:24(title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Jak aplikace <app>GNOME Ahoj</app> vypadá?"
+
+#: C/what-is-like.page:26(p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Aplikace <app>GNOME Ahoj</app> vypadá takto."
+
+#: C/what-is-like.page:31(app)
+#: C/index.page:21(title)
+msgid "GNOME Hello"
+msgstr "GNOME Ahoj"
+
+#: C/what-is-like.page:30(media)
+msgid "<placeholder-1/> fantastic interface."
+msgstr "Úžasné rozhraní aplikace <placeholder-1/>."
+
+#: C/what-is.page:7(desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Popis <app>GNOME Ahoj</app>."
+
+#: C/what-is.page:23(title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Co je to <app>GNOME Ahoj</app>"
+
+#: C/what-is.page:25(p)
+msgid "<app>GNOME Hello</app> is a very complex program, with many nice features and nice options."
+msgstr "<app>GNOME Ahoj</app> je velmi komplexní program s řadou pěkných funkcí a možností."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/index.page:0(None)
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>, 2010"
+
