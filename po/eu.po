@@ -1,14 +1,14 @@
-# translation of gnome-hello-2.0.po to Basque
+# translation of eu.po to Basque
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello-2.0\n"
+"Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-05 19:39+0100\n"
-"PO-Revision-Date: 2008-03-05 19:47+0100\n"
+"POT-Creation-Date: 2010-03-18 18:02+0100\n"
+"PO-Revision-Date: 2010-03-18 18:07+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,162 +21,221 @@ msgstr ""
 msgid "GNOME Hello Demo"
 msgstr "GNOME Kaixo demoa"
 
-#: ../gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
 msgid "Sample application using GNOME technologies"
 msgstr "GNOMEren teknologia erabiltzen duen lagin-aplikazioa"
 
-#: ../src/app.c:49 ../src/menus.c:155
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "GNOME Kaixo"
 
-#: ../src/app.c:66 ../src/menus.c:124
+#: ../src/app.c:71 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Kaixo mundua!"
 
-#: ../src/app.c:83
+#: ../src/app.c:88
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Ezin izan da '%s' geometria katea analizatu"
 
-#: ../src/app.c:90
+#: ../src/app.c:95
 msgid "Special Greetings to:\n"
 msgstr "Agurrik beroenak:\n"
 
-#: ../src/hello.c:49
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Esan 'kaixo' komando-lerroan zerrendatutako pertsona zehatzei"
 
-#: ../src/hello.c:58
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Zehaztu \"Kaixo mundua\" ez den beste mezu bat"
 
-#: ../src/hello.c:59
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "MEZUA"
 
-#: ../src/hello.c:67
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Zehaztu leiho nagusiaren geometria"
 
-#: ../src/hello.c:68
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GEOMETRIA"
 
-#: ../src/hello.c:95
+#: ../src/hello.c:91
 msgid "- GNOME Hello"
 msgstr "- GNOME Kaixo"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Exekutatu '%s --help' aukeren zerrenda osoa ikusteko.\n"
+
+#: ../src/hello.c:121
 #, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Norbait zehaztu behar duzu agurtzeko.\n"
 
-#: ../src/hello.c:124
+#: ../src/hello.c:126
 #, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Komando-lerroko argumentuak --greet aukerarekin soilik onartzen dira.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Fitxategia"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
 msgstr "_Editatu"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "_Laguntza"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Berria"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
 msgstr "_Ireki"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "_Gorde"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "Gorde _honela"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "It_xi"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
 msgstr "I_rten"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "_Ebaki"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Kopiatu"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "_Itsatsi"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "Hautatu _denak"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "_Garbitu"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "_Desegin"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
 msgstr "B_erregin"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "_Bilatu"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
 msgstr "Bilatu _hurrengoa"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "_Ordeztu"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "_Propietateak"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Edukia"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "Honi _buruz"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
 msgstr "_Aurrekoa"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "_Hurrengoa"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
 msgstr "Honek ez du ezer egiten, demostrazio bat besterik ez da."
 
-#: ../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Ezin da laguntzako fitxategia ireki"
+
+#: ../src/menus.c:186
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Copyright-a © 1999 Havoc Pennington\n"
+"Copyright-a © 1999 - 2010 GNOME Kaixo-ko laguntzaileak"
+
+#: ../src/menus.c:195
+msgid ""
+"Thi program is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Programa hau software librea da; birbana eta/edo alda dezakezu Software "
+"Foundation-ek argitaratutako GNU Lizentzia Publiko Orokorraren 2. bertsioan, "
+"edo (nahiago baduzu) beste berriago batean, jasotako baldintzak betez gero."
+
+#: ../src/menus.c:199
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"Programa hau erabilgarria izango delakoan banatzen da, baina, INOLAKO "
+"BERMERIK GABE; era berean, ez da bermatzen beraren EGOKITASUNA "
+"MERKATURATZEKO edo HELBURU PARTIKULARRETARAKO ERABILTZEKO. Argibide gehiago "
+"nahi izanez gero, ikus GNU Lizentzia Publiko Orokorra."
+
+#: ../src/menus.c:203
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Programa honekin batera GNU Lizentzia Publiko Orokorraren kopia bat jasoko "
+"zenuen; hala ez bada, idatzi hona: Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#: ../src/menus.c:220
+msgid "About GNOME Hello"
+msgstr "GNOME Kaixo-ri buruz"
+
+#: ../src/menus.c:221
 msgid "translator-credits"
 msgstr "Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
 
