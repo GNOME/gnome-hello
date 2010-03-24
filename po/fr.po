@@ -10,8 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 2.0.3\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-26 14:40+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"hello&component=general\n"
+"POT-Creation-Date: 2010-03-09 10:16+0000\n"
 "PO-Revision-Date: 2006-08-26 14:40+0200\n"
 "Last-Translator: Robert-André Mauchin <zebob.m@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
@@ -23,161 +24,224 @@ msgstr ""
 msgid "GNOME Hello Demo"
 msgstr "Démo GNOME Hello"
 
-#: ../gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
 msgid "Sample application using GNOME technologies"
 msgstr "Application d'exemple utilisant les technologies GNOME"
 
-#: ../src/app.c:50 ../src/menus.c:155
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:68 ../src/menus.c:124
+#: ../src/app.c:71 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Bonjour tout le monde !"
 
-#: ../src/app.c:85
+#: ../src/app.c:88
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Impossible d'analyser la chaîne de géométrie « %s »"
 
-#: ../src/app.c:92
+#: ../src/app.c:95
 msgid "Special Greetings to:\n"
 msgstr "Remerciements spéciaux à :\n"
 
-#: ../src/hello.c:49
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Dites bonjour aux personnes mentionnées sur la ligne de commande"
 
-#: ../src/hello.c:58
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Spécifie un message autre que « Bonjour tout le monde ! »"
 
-#: ../src/hello.c:59
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "MESSAGE"
 
-#: ../src/hello.c:67
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Spécifie la géométrie de la fenêtre principale"
 
-#: ../src/hello.c:68
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GÉOMÉTRIE"
 
-#: ../src/hello.c:95
+#: ../src/hello.c:91
 msgid "- GNOME Hello"
 msgstr "- GNOME Hello"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Saisissez « %s --help » pour afficher la liste complète des options en ligne "
+"de commande.\n"
+
+#: ../src/hello.c:121
+#, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Vous devez indiquer la personne à saluer.\n"
 
-#: ../src/hello.c:124
+#: ../src/hello.c:126
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr ""
 "Les arguments en ligne de commande sont seulement autorisés avec --greet.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Fichier"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
 msgstr "É_dition"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "_Aide"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Nouveau"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
 msgstr "_Ouvrir"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "_Enregistrer"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "Enregistrer _sous"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "_Fermer"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "Co_uper"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Copier"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "C_oller"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "_Tout sélectionner"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "_Effacer"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "A_nnuler"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
 msgstr "_Refaire"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "_Rechercher"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
 msgstr "Rechercher le _suivant"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "_Remplacer"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "Pr_opriétés"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Sommaire"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "À _propos"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
 msgstr "_Précédent"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "_Suivant"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
 msgstr "Cela ne fait rien ; c'est seulement une démonstration."
 
-#: ../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Impossible d'ouvrir le fichier d'aide"
+
+#: ../src/menus.c:186
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 Contributeurs à GNOME Hello"
+
+#: ../src/menus.c:195
+msgid ""
+"Thi program is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le "
+"modifier conformément aux dispositions de la Licence Publique Générale GNU,"
+"telle que publiée par la Free Software Foundation ; version 2 de la licence, "
+"ou (à votre choix) toute version ultérieure."
+
+#: ../src/menus.c:199
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE "
+"GARANTIE ; sans même la garantie implicite de COMMERCIALISATION ou "
+"D'ADAPTATION À UN OBJET PARTICULIER. Pour plus de détails, voir la Licence "
+"Publique Générale GNU."
+
+#: ../src/menus.c:203
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Un exemplaire de la Licence Publique Générale GNU doit être fourni avec ce "
+"programme ; si ce n'est pas le cas, écrivez à la Free Software Foundation, "
+"Inc.,51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#: ../src/menus.c:220
+msgid "About GNOME Hello"
+msgstr "À propos de GNOME Hello"
+
+#: ../src/menus.c:221
 msgid "translator-credits"
 msgstr ""
 "Vincent Renardias <vincent@ldsol.com>\n"
