@@ -1,16 +1,17 @@
 # Danish translation of gnome-hello.
-# Copyright (C) 1999, 2002-07 Free Software Foundation, Inc.
+# Copyright (C) 2010 Free Software Foundation, Inc.
 # Kenneth Christiansen <kenneth@ripen.dk>, 1999.
 # Ole Laursen <olau@hardworking.dk>, 2002.
 # Peter Bach <bach.peter@gmail.com>, 2007.
+# Joe Hansen (joedalton2@yahoo.dk), 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-02-23 08:58+0200\n"
-"PO-Revision-Date: 2007-02-23 09:07+0200\n"
-"Last-Translator: Peter Bach <bach.peter@gmail.com>\n"
+"POT-Creation-Date: 2010-04-05 23:14+0200\n"
+"PO-Revision-Date: 2010-03-19 18:29+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,179 +21,230 @@ msgstr ""
 msgid "GNOME Hello Demo"
 msgstr "GNOME hej-demonstration"
 
-#: ../gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
 msgid "Sample application using GNOME technologies"
 msgstr "Eksempelprogram der bruger GNOME-teknologier"
 
-#: ../src/app.c:49
-#: ../src/menus.c:155
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "Gnome-hej"
 
-#: ../src/app.c:66
-#: ../src/menus.c:124
+#: ../src/app.c:71 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Hej, verden!"
 
-#: ../src/app.c:83
+#: ../src/app.c:88
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Kunne ikke fortolke geometristrengen '%s'"
 
-#: ../src/app.c:90
+#: ../src/app.c:95
 msgid "Special Greetings to:\n"
 msgstr "Specielle hilsner til:\n"
 
-#: ../src/hello.c:49
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Sig hej til de personer som er opremset på kommandolinjen"
 
-#: ../src/hello.c:58
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Angiv en anden besked end \"Hej, verden!\""
 
-#: ../src/hello.c:59
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "BESKED"
 
-#: ../src/hello.c:67
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Angiv hovedvinduets geometri"
 
-#: ../src/hello.c:68
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GEOMETRI"
 
-#: ../src/hello.c:95
+#: ../src/hello.c:91
 msgid "- GNOME Hello"
 msgstr "- GNOME-hej"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Kør '%s --help' for at se en fuldstændig oversigt over tilgængelige\n"
+"tilvalg på kommandolinjen.\n"
+
+#: ../src/hello.c:121
+#, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Du skal angive én du vil hilse på.\n"
 
-#: ../src/hello.c:124
+#: ../src/hello.c:126
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Kommandolinjeparametre tillades kun med --greet.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Fil"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
 msgstr "_Redigér"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "_Hjælp"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Ny"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
-msgstr "_Åben"
+msgstr "_Åbn"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "_Gem"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "Gem _som"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "_Luk"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
 msgstr "_Afslut"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "K_lip"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Kopiér"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "_Indsæt"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "Vælg _alle"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "_Ryd"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "_Fortryd"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
 msgstr "_Omgør"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "_Find"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
-msgstr "_Find _næste"
+msgstr "Find _næste"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "Er_stat"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "_Egenskaber"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Indhold"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "_Om"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
 msgstr "_Forrige"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "_Næste"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dette gør ingenting; det er kun en demonstration."
 
-#: ../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Kunne ikke åbne hjælpefil"
+
+#: ../src/menus.c:186
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Ophavsret 1999 Havoc Pennington\n"
+"Ophavsret 1999 - 2010 bidragydere til GNOME-hej"
+
+# engelsk fejl thi -> this
+#: ../src/menus.c:195
+msgid ""
+"Thi program is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Dette program er fri software. Du kan redistribuere og/eller modificere det "
+"under de betingelser som er angivet i GNU General Public License, som "
+"udgivet af Free Software Foundation. Enten version 2 af licensen eller "
+"(efter eget valg) enhver senere version."
+
+#: ../src/menus.c:199
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"Dette program distribueres i håb om at det vil vise sig nyttigt, men UDEN "
+"NOGEN FORM FOR GARANTI, uden selv de underforståede garantier omkring "
+"SALGBARHED eller EGNETHED TIL ET BESTEMT FORMÅL. Yderligere detaljer kan "
+"læses i GNU General Public License."
+
+#: ../src/menus.c:203
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Du bør have modtaget en kopi af GNU General Public License sammen med dette "
+"program. Hvis ikke, så skriv til Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#: ../src/menus.c:220
+msgid "About GNOME Hello"
+msgstr "Om GNOME-hej"
+
+#: ../src/menus.c:221
 msgid "translator-credits"
 msgstr ""
-"Peter Bach\n"
+"Joe Hansen, 2010\n"
+"Peter Bach, 2007\n"
+"Ole Laursen, 2002\n"
+"Kenneth Christiansen, 1999\n"
 "\n"
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
-
-#~ msgid "Gnome Hello"
-#~ msgstr "Gnome-hej"
-#~ msgid "_New Hello"
-#~ msgstr "_Nyt hej"
-#~ msgid "Create a new hello"
-#~ msgstr "Opret et nyt hej"
-#~ msgid "Prev"
-#~ msgstr "NÃ¦ste"
-#~ msgid "Next hello"
-#~ msgstr "Næste hej"
-#~ msgid "A sample GNOME application."
-#~ msgstr "Et eksempelprogram til Gnome."
-
