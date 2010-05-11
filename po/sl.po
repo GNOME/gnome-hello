@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello\n"
+"Project-Id-Version: gnome-hello master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-hello&component=general\n"
 "POT-Creation-Date: 2010-02-10 19:51+0000\n"
-"PO-Revision-Date: 2010-02-11 08:03+0100\n"
+"PO-Revision-Date: 2010-05-11 15:15+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Pozdrav GNOME"
 #: ../src/app.c:71
 #: ../src/menus.c:129
 msgid "Hello, World!"
-msgstr "Pozdravljen svet!"
+msgstr "Pozdravljen, svet!"
 
 #: ../src/app.c:88
 #, c-format
@@ -72,7 +72,7 @@ msgstr "GEOMETRIJA"
 
 #: ../src/hello.c:91
 msgid "- GNOME Hello"
-msgstr "- Pozdrav Gnome"
+msgstr "- pozdrav Gnome"
 
 #: ../src/hello.c:96
 #, c-format
@@ -86,7 +86,7 @@ msgstr ""
 #: ../src/hello.c:121
 #, c-format
 msgid "You must specify someone to greet.\n"
-msgstr "Določiti je treba pozdravno osebo.\n"
+msgstr "Določiti je treba osebo.\n"
 
 #: ../src/hello.c:126
 #, c-format
@@ -103,7 +103,7 @@ msgstr "_Uredi"
 
 #: ../src/menus.c:82
 msgid "_Help"
-msgstr "_Pomoč"
+msgstr "Pomo_č"
 
 #: ../src/menus.c:83
 msgid "_New"
@@ -159,7 +159,7 @@ msgstr "_Ponovno uveljavi"
 
 #: ../src/menus.c:96
 msgid "_Find"
-msgstr "_Poišči"
+msgstr "_Najdi"
 
 #: ../src/menus.c:97
 msgid "Find Ne_xt"
@@ -187,7 +187,7 @@ msgstr "_Predhodni"
 
 #: ../src/menus.c:103
 msgid "_Next"
-msgstr "_Naslednja"
+msgstr "_Naslednji"
 
 #: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../src/menus.c:195
 msgid "Thi program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
-msgstr "Program je prosti program. Lahko ga razširjate in/ali spreminjate pod pogoji licence GNU General Public License kot jo je objavila organizacija Free Software Foundation; bodisi pod različico 2 ali (po vašem mnenju) katerokoli kasnejšo različico."
+msgstr "Program je prosti program. Lahko ga razširjate in/ali spreminjate pod pogoji Splošnega Javnega dovoljenja GNU (General Public License) kot jo je objavila organizacija Free Software Foundation; bodisi pod različico 2 ali (po vašem mnenju) katerokoli kasnejšo različico."
 
 #: ../src/menus.c:199
 msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
@@ -224,4 +224,3 @@ msgstr "O programu"
 #: ../src/menus.c:221
 msgid "translator-credits"
 msgstr "Matej Urbančič"
-
