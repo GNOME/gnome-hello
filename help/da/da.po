@@ -1,0 +1,122 @@
+# Danish translation for gnome-hello.
+# Copyright (C) 2010 gnome-hello's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+# joehansen <joedalton2@yahoo.dk>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello master\n"
+"POT-Creation-Date: 2010-05-16 17:16+0200\n"
+"PO-Revision-Date: 2010-04-02 18:29+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../C/legal.xml:4(link)
+#, fuzzy
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Share Alike 3.0"
+
+#: ../C/legal.xml:3(p)
+msgid "This work is licensed under a <placeholder-1/>."
+msgstr ""
+
+#: ../C/legal.xml:6(p)
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"Som en speciel undtagelse giver ophavsretindehaveren dig tilladelse til at "
+"kopiere, ændre og distribuere eksempelkoden indeholdt i dette dokument under "
+"de betingelser du måtte vælge, uden begrænsning."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: ../C/legal.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Joe Hansen, 2010.\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
+
+#~ msgid ""
+#~ "This work is licensed under a <link href=\"http://creativecommons.org/"
+#~ "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 "
+#~ "United States License</link>."
+#~ msgstr ""
+#~ "Dette arbejde er udgivet under <link href=\"http://creativecommons.org/"
+#~ "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 "
+#~ "United States License</link>."
+
+#~ msgid "What can you do with <app>GNOME Hello</app>."
+#~ msgstr "Hvad kan jeg gøre med <app>GNOME Hello</app>?"
+
+#~ msgid "Milo Casagrande"
+#~ msgstr "Milo Casagrande"
+
+#~ msgid "milo@ubuntu.com"
+#~ msgstr "milo@ubuntu.com"
+
+#~ msgid "2009"
+#~ msgstr "2009"
+
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "GNOME-dokumentationsprojektet"
+
+#~ msgid "What <app>GNOME Hello</app> does"
+#~ msgstr "Hvad <app>GNOME Hello</app> gør"
+
+#~ msgid "At the moment <app>GNOME Hello</app> can't do many things."
+#~ msgstr "I øjeblikket kan <app>GNOME Hello</app> ikke udføre mange ting."
+
+#~ msgid ""
+#~ "This is just a demonstration on how to install help files and how to use "
+#~ "Mallard, the new syntax for writing GNOME documentation."
+#~ msgstr ""
+#~ "Dette er kun en demonstration af hvordan hjælpefiler skal installeres og "
+#~ "hvordan Mallard skal bruges, den nye syntaks for udarbejdelse af GNOME-"
+#~ "dokumentation."
+
+#~ msgid ""
+#~ "If you want to learn more about Mallard, see the <link href=\"http://live."
+#~ "gnome.org/ProjectMallard\">Project Mallard</link> home page."
+#~ msgstr ""
+#~ "Hvis du vil vide mere om Mallard, så se <link href=\"http://live.gnome."
+#~ "org/ProjectMallard\">projekt Mallards</link> hjemmeside."
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+
+#~ msgid "Pictures of <app>GNOME Hello</app>."
+#~ msgstr "Billeder af <app>GNOME Hello</app>."
+
+#~ msgid "What does <app>GNOME Hello</app> look like?"
+#~ msgstr "Hvordan ser <app>GNOME Hello</app> ud?"
+
+#~ msgid "This is how <app>GNOME Hello</app> looks like."
+#~ msgstr "Sådan ser <app>GNOME Hello</app> ud."
+
+#~ msgid "GNOME Hello"
+#~ msgstr "GNOME Hello"
+
+#~ msgid "<placeholder-1/> fantastic interface."
+#~ msgstr "<placeholder-1/> fantastisk grænseflade."
+
+#~ msgid "Description of <app>GNOME Hello</app>."
+#~ msgstr "Beskrivelse af <app>GNOME Hello</app>."
+
+#~ msgid "What is <app>GNOME Hello</app>"
+#~ msgstr "Hvad er <app>GNOME Hello</app>"
+
+#~ msgid ""
+#~ "<app>GNOME Hello</app> is a very complex program, with many nice features "
+#~ "and nice options."
+#~ msgstr ""
+#~ "<app>GNOME Hello</app> er et meget komplekst program, med mange gode "
+#~ "egenskaber og indstillingsmuligheder."
