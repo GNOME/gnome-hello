@@ -4,184 +4,248 @@
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2002.
 # Raphael Higino (In Memoriam), 2004.
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
-#
+# Hugo Vaz Sampaio <hvazsampaio@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-20 11:06-0300\n"
-"PO-Revision-Date: 2008-06-19 20:10-0300\n"
-"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
-"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"POT-Creation-Date: 2010-05-17 10:33-0300\n"
+"PO-Revision-Date: 2010-05-15 23:37-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
 msgstr "Demonstração do GNOME Hello"
 
-#: ../gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
 msgid "Sample application using GNOME technologies"
-msgstr "Aplicação de exemplo usando as tecnologias do GNOME"
+msgstr "Aplicativo de exemplo utilizando as tecnologias do GNOME"
 
-#: ../src/app.c:50 ../src/menus.c:155
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:69 ../src/menus.c:124
+#: ../src/app.c:71 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Olá, Mundo!"
 
-#: ../src/app.c:86
+#: ../src/app.c:88
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Não foi possível analisar a expressão de geometria '%s'"
 
-#: ../src/app.c:93
+#: ../src/app.c:95
 msgid "Special Greetings to:\n"
 msgstr "Agradecimentos especiais para:\n"
 
-#: ../src/hello.c:49
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Diz olá para pessoas específicas, listadas na linha de comando"
 
-#: ../src/hello.c:58
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Especifica uma mensagem diferente de \"Olá, Mundo!\""
 
-#: ../src/hello.c:59
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "MENSAGEM"
 
-#: ../src/hello.c:67
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Especifica a geometria da janela principal"
 
-#: ../src/hello.c:68
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GEOMETRIA"
 
-#: ../src/hello.c:95
+#: ../src/hello.c:91
 msgid "- GNOME Hello"
 msgstr "- GNOME Hello"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Execute '%s --help' para ver uma lista completa de opções de linha de "
+"comandos disponíveis.\n"
+
+#: ../src/hello.c:121
 #, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Você deve especificar alguém para cumprimentar.\n"
 
-#: ../src/hello.c:124
+#: ../src/hello.c:126
 #, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
-msgstr "Argumentos de linha de comando só são permitidos com --greet.\n"
+msgstr "Os argumentos de linha de comando só são permitidos com --greet.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Arquivo"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
 msgstr "_Editar"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "Aj_uda"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Novo"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
 msgstr "_Abrir"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "_Salvar"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "Salvar _como"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "_Fechar"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
 msgstr "Sai_r"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "Recor_tar"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Copiar"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "C_olar"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "Selecionar _tudo"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "_Limpar"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "_Desfazer"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
 msgstr "_Refazer"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "_Localizar"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
 msgstr "Localizar pró_xima"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "_Substituir"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "Pr_opriedades"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Conteúdo"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "_Sobre"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
 msgstr "_Anterior"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "_Próxima"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
-msgstr "Isso não faz nada; é apenas uma demonstração."
+msgstr "Isto não faz nada; é apenas uma demonstração."
 
-#: ../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Não foi possível abrir o arquivo de ajuda"
+
+#: ../src/menus.c:186
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 Contribuidores do GNOME Hello"
+
+#: ../src/menus.c:195
+msgid ""
+"Thi program is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Este programa é um software livre; você pode redistribuí-lo e/ou modificá-lo "
+"sob os termos da Licença Pública Geral GNU (GNU General Public License) como "
+"publicado pela Free Software Foundation; tanto a versão 2 da Licença, ou (à "
+"seu critério) outra versão recente."
+
+#: ../src/menus.c:199
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"Este programa é distribuído na esperança que será útil, mas SEM QUALQUER "
+"GARANTIA; nem mesmo a garantia implícita da COMERCIALIZAÇÃO ou CONVENIÊNCIA "
+"PARA UM PROPÓSITO PARTICULAR.  Veja a GNU General Public License para mais "
+"detalhes."
+
+#: ../src/menus.c:203
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+"Você deve ter recebido uma cópia da Licença Pública Geral GNU juntamente com "
+"esse programa; caso contrário, escreva para a Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+
+#: ../src/menus.c:220
+msgid "About GNOME Hello"
+msgstr "Sobre GNOME Hello"
+
+#: ../src/menus.c:221
 msgid "translator-credits"
 msgstr ""
 "Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
 "Raphael Higino (In Memoriam)\n"
-"Fábio Nogueira <deb-user-ba@ubuntu.com>"
+"Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Hugo Vaz Sampaio <hvazsampaio@gmail.com>"
 
 #~ msgid "Gnome Hello"
 #~ msgstr "Olá Gnome"
