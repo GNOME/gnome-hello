@@ -1,5 +1,6 @@
 # zh_CN translation of GnomeHello Help.
 # Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as teh gnome-hello package.
 # Aron Xu <aronmalache@163.com>, 2008.
 #
 #
@@ -7,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GnomeHello Help Head\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-27 09:05+0000\n"
-"PO-Revision-Date: 2010-06-27 17:10+0800\n"
+"POT-Creation-Date: 2010-06-27 09:10+0000\n"
+"PO-Revision-Date: 2010-07-27 16:23+0800\n"
 "Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +22,9 @@ msgid ""
 "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 United "
 "States License</link>."
 msgstr ""
+"本成果以 <link href=\"http://creativecommons.org/licenses/by-sa/3.0/us/"
+"\">Creative Commons Attribution-Share Alike 3.0 United States License</link> "
+"发布。"
 
 #: C/legal.xml:6(p)
 msgid ""
@@ -28,6 +32,8 @@ msgid ""
 "modify, and distribute the example code contained in this document under the "
 "terms of your choosing, without restriction."
 msgstr ""
+"作为特例，版权持有者授权您以您选择的任何条款复制、修改和发布本文档中的示例代"
+"码，没有任何限制。"
 
 #: C/what-can-do.page:7(desc)
 msgid "What can you do with <app>GNOME Hello</app>."
@@ -71,12 +77,15 @@ msgid ""
 "This is just a demonstration on how to install help files and how to use "
 "Mallard, the new syntax for writing GNOME documentation."
 msgstr ""
+"这只是关于如何安装帮助文件和怎样使用 Mallard — 编写 GNOME 文档的新语法。"
 
 #: C/what-can-do.page:32(p)
 msgid ""
 "If you want to learn more about Mallard, see the <link href=\"http://live."
 "gnome.org/ProjectMallard\">Project Mallard</link> home page."
 msgstr ""
+"如果想更多地了解 Mallard，查看 <link href=\"http://live.gnome.org/"
+"ProjectMallard\">Mallard 项目</link> 主页。"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -88,15 +97,15 @@ msgstr ""
 
 #: C/what-is-like.page:8(desc)
 msgid "Pictures of <app>GNOME Hello</app>."
-msgstr ""
+msgstr "<app>GNOME Hello</app> 的图片。"
 
 #: C/what-is-like.page:24(title)
 msgid "What does <app>GNOME Hello</app> look like?"
-msgstr ""
+msgstr "<app>GNOME Hello</app> 是什么样子？"
 
 #: C/what-is-like.page:26(p)
 msgid "This is how <app>GNOME Hello</app> looks like."
-msgstr ""
+msgstr "这就是 <app>GNOME Hello</app> 的样子。"
 
 #: C/what-is-like.page:31(app) C/index.page:21(title)
 msgid "GNOME Hello"
@@ -109,18 +118,17 @@ msgstr "显示 <placeholder-1/> 主窗口。"
 
 #: C/what-is.page:7(desc)
 msgid "Description of <app>GNOME Hello</app>."
-msgstr ""
+msgstr "<app>GNOME Hello</app> 的描述。"
 
 #: C/what-is.page:23(title)
 msgid "What is <app>GNOME Hello</app>"
-msgstr ""
+msgstr "<app>GNOME Hello</app> 是什么？"
 
 #: C/what-is.page:25(p)
-#, fuzzy
 msgid ""
 "<app>GNOME Hello</app> is a very complex program, with many nice features "
 "and nice options."
-msgstr "GnomeHello 是一个包含很多先进特性的复合程序。"
+msgstr "<app>GNOME Hello</app> 是一个包含很多很好的特性和选项的复杂程序。"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)
