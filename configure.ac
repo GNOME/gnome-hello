@@ -50,9 +50,10 @@ fi
 
 IT_PROG_INTLTOOL([0.40.0])
 
-AC_SUBST([GETTEXT_PACKAGE], [gnome-hello])
 AM_GNU_GETTEXT_VERSION([0.17])
-AM_GLIB_GNU_GETTEXT
+AM_GNU_GETTEXT([external])
+
+AC_SUBST([GETTEXT_PACKAGE], [gnome-hello])
 AC_DEFINE([GETTEXT_PACKAGE], [PACKAGE_TARNAME], [Define to the gettext package name.])
 
 # *************************************
