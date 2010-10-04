@@ -20,7 +20,6 @@ LT_INIT
 # GNOME
 # *****
 
-GNOME_DOC_INIT([0.17.3])
 GNOME_DEBUG_CHECK
 GNOME_COMPILE_WARNINGS([maximum])
 GNOME_MAINTAINER_MODE_DEFINES
@@ -30,7 +29,6 @@ GNOME_MAINTAINER_MODE_DEFINES
 # ***************************
 
 LIBGTK_REQUIRED=2.12.0
-SCROLLKEEPER_REQUIRED=0.3.14
 
 PKG_CHECK_MODULES([GNOME_HELLO],
    [gtk+-2.0 >= $LIBGTK_REQUIRED])
@@ -39,10 +37,7 @@ PKG_CHECK_MODULES([GNOME_HELLO],
 # Documentation
 # *************
 
-AC_PATH_PROG(SCROLLKEEPER_CONFIG, scrollkeeper-config,no)
-if test x$SCROLLKEEPER_CONFIG = xno; then
-  AC_MSG_ERROR(Couldn't find scrollkeeper-config, please install the scrollkeeper package)
-fi
+GNOME_DOC_INIT([0.20])
 
 # ********************
 # Internationalisation
