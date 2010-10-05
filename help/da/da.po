@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2010-05-16 17:16+0200\n"
-"PO-Revision-Date: 2010-04-02 18:29+0200\n"
+"POT-Creation-Date: 2010-10-05 17:43+0200\n"
+"PO-Revision-Date: 2010-09-29 18:29+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -15,33 +15,121 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../C/legal.xml:4(link)
-#, fuzzy
-msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+#: ../C/what-is.page:7(desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Beskrivelse af <app>GNOME Hello</app>."
+
+#: ../C/what-is.page:10(name) ../C/what-is-like.page:11(name)
+#: ../C/what-can-do.page:10(name) ../C/index.page:9(name)
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#: ../C/what-is.page:11(email) ../C/what-is-like.page:12(email)
+#: ../C/what-can-do.page:11(email) ../C/index.page:10(email)
+msgid "milo@ubuntu.com"
+msgstr "milo@ubuntu.com"
+
+#: ../C/what-is.page:14(year) ../C/what-is-like.page:15(year)
+#: ../C/what-can-do.page:14(year) ../C/index.page:13(year)
+msgid "2009"
+msgstr "2009"
+
+#: ../C/what-is.page:15(name) ../C/what-is-like.page:16(name)
+#: ../C/what-can-do.page:15(name) ../C/index.page:14(name)
+msgid "GNOME Documentation Project"
+msgstr "GNOME-dokumentationsprojektet"
+
+#: ../C/what-is.page:18(license) ../C/what-is-like.page:19(license)
+#: ../C/what-can-do.page:18(license) ../C/index.page:17(license)
+msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
-#: ../C/legal.xml:3(p)
-msgid "This work is licensed under a <placeholder-1/>."
-msgstr ""
+#: ../C/what-is.page:23(title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Hvad er <app>GNOME Hello</app>"
 
-#: ../C/legal.xml:6(p)
+#: ../C/what-is.page:25(p)
 msgid ""
-"As a special exception, the copyright holders give you permission to copy, "
-"modify, and distribute the example code contained in this document under the "
-"terms of your choosing, without restriction."
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
 msgstr ""
-"Som en speciel undtagelse giver ophavsretindehaveren dig tilladelse til at "
-"kopiere, ændre og distribuere eksempelkoden indeholdt i dette dokument under "
-"de betingelser du måtte vælge, uden begrænsning."
+"<app>GNOME Hello</app> er et meget komplekst program, med mange gode "
+"egenskaber og indstillingsmuligheder."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../C/what-is-like.page:30(None)
+msgid ""
+"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+msgstr ""
+"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+
+#: ../C/what-is-like.page:8(desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Billeder af <app>GNOME Hello</app>."
+
+#: ../C/what-is-like.page:24(title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Hvordan ser <app>GNOME Hello</app> ud?"
+
+#: ../C/what-is-like.page:26(p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Sådan ser <app>GNOME Hello</app> ud."
+
+#: ../C/what-is-like.page:31(app) ../C/index.page:21(title)
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: ../C/what-is-like.page:30(media)
+msgid "<placeholder-1/> fantastic interface."
+msgstr "<placeholder-1/> fantastisk grænseflade."
+
+#: ../C/what-can-do.page:7(desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Hvad kan jeg gøre med <app>GNOME Hello</app>?"
+
+#: ../C/what-can-do.page:23(title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Hvad <app>GNOME Hello</app> gør"
+
+#: ../C/what-can-do.page:25(p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "I øjeblikket kan <app>GNOME Hello</app> ikke udføre mange ting."
+
+#: ../C/what-can-do.page:28(p)
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Dette er kun en demonstration af hvordan hjælpefiler skal installeres og "
+"hvordan Mallard skal bruges, den nye syntaks for udarbejdelse af GNOME-"
+"dokumentation."
+
+#: ../C/what-can-do.page:32(p)
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://live."
+"gnome.org/ProjectMallard\">Project Mallard</link> home page."
+msgstr ""
+"Hvis du vil vide mere om Mallard, så se <link href=\"http://live.gnome.org/"
+"ProjectMallard\">projekt Mallards</link> hjemmeside."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: ../C/legal.xml:0(None)
+#: ../C/index.page:0(None)
 msgid "translator-credits"
 msgstr ""
 "Joe Hansen, 2010.\n"
 "\n"
 "Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
 "Mere info: http://www.dansk-gruppen.dk"
+
+#~ msgid ""
+#~ "As a special exception, the copyright holders give you permission to "
+#~ "copy, modify, and distribute the example code contained in this document "
+#~ "under the terms of your choosing, without restriction."
+#~ msgstr ""
+#~ "Som en speciel undtagelse giver ophavsretindehaveren dig tilladelse til "
+#~ "at kopiere, ændre og distribuere eksempelkoden indeholdt i dette dokument "
+#~ "under de betingelser du måtte vælge, uden begrænsning."
 
 #~ msgid ""
 #~ "This work is licensed under a <link href=\"http://creativecommons.org/"
@@ -51,72 +139,3 @@ msgstr ""
 #~ "Dette arbejde er udgivet under <link href=\"http://creativecommons.org/"
 #~ "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 "
 #~ "United States License</link>."
-
-#~ msgid "What can you do with <app>GNOME Hello</app>."
-#~ msgstr "Hvad kan jeg gøre med <app>GNOME Hello</app>?"
-
-#~ msgid "Milo Casagrande"
-#~ msgstr "Milo Casagrande"
-
-#~ msgid "milo@ubuntu.com"
-#~ msgstr "milo@ubuntu.com"
-
-#~ msgid "2009"
-#~ msgstr "2009"
-
-#~ msgid "GNOME Documentation Project"
-#~ msgstr "GNOME-dokumentationsprojektet"
-
-#~ msgid "What <app>GNOME Hello</app> does"
-#~ msgstr "Hvad <app>GNOME Hello</app> gør"
-
-#~ msgid "At the moment <app>GNOME Hello</app> can't do many things."
-#~ msgstr "I øjeblikket kan <app>GNOME Hello</app> ikke udføre mange ting."
-
-#~ msgid ""
-#~ "This is just a demonstration on how to install help files and how to use "
-#~ "Mallard, the new syntax for writing GNOME documentation."
-#~ msgstr ""
-#~ "Dette er kun en demonstration af hvordan hjælpefiler skal installeres og "
-#~ "hvordan Mallard skal bruges, den nye syntaks for udarbejdelse af GNOME-"
-#~ "dokumentation."
-
-#~ msgid ""
-#~ "If you want to learn more about Mallard, see the <link href=\"http://live."
-#~ "gnome.org/ProjectMallard\">Project Mallard</link> home page."
-#~ msgstr ""
-#~ "Hvis du vil vide mere om Mallard, så se <link href=\"http://live.gnome."
-#~ "org/ProjectMallard\">projekt Mallards</link> hjemmeside."
-
-#~ msgid ""
-#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-#~ msgstr ""
-#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-
-#~ msgid "Pictures of <app>GNOME Hello</app>."
-#~ msgstr "Billeder af <app>GNOME Hello</app>."
-
-#~ msgid "What does <app>GNOME Hello</app> look like?"
-#~ msgstr "Hvordan ser <app>GNOME Hello</app> ud?"
-
-#~ msgid "This is how <app>GNOME Hello</app> looks like."
-#~ msgstr "Sådan ser <app>GNOME Hello</app> ud."
-
-#~ msgid "GNOME Hello"
-#~ msgstr "GNOME Hello"
-
-#~ msgid "<placeholder-1/> fantastic interface."
-#~ msgstr "<placeholder-1/> fantastisk grænseflade."
-
-#~ msgid "Description of <app>GNOME Hello</app>."
-#~ msgstr "Beskrivelse af <app>GNOME Hello</app>."
-
-#~ msgid "What is <app>GNOME Hello</app>"
-#~ msgstr "Hvad er <app>GNOME Hello</app>"
-
-#~ msgid ""
-#~ "<app>GNOME Hello</app> is a very complex program, with many nice features "
-#~ "and nice options."
-#~ msgstr ""
-#~ "<app>GNOME Hello</app> er et meget komplekst program, med mange gode "
-#~ "egenskaber og indstillingsmuligheder."
