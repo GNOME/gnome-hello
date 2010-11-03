@@ -28,10 +28,10 @@ GNOME_MAINTAINER_MODE_DEFINES
 # Check for required packages
 # ***************************
 
-LIBGTK_REQUIRED=2.12.0
+LIBGTK_REQUIRED=2.91
 
 PKG_CHECK_MODULES([GNOME_HELLO],
-   [gtk+-2.0 >= $LIBGTK_REQUIRED])
+   [gtk+-3.0 >= $LIBGTK_REQUIRED])
 
 # *************
 # Documentation
