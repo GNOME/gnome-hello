@@ -115,7 +115,7 @@ hello_app_new (const gchar *message,
 				       greetings,
 				       NULL);
       g_signal_connect (dialog, "response",
-			G_CALLBACK (gtk_object_destroy), NULL);
+			G_CALLBACK (gtk_widget_destroy), NULL);
       gtk_widget_show (dialog);
 
       g_free (greetings);
