@@ -37,7 +37,7 @@ hello_app_new (const gchar *message,
                GSList      *greet)
 {
   GtkWidget *app;
-  GtkWidget *vbox;
+  GtkWidget *grid;
   GtkWidget *button;
   GtkWidget *label;
   GtkWidget *menubar;
@@ -51,8 +51,10 @@ hello_app_new (const gchar *message,
   gtk_window_set_default_size (GTK_WINDOW (app), 250, 350);
   gtk_window_set_title (GTK_WINDOW (app), _("GNOME Hello"));
 
-  vbox = gtk_vbox_new (FALSE, 0);
-  gtk_container_add (GTK_CONTAINER (app), vbox);
+  grid = gtk_grid_new ();
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (grid),
+                                  GTK_ORIENTATION_VERTICAL);
+  gtk_container_add (GTK_CONTAINER (app), grid);
 
   ui_manager = create_ui_manager ("GnomeHelloActions", app);
 
@@ -60,13 +62,14 @@ hello_app_new (const gchar *message,
   gtk_window_add_accel_group (GTK_WINDOW (app), accel_group);
 
   menubar = gtk_ui_manager_get_widget (ui_manager, "/menubar");
-  gtk_box_pack_start (GTK_BOX (vbox), menubar, FALSE, FALSE, 0);
+  gtk_container_add (GTK_CONTAINER (grid), menubar);
   toolbar = gtk_ui_manager_get_widget (ui_manager, "/toolbar");
-  gtk_box_pack_start (GTK_BOX (vbox), toolbar, FALSE, FALSE, 0);
+  gtk_container_add (GTK_CONTAINER (grid), toolbar);
 
   button = gtk_button_new ();
+  g_object_set (button, "expand", TRUE, NULL);
   gtk_container_set_border_width (GTK_CONTAINER (button), 10);
-  gtk_box_pack_start (GTK_BOX (vbox), button, TRUE, TRUE, 0);
+  gtk_container_add (GTK_CONTAINER (grid), button);
 
   label  = gtk_label_new (message ? message : _("Hello, World!"));
   gtk_container_add (GTK_CONTAINER (button), label);
@@ -123,7 +126,7 @@ hello_app_new (const gchar *message,
 
   app_list = g_slist_prepend (app_list, app);
 
-  gtk_widget_show_all (vbox);
+  gtk_widget_show_all (grid);
 
   return app;
 }
