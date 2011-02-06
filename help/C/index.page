@@ -9,12 +9,11 @@
       <name>Milo Casagrande</name>
       <email>milo@ubuntu.com</email>
     </credit>
-    <copyright>
-      <year>2009</year>
-      <name>GNOME Documentation Project</name>
-    </copyright>
 
-    <license>Creative Commons Share Alike 3.0</license>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
   </info>
 
