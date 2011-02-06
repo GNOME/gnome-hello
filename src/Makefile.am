@@ -5,7 +5,6 @@ gnome_hello_SOURCES = \
 	hello.c	\
 	menus.c	\
 	app.h	\
-	hello.h	\
 	menus.h
 
 gnome_hello_CPPFLAGS = \
