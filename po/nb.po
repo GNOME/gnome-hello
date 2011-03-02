@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello 0.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-08 20:26+0200\n"
-"PO-Revision-Date: 2010-08-08 20:27+0200\n"
+"POT-Creation-Date: 2011-03-02 22:08+0100\n"
+"PO-Revision-Date: 2011-03-02 22:09+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
 "Language: no\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "GNOME Hello Demo"
 msgstr "GNOME hallo demo"
 
-#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
 msgid "Sample application using GNOME technologies"
 msgstr "Eksempelapplikasjon som bruker GNOME-teknologi"
 
@@ -28,16 +28,16 @@ msgstr "Eksempelapplikasjon som bruker GNOME-teknologi"
 msgid "GNOME Hello"
 msgstr "GNOME hallo"
 
-#: ../src/app.c:71 ../src/menus.c:129
+#: ../src/app.c:74 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Hallo verden!"
 
-#: ../src/app.c:88
+#: ../src/app.c:91
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Kunne ikke tolke geometristreng `%s'"
 
-#: ../src/app.c:95
+#: ../src/app.c:98
 msgid "Special Greetings to:\n"
 msgstr "Spesielle hilsener til:\n"
 
@@ -71,6 +71,8 @@ msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
+"%s\n"
+"Kjør «%s --help» for å se en full liste med tilgjengelige kommandolinjeflagg.\n"
 
 #: ../src/hello.c:121
 #, c-format
@@ -186,39 +188,18 @@ msgstr "Dette gjør ingenting; det er kun en demonstrasjon."
 msgid "Unable to open help file"
 msgstr "Kan ikke åpne hjelpfil"
 
-#: ../src/menus.c:186
+#: ../src/menus.c:185
 msgid ""
 "Copyright © 1999 Havoc Pennington\n"
 "Copyright © 1999 - 2010 GNOME Hello Contributors"
 msgstr ""
+"Opphavsrett © 1999 Havoc Pennington\n"
+"Opphavsrett © 1999 - 2010 GNOME Hello bidragsytere"
 
-#: ../src/menus.c:195
-msgid ""
-"Thi program is free software; you can redistribute it and/or modify it under "
-"the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-
-#: ../src/menus.c:199
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-
-#: ../src/menus.c:203
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-
-#: ../src/menus.c:220
+#: ../src/menus.c:200
 msgid "About GNOME Hello"
 msgstr "Om GNOME hallo"
 
-#: ../src/menus.c:221
+#: ../src/menus.c:201
 msgid "translator-credits"
 msgstr "Kjartan Maraas <kmaraas@gnome.org>"
