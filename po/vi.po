@@ -4,12 +4,12 @@
 # Clytie Siddall <clytie@riverland.net.au>, 2005.
 # 
 msgid ""
-""
-msgstr "Project-Id-Version: gnome-hello Gnome HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-30 03:01+0200\n"
-"PO-Revision-Date: 2006-03-30 17:04+1030\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+msgstr ""
+"Project-Id-Version: gnome-hello Gnome HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-hello&component=general\n"
+"POT-Creation-Date: 2011-02-06 18:37+0000\n"
+"PO-Revision-Date: 2011-04-12 09:04+0700\n"
+"Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,24 +19,24 @@ msgstr "Project-Id-Version: gnome-hello Gnome HEAD\n"
 
 #:../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
-msgstr "Chứng minh Xin chào GNOME"
+msgstr "Minh họa GNOME Hello"
 
 #:../gnome-hello.desktop.in.h:2
 msgid "Sample application using GNOME technologies"
-msgstr "Ứng dụng mẫu, dùng công nghệ GNOME"
+msgstr "Ứng dụng mẫu dùng công nghệ GNOME"
 
 #:../src/app.c:50 ../src/menus.c:155
 msgid "GNOME Hello"
-msgstr "Xin chào GNOME"
+msgstr "GNOME Hello"
 
 #:../src/app.c:68 ../src/menus.c:124
 msgid "Hello, World!"
-msgstr "Xin chào thế giới!"
+msgstr "Chào thế giới!"
 
 #:../src/app.c:85
 #,c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Không thể phân tách chuỗi tọa độ « %s »."
+msgstr "Không thể phân tách chuỗi tọa độ `%s'."
 
 #:../src/app.c:92
 msgid "Special Greetings to:\n"
@@ -44,11 +44,11 @@ msgstr "Lời chào đặc biệt tới:\n"
 
 #:../src/hello.c:49
 msgid "Say hello to specific people listed on the command line"
-msgstr "Nói chào với người xác định được liệt kê trên dòng lệnh."
+msgstr "Gửi lời chào đến người xác định được liệt kê trên dòng lệnh"
 
 #:../src/hello.c:58
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Xác định thông điệp khác thông điệp « Xin chào thế giới! »."
+msgstr "Xác định thông điệp khác thông điệp \"Chào thế giới!\"."
 
 #:../src/hello.c:59
 msgid "MESSAGE"
@@ -64,15 +64,25 @@ msgstr "TỌA ĐỘ"
 
 #:../src/hello.c:95
 msgid "- GNOME Hello"
-msgstr "- Xin chào GNOME"
+msgstr "- GNOME Hello"
 
-#:../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Chạy '%s --help' để xem danh sách đầy đủ các lệnh tùy chỉnh.\n"
+
+#: ../src/hello.c:121
+#, c-format
 msgid "You must specify someone to greet.\n"
-msgstr "Bạn phải xác định ai cần chào hỏi.\n"
+msgstr "Bạn phải xác định cần chào hỏi ai.\n"
 
 #:../src/hello.c:124
 msgid "Command line arguments are only allowed with --greet.\n"
-msgstr "Có thể sử dụng đối số dòng lệnh chỉ với tùy chọn « --greet ».\n"
+msgstr "Có thể sử dụng đối số dòng lệnh chỉ với tùy chọn --greet.\n"
 
 #:../src/menus.c:75
 msgid "_File"
@@ -80,7 +90,7 @@ msgstr "_Tập tin"
 
 #:../src/menus.c:76
 msgid "_Edit"
-msgstr "_Hiệu chỉnh"
+msgstr "_Chỉnh sửa"
 
 #:../src/menus.c:77
 msgid "_Help"
@@ -100,11 +110,11 @@ msgstr "_Lưu"
 
 #:../src/menus.c:81
 msgid "Save _As"
-msgstr "L_ưu là"
+msgstr "Lưu lại dưới một tập tin _khác"
 
 #:../src/menus.c:82
 msgid "_Close"
-msgstr "_Đóng"
+msgstr "Đón_g"
 
 #:../src/menus.c:83
 msgid "_Quit"
@@ -174,6 +184,23 @@ msgstr "_Kế"
 msgid "This does nothing; it is only a demonstration."
 msgstr "Chương trình này không làm gì cả; chỉ là một ví dụ minh họa."
 
-#:../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Không thể mở tập tin trợ giúp"
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Bản quyền © 1999 Havoc Pennington\n"
+"Bản quyền © 1999 - 2010 Các cộng tác viên GNOME Hello"
+
+#: ../src/menus.c:200
+#| msgid "- GNOME Hello"
+msgid "About GNOME Hello"
+msgstr "Giới thiệu GNOME Hello"
+
+#: ../src/menus.c:201
 msgid "translator-credits"
 msgstr "Nhóm Việt hóa Gnome <gnomevi-list@lists.sourceforge.net>"
