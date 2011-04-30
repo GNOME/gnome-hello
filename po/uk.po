@@ -2,172 +2,213 @@
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Yuri Syrota <rasta@renome.rovno.ua>, 1999.
 # Maxim Dziumanenko <mvd@mylinux.ua>, 2005
+# Sergiy Gavrylov <sergiovana@bigmir.net>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-04 15:14+0300\n"
-"PO-Revision-Date: 2004-02-05 13:03-0500\n"
-"Last-Translator: Yuri Syrota <rasta@renome.rovno.ua>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"hello&component=general\n"
+"POT-Creation-Date: 2011-02-06 18:37+0000\n"
+"PO-Revision-Date: 2011-04-24 20:14+0300\n"
+"Last-Translator: Sergiy Gavrylov <sergiovana@bigmir.net>\n"
+"Language-Team: Ukrainian <linux@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n% "
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
 msgstr "Демонстраційна програма GNOME Hello"
 
-#: ../gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
 msgid "Sample application using GNOME technologies"
 msgstr "Приклад програми, що використовує технології GNOME"
 
-#: ../src/app.c:50 ../src/menus.c:167
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "Привітання GNOME"
 
-#: ../src/app.c:68 ../src/menus.c:124
+#: ../src/app.c:74 ../src/menus.c:129
 msgid "Hello, World!"
-msgstr "Привіт, Світ!"
+msgstr "Привіт, світе!"
 
-#: ../src/app.c:85
+#: ../src/app.c:91
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Не вдається розібрати опис геометрії `%s'"
+msgstr "Не вдаєтьсь розібрати опис геометрії «%s»"
 
-#: ../src/app.c:92
+#: ../src/app.c:98
 msgid "Special Greetings to:\n"
 msgstr "Особливі вітання для:\n"
 
-#: ../src/hello.c:47
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Вітає людей вказаних в командному рядку"
 
-#: ../src/hello.c:56
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "Вказати привітання інше ніж \"Hello, World!\""
 
-#: ../src/hello.c:57
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "ПОВІДОМЛЕННЯ"
 
-#: ../src/hello.c:65
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Вказати геометрію головного вікна"
 
-#: ../src/hello.c:66
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "ГЕОМЕТРІЯ"
 
-#: ../src/hello.c:114
-msgid "You must specify someone to greet.\n"
-msgstr "необхідно вказати вказати кого привітати.\n"
+#: ../src/hello.c:91
+#| msgid "GNOME Hello"
+msgid "- GNOME Hello"
+msgstr "- Привітання GNOME"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Виконайте «%s --help», щоб отримати повний список доступних параметрів "
+"командного рядка.\n"
+
+#: ../src/hello.c:121
+#, c-format
+msgid "You must specify someone to greet.\n"
+msgstr "Потрібно вказати вказати кого привітати.\n"
+
+#: ../src/hello.c:126
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr "Параметри командного рядка дозволені лише з --greet.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Файл"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
-msgstr "_Правка"
+msgstr "З_міни"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "_Довідка"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Створити"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
 msgstr "_Відкрити"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "З_берегти"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "Зберегти _як"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "_Закрити"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
 msgstr "Ви_йти"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "_Вирізати"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Копіювати"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "Вст_авити"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "Виді_лити все"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "О_чистити"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "В_ернути"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
 msgstr "Повт_орити"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "З_найти"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
 msgstr "Зна_йти далі"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "_Замінити"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "В_ластивості"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Зміст"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "_Про програму"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
 msgstr "_Попереднє"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "_Наступне"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
 msgstr "Не робить нічого; це лише демонстрація."
 
-#: ../src/menus.c:171
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Не вдалось відкрити файл довідки"
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Авторське право © 1999 Havoc Pennington\n"
+"Авторське право © 1999 - 2010 Розробники GNOME Hello"
+
+#: ../src/menus.c:200
+#| msgid "GNOME Hello"
+msgid "About GNOME Hello"
+msgstr "Про «Привітання GNOME»"
+
+#: ../src/menus.c:201
 msgid "translator-credits"
-msgstr "Дзюманенко Максим <mvd@mylinux.ua>"
+msgstr ""
+"Дзюманенко Максим <mvd@mylinux.ua>\n"
+"Sergiy Gavrylov <sergiovana@bigmir.net>, 2011."
