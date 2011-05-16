@@ -1,0 +1,106 @@
+#
+# Soslan Khubulov <soslanx@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello-help\n"
+"POT-Creation-Date: 2011-04-30 17:20+0000\n"
+"PO-Revision-Date: 2011-05-15 20:06+0400\n"
+"Last-Translator: Soslan Khubulov <soslanx@gmail.com>\n"
+"Language-Team: Ossetian <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: C/what-can-do.page:7(desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Цы дæ бон у аразын <app>GNOME Hello</app> программæимæ."
+
+#: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
+#: C/what-is.page:10(name) C/index.page:9(name)
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
+#: C/what-is.page:11(email) C/index.page:10(email)
+msgid "milo@ubuntu.com"
+msgstr "milo@ubuntu.com"
+
+#: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
+#: C/index.page:14(p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#: C/what-can-do.page:21(title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Цы аразы <app>GNOME Hello</app>"
+
+#: C/what-can-do.page:23(p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "Ацы тæккæ <app>GNOME Hello</app> программæйæн йæ бон бирæ нæу."
+
+#: C/what-can-do.page:26(p)
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Ай у æрмæстдæр æххуысы файл куыд æмбæлы сывæрын æмæ GNOME документаци "
+"фыссынæн нæуæг Mallard синтаксисæй куыд хъæуы архайыны æвдисæн."
+
+#: C/what-can-do.page:30(p)
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://live."
+"gnome.org/ProjectMallard\">Project Mallard</link> home page."
+msgstr ""
+"Кæд дæ фæнды фылдæр базонын Mallard синтаксисы тыххæй, уæд бакæс <link href="
+"\"http://live.gnome.org/ProjectMallard\">Пройекты Mallard-ы</link> сæйраг "
+"фарс."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/what-is-like.page:28(None)
+msgid ""
+"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+msgstr "@@ныв: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+
+#: C/what-is-like.page:8(desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "<app>GNOME Hello</app> программæйы нывтæ."
+
+#: C/what-is-like.page:22(title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Цæй хуызæн у <app>GNOME Hello</app>?"
+
+#: C/what-is-like.page:24(p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Ай у <app>GNOME Hello</app> цæй хуызæн у, уый."
+
+#: C/what-is-like.page:29(app) C/index.page:20(title)
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#: C/what-is-like.page:28(media)
+msgid "<placeholder-1/> fantastic interface."
+msgstr "<placeholder-1/> диссаджы интерфейс."
+
+#: C/what-is.page:7(desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "<app>GNOME Hello</app> программæйыл афыст."
+
+#: C/what-is.page:21(title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Цы у <app>GNOME Hello</app>"
+
+#: C/what-is.page:23(p)
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"<app>GNOME Hello</app> у тынг хæццæ гонд программæ, бирæ тынг æууæл æмæ "
+"фæндæттимæ."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/index.page:0(None)
+msgid "translator-credits"
+msgstr "Soslan Khubulov <soslanx@gmail.com>"
