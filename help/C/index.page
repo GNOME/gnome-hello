@@ -1,10 +1,11 @@
 <page xmlns="http://projectmallard.org/1.0/"
-      type="guide"
+      type="guide" style="task"
       id="index">
 
   <info>
+    <title type='link' role="trail"><media type="image" src="figures/gnome-logo.png"/></title>
+    <title type='text'>Eye of GNOME Image Viewer</title>
     <revision version="0.1" date="2009-08-01" status="final"/>
-
     <credit type="author">
       <name>Milo Casagrande</name>
       <email>milo@ubuntu.com</email>
@@ -17,6 +18,18 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
   </info>
 
-  <title>GNOME Hello</title>
+  <title><media type="image" src="figures/gnome-logo.png">GNOME logo</media>GNOME Hello</title>
+  <section id="introduction">
+   <title>Introduction</title>
+  </section>
 
+  <section id="what" style="2column">
+    <title>It's a small world</title>
+  </section>
+
+  <section id="advanced">
+    <title>
+      Advanced
+    </title>
+  </section>
 </page>

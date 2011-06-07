@@ -3,7 +3,7 @@
   id="what-can-do">
   
   <info>
-    <link type="guide" xref="index"/>
+    <link type="guide" xref="index#what"/>
     <desc>What can you do with <app>GNOME Hello</app>.</desc>
     <revision version="0.1" date="2009-08-01" status="final"/>
     <credit type="author">
@@ -29,7 +29,7 @@
   </p>
   <p>
     If you want to learn more about Mallard, see the 
-    <link href="http://live.gnome.org/ProjectMallard">Project Mallard</link> home page.
+    <link href="http://projectmallard.org/">Project Mallard</link> home page.
   </p>
 
 </page>

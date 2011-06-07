@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="guide"
+  id="get">
+  
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc><link xref="get#compile">Compile</link> and <link xref="get#run">run</link>.</desc>
+    <revision version="0.1" date="2011-06-07" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+  </info>
+
+  <title>Get <app>GNOME Hello</app></title>
+   
+  <section id="compile">
+  <title>Compile</title>
+  <p>
+   To compile the app from source:
+  </p>
+  <steps>
+   <item><p>In a terminal, type:</p>
+         <p><cmd>git clone git://git.gnome.org/gnome-hello</cmd></p></item>
+   <item><p><cmd>cd gnome-hello</cmd></p></item>
+   <item><p><cmd>./autogen.sh --prefix=`pwd`/install</cmd></p></item>
+   <item><p><cmd>make</cmd></p></item>
+   <item><p><cmd>make install</cmd></p></item>
+  </steps>
+  </section>
+ 
+  <section id="run">
+   <title>Run</title>
+ <p>
+  To run gnome-hello type:
+ </p>
+  <p>
+   <cmd>./src/gnome-hello</cmd>
+  </p>
+  </section>
+
+</page>
