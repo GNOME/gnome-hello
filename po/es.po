@@ -1,272 +1,380 @@
-# traducción de es.po al Spanish
-# GnomeHello sample translation file.
-# Copyright (C) 1999 Havoc Pennington
-# Havoc Pennington <hp@pobox.com>, 1999.
-# Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998.
-# Germán Poo Caamaño <gpoo@ubiobio.cl>, 2003.
-# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2005.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010.
-# Jorge González <jorgegonz@svn.gnome.org>, 2010.
+# translation of gnome-hello.help.HEAD.po to Español
+# spanish translation for gnome-hello manual
+#
+# Jorge González <jorgegonz@svn.gnome.org>, 2008.
+# Gonzalo L. Campos Medina <gcamposm@gmail.com>
+# Jorge González <jorgegonz@svn.gnome.org>, 2009.
+# Jorge González <jorgegonz@svn.gnome.org>, 2009.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009, 2011.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: es\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"hello&component=general\n"
-"POT-Creation-Date: 2010-02-10 19:12+0000\n"
-"PO-Revision-Date: 2010-02-10 20:50+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"Project-Id-Version: gnome-hello.help.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-07 23:39+0000\n"
+"PO-Revision-Date: 2011-06-09 09:47+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Date: 1998-11-21 12:14+0100\n"
-"From: Pablo Saratxaga <srtxg@chanae.alphanet.ch>\n"
-"X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
-#: ../gnome-hello.desktop.in.h:1
-msgid "GNOME Hello Demo"
-msgstr "Demostración de GNOME Hola"
+#: C/what-can-do.page:7(desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Qué se puede hacer con<app>GNOME Hello</app>."
 
-#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
-msgid "Sample application using GNOME technologies"
-msgstr "Aplicación de ejemplo del uso de las tencnologías de GNOME"
+#: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
+#: C/what-is.page:10(name) C/index.page:10(name)
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
 
-#. Set the human-readable name for the application
-#: ../src/app.c:52 ../src/hello.c:103
+#: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
+#: C/what-is.page:11(email) C/index.page:11(email)
+msgid "milo@ubuntu.com"
+msgstr "milo@ubuntu.com"
+
+#: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
+#: C/index.page:15(p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#: C/what-can-do.page:21(title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Qué hace <app>GNOME Hello</app>"
+
+#: C/what-can-do.page:23(p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "Por el momento <app>GNOME Hello</app> no puede hacer muchas cosas."
+
+#: C/what-can-do.page:26(p)
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Esto es sólo una demostración de cómo instalar archivos de ayuda y usar "
+"Mallard, la nueva sintaxis para escribir documentación de GNOME."
+
+#: C/what-can-do.page:30(p)
+#| msgid ""
+#| "If you want to learn more about Mallard, see the <link href=\"http://live."
+#| "gnome.org/ProjectMallard\">Project Mallard</link> home page."
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+"Si quiere saber más sobre Mallard, visite la página web <link href=\"http://"
+"projectmallard.org/\">Proyecto Mallard</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/what-is-like.page:28(None)
+#| msgid ""
+#| "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+msgid ""
+"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
+msgstr ""
+"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
+
+#: C/what-is-like.page:8(desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Imágenes de <app>GNOME Hello</app>."
+
+#: C/what-is-like.page:22(title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "¿Qué parece <app>GNOME Hello</app>?"
+
+#: C/what-is-like.page:24(p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "<app>GNOME Hello</app> se parece a esto."
+
+#: C/what-is-like.page:29(app)
 msgid "GNOME Hello"
-msgstr "GNOME Hola"
+msgstr "GNOME Hello"
 
-#: ../src/app.c:71 ../src/menus.c:129
-msgid "Hello, World!"
-msgstr "¡Hola, Mundo!"
+#: C/what-is-like.page:28(media)
+msgid "<placeholder-1/> fantastic interface."
+msgstr "Fantástica interfaz de <placeholder-1/>."
 
-#: ../src/app.c:88
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "No pude analizar la cadena de texto de geometría «%s»"
+#: C/what-is.page:7(desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Descripción de <app>GNOME Hello</app>."
 
-#: ../src/app.c:95
-msgid "Special Greetings to:\n"
-msgstr "Saludos especiales a:\n"
+#: C/what-is.page:21(title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Que es <app>GNOME Hello</app>"
 
-#: ../src/hello.c:42
-msgid "Say hello to specific people listed on the command line"
-msgstr "Mandar un saludo a la lista de personas dada en la línea de comando"
-
-#: ../src/hello.c:51
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Especificar un mensaje distinto de «¡Hola, Mundo!»"
-
-#: ../src/hello.c:52
-msgid "MESSAGE"
-msgstr "MENSAJE"
-
-#: ../src/hello.c:60
-msgid "Specify the geometry of the main window"
-msgstr "Especificar la geometría de la ventana principal"
-
-#: ../src/hello.c:61
-msgid "GEOMETRY"
-msgstr "GEOMETRIA"
-
-#: ../src/hello.c:91
-msgid "- GNOME Hello"
-msgstr "- GNOME Hola"
-
-#: ../src/hello.c:96
-#, c-format
+#: C/what-is.page:23(p)
 msgid ""
-"%s\n"
-"Run '%s --help' to see a full list of available command line options.\n"
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
 msgstr ""
-"%s\n"
-"Ejecute «%s --help» para ver una lista completa de las opciones de línea de "
-"comandos.\n"
+"<app>GNOME Hello</app> es un programa complejo, con características y "
+"opciones muy interesantes."
 
-#: ../src/hello.c:121
-#, c-format
-msgid "You must specify someone to greet.\n"
-msgstr "Debe especificar una persona a quien saludar.\n"
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/index.page:6(None) C/index.page:21(None)
+msgid "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
-#: ../src/hello.c:126
-#, c-format
-msgid "Command line arguments are only allowed with --greet.\n"
-msgstr "Los argumentos en la línea de comando sólo son válidos con --greet.\n"
+#: C/index.page:7(title)
+msgid "Eye of GNOME Image Viewer"
+msgstr "Visor de imágenes Eye of GNOME"
 
-#: ../src/menus.c:80
-msgid "_File"
-msgstr "_Archivo"
-
-#: ../src/menus.c:81
-msgid "_Edit"
-msgstr "_Editar"
-
-#: ../src/menus.c:82
-msgid "_Help"
-msgstr "Ay_uda"
-
-#: ../src/menus.c:83
-msgid "_New"
-msgstr "_Nuevo"
-
-#: ../src/menus.c:84
-msgid "_Open"
-msgstr "_Abrir"
-
-#: ../src/menus.c:85
-msgid "_Save"
-msgstr "_Guardar"
-
-#: ../src/menus.c:86
-msgid "Save _As"
-msgstr "Guardar _como"
-
-#: ../src/menus.c:87
-msgid "_Close"
-msgstr "_Cerrar"
-
-#: ../src/menus.c:88
-msgid "_Quit"
-msgstr "_Salir"
-
-#: ../src/menus.c:89
-msgid "Cu_t"
-msgstr "Cor_tar"
-
-#: ../src/menus.c:90
-msgid "_Copy"
-msgstr "_Copiar"
-
-#: ../src/menus.c:91
-msgid "_Paste"
-msgstr "_Pegar"
-
-#: ../src/menus.c:92
-msgid "Select _All"
-msgstr "Seleccionar _todo"
-
-#: ../src/menus.c:93
-msgid "C_lear"
-msgstr "_Limpiar"
-
-#: ../src/menus.c:94
-msgid "_Undo"
-msgstr "_Deshacer"
-
-#: ../src/menus.c:95
-msgid "_Redo"
-msgstr "_Rehacer"
-
-#: ../src/menus.c:96
-msgid "_Find"
-msgstr "_Buscar"
-
-#: ../src/menus.c:97
-msgid "Find Ne_xt"
-msgstr "Buscar _siguiente"
-
-#: ../src/menus.c:98
-msgid "R_eplace"
-msgstr "R_eemplazar"
-
-#: ../src/menus.c:99
-msgid "Pr_operties"
-msgstr "_Propiedades"
-
-#: ../src/menus.c:100
-msgid "_Contents"
-msgstr "Índ_ice"
-
-#: ../src/menus.c:101
-msgid "_About"
-msgstr "Acerca _de"
-
-#: ../src/menus.c:102
-msgid "_Previous"
-msgstr "_Anterior"
-
-#: ../src/menus.c:103
-msgid "_Next"
-msgstr "Siguie_nte"
-
-#: ../src/menus.c:118
-msgid "This does nothing; it is only a demonstration."
-msgstr "Esto no hace nada; es solo una muestra."
-
-#: ../src/menus.c:163
-msgid "Unable to open help file"
-msgstr "No se pudo abrir el archivo de ayuda"
-
-#: ../src/menus.c:186
+#: C/index.page:21(title)
 msgid ""
-"Copyright © 1999 Havoc Pennington\n"
-"Copyright © 1999 - 2010 GNOME Hello Contributors"
+"<media type=\"image\" src=\"figures/gnome-logo.png\">GNOME logo</media>GNOME "
+"Hello"
 msgstr ""
-"Copyright © 1999 Havoc Pennington\n"
-"Copyright © 1999 - 2010 Colaboradores de GNOME Hello"
+"<media type=\"image\" src=\"figures/gnome-logo.png\">logo de GNOME</"
+"media>GNOME Hello"
 
-#: ../src/menus.c:195
-msgid ""
-"Thi program is free software; you can redistribute it and/or modify it under "
-"the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-"Este programa es software libre; puede redistribuirlo y/o modificarlo bajo "
-"los términos de la Licencia Pública General de GNU tal como se publica por "
-"la Free Software Foundation; ya sea la versión 2 de la Licencia, o (a su "
-"elección) cualquier versión posterior."
+#: C/index.page:23(title)
+msgid "Introduction"
+msgstr "Introducción"
 
-#: ../src/menus.c:199
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-"Este programa se distribuye con la esperanza de que le sea útil, pero SIN "
-"NINGUNA GARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o "
-"IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General GNU "
-"para más detalles."
+#: C/index.page:27(title)
+msgid "It's a small world"
+msgstr "Es un mundo pequeño"
 
-#: ../src/menus.c:203
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-"Debería haber recibido una copia de la Licencia Pública General de GNU junto "
-"con este programa, si no es así, escriba a la Free Software Foundation, Inc, "
-"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 EE UU."
+#: C/index.page:31(title)
+msgid "Advanced"
+msgstr "Avanzado"
 
-#: ../src/menus.c:220
-#| msgid "- GNOME Hello"
-msgid "About GNOME Hello"
-msgstr "Acerca de GNOME Hola"
-
-#: ../src/menus.c:221
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/index.page:0(None)
 msgid "translator-credits"
-msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2009-2010\n"
-"Francisco Javier F. Serrador <serrador@gnome.org>, 2005\n"
-"Germán Poo Caamaño <gpoo@ubiobio.cl>, 2003\n"
-"Pablo Saratxaga <srtxg@chanae.alphanet.ch>, 1998"
+msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009"
 
-#~ msgid "Gnome Hello"
-#~ msgstr "Gnome Hola"
+#~ msgid ""
+#~ "This work is licensed under a <link href=\"http://creativecommons.org/"
+#~ "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 "
+#~ "United States License</link>."
+#~ msgstr ""
+#~ "Este trabajo está licenciado bajo <link href=\"http://creativecommons.org/"
+#~ "licenses/by-sa/3.0/us/\">Licencia Creative Commons Reconocimiento-"
+#~ "Compartir Igual 3.0 de Estados Unidos</link>."
 
-#~ msgid "_New Hello"
-#~ msgstr "_Nuevo Saludo"
+#~ msgid ""
+#~ "As a special exception, the copyright holders give you permission to "
+#~ "copy, modify, and distribute the example code contained in this document "
+#~ "under the terms of your choosing, without restriction."
+#~ msgstr ""
+#~ "Como una excepción especial, los titulares de derechos de autor le dan "
+#~ "permiso para copiar, modificar y distribuir el código de ejemplo que "
+#~ "figura en este documento bajo los términos de su elección, sin "
+#~ "restricción alguna."
 
-#~ msgid "Create a new hello"
-#~ msgstr "Crea un nuevo saludo"
+#~ msgid "2009"
+#~ msgstr "2009"
 
-#~ msgid "Prev"
-#~ msgstr "Anterior"
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "Proyecto de documentación de GNOME"
 
-#~ msgid "Next hello"
-#~ msgstr "Saludo siguiente"
+#~ msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+#~ msgstr ""
+#~ "Licencia Creative Commons Share Alike 3.0 de Atribución de Estados Unidos"
 
-#~ msgid "A sample GNOME application."
-#~ msgstr "Una muestra de programa para GNOME."
+#~ msgid "This work is licensed under a <placeholder-1/>."
+#~ msgstr "Este trabajo es licenciado bajo <placeholder-1/>."
+
+#~ msgid "What can you do with <placeholder-1/>."
+#~ msgstr "Lo que puede hacer con <placeholder-1/>."
+
+#~ msgid "Project Mallard"
+#~ msgstr "Proyecto Mallard"
+
+#~ msgid "Pictures of <placeholder-1/>."
+#~ msgstr "Imágenes de <placeholder-1/>."
+
+#~ msgid "This is how <placeholder-1/> looks like."
+#~ msgstr "Así es como <placeholder-1/> es."
+
+#~ msgid "Description of <placeholder-1/>."
+#~ msgstr "Descripción de <placeholder-1/>."
+
+#~ msgid "<application>GNOME Hello</application> Manual V2.0"
+#~ msgstr "Versión 2.0 del manual de <application>GNOME Hello</application>"
+
+#~ msgid ""
+#~ "This document describes the GNOME Hello application, which is a "
+#~ "demonstration of basic GNOME program functionality."
+#~ msgstr ""
+#~ "Este documento describe la aplicación GNOME Hello, que es una "
+#~ "demostración de la funcionalidad básica de una aplicación GNOME."
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "Havoc Pennington"
+#~ msgstr "Havoc Pennington"
+
+#~ msgid "John Fleck"
+#~ msgstr "John Fleck"
+
+#~ msgid ""
+#~ "Permission is granted to copy, distribute and/or modify this document "
+#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+#~ "or any later version published by the Free Software Foundation with no "
+#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+#~ "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
+#~ "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+#~ msgstr ""
+#~ "Se otorga permiso para copiar, distribuir y/o modificar este documento "
+#~ "bajo los términos de la Licencia de Documentación Libre de GNU, Versión "
+#~ "1.1 o cualquier otra versión posterior publicada por la Free Software "
+#~ "Foundation; sin Secciones Invariantes ni Textos de Cubierta Delantera ni "
+#~ "Textos de Cubierta Trasera. Puede encontrar una copia de la licencia GFDL "
+#~ "en este <ulink type=\"help\" url=\"ghelp:fdl\">enlace</ulink> o en el "
+#~ "archivo COPYING-DOCS distribuido con este manual."
+
+#~ msgid ""
+#~ "This manual is part of a collection of GNOME manuals distributed under "
+#~ "the GFDL. If you want to distribute this manual separately from the "
+#~ "collection, you can do so by adding a copy of the license to the manual, "
+#~ "as described in section 6 of the license."
+#~ msgstr ""
+#~ "Este manual es parte de una colección de manuales de GNOME distribuido "
+#~ "bajo la GFDL. Si quiere distribuir este manual por separado de la "
+#~ "colección, puede hacerlo añadiendo una copia de la licencia al manual, "
+#~ "tal como se describe en la sección 6 de la licencia."
+
+#~ msgid ""
+#~ "Many of the names used by companies to distinguish their products and "
+#~ "services are claimed as trademarks. Where those names appear in any GNOME "
+#~ "documentation, and the members of the GNOME Documentation Project are "
+#~ "made aware of those trademarks, then the names are in capital letters or "
+#~ "initial capital letters."
+#~ msgstr ""
+#~ "Muchos de los nombres utilizados por las empresas para distinguir sus "
+#~ "productos y servicios se consideran marcas comerciales. Cuando estos "
+#~ "nombres aparezcan en la documentación de GNOME, y siempre que se haya "
+#~ "informado a los miembros del Proyecto de documentación de GNOME de dichas "
+#~ "marcas comerciales, los nombres aparecerán en mayúsculas o con las "
+#~ "iniciales en mayúsculas."
+
+#~ msgid ""
+#~ "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+#~ "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES "
+#~ "THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+#~ "MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+#~ "RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+#~ "MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+#~ "MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+#~ "WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+#~ "SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES "
+#~ "AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED "
+#~ "VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS "
+#~ "DISCLAIMER; AND"
+#~ msgstr ""
+#~ "EL DOCUMENTO SE PROPORCIONA \"TAL CUAL\", SIN GARANTÍA DE NINGÚN TIPO, NI "
+#~ "EXPLÍCITA NI IMPLÍCITA INCLUYENDO, SIN LIMITACIÓN, GARANTÍA DE QUE EL "
+#~ "DOCUMENTO O VERSIÓN MODIFICADA DE ÉSTE CAREZCA DE DEFECTOS COMERCIALES, "
+#~ "SEA ADECUADO A UN FIN CONCRETO O INCUMPLA ALGUNA NORMATIVA. TODO EL "
+#~ "RIESGO RELATIVO A LA CALIDAD, PRECISIÓN Y UTILIDAD DEL DOCUMENTO O SU "
+#~ "VERSIÓN MODIFICADA RECAE EN USTED. SI CUALQUIER DOCUMENTO O VERSIÓN "
+#~ "MODIFICADA DE AQUÉL RESULTARA DEFECTUOSO EN CUALQUIER ASPECTO, USTED (Y "
+#~ "NO EL REDACTOR INICIAL, AUTOR O CONTRIBUYENTE) ASUMIRÁ LOS COSTES DE TODA "
+#~ "REPARACIÓN, MANTENIMIENTO O CORRECCIÓN NECESARIOS. ESTA RENUNCIA DE "
+#~ "GARANTÍA ES UNA PARTE ESENCIAL DE ESTA LICENCIA. NO SE AUTORIZA EL USO DE "
+#~ "NINGÚN DOCUMENTO NI VERSIÓN MODIFICADA DE ÉSTE POR EL PRESENTE, SALVO "
+#~ "DENTRO DEL CUMPLIMIENTO DE LA RENUNCIA;Y"
+
+#~ msgid ""
+#~ "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT "
+#~ "(INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL "
+#~ "WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED "
+#~ "VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE "
+#~ "LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR "
+#~ "CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, "
+#~ "DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR "
+#~ "MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR "
+#~ "RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, "
+#~ "EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH "
+#~ "DAMAGES."
+#~ msgstr ""
+#~ "EN NINGUNA CIRCUNSTANCIA NI SEGÚN NINGÚN ARGUMENTO LEGAL, SEA POR MOTIVOS "
+#~ "CULPOSOS (INCLUIDA LA NEGLIGENCIA), CONTRACTUALES O DE OTRO TIPO, NI EL "
+#~ "AUTOR, NI EL REDACTOR INICIAL, NI CUALQUIER COLABORADOR, NI CUALQUIER "
+#~ "DISTRIBUIDOR DEL DOCUMENTO O VERSIÓN MODIFICADA DEL MISMO, NI CUALQUIER "
+#~ "PROVEEDOR DE CUALQUIERA DE DICHAS PARTES, SERÁN RESPONSABLES, ANTE NINGÚN "
+#~ "TERCERO, DE NINGÚN DAÑO O PERJUICIO DIRECTO, INDIRECTO, ESPECIAL, "
+#~ "INCIDENTAL O CONSIGUIENTE DE NINGÚN TIPO, INCLUIDOS, SIN LIMITACIÓN, LOS "
+#~ "DAÑOS POR PÉRDIDA DE FONDO DE COMERCIO, INTERRUPCIÓN DEL TRABAJO, FALLO O "
+#~ "MAL FUNCIONAMIENTO INFORMÁTICO, NI CUALQUIER OTRO DAÑO O PÉRDIDA "
+#~ "DERIVADOS DEL USO DEL DOCUMENTO Y LAS VERSIONES MODIFICADAS DEL MISMO, O "
+#~ "RELACIONADO CON ELLO, INCLUSO SI SE HABÍA COMUNICADO A AQUELLA PARTE LA "
+#~ "POSIBILIDAD DE TALES DAÑOS."
+
+#~ msgid ""
+#~ "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
+#~ "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
+#~ "UNDERSTANDING THAT: <placeholder-1/>"
+#~ msgstr ""
+#~ "ESTE DOCUMENTO Y LAS VERSIONES MODIFICADAS DEL MISMO SE PROPORCIONAN "
+#~ "SEGÚN LAS CONDICIONES ESTABLECIDAS EN LA LICENCIA DE DOCUMENTACIÓN LIBRE "
+#~ "DE GNU (GFDL) Y TENIENDO EN CUENTA QUE: <placeholder-1/>"
+
+#~ msgid "Havoc"
+#~ msgstr "Havoc"
+
+#~ msgid "Pennington"
+#~ msgstr "Pennington"
+
+#~ msgid "hp@pobox.com"
+#~ msgstr "hp@pobox.com"
+
+#~ msgid "John"
+#~ msgstr "John"
+
+#~ msgid "Fleck"
+#~ msgstr "Fleck"
+
+#~ msgid "jfleck@inkstain.net"
+#~ msgstr "jfleck@inkstain.net"
+
+#~ msgid "GNOME Hello Manual V 0"
+#~ msgstr "Manual de GNOME Hello V 0"
+
+#~ msgid "GNOME Hello Manual V 1"
+#~ msgstr "Manual de GNOME Hello V 1"
+
+#~ msgid "GNOME Hello Manual V 2.0"
+#~ msgstr "Manual de GNOME Hello V 2.0"
+
+#~ msgid "John Fleck <email>jfleck@inkstain.net</email>"
+#~ msgstr "John Fleck <email>jfleck@inkstain.net</email>"
+
+#~ msgid "This manual describes version 2.0 of GNOME Hello."
+#~ msgstr "Este manual describe la versión 2.0 de GNOME Hello."
+
+#~ msgid "Feedback"
+#~ msgstr "Comentarios"
+
+#~ msgid ""
+#~ "To report a bug or make a suggestion regarding the <application>GNOME "
+#~ "Hello</application> application or this manual, follow the directions in "
+#~ "the <ulink url=\"ghelp:user-guide?feedback\" type=\"help\">GNOME Feedback "
+#~ "Page</ulink>."
+#~ msgstr ""
+#~ "Para informar de un error o realizar una sugerencia acerca de la "
+#~ "aplicación <application>GNOME Hello</application> o de este manual, siga "
+#~ "las indicaciones dadas en la <ulink url=\"ghelp:user-guide?feedback\" "
+#~ "type=\"help\">Página de comentarios de GNOME</ulink>."
+
+#~ msgid ""
+#~ "This is the <application>GNOME Hello</application> user's guide. It does "
+#~ "not contain any actual information. We are demonstrating how to install "
+#~ "help files."
+#~ msgstr ""
+#~ "Esta es la guía de usuario de <application>GNOME Hello</application>. No "
+#~ "contiene ninguna información actual. Sólo se demuestra cómo instalar los "
+#~ "archivos de ayuda."
+
+#~ msgid "Advanced GnomeHello"
+#~ msgstr "GNOMEHello avanzado"
