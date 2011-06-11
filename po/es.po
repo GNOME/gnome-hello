@@ -10,9 +10,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello.help.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-07 23:39+0000\n"
-"PO-Revision-Date: 2011-06-09 09:47+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"hello&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-06-09 20:40+0000\n"
+"PO-Revision-Date: 2011-06-10 10:04+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,132 +22,291 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: C/what-can-do.page:7(desc)
-msgid "What can you do with <app>GNOME Hello</app>."
-msgstr "Qué se puede hacer con<app>GNOME Hello</app>."
+#: ../gnome-hello.desktop.in.h:1
+#| msgid "GNOME Hello"
+msgid "GNOME Hello Demo"
+msgstr "Demostración de GNOME Hello"
 
-#: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
-#: C/what-is.page:10(name) C/index.page:10(name)
-msgid "Milo Casagrande"
-msgstr "Milo Casagrande"
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
+msgid "Sample application using GNOME technologies"
+msgstr "Aplicación sencilla usando las tecnologías de GNOME"
 
-#: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
-#: C/what-is.page:11(email) C/index.page:11(email)
-msgid "milo@ubuntu.com"
-msgstr "milo@ubuntu.com"
-
-#: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
-#: C/index.page:15(p)
-msgid "Creative Commons Share Alike 3.0"
-msgstr "Creative Commons Share Alike 3.0"
-
-#: C/what-can-do.page:21(title)
-msgid "What <app>GNOME Hello</app> does"
-msgstr "Qué hace <app>GNOME Hello</app>"
-
-#: C/what-can-do.page:23(p)
-msgid "At the moment <app>GNOME Hello</app> can't do many things."
-msgstr "Por el momento <app>GNOME Hello</app> no puede hacer muchas cosas."
-
-#: C/what-can-do.page:26(p)
-msgid ""
-"This is just a demonstration on how to install help files and how to use "
-"Mallard, the new syntax for writing GNOME documentation."
-msgstr ""
-"Esto es sólo una demostración de cómo instalar archivos de ayuda y usar "
-"Mallard, la nueva sintaxis para escribir documentación de GNOME."
-
-#: C/what-can-do.page:30(p)
-#| msgid ""
-#| "If you want to learn more about Mallard, see the <link href=\"http://live."
-#| "gnome.org/ProjectMallard\">Project Mallard</link> home page."
-msgid ""
-"If you want to learn more about Mallard, see the <link href=\"http://"
-"projectmallard.org/\">Project Mallard</link> home page."
-msgstr ""
-"Si quiere saber más sobre Mallard, visite la página web <link href=\"http://"
-"projectmallard.org/\">Proyecto Mallard</link>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/what-is-like.page:28(None)
-#| msgid ""
-#| "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-msgid ""
-"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
-msgstr ""
-"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
-
-#: C/what-is-like.page:8(desc)
-msgid "Pictures of <app>GNOME Hello</app>."
-msgstr "Imágenes de <app>GNOME Hello</app>."
-
-#: C/what-is-like.page:22(title)
-msgid "What does <app>GNOME Hello</app> look like?"
-msgstr "¿Qué parece <app>GNOME Hello</app>?"
-
-#: C/what-is-like.page:24(p)
-msgid "This is how <app>GNOME Hello</app> looks like."
-msgstr "<app>GNOME Hello</app> se parece a esto."
-
-#: C/what-is-like.page:29(app)
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: C/what-is-like.page:28(media)
-msgid "<placeholder-1/> fantastic interface."
-msgstr "Fantástica interfaz de <placeholder-1/>."
+#: ../src/app.c:74 ../src/menus.c:129
+msgid "Hello, World!"
+msgstr "Hola, mundo"
 
-#: C/what-is.page:7(desc)
-msgid "Description of <app>GNOME Hello</app>."
-msgstr "Descripción de <app>GNOME Hello</app>."
+#: ../src/app.c:91
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "No se pudo analizar la cadena de texto de geometría «%s»"
 
-#: C/what-is.page:21(title)
-msgid "What is <app>GNOME Hello</app>"
-msgstr "Que es <app>GNOME Hello</app>"
+#: ../src/app.c:98
+msgid "Special Greetings to:\n"
+msgstr "Saludos especiales a:\n"
 
-#: C/what-is.page:23(p)
-msgid ""
-"<app>GNOME Hello</app> is a very complex program, with many nice features "
-"and nice options."
+#: ../src/hello.c:42
+msgid "Say hello to specific people listed on the command line"
 msgstr ""
-"<app>GNOME Hello</app> es un programa complejo, con características y "
-"opciones muy interesantes."
+"Mandar un saludo a la lista de personas especificada en la línea de comandos"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/index.page:6(None) C/index.page:21(None)
-msgid "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
+#: ../src/hello.c:51
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Especificar un mensaje distinto de «Hola, mundo»"
 
-#: C/index.page:7(title)
-msgid "Eye of GNOME Image Viewer"
-msgstr "Visor de imágenes Eye of GNOME"
+#: ../src/hello.c:52
+msgid "MESSAGE"
+msgstr "MENSAJE"
 
-#: C/index.page:21(title)
+#: ../src/hello.c:60
+msgid "Specify the geometry of the main window"
+msgstr "Especificar la geometría de la ventana principal"
+
+#: ../src/hello.c:61
+msgid "GEOMETRY"
+msgstr "GEOMETRIA"
+
+#: ../src/hello.c:91
+#| msgid "GNOME Hello"
+msgid "- GNOME Hello"
+msgstr "- GNOME Hello"
+
+#: ../src/hello.c:96
+#, c-format
 msgid ""
-"<media type=\"image\" src=\"figures/gnome-logo.png\">GNOME logo</media>GNOME "
-"Hello"
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
-"<media type=\"image\" src=\"figures/gnome-logo.png\">logo de GNOME</"
-"media>GNOME Hello"
+"%s\n"
+"Ejecute «%s --help» para ver una lista completa de las opciones de línea de "
+"comandos.\n"
 
-#: C/index.page:23(title)
-msgid "Introduction"
-msgstr "Introducción"
+#: ../src/hello.c:121
+#, c-format
+msgid "You must specify someone to greet.\n"
+msgstr "Debe especificar una persona a quien saludar.\n"
 
-#: C/index.page:27(title)
-msgid "It's a small world"
-msgstr "Es un mundo pequeño"
+#: ../src/hello.c:126
+#, c-format
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Los argumentos en la línea de comando sólo son válidos con --greet.\n"
 
-#: C/index.page:31(title)
-msgid "Advanced"
-msgstr "Avanzado"
+#: ../src/menus.c:80
+#| msgid "Fleck"
+msgid "_File"
+msgstr "_Archivo"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/index.page:0(None)
+#: ../src/menus.c:81
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../src/menus.c:82
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../src/menus.c:83
+msgid "_New"
+msgstr "_Nuevo"
+
+#: ../src/menus.c:84
+msgid "_Open"
+msgstr "_Abrir"
+
+#: ../src/menus.c:85
+msgid "_Save"
+msgstr "_Guardar"
+
+#: ../src/menus.c:86
+msgid "Save _As"
+msgstr "Guardar _como"
+
+#: ../src/menus.c:87
+msgid "_Close"
+msgstr "_Cerrar"
+
+#: ../src/menus.c:88
+msgid "_Quit"
+msgstr "_Salir"
+
+#: ../src/menus.c:89
+msgid "Cu_t"
+msgstr "Cor_tar"
+
+#: ../src/menus.c:90
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: ../src/menus.c:91
+msgid "_Paste"
+msgstr "_Pegar"
+
+#: ../src/menus.c:92
+msgid "Select _All"
+msgstr "Seleccionar _todo"
+
+#: ../src/menus.c:93
+msgid "C_lear"
+msgstr "_Limpiar"
+
+#: ../src/menus.c:94
+msgid "_Undo"
+msgstr "_Deshacer"
+
+#: ../src/menus.c:95
+msgid "_Redo"
+msgstr "_Rehacer"
+
+#: ../src/menus.c:96
+msgid "_Find"
+msgstr "_Buscar"
+
+#: ../src/menus.c:97
+msgid "Find Ne_xt"
+msgstr "Buscar _siguiente"
+
+#: ../src/menus.c:98
+msgid "R_eplace"
+msgstr "R_eemplazar"
+
+#: ../src/menus.c:99
+msgid "Pr_operties"
+msgstr "_Propiedades"
+
+#: ../src/menus.c:100
+msgid "_Contents"
+msgstr "Índ_ice"
+
+#: ../src/menus.c:101
+msgid "_About"
+msgstr "Acerca _de"
+
+#: ../src/menus.c:102
+msgid "_Previous"
+msgstr "_Anterior"
+
+#: ../src/menus.c:103
+msgid "_Next"
+msgstr "Siguie_nte"
+
+#: ../src/menus.c:118
+msgid "This does nothing; it is only a demonstration."
+msgstr "Esto no hace nada; es solo una demostración."
+
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "No se pudo abrir el archivo de ayuda"
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 Colaboradores de GNOME Hello"
+
+#: ../src/menus.c:200
+#| msgid "GNOME Hello"
+msgid "About GNOME Hello"
+msgstr "Acerca de GNOME Hello"
+
+#: ../src/menus.c:201
 msgid "translator-credits"
-msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009"
+msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2011"
+
+#~ msgid "What can you do with <app>GNOME Hello</app>."
+#~ msgstr "Qué se puede hacer con<app>GNOME Hello</app>."
+
+#~ msgid "Milo Casagrande"
+#~ msgstr "Milo Casagrande"
+
+#~ msgid "milo@ubuntu.com"
+#~ msgstr "milo@ubuntu.com"
+
+#~ msgid "Creative Commons Share Alike 3.0"
+#~ msgstr "Creative Commons Share Alike 3.0"
+
+#~ msgid "What <app>GNOME Hello</app> does"
+#~ msgstr "Qué hace <app>GNOME Hello</app>"
+
+#~ msgid "At the moment <app>GNOME Hello</app> can't do many things."
+#~ msgstr "Por el momento <app>GNOME Hello</app> no puede hacer muchas cosas."
+
+#~ msgid ""
+#~ "This is just a demonstration on how to install help files and how to use "
+#~ "Mallard, the new syntax for writing GNOME documentation."
+#~ msgstr ""
+#~ "Esto es sólo una demostración de cómo instalar archivos de ayuda y usar "
+#~ "Mallard, la nueva sintaxis para escribir documentación de GNOME."
+
+#~| msgid ""
+#~| "If you want to learn more about Mallard, see the <link href=\"http://"
+#~| "live.gnome.org/ProjectMallard\">Project Mallard</link> home page."
+#~ msgid ""
+#~ "If you want to learn more about Mallard, see the <link href=\"http://"
+#~ "projectmallard.org/\">Project Mallard</link> home page."
+#~ msgstr ""
+#~ "Si quiere saber más sobre Mallard, visite la página web <link href="
+#~ "\"http://projectmallard.org/\">Proyecto Mallard</link>."
+
+#~| msgid ""
+#~| "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ msgid ""
+#~ "@@image: 'figures/gnome-hello-new.png'; "
+#~ "md5=8a1fcc6f46a22a1f500cfef9ca51b481"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-hello-new.png'; "
+#~ "md5=8a1fcc6f46a22a1f500cfef9ca51b481"
+
+#~ msgid "Pictures of <app>GNOME Hello</app>."
+#~ msgstr "Imágenes de <app>GNOME Hello</app>."
+
+#~ msgid "What does <app>GNOME Hello</app> look like?"
+#~ msgstr "¿Qué parece <app>GNOME Hello</app>?"
+
+#~ msgid "This is how <app>GNOME Hello</app> looks like."
+#~ msgstr "<app>GNOME Hello</app> se parece a esto."
+
+#~ msgid "<placeholder-1/> fantastic interface."
+#~ msgstr "Fantástica interfaz de <placeholder-1/>."
+
+#~ msgid "Description of <app>GNOME Hello</app>."
+#~ msgstr "Descripción de <app>GNOME Hello</app>."
+
+#~ msgid "What is <app>GNOME Hello</app>"
+#~ msgstr "Que es <app>GNOME Hello</app>"
+
+#~ msgid ""
+#~ "<app>GNOME Hello</app> is a very complex program, with many nice features "
+#~ "and nice options."
+#~ msgstr ""
+#~ "<app>GNOME Hello</app> es un programa complejo, con características y "
+#~ "opciones muy interesantes."
+
+#~ msgid "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgstr "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
+
+#~ msgid "Eye of GNOME Image Viewer"
+#~ msgstr "Visor de imágenes Eye of GNOME"
+
+#~ msgid ""
+#~ "<media type=\"image\" src=\"figures/gnome-logo.png\">GNOME logo</"
+#~ "media>GNOME Hello"
+#~ msgstr ""
+#~ "<media type=\"image\" src=\"figures/gnome-logo.png\">logo de GNOME</"
+#~ "media>GNOME Hello"
+
+#~ msgid "Introduction"
+#~ msgstr "Introducción"
+
+#~ msgid "It's a small world"
+#~ msgstr "Es un mundo pequeño"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
 
 #~ msgid ""
 #~ "This work is licensed under a <link href=\"http://creativecommons.org/"
@@ -331,9 +491,6 @@ msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009"
 
 #~ msgid "John"
 #~ msgstr "John"
-
-#~ msgid "Fleck"
-#~ msgstr "Fleck"
 
 #~ msgid "jfleck@inkstain.net"
 #~ msgstr "jfleck@inkstain.net"
