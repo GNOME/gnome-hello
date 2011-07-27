@@ -4,104 +4,211 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
-"POT-Creation-Date: 2003-07-14 20:04+0200\n"
-"PO-Revision-Date: 2004-02-05 13:06-0500\n"
-"Last-Translator: Valek Filippov  <frob@df.ru>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-hello&component=general\n"
+"POT-Creation-Date: 2011-02-06 18:37+0000\n"
+"PO-Revision-Date: 2011-07-27 22:28+0300\n"
+"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: gnome-hello.desktop.in.h:1
+#: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
 msgstr "Демонстрационная программа GNOME Hello"
 
-#: gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2
+#: ../src/menus.c:195
 msgid "Sample application using GNOME technologies"
 msgstr "Приложение-образец использующее технологии GNOME"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Gnome Hello"
-
-#: src/app.c:51 src/menus.c:127
-msgid "Hello, World!"
-msgstr "Hello, World!"
-
-#: src/app.c:92
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "Невозможно разобрать описание геометрии `%s'"
-
-#: src/app.c:101
-msgid "Special Greetings to:\n"
-msgstr "Особое приветствие для:\n"
-
-#: src/hello.c:50
-msgid "Say hello to specific people listed on the command line"
-msgstr "Приветствует людей указанных на командной строке"
-
-#: src/hello.c:59
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Заказать приветствие отличное от \"Hello, World!\""
-
-#: src/hello.c:60
-msgid "MESSAGE"
-msgstr "СООБЩЕНИЕ"
-
-#: src/hello.c:68
-msgid "Specify the geometry of the main window"
-msgstr "Задать геометрию основного окна"
-
-#: src/hello.c:69
-msgid "GEOMETRY"
-msgstr "ГЕОМЕТРИЯ"
-
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Вы должны указать кого приветствовать."
-
-#: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Аргументы командной строки разрешены только с --greet."
-
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "Новое Hello"
-
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Создать новое hello"
-
-#: src/menus.c:85
-msgid "New"
-msgstr "Новое"
-
-#: src/menus.c:89
-msgid "Prev"
-msgstr "Пред."
-
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Предыдущее hello"
-
-#: src/menus.c:90
-msgid "Next"
-msgstr "След."
-
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Следующее hello"
-
-#: src/menus.c:116
-msgid "This does nothing; it is only a demonstration."
-msgstr "Не делает ничего; просто демонстрация."
-
-#: src/menus.c:174
+#. Set the human-readable name for the application
+#: ../src/app.c:52
+#: ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: src/menus.c:177
-msgid "A sample GNOME application."
-msgstr "Пример GNOME приложения"
+#: ../src/app.c:74
+#: ../src/menus.c:129
+msgid "Hello, World!"
+msgstr "Hello, World!"
+
+#: ../src/app.c:91
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Не удалось разобрать описание геометрии «%s»"
+
+#: ../src/app.c:98
+msgid "Special Greetings to:\n"
+msgstr "Особое приветствие для:\n"
+
+#: ../src/hello.c:42
+msgid "Say hello to specific people listed on the command line"
+msgstr "Приветствует людей, указанных в командной строке"
+
+#: ../src/hello.c:51
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Указать приветствие, отличающееся от «Hello, World!»"
+
+#: ../src/hello.c:52
+msgid "MESSAGE"
+msgstr "СООБЩЕНИЕ"
+
+#: ../src/hello.c:60
+msgid "Specify the geometry of the main window"
+msgstr "Задать геометрию основного окна"
+
+#: ../src/hello.c:61
+msgid "GEOMETRY"
+msgstr "ГЕОМЕТРИЯ"
+
+#: ../src/hello.c:91
+#| msgid "GNOME Hello"
+msgid "- GNOME Hello"
+msgstr "— GNOME Hello"
+
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Запустите «%s --help», чтобы вывести список всех доступных параметров командной строки.\n"
+
+#: ../src/hello.c:121
+#, c-format
+#| msgid "You must specify someone to greet."
+msgid "You must specify someone to greet.\n"
+msgstr "Вы должны указать, кого приветствовать.\n"
+
+#: ../src/hello.c:126
+#, c-format
+#| msgid "Command line arguments are only allowed with --greet."
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "Аргументы командной строки разрешены только с ключом --greet.\n"
+
+#: ../src/menus.c:80
+msgid "_File"
+msgstr "_Файл"
+
+#: ../src/menus.c:81
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../src/menus.c:82
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../src/menus.c:83
+#| msgid "New"
+msgid "_New"
+msgstr "_Создать"
+
+#: ../src/menus.c:84
+msgid "_Open"
+msgstr "_Открыть"
+
+#: ../src/menus.c:85
+msgid "_Save"
+msgstr "_Сохранить"
+
+#: ../src/menus.c:86
+msgid "Save _As"
+msgstr "Сохранить _как"
+
+#: ../src/menus.c:87
+msgid "_Close"
+msgstr "_Закрыть"
+
+#: ../src/menus.c:88
+msgid "_Quit"
+msgstr "_Закончить"
+
+#: ../src/menus.c:89
+msgid "Cu_t"
+msgstr "_Вырезать"
+
+#: ../src/menus.c:90
+msgid "_Copy"
+msgstr "_Копировать"
+
+#: ../src/menus.c:91
+msgid "_Paste"
+msgstr "_Вставить"
+
+#: ../src/menus.c:92
+msgid "Select _All"
+msgstr "_Выделить всё"
+
+#: ../src/menus.c:93
+msgid "C_lear"
+msgstr "О_чистить"
+
+#: ../src/menus.c:94
+msgid "_Undo"
+msgstr "_Отменить"
+
+#: ../src/menus.c:95
+msgid "_Redo"
+msgstr "_Повторить"
+
+#: ../src/menus.c:96
+msgid "_Find"
+msgstr "_Найти"
+
+#: ../src/menus.c:97
+msgid "Find Ne_xt"
+msgstr "Найти _следующее"
+
+#: ../src/menus.c:98
+msgid "R_eplace"
+msgstr "_Заменить"
+
+#: ../src/menus.c:99
+msgid "Pr_operties"
+msgstr "_Свойства"
+
+#: ../src/menus.c:100
+msgid "_Contents"
+msgstr "_Содержимое"
+
+#: ../src/menus.c:101
+msgid "_About"
+msgstr "_О программе"
+
+#: ../src/menus.c:102
+#| msgid "Previous hello"
+msgid "_Previous"
+msgstr "_Предыдущее"
+
+#: ../src/menus.c:103
+#| msgid "Next"
+msgid "_Next"
+msgstr "_Следующее"
+
+#: ../src/menus.c:118
+msgid "This does nothing; it is only a demonstration."
+msgstr "Не делает ничего; просто демонстрация."
+
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Не удалось открыть файл справки"
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Авторские права © 1999 Havoc Pennington\n"
+"Авторские права © 1999 - 2010 GNOME Hello Contributors"
+
+#: ../src/menus.c:200
+#| msgid "GNOME Hello"
+msgid "About GNOME Hello"
+msgstr "О программе GNOME Hello"
+
+#: ../src/menus.c:201
+msgid "translator-credits"
+msgstr "Юрий Мясоедов <omerta13@yandex.ru>, 2011"
+
