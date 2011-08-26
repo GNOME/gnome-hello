@@ -3,7 +3,9 @@ dist-hook: doc-dist-hook
 
 DOC_ID = gnome-hello
 DOC_INCLUDES = legal.xml
-DOC_FIGURES = figures/gnome-hello.png
+DOC_FIGURES = figures/gnome-hello.png \
+	      figures/gnome-hello-new.png \
+	      figures/gnome-hello-logo.png
 
 DOC_PAGES = index.page \
   compiling.page \
