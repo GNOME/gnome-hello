@@ -6,6 +6,7 @@ DOC_INCLUDES = legal.xml
 DOC_FIGURES = figures/gnome-hello.png
 
 DOC_PAGES = index.page \
+  compiling.page \
   what-is.page \
   what-is-like.page \
   what-can-do.page
