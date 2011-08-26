@@ -4,7 +4,7 @@
   
   <info>
     <link type="guide" xref="index#advanced"/>
-    <desc><link xref="get#compile">Compile</link> and <link xref="get#run">run</link>.</desc>
+    <desc><link xref="get#compile">Compile</link> and <link xref="get#run">run</link> and <link xref="get#help">more</link>.</desc>
     <revision version="0.1" date="2011-06-07" status="final"/>
     <credit type="author">
       <name>Tiffany Antopolski</name>
@@ -45,4 +45,13 @@
   </p>
   </section>
 
+  <section id="help">
+    <title>View most up-to-date help pages</title>
+    <p>
+     To run most recent help pages (and view your changes if you made any) type:
+   </p>
+   <p>
+    <cmd>yelp help/C/</cmd>
+   </p>
+   </section>
 </page>

@@ -3,12 +3,17 @@
       id="index">
 
   <info>
-    <title type='link' role="trail"><media type="image" src="figures/gnome-logo.png"/></title>
+    <desc>Help for GNOME Hello.</desc>
+    <title type='link' role="trail"><media type="image" src="figures/gnome-hello-logo.png"/></title>
     <title type='text'>Eye of GNOME Image Viewer</title>
-    <revision version="0.1" date="2009-08-01" status="final"/>
+    <revision version="0.1" date="2011-08-26" status="final"/>
     <credit type="author">
       <name>Milo Casagrande</name>
       <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
     </credit>
 
     <license>
@@ -18,7 +23,7 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
   </info>
 
-  <title><media type="image" src="figures/gnome-logo.png">GNOME logo</media>GNOME Hello</title>
+  <title><media type="image" src="figures/gnome-hello-logo.png">GNOME Hello logo</media>GNOME Hello</title>
   <section id="introduction">
    <title>Introduction</title>
   </section>
