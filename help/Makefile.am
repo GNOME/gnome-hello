@@ -14,6 +14,6 @@ DOC_PAGES = index.page \
   what-can-do.page
 
 
-DOC_LINGUAS = cs da de el es fr ja oc os pt_BR sl sv uk zh_CN
+DOC_LINGUAS = cs da de el eo es fr ja oc os pt_BR sl sv uk zh_CN
 
 -include $(top_srcdir)/git.mk

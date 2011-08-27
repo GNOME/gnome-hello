@@ -1,0 +1,212 @@
+# Esperanto translation for gnome-hello.
+# Copyright (C) 2011 gnome-hello's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello master\n"
+"POT-Creation-Date: 2011-08-26 16:07+0000\n"
+"PO-Revision-Date: 2011-08-27 08:51+0200\n"
+"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
+"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: C/what-can-do.page:7(desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Kion vi povas vori per <app>GNOME-Saluton</app>."
+
+#: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
+#: C/what-is.page:10(name) C/index.page:11(name)
+msgid "Milo Casagrande"
+msgstr "Milo CASAGRANDE"
+
+#: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
+#: C/what-is.page:11(email) C/index.page:12(email)
+msgid "milo@ubuntu.com"
+msgstr "milo@ubuntu.com"
+
+#: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
+#: C/compiling.page:15(p) C/index.page:20(p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr ""
+
+#: C/what-can-do.page:21(title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Kion <app>GNOME-Saluton</app> faras"
+
+#: C/what-can-do.page:23(p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr ""
+
+#: C/what-can-do.page:26(p)
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+
+#: C/what-can-do.page:30(p)
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/what-is-like.page:28(None)
+msgid ""
+"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
+msgstr ""
+
+#: C/what-is-like.page:8(desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Bildoj de <app>GNOME-Saluton</app>."
+
+#: C/what-is-like.page:22(title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr ""
+
+#: C/what-is-like.page:24(p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr ""
+
+#: C/what-is-like.page:29(app)
+msgid "GNOME Hello"
+msgstr "GNOME-Saluton"
+
+#: C/what-is-like.page:28(media)
+msgid "<placeholder-1/> fantastic interface."
+msgstr ""
+
+#: C/what-is.page:7(desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Priskribo de <app>GNOME-Saluton</app>."
+
+#: C/what-is.page:21(title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Kio estas <app>GNOME-Saluton</app>?"
+
+#: C/what-is.page:23(p)
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+
+#: C/compiling.page:7(desc)
+msgid ""
+"<link xref=\"get#compile\">Compile</link> and <link xref=\"get#run\">run</"
+"link> and <link xref=\"get#help\">more</link>."
+msgstr ""
+
+#: C/compiling.page:10(name) C/index.page:15(name)
+msgid "Tiffany Antopolski"
+msgstr "Tiffany ANTOPOLSKI"
+
+#: C/compiling.page:11(email)
+msgid "tiffany@antopolski.com"
+msgstr "tiffany@antopolski.com"
+
+#: C/compiling.page:21(title)
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Akiri na <app>GNOME-Saluton</app>"
+
+#: C/compiling.page:24(title)
+msgid "Compile"
+msgstr ""
+
+#: C/compiling.page:25(p)
+msgid "To compile the app from source:"
+msgstr ""
+
+#: C/compiling.page:29(p)
+msgid "In a terminal, type:"
+msgstr ""
+
+#: C/compiling.page:30(cmd)
+msgid "git clone git://git.gnome.org/gnome-hello"
+msgstr ""
+
+#: C/compiling.page:31(cmd)
+msgid "cd gnome-hello"
+msgstr ""
+
+#: C/compiling.page:32(cmd)
+msgid "./autogen.sh --prefix=`pwd`/install"
+msgstr ""
+
+#: C/compiling.page:33(cmd)
+msgid "make"
+msgstr ""
+
+#: C/compiling.page:34(cmd)
+msgid "make install"
+msgstr ""
+
+#: C/compiling.page:39(title)
+msgid "Run"
+msgstr ""
+
+#: C/compiling.page:40(p)
+msgid "To run gnome-hello type:"
+msgstr ""
+
+#: C/compiling.page:44(cmd)
+msgid "./src/gnome-hello"
+msgstr ""
+
+#: C/compiling.page:49(title)
+msgid "View most up-to-date help pages"
+msgstr ""
+
+#: C/compiling.page:50(p)
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+
+#: C/compiling.page:54(cmd)
+msgid "yelp help/C/"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/index.page:7(None) C/index.page:26(None)
+msgid "@@image: 'figures/gnome-hello-logo.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: C/index.page:6(desc)
+msgid "Help for GNOME Hello."
+msgstr "Helpo pri GNOME-Saluton."
+
+#: C/index.page:8(title)
+msgid "Eye of GNOME Image Viewer"
+msgstr ""
+
+#: C/index.page:16(email)
+msgid "tiffany.antopolski@gmail.com"
+msgstr "tiffany.antopolski@gmail.com"
+
+#: C/index.page:26(title)
+msgid ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
+msgstr ""
+
+#: C/index.page:28(title)
+msgid "Introduction"
+msgstr "Enkonduko"
+
+#: C/index.page:32(title)
+msgid "It's a small world"
+msgstr ""
+
+#: C/index.page:36(title)
+msgid "Advanced"
+msgstr "Altnivele"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/index.page:0(None)
+msgid "translator-credits"
+msgstr "Kristjan SCHMIDT"
