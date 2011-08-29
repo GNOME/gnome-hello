@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello.help.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-07 23:39+0000\n"
-"PO-Revision-Date: 2011-06-10 09:54+0200\n"
+"POT-Creation-Date: 2011-08-26 15:21+0000\n"
+"PO-Revision-Date: 2011-08-29 11:49+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,17 +26,17 @@ msgid "What can you do with <app>GNOME Hello</app>."
 msgstr "Qué se puede hacer con<app>GNOME Hello</app>."
 
 #: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
-#: C/what-is.page:10(name) C/index.page:10(name)
+#: C/what-is.page:10(name) C/index.page:11(name)
 msgid "Milo Casagrande"
 msgstr "Milo Casagrande"
 
 #: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
-#: C/what-is.page:11(email) C/index.page:11(email)
+#: C/what-is.page:11(email) C/index.page:12(email)
 msgid "milo@ubuntu.com"
 msgstr "milo@ubuntu.com"
 
 #: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
-#: C/index.page:15(p)
+#: C/compiling.page:15(p) C/index.page:20(p)
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
@@ -57,9 +57,6 @@ msgstr ""
 "Mallard, la nueva sintaxis para escribir documentación de GNOME."
 
 #: C/what-can-do.page:30(p)
-#| msgid ""
-#| "If you want to learn more about Mallard, see the <link href=\"http://live."
-#| "gnome.org/ProjectMallard\">Project Mallard</link> home page."
 msgid ""
 "If you want to learn more about Mallard, see the <link href=\"http://"
 "projectmallard.org/\">Project Mallard</link> home page."
@@ -70,8 +67,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/what-is-like.page:28(None)
-#| msgid ""
-#| "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
 msgid ""
 "@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
 msgstr ""
@@ -113,33 +108,127 @@ msgstr ""
 "<app>GNOME Hello</app> es un programa complejo, con características y "
 "opciones muy interesantes."
 
+#: C/compiling.page:7(desc)
+msgid ""
+"<link xref=\"get#compile\">Compile</link> and <link xref=\"get#run\">run</"
+"link> and <link xref=\"get#help\">more</link>."
+msgstr ""
+"<link xref=\"get#compile\">Compilar</link>, <link xref=\"get#run\">ejecutar</"
+"link> y <link xref=\"get#help\">más</link>."
+
+#: C/compiling.page:10(name) C/index.page:15(name)
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
+
+#: C/compiling.page:11(email)
+msgid "tiffany@antopolski.com"
+msgstr "tiffany@antopolski.com"
+
+#: C/compiling.page:21(title)
+#| msgid "What is <app>GNOME Hello</app>"
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Obtener <app>GNOME Hello</app>"
+
+#: C/compiling.page:24(title)
+msgid "Compile"
+msgstr "Compilar"
+
+#: C/compiling.page:25(p)
+msgid "To compile the app from source:"
+msgstr "Para compilar la aplicación desde las fuentes:"
+
+#: C/compiling.page:29(p)
+msgid "In a terminal, type:"
+msgstr "En una terminal, escriba:"
+
+#: C/compiling.page:30(cmd)
+msgid "git clone git://git.gnome.org/gnome-hello"
+msgstr "git clone git://git.gnome.org/gnome-hello"
+
+#: C/compiling.page:31(cmd)
+#| msgid "Advanced GnomeHello"
+msgid "cd gnome-hello"
+msgstr "cd gnome-hello"
+
+#: C/compiling.page:32(cmd)
+msgid "./autogen.sh --prefix=`pwd`/install"
+msgstr "./autogen.sh --prefix=`pwd`/install"
+
+#: C/compiling.page:33(cmd)
+msgid "make"
+msgstr "make"
+
+#: C/compiling.page:34(cmd)
+msgid "make install"
+msgstr "make install"
+
+#: C/compiling.page:39(title)
+msgid "Run"
+msgstr "Ejecutar"
+
+#: C/compiling.page:40(p)
+msgid "To run gnome-hello type:"
+msgstr "Para ejecutar gnome-hello, escriba:"
+
+#: C/compiling.page:44(cmd)
+msgid "./src/gnome-hello"
+msgstr "./src/gnome-hello"
+
+#: C/compiling.page:49(title)
+msgid "View most up-to-date help pages"
+msgstr "Ver las páginas de ayuda actualizadas"
+
+#: C/compiling.page:50(p)
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Para ejecutar las páginas de ayuda actualizadas (y ver sus cambios, si ha "
+"hecho alguno), escriba:"
+
+#: C/compiling.page:54(cmd)
+msgid "yelp help/C/"
+msgstr "yelp help/C/"
+
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/index.page:6(None) C/index.page:21(None)
-msgid "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
+#: C/index.page:7(None) C/index.page:26(None)
+#| msgid "@@image: 'figures/gnome-logo.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: 'figures/gnome-hello-logo.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'figures/gnome-hello-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
-#: C/index.page:7(title)
+#: C/index.page:6(desc)
+#| msgid "GNOME Hello"
+msgid "Help for GNOME Hello."
+msgstr "Ayuda de GNOME Hello."
+
+#: C/index.page:8(title)
 msgid "Eye of GNOME Image Viewer"
 msgstr "Visor de imágenes Eye of GNOME"
 
-#: C/index.page:21(title)
-msgid ""
-"<media type=\"image\" src=\"figures/gnome-logo.png\">GNOME logo</media>GNOME "
-"Hello"
-msgstr ""
-"<media type=\"image\" src=\"figures/gnome-logo.png\">logo de GNOME</"
-"media>GNOME Hello"
+#: C/index.page:16(email)
+msgid "tiffany.antopolski@gmail.com"
+msgstr "tiffany.antopolski@gmail.com"
 
-#: C/index.page:23(title)
+#: C/index.page:26(title)
+#| msgid ""
+#| "<media type=\"image\" src=\"figures/gnome-logo.png\">GNOME logo</"
+#| "media>GNOME Hello"
+msgid ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
+msgstr ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Logo de GNOME "
+"Hello</media>GNOME Hello"
+
+#: C/index.page:28(title)
 msgid "Introduction"
 msgstr "Introducción"
 
-#: C/index.page:27(title)
+#: C/index.page:32(title)
 msgid "It's a small world"
 msgstr "Es un mundo pequeño"
 
-#: C/index.page:31(title)
+#: C/index.page:36(title)
 msgid "Advanced"
 msgstr "Avanzado"
 
@@ -375,6 +464,3 @@ msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>, 2008, 2009"
 #~ "Esta es la guía de usuario de <application>GNOME Hello</application>. No "
 #~ "contiene ninguna información actual. Sólo se demuestra cómo instalar los "
 #~ "archivos de ayuda."
-
-#~ msgid "Advanced GnomeHello"
-#~ msgstr "GNOMEHello avanzado"
