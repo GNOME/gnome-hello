@@ -60,6 +60,7 @@ msgstr ""
 msgid ""
 "@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
 msgstr ""
+"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
 
 #: C/what-is-like.page:8(desc)
 msgid "Pictures of <app>GNOME Hello</app>."
