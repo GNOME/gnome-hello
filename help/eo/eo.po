@@ -1,18 +1,18 @@
 # Esperanto translation for gnome-hello.
-# Copyright (C) 2011 gnome-hello's COPYRIGHT HOLDER
+# Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-hello package.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2011-08-26 16:07+0000\n"
-"PO-Revision-Date: 2011-08-27 08:51+0200\n"
+"POT-Creation-Date: 2011-08-31 18:42+0000\n"
+"PO-Revision-Date: 2011-10-16 21:20+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: C/what-can-do.page:7(desc)
@@ -32,7 +32,7 @@ msgstr "milo@ubuntu.com"
 #: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
 #: C/compiling.page:15(p) C/index.page:20(p)
 msgid "Creative Commons Share Alike 3.0"
-msgstr ""
+msgstr "Krea Komunaĵo Samkondiĉe 3.0"
 
 #: C/what-can-do.page:21(title)
 msgid "What <app>GNOME Hello</app> does"
@@ -40,7 +40,7 @@ msgstr "Kion <app>GNOME-Saluton</app> faras"
 
 #: C/what-can-do.page:23(p)
 msgid "At the moment <app>GNOME Hello</app> can't do many things."
-msgstr ""
+msgstr "Nun <app>GNOME-Saluton</app> ne povas fari multe."
 
 #: C/what-can-do.page:26(p)
 msgid ""
@@ -68,11 +68,11 @@ msgstr "Bildoj de <app>GNOME-Saluton</app>."
 
 #: C/what-is-like.page:22(title)
 msgid "What does <app>GNOME Hello</app> look like?"
-msgstr ""
+msgstr "Kiel aspektas <app>GNOME-Saluton</app>?"
 
 #: C/what-is-like.page:24(p)
 msgid "This is how <app>GNOME Hello</app> looks like."
-msgstr ""
+msgstr "Tiel aspektas <app>GNOME-Saluton</app>."
 
 #: C/what-is-like.page:29(app)
 msgid "GNOME Hello"
@@ -80,7 +80,7 @@ msgstr "GNOME-Saluton"
 
 #: C/what-is-like.page:28(media)
 msgid "<placeholder-1/> fantastic interface."
-msgstr ""
+msgstr "<placeholder-1/> bonega interfaco"
 
 #: C/what-is.page:7(desc)
 msgid "Description of <app>GNOME Hello</app>."
@@ -112,7 +112,7 @@ msgstr "tiffany@antopolski.com"
 
 #: C/compiling.page:21(title)
 msgid "Get <app>GNOME Hello</app>"
-msgstr "Akiri na <app>GNOME-Saluton</app>"
+msgstr "Akiri <app>GNOME-Saluton</app>"
 
 #: C/compiling.page:24(title)
 msgid "Compile"
@@ -128,35 +128,35 @@ msgstr ""
 
 #: C/compiling.page:30(cmd)
 msgid "git clone git://git.gnome.org/gnome-hello"
-msgstr ""
+msgstr "git clone git://git.gnome.org/gnome-hello"
 
 #: C/compiling.page:31(cmd)
 msgid "cd gnome-hello"
-msgstr ""
+msgstr "cd gnome-hello"
 
 #: C/compiling.page:32(cmd)
 msgid "./autogen.sh --prefix=`pwd`/install"
-msgstr ""
+msgstr "./autogen.sh --prefix=`pwd`/install"
 
 #: C/compiling.page:33(cmd)
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #: C/compiling.page:34(cmd)
 msgid "make install"
-msgstr ""
+msgstr "make install"
 
 #: C/compiling.page:39(title)
 msgid "Run"
-msgstr ""
+msgstr "Ruli"
 
 #: C/compiling.page:40(p)
 msgid "To run gnome-hello type:"
-msgstr ""
+msgstr "Por ruli GNOME-Saluton tajpu:"
 
 #: C/compiling.page:44(cmd)
 msgid "./src/gnome-hello"
-msgstr ""
+msgstr "./src/gnome-hello"
 
 #: C/compiling.page:49(title)
 msgid "View most up-to-date help pages"
@@ -169,13 +169,18 @@ msgstr ""
 
 #: C/compiling.page:54(cmd)
 msgid "yelp help/C/"
-msgstr ""
+msgstr "yelp help/C/"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/index.page:7(None) C/index.page:26(None)
-msgid "@@image: 'figures/gnome-hello-logo.png'; md5=THIS FILE DOESN'T EXIST"
+#| msgid ""
+#| "@@image: 'figures/gnome-hello-new.png'; "
+#| "md5=8a1fcc6f46a22a1f500cfef9ca51b481"
+msgid ""
+"@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
 msgstr ""
+"@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
 
 #: C/index.page:6(desc)
 msgid "Help for GNOME Hello."
@@ -183,7 +188,7 @@ msgstr "Helpo pri GNOME-Saluton."
 
 #: C/index.page:8(title)
 msgid "Eye of GNOME Image Viewer"
-msgstr ""
+msgstr "Bildomontrilo 'Okulo de GNOME'"
 
 #: C/index.page:16(email)
 msgid "tiffany.antopolski@gmail.com"
@@ -194,6 +199,8 @@ msgid ""
 "<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
 "media>GNOME Hello"
 msgstr ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Emblemo de GNOME-"
+"Saluton</media>GNOME-Saluton"
 
 #: C/index.page:28(title)
 msgid "Introduction"
@@ -201,7 +208,7 @@ msgstr "Enkonduko"
 
 #: C/index.page:32(title)
 msgid "It's a small world"
-msgstr ""
+msgstr "Estas eta mondo"
 
 #: C/index.page:36(title)
 msgid "Advanced"
