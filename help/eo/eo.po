@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2011-08-31 18:42+0000\n"
-"PO-Revision-Date: 2011-10-16 21:20+0200\n"
+"POT-Creation-Date: 2011-10-17 20:38+0000\n"
+"PO-Revision-Date: 2011-10-18 02:02+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: C/what-can-do.page:7(desc)
 msgid "What can you do with <app>GNOME Hello</app>."
-msgstr "Kion vi povas vori per <app>GNOME-Saluton</app>."
+msgstr "Kion vi povas fari per <app>GNOME-Saluton</app>."
 
 #: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
 #: C/what-is.page:10(name) C/index.page:11(name)
@@ -47,12 +47,16 @@ msgid ""
 "This is just a demonstration on how to install help files and how to use "
 "Mallard, the new syntax for writing GNOME documentation."
 msgstr ""
+"Ĉi tiu estas demonstraĵo pri kiel instali help-dosierojn kaj kiel uzi na "
+"Mallard, la nova sintakso por skribi GNOME-dokumentadon."
 
 #: C/what-can-do.page:30(p)
 msgid ""
 "If you want to learn more about Mallard, see the <link href=\"http://"
 "projectmallard.org/\">Project Mallard</link> home page."
 msgstr ""
+"Se vi volas lerni pli pri Mallard, vidu la ĉefan paĝon de <link href="
+"\"http://projectmallard.org/\">Projekto de Mallard</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -74,13 +78,13 @@ msgstr "Kiel aspektas <app>GNOME-Saluton</app>?"
 msgid "This is how <app>GNOME Hello</app> looks like."
 msgstr "Tiel aspektas <app>GNOME-Saluton</app>."
 
-#: C/what-is-like.page:29(app)
+#: C/what-is-like.page:29(app) C/index.page:8(title)
 msgid "GNOME Hello"
 msgstr "GNOME-Saluton"
 
 #: C/what-is-like.page:28(media)
 msgid "<placeholder-1/> fantastic interface."
-msgstr "<placeholder-1/> bonega interfaco"
+msgstr "<placeholder-1/> bonega interfaco."
 
 #: C/what-is.page:7(desc)
 msgid "Description of <app>GNOME Hello</app>."
@@ -95,12 +99,16 @@ msgid ""
 "<app>GNOME Hello</app> is a very complex program, with many nice features "
 "and nice options."
 msgstr ""
+"<app>GNOME-Saluton</app> estas tre kompleksa programo, kun multaj funkcioj "
+"kaj opcioj."
 
 #: C/compiling.page:7(desc)
 msgid ""
 "<link xref=\"get#compile\">Compile</link> and <link xref=\"get#run\">run</"
 "link> and <link xref=\"get#help\">more</link>."
 msgstr ""
+"<link xref=\"get#compile\">Kompili</link> kaj <link xref=\"get#run\">ruli</"
+"link> kaj <link xref=\"get#help\">pli</link>."
 
 #: C/compiling.page:10(name) C/index.page:15(name)
 msgid "Tiffany Antopolski"
@@ -116,15 +124,15 @@ msgstr "Akiri <app>GNOME-Saluton</app>"
 
 #: C/compiling.page:24(title)
 msgid "Compile"
-msgstr ""
+msgstr "Kompili"
 
 #: C/compiling.page:25(p)
 msgid "To compile the app from source:"
-msgstr ""
+msgstr "Por kompili la aplikaĵon de fontkodo:"
 
 #: C/compiling.page:29(p)
 msgid "In a terminal, type:"
-msgstr ""
+msgstr "En terminalo, tajpu:"
 
 #: C/compiling.page:30(cmd)
 msgid "git clone git://git.gnome.org/gnome-hello"
@@ -160,12 +168,13 @@ msgstr "./src/gnome-hello"
 
 #: C/compiling.page:49(title)
 msgid "View most up-to-date help pages"
-msgstr ""
+msgstr "Vidi aktualajn help-paĝojn"
 
 #: C/compiling.page:50(p)
 msgid ""
 "To run most recent help pages (and view your changes if you made any) type:"
 msgstr ""
+"Por ruli aktualajn help-paĝojn (kaj vidi viajn ŝanĝojn se vi fari iom) tajpu:"
 
 #: C/compiling.page:54(cmd)
 msgid "yelp help/C/"
@@ -174,9 +183,6 @@ msgstr "yelp help/C/"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/index.page:7(None) C/index.page:26(None)
-#| msgid ""
-#| "@@image: 'figures/gnome-hello-new.png'; "
-#| "md5=8a1fcc6f46a22a1f500cfef9ca51b481"
 msgid ""
 "@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
 msgstr ""
@@ -185,10 +191,6 @@ msgstr ""
 #: C/index.page:6(desc)
 msgid "Help for GNOME Hello."
 msgstr "Helpo pri GNOME-Saluton."
-
-#: C/index.page:8(title)
-msgid "Eye of GNOME Image Viewer"
-msgstr "Bildomontrilo 'Okulo de GNOME'"
 
 #: C/index.page:16(email)
 msgid "tiffany.antopolski@gmail.com"
@@ -217,4 +219,6 @@ msgstr "Altnivele"
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)
 msgid "translator-credits"
-msgstr "Kristjan SCHMIDT"
+msgstr ""
+"Kristjan SCHMIDT, 2011.\n"
+"Tiffany ANTOPOLSKI, 2011."
