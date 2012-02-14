@@ -4,6 +4,7 @@ AC_INIT([GNOME Hello],[2.0.3],[mailto:desktop-devel-list@gnome.org],[gnome-hello
 AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([build-aux])
 
 AM_INIT_AUTOMAKE([1.10 foreign dist-bzip2 no-dist-gzip])
 
