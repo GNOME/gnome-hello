@@ -36,7 +36,7 @@ PKG_CHECK_MODULES([GNOME_HELLO],
 # Documentation
 # *************
 
-GNOME_DOC_INIT([0.20])
+YELP_HELP_INIT
 
 # ********************
 # Internationalisation

@@ -1,19 +1,19 @@
-include $(top_srcdir)/gnome-doc-utils.make
-dist-hook: doc-dist-hook
+@YELP_HELP_RULES@
 
-DOC_ID = gnome-hello
-DOC_INCLUDES = legal.xml
-DOC_FIGURES = figures/gnome-hello.png \
-	      figures/gnome-hello-new.png \
-	      figures/gnome-hello-logo.png
+YELP_ID = gnome-hello
 
-DOC_PAGES = index.page \
+YELP_MEDIA = figures/gnome-hello.png \
+	     figures/gnome-hello-new.png \
+	     figures/gnome-hello-logo.png
+
+YELP_PAGES = index.page \
   compiling.page \
   what-is.page \
   what-is-like.page \
-  what-can-do.page
+  what-can-do.page \
+  legal.xml
 
 
-DOC_LINGUAS = cs da de el eo es fr ja oc os pt_BR sl sv uk zh_CN
+YELP_LINGUAS = cs da de el eo es fr ja oc os pt_BR sl sv uk zh_CN
 
 -include $(top_srcdir)/git.mk

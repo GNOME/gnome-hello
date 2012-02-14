@@ -152,7 +152,7 @@ contents_action_callback (GtkAction* action, gpointer data)
 {
   GError *error = NULL;
 
-  gtk_show_uri (NULL, "ghelp:gnome-hello",  gtk_get_current_event_time (), &error);
+  gtk_show_uri (NULL, "help:gnome-hello",  gtk_get_current_event_time (), &error);
 
   if (error != NULL)
     {
