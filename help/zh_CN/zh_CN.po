@@ -66,7 +66,7 @@ msgstr "Creative Commons Share Alike 3.0"
 
 #: C/what-can-do.page:23(title)
 msgid "What <app>GNOME Hello</app> does"
-msgstr "<app>GNOME Hello</appn> 的作用"
+msgstr "<app>GNOME Hello</app> 的作用"
 
 #: C/what-can-do.page:25(p)
 msgid "At the moment <app>GNOME Hello</app> can't do many things."
