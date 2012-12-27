@@ -1,212 +1,81 @@
 # Czech translation for gnome-hello.
 # Copyright (C) 2010 the author(s) of gnome-hello.
 # This file is distributed under the same license as the gnome-hello package.
-# Marek Černocký <marek@manet.cz>, 2010, 2011.
+#
+# Marek Černocký <marek@manet.cz>, 2010, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2011-10-17 20:38+0000\n"
-"PO-Revision-Date: 2011-12-14 15:13+0100\n"
+"POT-Creation-Date: 2012-03-29 13:27+0000\n"
+"PO-Revision-Date: 2012-12-27 22:27+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.5\n"
 
-#: C/what-can-do.page:7(desc)
-msgid "What can you do with <app>GNOME Hello</app>."
-msgstr "Co můžete dělat s <app>GNOME Ahoj</app>."
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>, 2010 – 2012"
 
-#: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
-#: C/what-is.page:10(name) C/index.page:11(name)
-msgid "Milo Casagrande"
-msgstr "Milo Casagrande"
-
-#: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
-#: C/what-is.page:11(email) C/index.page:12(email)
-msgid "milo@ubuntu.com"
-msgstr "milo@ubuntu.com"
-
-#: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
-#: C/compiling.page:15(p) C/index.page:20(p)
-msgid "Creative Commons Share Alike 3.0"
-msgstr "Creative Commons Share Alike 3.0"
-
-#: C/what-can-do.page:21(title)
-msgid "What <app>GNOME Hello</app> does"
-msgstr "Co <app>GNOME Ahoj</app> dělá"
-
-#: C/what-can-do.page:23(p)
-msgid "At the moment <app>GNOME Hello</app> can't do many things."
-msgstr "V současné době toho <app>GNOME Ahoj</app> moc nedělá."
-
-#: C/what-can-do.page:26(p)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:7(media) C/index.page:26(media)
+msgctxt "_"
 msgid ""
-"This is just a demonstration on how to install help files and how to use "
-"Mallard, the new syntax for writing GNOME documentation."
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 msgstr ""
-"Jedná se jen o ukázku, jak instalovat soubory s nápovědou a jak použít "
-"Mallard, novou syntaxi pro psaní dokumentace pro GNOME."
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 
-#: C/what-can-do.page:30(p)
-msgid ""
-"If you want to learn more about Mallard, see the <link href=\"http://"
-"projectmallard.org/\">Project Mallard</link> home page."
-msgstr ""
-"Pokud se o projektu Mallard chcete dovědět více, navštivte jeho domovskou "
-"stránku <link href=\"http://projectmallard.org/\">projektu Mallard</link>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/what-is-like.page:28(None)
-msgid ""
-"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
-msgstr ""
-"@@image: 'figures/gnome-hello-new.png'; md5=8a1fcc6f46a22a1f500cfef9ca51b481"
-
-#: C/what-is-like.page:8(desc)
-msgid "Pictures of <app>GNOME Hello</app>."
-msgstr "Obrázky aplikace <app>GNOME Ahoj</app>."
-
-#: C/what-is-like.page:22(title)
-msgid "What does <app>GNOME Hello</app> look like?"
-msgstr "Jak aplikace <app>GNOME Ahoj</app> vypadá?"
-
-#: C/what-is-like.page:24(p)
-msgid "This is how <app>GNOME Hello</app> looks like."
-msgstr "Aplikace <app>GNOME Ahoj</app> vypadá takto."
-
-#: C/what-is-like.page:29(app) C/index.page:8(title)
-msgid "GNOME Hello"
-msgstr "GNOME Ahoj"
-
-#: C/what-is-like.page:28(media)
-msgid "<placeholder-1/> fantastic interface."
-msgstr "Úžasné rozhraní aplikace <placeholder-1/>."
-
-#: C/what-is.page:7(desc)
-msgid "Description of <app>GNOME Hello</app>."
-msgstr "Popis <app>GNOME Ahoj</app>."
-
-#: C/what-is.page:21(title)
-msgid "What is <app>GNOME Hello</app>"
-msgstr "Co je to <app>GNOME Ahoj</app>"
-
-#: C/what-is.page:23(p)
-msgid ""
-"<app>GNOME Hello</app> is a very complex program, with many nice features "
-"and nice options."
-msgstr ""
-"<app>GNOME Ahoj</app> je velmi komplexní program s řadou pěkných funkcí a "
-"možností."
-
-#: C/compiling.page:7(desc)
-msgid ""
-"<link xref=\"get#compile\">Compile</link> and <link xref=\"get#run\">run</"
-"link> and <link xref=\"get#help\">more</link>."
-msgstr ""
-"<link xref=\"get#compile\">Překlad</link> a <link xref=\"get#run\">spuštění</"
-"link> a <link xref=\"get#help\">další</link>."
-
-#: C/compiling.page:10(name) C/index.page:15(name)
-msgid "Tiffany Antopolski"
-msgstr "Tiffany Antopolski"
-
-#: C/compiling.page:11(email)
-msgid "tiffany@antopolski.com"
-msgstr "tiffany@antopolski.com"
-
-#: C/compiling.page:21(title)
-#| msgid "What is <app>GNOME Hello</app>"
-msgid "Get <app>GNOME Hello</app>"
-msgstr "Jak získat <app>GNOME Ahoj</app>"
-
-#: C/compiling.page:24(title)
-msgid "Compile"
-msgstr "Překlad"
-
-#: C/compiling.page:25(p)
-msgid "To compile the app from source:"
-msgstr "Pro překlad aplikace ze zdrojových kódů:"
-
-#: C/compiling.page:29(p)
-msgid "In a terminal, type:"
-msgstr "V terminálu napiště:"
-
-#: C/compiling.page:30(cmd)
-msgid "git clone git://git.gnome.org/gnome-hello"
-msgstr "git clone git://git.gnome.org/gnome-hello"
-
-#: C/compiling.page:31(cmd)
-msgid "cd gnome-hello"
-msgstr "cd gnome-hello"
-
-#: C/compiling.page:32(cmd)
-msgid "./autogen.sh --prefix=`pwd`/install"
-msgstr "./autogen.sh --prefix=`pwd`/install"
-
-#: C/compiling.page:33(cmd)
-msgid "make"
-msgstr "make"
-
-#: C/compiling.page:34(cmd)
-msgid "make install"
-msgstr "make install"
-
-#: C/compiling.page:39(title)
-msgid "Run"
-msgstr "Spuštění"
-
-#: C/compiling.page:40(p)
-msgid "To run gnome-hello type:"
-msgstr "Pro spuštění gnome-hello napište:"
-
-#: C/compiling.page:44(cmd)
-msgid "./src/gnome-hello"
-msgstr "./src/gnome-hello"
-
-#: C/compiling.page:49(title)
-msgid "View most up-to-date help pages"
-msgstr "Zobrazení nejaktuálnějších stránek s nápovědou"
-
-#: C/compiling.page:50(p)
-msgid ""
-"To run most recent help pages (and view your changes if you made any) type:"
-msgstr ""
-"Pro spuštění nejnovějších stránek s nápovědou (a zobrazení svých změn, pokud "
-"jste nějaké udělali) napište:"
-
-#: C/compiling.page:54(cmd)
-msgid "yelp help/C/"
-msgstr "yelp help/C/"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/index.page:7(None) C/index.page:26(None)
-#| msgid ""
-#| "@@image: 'figures/gnome-hello-new.png'; "
-#| "md5=8a1fcc6f46a22a1f500cfef9ca51b481"
-msgid ""
-"@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
-msgstr ""
-"@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
-
-#: C/index.page:6(desc)
-#| msgid "GNOME Hello"
+#: C/index.page:6(info/desc)
 msgid "Help for GNOME Hello."
 msgstr "Nápověda pro GNOME Ahoj"
 
-#: C/index.page:16(email)
-msgid "tiffany.antopolski@gmail.com"
-msgstr "tiffany.antopolski@gmail.com"
+#: C/index.page:8(info/title)
+msgctxt "text"
+msgid "GNOME Hello"
+msgstr "GNOME Ahoj"
 
-#: C/index.page:26(title)
-#| msgid ""
-#| "<media type=\"image\" src=\"figures/gnome-logo.png\">GNOME logo</"
-#| "media>GNOME Hello"
+#: C/index.page:11(credit/name) C/what-is.page:10(credit/name)
+#: C/what-is-like.page:11(credit/name) C/what-can-do.page:10(credit/name)
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#: C/index.page:15(credit/name) C/compiling.page:10(credit/name)
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
+
+#: C/index.page:20(license/p) C/compiling.page:15(license/p)
+#: C/what-is.page:15(license/p) C/what-is-like.page:16(license/p)
+#: C/what-can-do.page:15(license/p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#: C/index.page:26(page/title)
 msgid ""
 "<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
 "media>GNOME Hello"
@@ -214,19 +83,180 @@ msgstr ""
 "<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Logo GNOME</"
 "media>GNOME Ahoj"
 
-#: C/index.page:28(title)
+#: C/index.page:28(section/title)
 msgid "Introduction"
 msgstr "Úvod"
 
-#: C/index.page:32(title)
+#: C/index.page:32(section/title)
 msgid "It's a small world"
 msgstr "Váš malý svět"
 
-#: C/index.page:36(title)
+#: C/index.page:36(section/title)
 msgid "Advanced"
 msgstr "Pokročilé"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/index.page:0(None)
-msgid "translator-credits"
-msgstr "Marek Černocký <marek@manet.cz>, 2010, 2011"
+#: C/compiling.page:7(info/desc)
+msgid ""
+"<link xref=\"get#compile\">Compile</link> and <link xref=\"get#run\">run</"
+"link> and <link xref=\"get#help\">more</link>."
+msgstr ""
+"<link xref=\"get#compile\">Překlad</link> a <link xref=\"get#run\">spuštění</"
+"link> a <link xref=\"get#help\">další</link>."
+
+#: C/compiling.page:21(page/title)
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Jak získat <app>GNOME Ahoj</app>"
+
+#: C/compiling.page:24(section/title)
+msgid "Compile"
+msgstr "Překlad"
+
+#: C/compiling.page:25(section/p)
+msgid "To compile the app from source:"
+msgstr "Pro překlad aplikace ze zdrojových kódů:"
+
+#: C/compiling.page:29(item/p)
+msgid "In a terminal, type:"
+msgstr "V terminálu napiště:"
+
+#: C/compiling.page:30(item/p)
+msgid "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+msgstr "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+
+#: C/compiling.page:31(item/p)
+msgid "<cmd>cd gnome-hello</cmd>"
+msgstr "<cmd>cd gnome-hello</cmd>"
+
+#: C/compiling.page:32(item/p)
+msgid "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+msgstr "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+
+#: C/compiling.page:33(item/p)
+msgid "<cmd>make</cmd>"
+msgstr "<cmd>make</cmd>"
+
+#: C/compiling.page:34(item/p)
+msgid "<cmd>make install</cmd>"
+msgstr "<cmd>make install</cmd>"
+
+#: C/compiling.page:39(section/title)
+msgid "Run"
+msgstr "Spuštění"
+
+#: C/compiling.page:40(section/p)
+msgid "To run gnome-hello type:"
+msgstr "Pro spuštění gnome-hello napište:"
+
+#: C/compiling.page:43(section/p)
+msgid "<cmd>./src/gnome-hello</cmd>"
+msgstr "<cmd>./src/gnome-hello</cmd>"
+
+#: C/compiling.page:49(section/title)
+msgid "View most up-to-date help pages"
+msgstr "Zobrazení nejaktuálnějších stránek s nápovědou"
+
+#: C/compiling.page:50(section/p)
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Pro spuštění nejnovějších stránek s nápovědou (a zobrazení svých změn, pokud "
+"jste nějaké udělali) napište:"
+
+#: C/compiling.page:53(section/p)
+msgid "<cmd>yelp help/C/</cmd>"
+msgstr "<cmd>yelp help/C/</cmd>"
+
+#: C/what-is.page:7(info/desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Popis <app>GNOME Ahoj</app>."
+
+#: C/what-is.page:21(page/title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Co je to <app>GNOME Ahoj</app>"
+
+#: C/what-is.page:23(page/p)
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"<app>GNOME Ahoj</app> je velmi komplexní program s řadou pěkných funkcí a "
+"možností."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:28(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+
+#: C/what-is-like.page:8(info/desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Obrázky aplikace <app>GNOME Ahoj</app>."
+
+#: C/what-is-like.page:22(page/title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Jak aplikace <app>GNOME Ahoj</app> vypadá?"
+
+#: C/what-is-like.page:24(page/p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Aplikace <app>GNOME Ahoj</app> vypadá takto."
+
+#: C/what-is-like.page:27(page/p)
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"Úžasné rozhraní aplikace <app>GNOME Ahoj</app>. </media>"
+
+#: C/what-can-do.page:7(info/desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Co můžete dělat s <app>GNOME Ahoj</app>."
+
+#: C/what-can-do.page:21(page/title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Co <app>GNOME Ahoj</app> dělá"
+
+#: C/what-can-do.page:23(page/p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "V současné době toho <app>GNOME Ahoj</app> moc nedělá."
+
+#: C/what-can-do.page:26(page/p)
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Jedná se jen o ukázku, jak instalovat soubory s nápovědou a jak použít "
+"Mallard, novou syntaxi pro psaní dokumentace pro GNOME."
+
+#: C/what-can-do.page:30(page/p)
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+"Pokud se o projektu Mallard chcete dovědět více, navštivte jeho domovskou "
+"stránku <link href=\"http://projectmallard.org/\">projektu Mallard</link>."
+
+#: C/legal.xml:4(p/link)
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#: C/legal.xml:3(license/p)
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Tato práce je licencována pod <_:link-1/>."
+
+#: C/legal.xml:6(license/p)
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"Jako zvláštní výjimka se vám držitelem autorských práv uděluje svolení "
+"kopírovat, upravovat a šířit ukázkový kód obsažený v tomto dokumentu za "
+"podmínek, které si zvolíte, bez dalších omezení."
