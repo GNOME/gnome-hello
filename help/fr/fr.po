@@ -4,55 +4,85 @@
 #
 # Thomas Bordinat <ulti@lldc.fr>, 2008
 # Bruno Brouard <annoa.b@gmail.com>, 2008
+# Alain Lojewski <allomervan@gmail.com>, 2011-2013
+# Mickael Albertus <mickael.albertus@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNOME Hello 2.0\n"
-"POT-Creation-Date: 2012-02-14 16:46+0000\n"
-"PO-Revision-Date: 2012-02-29 22:04+0100\n"
+"POT-Creation-Date: 2012-12-27 21:29+0000\n"
+"PO-Revision-Date: 2013-02-26 16:33+0100\n"
 "Last-Translator: Alain Lojewski <allomervan@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 2.91.5\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/index.page:7(None) C/index.page:26(None)
-msgid ""
-"@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
 msgstr ""
-"@@image: 'figures/gnome-hello-logo.png'; md5=1ae47b7a7c4fbeb1f6bb72c0cf18d389"
+"Thomas Bordinat <ulti@lldc.fr>, 2008\n"
+"Bruno Brouard <annoa.b@gmail.com>, 2008\n"
+"Alain Lojewski <allomervan@gmail.com>, 2011-2013\n"
+"Mickael Albertus <mickael.albertus@gmail.com>, 2012"
 
-#: C/index.page:6(desc)
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:7(media) C/index.page:26(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+msgstr ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+
+#: C/index.page:6(info/desc)
 msgid "Help for GNOME Hello."
-msgstr "Aide de GNOME Hello"
+msgstr "Aide de GNOME Hello."
 
-#: C/index.page:8(title)
+#: C/index.page:8(info/title)
+msgctxt "text"
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: C/index.page:11(name)
+#: C/index.page:11(credit/name) C/what-is.page:10(credit/name)
+#: C/what-is-like.page:11(credit/name) C/what-can-do.page:10(credit/name)
 msgid "Milo Casagrande"
 msgstr "Milo Casagrande"
 
-#: C/index.page:12(email)
-msgid "milo@ubuntu.com"
-msgstr "milo@ubuntu.com"
-
-#: C/index.page:15(name)
+#: C/index.page:15(credit/name) C/compiling.page:10(credit/name)
 msgid "Tiffany Antopolski"
 msgstr "Tiffany Antopolski"
 
-#: C/index.page:16(email)
-msgid "tiffany.antopolski@gmail.com"
-msgstr "tiffany.antopolski@gmail.com"
-
-#: C/index.page:20(p)
+#: C/index.page:20(license/p) C/compiling.page:15(license/p)
+#: C/what-is.page:15(license/p) C/what-is-like.page:16(license/p)
+#: C/what-can-do.page:15(license/p)
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Partage des conditions initiales à l'identique 3.0"
 
-#: C/index.page:26(title)
+#: C/index.page:26(page/title)
 msgid ""
 "<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
 "media>GNOME Hello"
@@ -60,23 +90,185 @@ msgstr ""
 "<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Logo de GNOME "
 "Hello</media>GNOME Hello"
 
-#: C/index.page:28(title)
+#: C/index.page:28(section/title)
 msgid "Introduction"
 msgstr "Introduction"
 
-#: C/index.page:32(title)
+#: C/index.page:32(section/title)
 msgid "It's a small world"
 msgstr "C'est un petit monde"
 
-#: C/index.page:36(title)
+#: C/index.page:36(section/title)
 msgid "Advanced"
 msgstr "Avancé"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/index.page:0(None)
-msgid "translator-credits"
+#: C/compiling.page:7(info/desc)
+msgid ""
+"<link xref=\"get#compile\">Compile</link> and <link xref=\"get#run\">run</"
+"link> and <link xref=\"get#help\">more</link>."
 msgstr ""
-"Thomas Bordinat <ulti@lldc.fr>, 2008\n"
-"Bruno Brouard <annoa.b@gmail.com>, 2008\n"
-"Alain Lojewski <allomervan@gmail.com>, 2011"
+"<link xref=\"get#compile\">Compiler</link>, <link xref=\"get#run\">lancer</"
+"link> et <link xref=\"get#help\">plus encore</link>."
 
+#: C/compiling.page:21(page/title)
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Obtenir <app>GNOME Hello</app>"
+
+#: C/compiling.page:24(section/title)
+msgid "Compile"
+msgstr "Compiler"
+
+#: C/compiling.page:25(section/p)
+msgid "To compile the app from source:"
+msgstr "Pour compiler l'application à partir des sources :"
+
+#: C/compiling.page:29(item/p)
+msgid "In a terminal, type:"
+msgstr "Dans un terminal, saisissez :"
+
+#: C/compiling.page:30(item/p)
+msgid "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+msgstr "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+
+#: C/compiling.page:31(item/p)
+msgid "<cmd>cd gnome-hello</cmd>"
+msgstr "<cmd>cd gnome-hello</cmd>"
+
+#: C/compiling.page:32(item/p)
+msgid "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+msgstr "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+
+#: C/compiling.page:33(item/p)
+msgid "<cmd>make</cmd>"
+msgstr "<cmd>make</cmd>"
+
+#: C/compiling.page:34(item/p)
+msgid "<cmd>make install</cmd>"
+msgstr "<cmd>make install</cmd>"
+
+#: C/compiling.page:39(section/title)
+msgid "Run"
+msgstr "Lancer"
+
+#: C/compiling.page:40(section/p)
+msgid "To run gnome-hello type:"
+msgstr "Pour lancer gnome-hello, saisissez :"
+
+#: C/compiling.page:43(section/p)
+msgid "<cmd>./src/gnome-hello</cmd>"
+msgstr "<cmd>./src/gnome-hello</cmd>"
+
+#: C/compiling.page:49(section/title)
+msgid "View most up-to-date help pages"
+msgstr "Afficher les pages d'aide les plus à jour"
+
+#: C/compiling.page:50(section/p)
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Pour afficher les pages d'aide les plus récentes (et voir vos modifications "
+"si vous en avez faites), saisissez :"
+
+#: C/compiling.page:53(section/p)
+msgid "<cmd>yelp help/C/</cmd>"
+msgstr "<cmd>yelp help/C/</cmd>"
+
+#: C/what-is.page:7(info/desc)
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Description de <app>GNOME Hello</app>."
+
+#: C/what-is.page:21(page/title)
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Qu'est-ce que <app>GNOME Hello</app> ?"
+
+#: C/what-is.page:23(page/p)
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"<app>GNOME Hello</app> est un programme très complexe, avec beaucoup de "
+"fonctionnalités intéressantes et des options sympathiques."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:28(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+
+#: C/what-is-like.page:8(info/desc)
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Images de <app>GNOME Hello</app>."
+
+#: C/what-is-like.page:22(page/title)
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "À quoi ressemble <app>GNOME Hello</app> ?"
+
+#: C/what-is-like.page:24(page/p)
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Voici à quoi ressemble <app>GNOME Hello</app>."
+
+#: C/what-is-like.page:27(page/p)
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"la fantastique interface de <app>GNOME Hello</app>. </media>"
+
+#: C/what-can-do.page:7(info/desc)
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Ce que vous pouvez faire avec <app>GNOME Hello</app>."
+
+#: C/what-can-do.page:21(page/title)
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Ce que <app>GNOME Hello</app> fait"
+
+#: C/what-can-do.page:23(page/p)
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr ""
+"À l'heure actuelle, <app>GNOME Hello</app> ne peut pas faire beaucoup de "
+"choses."
+
+#: C/what-can-do.page:26(page/p)
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Ce n'est qu'une démonstration sur la façon d'installer les fichiers d'aide "
+"et sur la façon d'utiliser Mallard, la nouvelle syntaxe pour écrire de la "
+"documentation GNOME."
+
+#: C/what-can-do.page:30(page/p)
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+"Si vous voulez en savoir plus au sujet de Mallard, consultez la page "
+"d'accueil du <link href=\"http://projectmallard.org/\">Projet Mallard</link>."
+
+#: C/legal.xml:4(p/link)
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr ""
+"Creative Commons Paternité-Partage des Conditions Initiales à l'Identique "
+"3.0 Unported"
+
+#: C/legal.xml:3(license/p)
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Ce travail est distribué sous licence <_:link-1/>."
+
+#: C/legal.xml:6(license/p)
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"À titre exceptionnel, les détenteurs des droits vous autorisent à copier, "
+"modifier et distribuer les exemples de code contenus dans ce document selon "
+"vos propres termes, sans restriction."
