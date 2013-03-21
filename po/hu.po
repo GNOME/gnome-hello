@@ -1,0 +1,212 @@
+# Hungarian translation for gnome-hello.
+# Copyright (C) 2013 gnome-hello's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+#
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"hello&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-02-26 15:34+0000\n"
+"PO-Revision-Date: 2013-03-21 22:24+0100\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
+"Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "GNOME Helló demó"
+
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
+msgid "Sample application using GNOME technologies"
+msgstr "Egyszerű alkalmazás a GNOME technológia használatával"
+
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
+msgid "GNOME Hello"
+msgstr "GNOME Helló"
+
+#: ../src/app.c:74 ../src/menus.c:129
+msgid "Hello, World!"
+msgstr "Helló, világ!"
+
+#: ../src/app.c:91
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "Nem dolgozható fel a(z) „%s” geometria karakterlánc"
+
+#: ../src/app.c:98
+msgid "Special Greetings to:\n"
+msgstr "Különleges köszönés:\n"
+
+#: ../src/hello.c:42
+msgid "Say hello to specific people listed on the command line"
+msgstr "Köszönés a parancssorban felsorolt meghatározott embereknek"
+
+#: ../src/hello.c:51
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "Adjon meg egy „Helló, világ!”-tól eltérő üzenetet"
+
+#: ../src/hello.c:52
+msgid "MESSAGE"
+msgstr "ÜZENET"
+
+#: ../src/hello.c:60
+msgid "Specify the geometry of the main window"
+msgstr "Adja meg a főablak geometriáját"
+
+#: ../src/hello.c:61
+msgid "GEOMETRY"
+msgstr "GEOMETRIA"
+
+#: ../src/hello.c:91
+msgid "- GNOME Hello"
+msgstr "- Gnome Helló"
+
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Adja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók teljes "
+"listájáért.\n"
+
+#: ../src/hello.c:121
+#, c-format
+msgid "You must specify someone to greet.\n"
+msgstr "Meg kell adnia valakit, akinek köszön.\n"
+
+#: ../src/hello.c:126
+#, c-format
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr ""
+"A parancssori argumentumok csak a --greet kapcsolóval engedélyezettek.\n"
+
+#: ../src/menus.c:80
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../src/menus.c:81
+msgid "_Edit"
+msgstr "S_zerkesztés"
+
+#: ../src/menus.c:82
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/menus.c:83
+msgid "_New"
+msgstr "Ú_j"
+
+#: ../src/menus.c:84
+msgid "_Open"
+msgstr "_Megnyitás"
+
+#: ../src/menus.c:85
+msgid "_Save"
+msgstr "M_entés"
+
+#: ../src/menus.c:86
+msgid "Save _As"
+msgstr "Men_tés másként"
+
+#: ../src/menus.c:87
+msgid "_Close"
+msgstr "_Bezárás"
+
+#: ../src/menus.c:88
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: ../src/menus.c:89
+msgid "Cu_t"
+msgstr "_Kivágás"
+
+#: ../src/menus.c:90
+msgid "_Copy"
+msgstr "_Másolás"
+
+#: ../src/menus.c:91
+msgid "_Paste"
+msgstr "_Beillesztés"
+
+#: ../src/menus.c:92
+msgid "Select _All"
+msgstr "Ö_sszes kijelölése"
+
+#: ../src/menus.c:93
+msgid "C_lear"
+msgstr "_Törlés"
+
+#: ../src/menus.c:94
+msgid "_Undo"
+msgstr "_Visszavonás"
+
+#: ../src/menus.c:95
+msgid "_Redo"
+msgstr "Új_ra"
+
+#: ../src/menus.c:96
+msgid "_Find"
+msgstr "_Keresés"
+
+#: ../src/menus.c:97
+msgid "Find Ne_xt"
+msgstr "Kö_vetkező keresése"
+
+#: ../src/menus.c:98
+msgid "R_eplace"
+msgstr "_Csere"
+
+#: ../src/menus.c:99
+msgid "Pr_operties"
+msgstr "T_ulajdonságok"
+
+#: ../src/menus.c:100
+msgid "_Contents"
+msgstr "_Tartalom"
+
+#: ../src/menus.c:101
+msgid "_About"
+msgstr "_Névjegy"
+
+#: ../src/menus.c:102
+msgid "_Previous"
+msgstr "_Előző"
+
+#: ../src/menus.c:103
+msgid "_Next"
+msgstr "_Következő"
+
+#: ../src/menus.c:118
+msgid "This does nothing; it is only a demonstration."
+msgstr "Ez semmit nem csinál, csak demó."
+
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "A súgófájl nem nyitható meg"
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Helló közreműködők"
+
+#: ../src/menus.c:200
+msgid "About GNOME Hello"
+msgstr "A GNOME Helló névjegye"
+
+#: ../src/menus.c:201
+msgid "translator-credits"
+msgstr "Úr Balázs <urbalazs@gmail.com>"
+
