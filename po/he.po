@@ -223,12 +223,7 @@ msgstr ""
 #: ../src/menus.c:203
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-"לתכנית זו אמור היה להיות מצורף עותק של הרישיון הציבורי הכללי של GNU; במידה "
-"שלא, יש לכתוב ל־ Free Software Foundation, Inc., 59 Temple Place, Suite 330, "
-"Boston, , MA 02111-1307, USA."
+"this program; if not, see <http://www.gnu.org/licenses/>."
 
 #: ../src/menus.c:220
 msgid "About GNOME Hello"
