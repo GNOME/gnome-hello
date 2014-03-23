@@ -4,7 +4,7 @@
   
   <info>
     <link type="guide" xref="index#advanced"/>
-    <desc><link xref="get#compile">Compile</link> and <link xref="get#run">run</link> and <link xref="get#help">more</link>.</desc>
+    <desc><link xref="compiling#compile">Compile</link> and <link xref="compiling#run">run</link> and <link xref="compiling#help">more</link>.</desc>
     <revision version="0.1" date="2011-06-07" status="final"/>
     <credit type="author">
       <name>Tiffany Antopolski</name>
