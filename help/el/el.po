@@ -1,169 +1,377 @@
 # Greek translation of gnome-hello.
 # Copyright (C) 2009 gnome-hello's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-hello package.
-#
 # Tournaris Pavlos <p.tournaris@gmail.com>, 2009.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2009-06-16 17:58+0000\n"
-"PO-Revision-Date: 2009-08-01 12:28+0300\n"
-"Last-Translator:Tournaris Pavlos <p.tournaris@gmail.com> \n"
-"Language-Team: Greek <team@lists.gnome.gr>\n"
+"POT-Creation-Date: 2014-04-06 07:07+0000\n"
+"PO-Revision-Date: 2014-04-06 08:50+0300\n"
+"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"Language-Team: www.gnome.gr\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-hello.xml:103(None)
-msgid "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-msgstr "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-
-#: C/gnome-hello.xml:18(title)
-msgid "<application>GNOME Hello</application> Manual V2.0"
-msgstr "<application>GNOME Hello</application> Εγχειρίδιο  V2.0"
-
-#: C/gnome-hello.xml:20(para)
-msgid "This document describes the GNOME Hello application, which is a demonstration of basic GNOME program functionality."
-msgstr "Αυτή η τεκμηρίωση περιγράφει την εφαρμογή GNOME Hello, "
-
-#: C/gnome-hello.xml:26(year) C/gnome-hello.xml:59(date) C/gnome-hello.xml:66(date)
-msgid "1998"
-msgstr "1998"
-
-#: C/gnome-hello.xml:27(year)
-msgid "1999"
-msgstr "1999"
-
-#: C/gnome-hello.xml:28(holder) C/gnome-hello.xml:61(para) C/gnome-hello.xml:68(para)
-msgid "Havoc Pennington"
-msgstr "Havoc Pennington"
-
-#: C/gnome-hello.xml:31(year) C/gnome-hello.xml:73(date)
-msgid "2002"
-msgstr "2002"
-
-#: C/gnome-hello.xml:32(holder)
-msgid "John Fleck"
-msgstr "John Fleck"
-
-#: C/gnome-hello.xml:35(publishername) C/gnome-hello.xml:51(orgname)
-msgid "GNOME Documentation Project"
-msgstr "Έργο τεκμηρίωσης GNOME"
-
-#: C/gnome-hello.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
 msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME \n"
+" Δημήτρης Σπίγγος, <dmtrs32@gmail.com>, 2014  \n"
+" Tουρνάρης Παύλος <p.tournaris@gmail.com>\n"
+"Για περισσότερες πληροφορίες, http://www.gnome.gr/"
 
-#: C/gnome-hello.xml:12(para)
-msgid "This manual is part of a collection of GNOME manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:7 C/index.page:26
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 msgstr ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 
-#: C/gnome-hello.xml:19(para)
-msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any GNOME documentation, and the members of the GNOME Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
-msgstr ""
+#. (itstool) path: info/desc
+#: C/index.page:6
+msgid "Help for GNOME Hello."
+msgstr "Βοήθεια για το GNOME Hello."
 
-#: C/gnome-hello.xml:35(para)
-msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr ""
-
-#: C/gnome-hello.xml:55(para)
-msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
-msgstr ""
-
-#: C/gnome-hello.xml:28(para)
-msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
-msgstr ""
-
-#: C/gnome-hello.xml:40(firstname)
-msgid "Havoc"
-msgstr "Havoc"
-
-#: C/gnome-hello.xml:40(surname)
-msgid "Pennington"
-msgstr "Pennington"
-
-#: C/gnome-hello.xml:43(email)
-msgid "hp@pobox.com"
-msgstr "hp@pobox.com"
-
-#: C/gnome-hello.xml:48(firstname)
-msgid "John"
-msgstr "John"
-
-#: C/gnome-hello.xml:49(surname)
-msgid "Fleck"
-msgstr "Fleck"
-
-#: C/gnome-hello.xml:52(email)
-msgid "jfleck@inkstain.net"
-msgstr "jfleck@inkstain.net"
-
-#: C/gnome-hello.xml:58(revnumber)
-msgid "GNOME Hello Manual V 0"
-msgstr "GNOME Hello Εγχειρίδιο V 0"
-
-#: C/gnome-hello.xml:65(revnumber)
-msgid "GNOME Hello Manual V 1"
-msgstr "GNOME Hello Εγχειρίδιο V 1"
-
-#: C/gnome-hello.xml:72(revnumber)
-msgid "GNOME Hello Manual V 2.0"
-msgstr "GNOME Hello Εγχειρίδιο V 2.0"
-
-#: C/gnome-hello.xml:75(para)
-msgid "John Fleck <email>jfleck@inkstain.net</email>"
-msgstr "John Fleck <email>jfleck@inkstain.net</email>"
-
-#: C/gnome-hello.xml:82(releaseinfo)
-msgid "This manual describes version 2.0 of GNOME Hello."
-msgstr "Αυτό το εγχιρίδιο περιγράφη την έκδοση 2.0 του GNOME Hello."
-
-#: C/gnome-hello.xml:85(title)
-msgid "Feedback"
-msgstr "Ανάδραση"
-
-#: C/gnome-hello.xml:86(para)
-msgid "To report a bug or make a suggestion regarding the <application>GNOME Hello</application> application or this manual, follow the directions in the <ulink url=\"ghelp:user-guide?feedback\" type=\"help\">GNOME Feedback Page</ulink>."
-msgstr ""
-
-#: C/gnome-hello.xml:94(title)
-msgid "Introduction"
-msgstr "Εισαγωγή"
-
-#: C/gnome-hello.xml:95(para)
-msgid "This is the <application>GNOME Hello</application> user's guide. It does not contain any actual information. We are demonstrating how to install help files."
-msgstr "Αυτός είναι ο οδηγός χρήστη <application>GNOME Hello</application>. Δεν περιλαμβάνει κάποια ιδιαίτερη πληροφορία. Επεξηγούμε πώς να κάνετε εγκατάσταση των βοηθητικών αρχείων."
-
-#: C/gnome-hello.xml:99(title)
-msgid "<application>GNOME Hello</application> Window"
-msgstr "<application>GNOME Hello</application> Παράθυρο"
-
-#: C/gnome-hello.xml:0(application)
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: C/gnome-hello.xml:107(phrase)
-msgid "Shows <placeholder-1/> main window."
-msgstr "Δείχνει το <placeholder-1/> κυρίως παράθυρο."
+#. (itstool) path: credit/name
+#: C/index.page:11 C/what-is.page:10 C/what-is-like.page:11
+#: C/what-can-do.page:10
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
 
-#: C/gnome-hello.xml:115(title)
-msgid "Advanced GnomeHello"
-msgstr "Προχωρημένο GnomeHello"
+#. (itstool) path: credit/name
+#: C/index.page:15 C/compiling.page:10
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
 
-#: C/gnome-hello.xml:116(para)
-msgid "GnomeHello is a complex program, with many advanced features."
-msgstr "Το GnomeHello είναι ένα πολύπλοκο πρόγραμμα, με πολλά προχωρημένα χαρακτηριστικά."
+#. (itstool) path: license/p
+#: C/index.page:20 C/compiling.page:15 C/what-is.page:15
+#: C/what-is-like.page:16 C/what-can-do.page:15
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: C/gnome-hello.xml:0(None)
-msgid "translator-credits"
+#. (itstool) path: page/title
+#: C/index.page:26
+msgid ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
 msgstr ""
-"Ελληνική μεταφραστική ομάδα GNOME"
-" Tουρνάρης Παύλος <p.tournaris@gmail.com>\n "
-"Για περισσότερες πληροφορίες, επισκεφθείτε την σελίδα http://www.gnome.gr/"
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Λογότυπος του "
+"GNOME Hello</media>GNOME Hello"
 
+#. (itstool) path: section/title
+#: C/index.page:28
+msgid "Introduction"
+msgstr "Εισαγωγή"
 
+#. (itstool) path: section/title
+#: C/index.page:32
+msgid "It's a small world"
+msgstr "Είναι ένας μικρός κόσμος"
+
+#. (itstool) path: section/title
+#: C/index.page:36
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#. (itstool) path: info/desc
+#: C/compiling.page:7
+msgid ""
+"<link xref=\"compiling#compile\">Compile</link> and <link xref="
+"\"compiling#run\">run</link> and <link xref=\"compiling#help\">more</link>."
+msgstr ""
+"<link xref=\"compiling#compile\">Μεταγλώττιση</link>, <link xref="
+"\"compiling#run\">εκτέλεση</link> και <link xref=\"compiling#help"
+"\">περισσότερα</link>."
+
+#. (itstool) path: page/title
+#: C/compiling.page:21
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Λήψη του <app>GNOME Hello</app>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:24
+msgid "Compile"
+msgstr "Μεταγλώττιση"
+
+#. (itstool) path: section/p
+#: C/compiling.page:25
+msgid "To compile the app from source:"
+msgstr "Για να μεταγλωττίσετε την εφαρμογή από την πηγή:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:29
+msgid "In a terminal, type:"
+msgstr "Σε ένα τερματικό, πληκτρολογήστε:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:30
+msgid "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+msgstr "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:31
+msgid "<cmd>cd gnome-hello</cmd>"
+msgstr "<cmd>cd gnome-hello</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:32
+msgid "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+msgstr "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:33
+msgid "<cmd>make</cmd>"
+msgstr "<cmd>make</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:34
+msgid "<cmd>make install</cmd>"
+msgstr "<cmd>make install</cmd>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:39
+msgid "Run"
+msgstr "Εκτέλεση"
+
+#. (itstool) path: section/p
+#: C/compiling.page:40
+msgid "To run gnome-hello type:"
+msgstr "Για να τρέξετε το gnome-hello πληκτρολογήστε:"
+
+#. (itstool) path: section/p
+#: C/compiling.page:43
+msgid "<cmd>./src/gnome-hello</cmd>"
+msgstr "<cmd>./src/gnome-hello</cmd>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:49
+msgid "View most up-to-date help pages"
+msgstr "Προβολή των πιο ενημερωμένων σελίδων βοήθειας"
+
+#. (itstool) path: section/p
+#: C/compiling.page:50
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Για να τρέξετε τις πιο πρόσφατες σελίδες βοήθειας (και να προβάλετε τις "
+"αλλαγές σας αν κάνατε κάποια) πληκτρολογήστε:"
+
+#. (itstool) path: section/p
+#: C/compiling.page:53
+msgid "<cmd>yelp help/C/</cmd>"
+msgstr "<cmd>yelp help/C/</cmd>"
+
+#. (itstool) path: info/desc
+#: C/what-is.page:7
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Περιγραφή του <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is.page:21
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Τι είναι το <app>GNOME Hello</app>"
+
+#. (itstool) path: page/p
+#: C/what-is.page:23
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"Το <app>Gnome Hello</app> είναι ένα πολύ σύνθετο πρόγραμμα, με πολλά όμορφα "
+"χαρακτηριστικά και όμορφες επιλογές."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:28
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+
+#. (itstool) path: info/desc
+#: C/what-is-like.page:8
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Εικόνες του <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is-like.page:22
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Με τι μοιάζει το <app>GNOME Hello</app>;"
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:24
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Ιδού πώς μοιάζει το <app>GNOME Hello</app>."
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:27
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"Η φανταστική διεπαφή του <media type=\"image\" mime=\"img/png\" src="
+"\"figures/gnome-hello-new.png\"><app>GNOME Hello</app>. </media>"
+
+#. (itstool) path: info/desc
+#: C/what-can-do.page:7
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Τι μπορείτε να κάνετε με το <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-can-do.page:21
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Τι κάνει το <app>GNOME Hello</app>"
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:23
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr ""
+"Προς το παρόν το <app>GNOME Hello</app> δεν μπορεί να κάνει πολλά πράγματα."
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:26
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Αυτό είναι απλά μια επίδειξη πώς να εγκαταστήσετε αρχεία βοήθειας και πώς να "
+"χρησιμοποιήσετε το Mallard, τη νέα σύνταξη για συγγραφή τεκμηρίωσης GNOME."
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:30
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+"Αν θέλετε να μάθετε περισσότερα για το Mallard, δείτε την αρχική σελίδα του "
+"<link href=\"http://projectmallard.org/\">έργου Mallard</link>."
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Αυτή η δουλειά αδειοδοτήθηκε από <_:link-1/>."
+
+#. (itstool) path: license/p
+#: C/legal.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"Ως ειδική εξαίρεση, οι κάτοχοι των πνευματικών δικαιωμάτων σας δίνουν το "
+"δικαίωμα να αντιγράψετε, να τροποποιήσετε και να διανείμετε τον περιεχόμενο "
+"κώδικα του παραδείγματος σε αυτό το έγγραφο με τους όρους της επιλογής σας, "
+"χωρίς περιορισμό."
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+
+#~ msgid "<application>GNOME Hello</application> Manual V2.0"
+#~ msgstr "<application>GNOME Hello</application> Εγχειρίδιο  V2.0"
+
+#~ msgid ""
+#~ "This document describes the GNOME Hello application, which is a "
+#~ "demonstration of basic GNOME program functionality."
+#~ msgstr "Αυτή η τεκμηρίωση περιγράφει την εφαρμογή GNOME Hello, "
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "Havoc Pennington"
+#~ msgstr "Havoc Pennington"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "John Fleck"
+#~ msgstr "John Fleck"
+
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "Έργο τεκμηρίωσης GNOME"
+
+#~ msgid "Havoc"
+#~ msgstr "Havoc"
+
+#~ msgid "Pennington"
+#~ msgstr "Pennington"
+
+#~ msgid "hp@pobox.com"
+#~ msgstr "hp@pobox.com"
+
+#~ msgid "John"
+#~ msgstr "John"
+
+#~ msgid "Fleck"
+#~ msgstr "Fleck"
+
+#~ msgid "jfleck@inkstain.net"
+#~ msgstr "jfleck@inkstain.net"
+
+#~ msgid "GNOME Hello Manual V 0"
+#~ msgstr "GNOME Hello Εγχειρίδιο V 0"
+
+#~ msgid "GNOME Hello Manual V 1"
+#~ msgstr "GNOME Hello Εγχειρίδιο V 1"
+
+#~ msgid "GNOME Hello Manual V 2.0"
+#~ msgstr "GNOME Hello Εγχειρίδιο V 2.0"
+
+#~ msgid "John Fleck <email>jfleck@inkstain.net</email>"
+#~ msgstr "John Fleck <email>jfleck@inkstain.net</email>"
+
+#~ msgid "This manual describes version 2.0 of GNOME Hello."
+#~ msgstr "Αυτό το εγχιρίδιο περιγράφη την έκδοση 2.0 του GNOME Hello."
+
+#~ msgid "Feedback"
+#~ msgstr "Ανάδραση"
+
+#~ msgid ""
+#~ "This is the <application>GNOME Hello</application> user's guide. It does "
+#~ "not contain any actual information. We are demonstrating how to install "
+#~ "help files."
+#~ msgstr ""
+#~ "Αυτός είναι ο οδηγός χρήστη <application>GNOME Hello</application>. Δεν "
+#~ "περιλαμβάνει κάποια ιδιαίτερη πληροφορία. Επεξηγούμε πώς να κάνετε "
+#~ "εγκατάσταση των βοηθητικών αρχείων."
+
+#~ msgid "Shows <placeholder-1/> main window."
+#~ msgstr "Δείχνει το <placeholder-1/> κυρίως παράθυρο."
+
+#~ msgid "Advanced GnomeHello"
+#~ msgstr "Προχωρημένο GnomeHello"
