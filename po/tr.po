@@ -4,109 +4,238 @@
 # Fatih Demir <kabalak@gmx.net>, 1999.
 # Ömer Fadıl USTA <omer_fad@hotmail.com>, 2001.
 # Baris Cicek <baris@teamforce.name.tr>, 2004.
+# Muhammet Kara <muhammetk@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-30 02:49+0300\n"
-"PO-Revision-Date: 2004-03-01 22:46+0200\n"
-"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"hello&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 20:45+0000\n"
+"PO-Revision-Date: 2014-12-13 16:24+0200\n"
+"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
-#: gnome-hello.desktop.in.h:1
+#: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
 msgstr "GNOME Hello Demo"
 
-#: gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
 msgid "Sample application using GNOME technologies"
 msgstr "GNOME teknolojilerini kullanan örnek uygulama"
 
-#. ** gnomehello-widgets
-#: src/app.c:45
-msgid "Gnome Hello"
-msgstr "Gnome Hello"
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
 
-#: src/app.c:51 src/menus.c:127
+#: ../src/app.c:74 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Merhaba, Dünya!"
 
-#: src/app.c:92
+#: ../src/app.c:91
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "Geometri dizgisi `%s' ayrıştırılamadı"
 
-#: src/app.c:101
+#: ../src/app.c:98
 msgid "Special Greetings to:\n"
 msgstr "Özel Selamlarımız:\n"
 
-#: src/hello.c:50
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Konum satırında listelenmiş özel insanlara merhaba diyin"
 
-#: src/hello.c:59
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
 msgstr "\"Merhaba, Dünya!\"dan başka bir ileti belirleyin"
 
-#: src/hello.c:60
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "İLETİ"
 
-#: src/hello.c:68
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Ana pencerenin geometrisini belirleyin"
 
-#: src/hello.c:69
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GEOMETRİ"
 
-#: src/hello.c:129
-msgid "You must specify someone to greet."
-msgstr "Selamlanacak birisini belirtmek zorundasın."
+#: ../src/hello.c:91
+#| msgid "GNOME Hello"
+msgid "- GNOME Hello"
+msgstr "- GNOME Hello"
 
-#: src/hello.c:133
-msgid "Command line arguments are only allowed with --greet."
-msgstr "Komut satırı parametreleri sadece --greet ile izin veririlir."
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Kullanılabilir komut satırı seçeneklerini görmek için '%s --help' komutunu "
+"çalıştırın.\n"
 
-#: src/menus.c:35
-msgid "_New Hello"
-msgstr "Ye_ni Merhaba"
+#: ../src/hello.c:121
+#, c-format
+#| msgid "You must specify someone to greet."
+msgid "You must specify someone to greet.\n"
+msgstr "Selamlanacak birisini belirtmek zorundasın.\n"
 
-#: src/menus.c:36 src/menus.c:85
-msgid "Create a new hello"
-msgstr "Yeni bir merhaba oluştur"
+#: ../src/hello.c:126
+#, c-format
+#| msgid "Command line arguments are only allowed with --greet."
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr ""
+"Komut satırı parametrelerine sadece --greet ile birlikte izin verilir.\n"
 
-#: src/menus.c:85
-msgid "New"
-msgstr "Yeni"
+#: ../src/menus.c:80
+msgid "_File"
+msgstr "_Dosya"
 
-#: src/menus.c:89
-msgid "Prev"
-msgstr "Önceki"
+#: ../src/menus.c:81
+msgid "_Edit"
+msgstr "Düz_en"
 
-#: src/menus.c:89
-msgid "Previous hello"
-msgstr "Önceki merhaba"
+#: ../src/menus.c:82
+msgid "_Help"
+msgstr "_Yardım"
 
-#: src/menus.c:90
-msgid "Next"
-msgstr "Sonraki"
+#: ../src/menus.c:83
+msgid "_New"
+msgstr "Ye_ni"
 
-#: src/menus.c:90
-msgid "Next hello"
-msgstr "Sonraki merhaba"
+#: ../src/menus.c:84
+msgid "_Open"
+msgstr "_Aç"
 
-#: src/menus.c:116
+#: ../src/menus.c:85
+msgid "_Save"
+msgstr "_Kaydet"
+
+#: ../src/menus.c:86
+msgid "Save _As"
+msgstr "_Farklı Kaydet"
+
+#: ../src/menus.c:87
+msgid "_Close"
+msgstr "_Kapat"
+
+#: ../src/menus.c:88
+msgid "_Quit"
+msgstr "_Çık"
+
+#: ../src/menus.c:89
+msgid "Cu_t"
+msgstr "Ke_s"
+
+#: ../src/menus.c:90
+msgid "_Copy"
+msgstr "_Kopyala"
+
+#: ../src/menus.c:91
+msgid "_Paste"
+msgstr "_Yapıştır"
+
+#: ../src/menus.c:92
+msgid "Select _All"
+msgstr "Tümünü _Seç"
+
+#: ../src/menus.c:93
+msgid "C_lear"
+msgstr "Temiz_le"
+
+#: ../src/menus.c:94
+msgid "_Undo"
+msgstr "_Geri Al"
+
+#: ../src/menus.c:95
+msgid "_Redo"
+msgstr "_Yinele"
+
+#: ../src/menus.c:96
+msgid "_Find"
+msgstr "_Bul"
+
+#: ../src/menus.c:97
+msgid "Find Ne_xt"
+msgstr "_Sonrakini Bul"
+
+#: ../src/menus.c:98
+msgid "R_eplace"
+msgstr "Y_er Değiştir"
+
+#: ../src/menus.c:99
+msgid "Pr_operties"
+msgstr "_Özellikler"
+
+#: ../src/menus.c:100
+msgid "_Contents"
+msgstr "_İçindekiler"
+
+#: ../src/menus.c:101
+msgid "_About"
+msgstr "_Hakkında"
+
+#: ../src/menus.c:102
+#| msgid "Previous hello"
+msgid "_Previous"
+msgstr "Ö_nceki"
+
+#: ../src/menus.c:103
+#| msgid "Next"
+msgid "_Next"
+msgstr "So_nraki"
+
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
-msgstr "Bu hiç bir şey yapmıyor; bu sadece bir gösterim."
+msgstr "Bu program hiç bir şey yapmaz; sadece gösterim amaçlıdır."
 
-#: src/menus.c:174
-msgid "GNOME Hello"
-msgstr "GNOME Hello"
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "Yardım dosyası açılamadı"
 
-#: src/menus.c:177
-msgid "A sample GNOME application."
-msgstr "GNOME için bir örnek uygulama."
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"Telif Hakkı © 1999 Havoc Pennington\n"
+"Telif Hakkı © 1999 - 2010 GNOME Hello Katkıcıları"
+
+#: ../src/menus.c:200
+#| msgid "GNOME Hello"
+msgid "About GNOME Hello"
+msgstr "GNOME Hello Hakkında"
+
+#: ../src/menus.c:201
+msgid "translator-credits"
+msgstr "Muhammet Kara <muhammetk@gmail.com>"
+
+#~ msgid "Gnome Hello"
+#~ msgstr "Gnome Hello"
+
+#~ msgid "_New Hello"
+#~ msgstr "Ye_ni Merhaba"
+
+#~ msgid "Create a new hello"
+#~ msgstr "Yeni bir merhaba oluştur"
+
+#~ msgid "New"
+#~ msgstr "Yeni"
+
+#~ msgid "Prev"
+#~ msgstr "Önceki"
+
+#~ msgid "Next hello"
+#~ msgstr "Sonraki merhaba"
+
+#~ msgid "A sample GNOME application."
+#~ msgstr "GNOME için bir örnek uygulama."
