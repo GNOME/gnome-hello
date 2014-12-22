@@ -10,15 +10,11 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 @INTLTOOL_DESKTOP_RULE@
 
-distuninstallcheck_listfiles = find . -type f -print | grep -v scrollkeeper
-
 EXTRA_DIST = \
-	autogen.sh		\
-	gnome-doc-utils.make	\
-	$(desktop_in_files)	
+	autogen.sh \
+	$(desktop_in_files)
 
-CLEANFILES = \
-	$(desktop_DATA)
+CLEANFILES = $(desktop_DATA)
 
 DISTCLEANFILES =
 
