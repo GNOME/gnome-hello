@@ -52,11 +52,6 @@ AM_GLIB_GNU_GETTEXT
 # *************************************
 # *************************************
 
-AC_SUBST([AM_CPPFLAGS])
-AC_SUBST([AM_CFLAGS])
-AC_SUBST([AM_CXXFLAGS])
-AC_SUBST([AM_LDFLAGS])
-
 AC_CONFIG_FILES([
 Makefile
 src/Makefile
