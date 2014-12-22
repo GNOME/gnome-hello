@@ -11,6 +11,7 @@ AM_INIT_AUTOMAKE([1.10 foreign dist-bzip2 no-dist-gzip])
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
 # Check for programs
+AX_CHECK_ENABLE_DEBUG
 AC_PROG_CC
 
 # Initialize libtool
@@ -21,7 +22,6 @@ LT_INIT
 # GNOME
 # *****
 
-GNOME_DEBUG_CHECK
 GNOME_COMPILE_WARNINGS([maximum])
 
 # ***************************
