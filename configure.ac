@@ -37,6 +37,7 @@ PKG_CHECK_MODULES([GNOME_HELLO],
 # Documentation
 # *************
 
+AX_REQUIRE_DEFINED([YELP_HELP_INIT])
 YELP_HELP_INIT
 
 # ********************

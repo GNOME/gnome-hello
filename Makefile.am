@@ -12,7 +12,8 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 EXTRA_DIST = \
 	autogen.sh \
-	$(desktop_in_files)
+	$(desktop_in_files) \
+	m4/ax_require_defined.m4
 
 CLEANFILES = $(desktop_DATA)
 
