@@ -10,11 +10,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-05-01 09:25+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"hello&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 20:45+0000\n"
 "PO-Revision-Date: 2006-05-01 09:27+0200\n"
 "Last-Translator: Aleix Badia i Bosch <abadia@ica.es>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,161 +25,187 @@ msgstr ""
 msgid "GNOME Hello Demo"
 msgstr "Demostració del GNOME Hello"
 
-#: ../gnome-hello.desktop.in.h:2
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
 msgid "Sample application using GNOME technologies"
 msgstr "Aplicació d'exemple que utilitza les tecnologies del GNOME"
 
-#: ../src/app.c:50 ../src/menus.c:155
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:68 ../src/menus.c:124
+#: ../src/app.c:74 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Hola, món!"
 
-#: ../src/app.c:85
+#: ../src/app.c:91
 #, c-format
 msgid "Could not parse geometry string `%s'"
 msgstr "No s'ha pogut analitzar la cadena de geometria «%s»"
 
-#: ../src/app.c:92
+#: ../src/app.c:98
 msgid "Special Greetings to:\n"
 msgstr "Agraïments especials a:\n"
 
-#: ../src/hello.c:49
+#: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
 msgstr "Saluda la gent especificada en la línia d'ordres"
 
-#: ../src/hello.c:58
+#: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Defineix un missatge diferent a «Hola, món!»"
+msgstr "Defineix un missatge diferent de «Hola, món!»"
 
-#: ../src/hello.c:59
+#: ../src/hello.c:52
 msgid "MESSAGE"
 msgstr "MISSATGE"
 
-#: ../src/hello.c:67
+#: ../src/hello.c:60
 msgid "Specify the geometry of the main window"
 msgstr "Especifiqueu la geometria de la finestra principal"
 
-#: ../src/hello.c:68
+#: ../src/hello.c:61
 msgid "GEOMETRY"
 msgstr "GEOMETRIA"
 
-#: ../src/hello.c:95
+#: ../src/hello.c:91
 msgid "- GNOME Hello"
 msgstr "- GNOME Hello"
 
-#: ../src/hello.c:119
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+
+#: ../src/hello.c:121
+#, c-format
 msgid "You must specify someone to greet.\n"
 msgstr "Heu d'especificar a qui saludar.\n"
 
-#: ../src/hello.c:124
+#: ../src/hello.c:126
+#, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
 msgstr ""
 "Els arguments de la línia d'ordres només es poden utilitzar amb --greet.\n"
 
-#: ../src/menus.c:75
+#: ../src/menus.c:80
 msgid "_File"
 msgstr "_Fitxer"
 
-#: ../src/menus.c:76
+#: ../src/menus.c:81
 msgid "_Edit"
 msgstr "_Edita"
 
-#: ../src/menus.c:77
+#: ../src/menus.c:82
 msgid "_Help"
 msgstr "A_juda"
 
-#: ../src/menus.c:78
+#: ../src/menus.c:83
 msgid "_New"
 msgstr "_Nou"
 
-#: ../src/menus.c:79
+#: ../src/menus.c:84
 msgid "_Open"
 msgstr "_Obre"
 
-#: ../src/menus.c:80
+#: ../src/menus.c:85
 msgid "_Save"
 msgstr "De_sa"
 
-#: ../src/menus.c:81
+#: ../src/menus.c:86
 msgid "Save _As"
 msgstr "_Anomena i desa"
 
-#: ../src/menus.c:82
+#: ../src/menus.c:87
 msgid "_Close"
 msgstr "Tan_ca"
 
-#: ../src/menus.c:83
+#: ../src/menus.c:88
 msgid "_Quit"
 msgstr "Su_rt"
 
-#: ../src/menus.c:84
+#: ../src/menus.c:89
 msgid "Cu_t"
 msgstr "Re_talla"
 
-#: ../src/menus.c:85
+#: ../src/menus.c:90
 msgid "_Copy"
 msgstr "_Copia"
 
-#: ../src/menus.c:86
+#: ../src/menus.c:91
 msgid "_Paste"
 msgstr "E_nganxa"
 
-#: ../src/menus.c:87
+#: ../src/menus.c:92
 msgid "Select _All"
 msgstr "Seleccion_a-ho tot"
 
-#: ../src/menus.c:88
+#: ../src/menus.c:93
 msgid "C_lear"
 msgstr "_Neteja"
 
-#: ../src/menus.c:89
+#: ../src/menus.c:94
 msgid "_Undo"
 msgstr "_Desfés"
 
-#: ../src/menus.c:90
+#: ../src/menus.c:95
 msgid "_Redo"
 msgstr "_Refés"
 
-#: ../src/menus.c:91
+#: ../src/menus.c:96
 msgid "_Find"
 msgstr "_Cerca"
 
-#: ../src/menus.c:92
+#: ../src/menus.c:97
 msgid "Find Ne_xt"
 msgstr "Cerca se_güent"
 
-#: ../src/menus.c:93
+#: ../src/menus.c:98
 msgid "R_eplace"
 msgstr "R_eemplaça"
 
-#: ../src/menus.c:94
+#: ../src/menus.c:99
 msgid "Pr_operties"
 msgstr "Pr_opietats"
 
-#: ../src/menus.c:95
+#: ../src/menus.c:100
 msgid "_Contents"
 msgstr "_Continguts"
 
-#: ../src/menus.c:96
+#: ../src/menus.c:101
 msgid "_About"
 msgstr "_Quant a"
 
-#: ../src/menus.c:97
+#: ../src/menus.c:102
 msgid "_Previous"
 msgstr "An_terior"
 
-#: ../src/menus.c:98
+#: ../src/menus.c:103
 msgid "_Next"
 msgstr "Següe_nt"
 
-#: ../src/menus.c:113
+#: ../src/menus.c:118
 msgid "This does nothing; it is only a demonstration."
 msgstr "No fa res, només és una demostració."
 
-#: ../src/menus.c:159
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr ""
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+
+#: ../src/menus.c:200
+#, fuzzy
+#| msgid "- GNOME Hello"
+msgid "About GNOME Hello"
+msgstr "- GNOME Hello"
+
+#: ../src/menus.c:201
 msgid "translator-credits"
 msgstr ""
 "Jordi Negrevernis i Forn <jorneg@retemail.es>, 2004\n"
