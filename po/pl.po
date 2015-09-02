@@ -4,14 +4,19 @@
 # pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
 # gnomepl@aviary.pl
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Zbigniew Chyla <zbigniew.chyla@gmail.com>, 1999.
+# Artur Flinta <aflinta@at.kernel.pl>, 2003.
+# Piotr Drąg <piotrdrag@gmail.com>, 2008-2015.
+# Aviary.pl <gnomepl@aviary.pl>, 2008-2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: pl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-09 11:16+0100\n"
-"PO-Revision-Date: 2010-03-06 19:49+0100\n"
+"POT-Creation-Date: 2015-09-03 01:54+0200\n"
+"PO-Revision-Date: 2015-09-03 01:55+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +29,7 @@ msgstr ""
 msgid "GNOME Hello Demo"
 msgstr "Program demonstracyjny GNOME Hello"
 
-#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:215
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
 msgid "Sample application using GNOME technologies"
 msgstr "Przykładowy program używający technologii GNOME"
 
@@ -33,16 +38,16 @@ msgstr "Przykładowy program używający technologii GNOME"
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:71 ../src/menus.c:129
+#: ../src/app.c:74 ../src/menus.c:129
 msgid "Hello, World!"
 msgstr "Witaj, świecie!"
 
-#: ../src/app.c:88
+#: ../src/app.c:91
 #, c-format
 msgid "Could not parse geometry string `%s'"
-msgstr "Nie można przetworzyć ciągu wymiarów \"%s\""
+msgstr "Nie można przetworzyć ciągu wymiarów „%s”"
 
-#: ../src/app.c:95
+#: ../src/app.c:98
 msgid "Special Greetings to:\n"
 msgstr "Specjalne pozdrowienia dla:\n"
 
@@ -52,7 +57,7 @@ msgstr "Pozdrawia osoby podane w wierszu poleceń"
 
 #: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
-msgstr "Określa wiadomość inną, niż domyślne \"Witaj, świecie!\""
+msgstr "Określa wiadomość inną niż domyślne „Witaj, świecie!”"
 
 #: ../src/hello.c:52
 msgid "MESSAGE"
@@ -68,7 +73,7 @@ msgstr "WYMIARY"
 
 #: ../src/hello.c:91
 msgid "- GNOME Hello"
-msgstr "- GNOME Hello"
+msgstr "— GNOME Hello"
 
 #: ../src/hello.c:96
 #, c-format
@@ -77,8 +82,8 @@ msgid ""
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 "%s\n"
-"Wykonanie polecenia \"%s --help\" wyświetli listę wszystkich dostępnych "
-"opcji wiersza poleceń.\n"
+"Polecenie „%s --help” wyświetli listę wszystkich dostępnych opcji wiersza "
+"poleceń.\n"
 
 #: ../src/hello.c:121
 #, c-format
@@ -104,7 +109,7 @@ msgstr "Pomo_c"
 
 #: ../src/menus.c:83
 msgid "_New"
-msgstr "_Nowe"
+msgstr "_Nowa"
 
 #: ../src/menus.c:84
 msgid "_Open"
@@ -112,7 +117,7 @@ msgstr "_Otwórz"
 
 #: ../src/menus.c:85
 msgid "_Save"
-msgstr "Zapi_sz"
+msgstr "_Zapisz"
 
 #: ../src/menus.c:86
 msgid "Save _As"
@@ -120,7 +125,7 @@ msgstr "Z_apisz jako"
 
 #: ../src/menus.c:87
 msgid "_Close"
-msgstr "_Zamknij"
+msgstr "Za_mknij"
 
 #: ../src/menus.c:88
 msgid "_Quit"
@@ -132,7 +137,7 @@ msgstr "Wy_tnij"
 
 #: ../src/menus.c:90
 msgid "_Copy"
-msgstr "_Skopiuj"
+msgstr "S_kopiuj"
 
 #: ../src/menus.c:91
 msgid "_Paste"
@@ -152,7 +157,7 @@ msgstr "_Cofnij"
 
 #: ../src/menus.c:95
 msgid "_Redo"
-msgstr "_Ponów"
+msgstr "P_onów"
 
 #: ../src/menus.c:96
 msgid "_Find"
@@ -194,53 +199,22 @@ msgstr "Ten program nic nie robi. To tylko demonstracja."
 msgid "Unable to open help file"
 msgstr "Nie można otworzyć pliku pomocy"
 
-#: ../src/menus.c:186
+#: ../src/menus.c:185
 msgid ""
 "Copyright © 1999 Havoc Pennington\n"
 "Copyright © 1999 - 2010 GNOME Hello Contributors"
 msgstr ""
 "Copyright © 1999 Havoc Pennington\n"
-"Copyright © 1999 - 2010 współtwórcy programu GNOME Hello"
+"Copyright © 1999-2010 Współtwórcy programu GNOME Hello"
 
-#: ../src/menus.c:195
-msgid ""
-"Thi program is free software; you can redistribute it and/or modify it under "
-"the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-"Niniejszy program jest wolnym oprogramowaniem; można go rozprowadzać dalej i/"
-"lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej "
-"przez Fundację Wolnego Oprogramowania (Free Software Foundation) - według "
-"wersji drugiej tej Licencji lub którejś z późniejszych wersji."
-
-#: ../src/menus.c:199
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - "
-"jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI "
-"HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania "
-"bliższych informacji należy zapoznać się z Powszechną Licencją Publiczną GNU."
-
-#: ../src/menus.c:203
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
-msgstr ""
-"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
-"Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
-"- proszę napisać do Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA 02110-130159 USA."
-
-#: ../src/menus.c:220
+#: ../src/menus.c:200
 msgid "About GNOME Hello"
 msgstr "O programie GNOME Hello"
 
-#: ../src/menus.c:221
+#: ../src/menus.c:201
 msgid "translator-credits"
-msgstr "Aviary.pl <gnomepl@aviary.pl>, 2008, 2010"
+msgstr ""
+"Zbigniew Chyla <zbigniew.chyla@gmail.com>, 1999\n"
+"Artur Flinta <aflinta@at.kernel.pl>, 2003\n"
+"Piotr Drąg <piotrdrag@gmail.com>, 2008-2015\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2008-2015"
