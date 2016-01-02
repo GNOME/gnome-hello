@@ -1,164 +1,481 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello doc\n"
-"POT-Creation-Date: 2007-01-30 03:31+0000\n"
-"PO-Revision-Date: 2007-02-03 00:02+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2014-03-23 21:50+0000\n"
+"PO-Revision-Date: 2015-11-16 22:22+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnome-hello.xml:103(None)
-msgid "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-msgstr "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>, 2007\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015"
 
-#: C/gnome-hello.xml:18(title)
-msgid "<application>GNOME Hello</application> Manual V2.0"
-msgstr "Handbok för <application>GNOME Hello</application> v2.0"
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:7 C/index.page:26
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+msgstr ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 
-#: C/gnome-hello.xml:20(para)
-msgid "This document describes the GNOME Hello application, which is a demonstration of basic GNOME program functionality."
-msgstr "Det här dokumentet beskriver programmet GNOME Hello, vilket är en demonstration av grundläggande funktionalitet för GNOME-program."
+#. (itstool) path: info/desc
+#: C/index.page:6
+msgid "Help for GNOME Hello."
+msgstr "Hjälp för GNOME Hello."
 
-#: C/gnome-hello.xml:26(year)
-#: C/gnome-hello.xml:59(date)
-#: C/gnome-hello.xml:66(date)
-msgid "1998"
-msgstr "1998"
-
-#: C/gnome-hello.xml:27(year)
-msgid "1999"
-msgstr "1999"
-
-#: C/gnome-hello.xml:28(holder)
-#: C/gnome-hello.xml:61(para)
-#: C/gnome-hello.xml:68(para)
-msgid "Havoc Pennington"
-msgstr "Havoc Pennington"
-
-#: C/gnome-hello.xml:31(year)
-#: C/gnome-hello.xml:73(date)
-msgid "2002"
-msgstr "2002"
-
-#: C/gnome-hello.xml:32(holder)
-msgid "John Fleck"
-msgstr "John Fleck"
-
-#: C/gnome-hello.xml:35(publishername)
-#: C/gnome-hello.xml:51(orgname)
-msgid "GNOME Documentation Project"
-msgstr "Dokumentationsprojekt för GNOME"
-
-#: C/gnome-hello.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som medföljer denna handbok."
-
-#: C/gnome-hello.xml:12(para)
-msgid "This manual is part of a collection of GNOME manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
-msgstr "Denna handbok utgör en av flera GNOME-handböcker som distribueras under villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga handböcker kan du göra detta genom att lägga till en kopia av licensavtalet i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
-
-#: C/gnome-hello.xml:19(para)
-msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any GNOME documentation, and the members of the GNOME Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
-msgstr "Flera namn på produkter och tjänster är registrerade varumärken. I de fall dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med versaler eller med inledande versal."
-
-#: C/gnome-hello.xml:35(para)
-msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr "DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING;"
-
-#: C/gnome-hello.xml:55(para)
-msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
-msgstr "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR."
-
-#: C/gnome-hello.xml:28(para)
-msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
-msgstr "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE FÖRUTSÄTTNINGAR: <placeholder-1/>"
-
-#: C/gnome-hello.xml:40(firstname)
-msgid "Havoc"
-msgstr "Havoc"
-
-#: C/gnome-hello.xml:40(surname)
-msgid "Pennington"
-msgstr "Pennington"
-
-#: C/gnome-hello.xml:43(email)
-msgid "hp@pobox.com"
-msgstr "hp@pobox.com"
-
-#: C/gnome-hello.xml:48(firstname)
-msgid "John"
-msgstr "John"
-
-#: C/gnome-hello.xml:49(surname)
-msgid "Fleck"
-msgstr "Fleck"
-
-#: C/gnome-hello.xml:52(email)
-msgid "jfleck@inkstain.net"
-msgstr "jfleck@inkstain.net"
-
-#: C/gnome-hello.xml:58(revnumber)
-msgid "GNOME Hello Manual V 0"
-msgstr "Handbok för GNOME Hello v0"
-
-#: C/gnome-hello.xml:65(revnumber)
-msgid "GNOME Hello Manual V 1"
-msgstr "Handbok för GNOME Hello v1"
-
-#: C/gnome-hello.xml:72(revnumber)
-msgid "GNOME Hello Manual V 2.0"
-msgstr "Handbok för GNOME Hello v2.0"
-
-#: C/gnome-hello.xml:75(para)
-msgid "John Fleck <email>jfleck@inkstain.net</email>"
-msgstr "John Fleck <email>jfleck@inkstain.net</email>"
-
-#: C/gnome-hello.xml:82(releaseinfo)
-msgid "This manual describes version 2.0 of GNOME Hello."
-msgstr "Den här handboken beskriver version 2.0 av GNOME Hello."
-
-#: C/gnome-hello.xml:85(title)
-msgid "Feedback"
-msgstr "Återkoppling"
-
-#: C/gnome-hello.xml:86(para)
-msgid "To report a bug or make a suggestion regarding the <application>GNOME Hello</application> application or this manual, follow the directions in the <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
-msgstr "För att rapportera ett fel eller föreslå någonting angående programmet <application>GNOME Hello</application> eller den här handboken, följ anvisningarna på <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:s återkopplingssida</ulink>."
-
-#: C/gnome-hello.xml:94(title)
-msgid "Introduction."
-msgstr "Introduktion."
-
-#: C/gnome-hello.xml:95(para)
-msgid "This is the <application>GNOME Hello</application> user's guide. It does not contain any actual information. We are demonstrating how to install help files."
-msgstr "Det här är användarguiden för <application>GNOME Hello</application>. Den innehåller ingen direkt information. Vi demonstrerar hur man installerar hjälpfiler."
-
-#: C/gnome-hello.xml:99(title)
-msgid "<application>GNOME Hello</application> Window"
-msgstr "<application>GNOME Hello</application>-fönstret"
-
-#: C/gnome-hello.xml:0(application)
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: C/gnome-hello.xml:107(phrase)
-msgid "Shows <placeholder-1/> main window."
-msgstr "Visar huvudfönstret i <placeholder-1/>."
+#. (itstool) path: credit/name
+#: C/index.page:11 C/what-is.page:10 C/what-is-like.page:11
+#: C/what-can-do.page:10
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
 
-#: C/gnome-hello.xml:115(title)
-msgid "Advanced GnomeHello."
-msgstr "Avancerad GnomeHello."
+#. (itstool) path: credit/name
+#: C/index.page:15 C/compiling.page:10
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
 
-#: C/gnome-hello.xml:116(para)
-msgid "GnomeHello is a complex program, with many advanced features."
-msgstr "GnomeHello är ett komplext program med många avancerade funktioner."
+#. (itstool) path: license/p
+#: C/index.page:20 C/compiling.page:15 C/what-is.page:15 C/what-is-like.page:16
+#: C/what-can-do.page:15
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: C/gnome-hello.xml:0(None)
-msgid "translator-credits"
-msgstr "Daniel Nylander <po@danielnylander.se>, 2007"
+#. (itstool) path: page/title
+#: C/index.page:26
+msgid ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
+msgstr ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Logo för GNOME "
+"Hello</media>GNOME Hello"
 
+#. (itstool) path: section/title
+#: C/index.page:28
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: section/title
+#: C/index.page:32
+msgid "It's a small world"
+msgstr "Världen är liten"
+
+#. (itstool) path: section/title
+#: C/index.page:36
+msgid "Advanced"
+msgstr "Avancerat"
+
+#. (itstool) path: info/desc
+#: C/compiling.page:7
+msgid ""
+"<link xref=\"compiling#compile\">Compile</link> and <link xref="
+"\"compiling#run\">run</link> and <link xref=\"compiling#help\">more</link>."
+msgstr ""
+"<link xref=\"compiling#compile\">Kompilera</link> och <link xref="
+"\"compiling#run\">kör</link> och <link xref=\"compiling#help\">mer</link>."
+
+#. (itstool) path: page/title
+#: C/compiling.page:21
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Hämta <application>GNOME Hello</application>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:24
+msgid "Compile"
+msgstr "Kompilera"
+
+#. (itstool) path: section/p
+#: C/compiling.page:25
+msgid "To compile the app from source:"
+msgstr "För att kompilera programmet från källkod:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:29
+msgid "In a terminal, type:"
+msgstr "I en terminal, skriv:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:30
+msgid "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+msgstr "<cmd>git clone git://git.gnome.org/gnome-hello</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:31
+msgid "<cmd>cd gnome-hello</cmd>"
+msgstr "<cmd>cd gnome-hello</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:32
+msgid "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+msgstr "<cmd>./autogen.sh --prefix=`pwd`/install</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:33
+msgid "<cmd>make</cmd>"
+msgstr "<cmd>make</cmd>"
+
+#. (itstool) path: item/p
+#: C/compiling.page:34
+msgid "<cmd>make install</cmd>"
+msgstr "<cmd>make install</cmd>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:39
+msgid "Run"
+msgstr "Kör"
+
+#. (itstool) path: section/p
+#: C/compiling.page:40
+msgid "To run gnome-hello type:"
+msgstr "För att köra gnome-hello skriv:"
+
+#. (itstool) path: section/p
+#: C/compiling.page:43
+msgid "<cmd>./src/gnome-hello</cmd>"
+msgstr "<cmd>./src/gnome-hello</cmd>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:49
+msgid "View most up-to-date help pages"
+msgstr "Visa de senaste hjälpsidorna"
+
+#. (itstool) path: section/p
+#: C/compiling.page:50
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"För att köra de senaste hjälpsidorna (och visa dina ändringar om du gjort "
+"några) skriv:"
+
+#. (itstool) path: section/p
+#: C/compiling.page:53
+msgid "<cmd>yelp help/C/</cmd>"
+msgstr "<cmd>yelp help/C/</cmd>"
+
+#. (itstool) path: info/desc
+#: C/what-is.page:7
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Beskrivning av <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is.page:21
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Vad är <app>GNOME Hello</app>"
+
+#. (itstool) path: page/p
+#: C/what-is.page:23
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"<app>GNOME Hello</app> är ett väldigt komplext program med många trevliga "
+"funktioner funktioner och alternativ."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:28
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+
+#. (itstool) path: info/desc
+#: C/what-is-like.page:8
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Bilder av <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is-like.page:22
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Hur ser <app>GNOME Hello</app> ut?"
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:24
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Det här är hur <app>GNOME Hello</app> ser ut."
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:27
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> har ett fantastiskt gränssnitt. </media>"
+
+#. (itstool) path: info/desc
+#: C/what-can-do.page:7
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Vad kan du göra med <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-can-do.page:21
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Vad <application>GNOME Hello</application> gör"
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:23
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "För tillfället kan inte <app>GNOME Hello</app> göra så mycket."
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:26
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Detta är bara en demonstration över hur hjälpfiler installeras och hur man "
+"kan använda Mallard, den nya syntaxen för att skriva GNOME-dokumentation."
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:30
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+"Se webbplatsen för <link href=\"http://projectmallard.org/\">Project "
+"Mallard</link> om du vill lära dig mer om Mallard."
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Detta verk är licensierat under <_:link-1/>."
+
+#. (itstool) path: license/p
+#: C/legal.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"Som ett speciellt undantag, ger upphovsrättsinnehavarna dig tillåtelse att "
+"kopiera, modifiera och distribuera exempelkoden som finns i detta dokument "
+"under de villkor som du väljer, utan restriktioner."
+
+#~ msgid ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+
+#~ msgid "<application>GNOME Hello</application> Manual V2.0"
+#~ msgstr "Handbok för <application>GNOME Hello</application> v2.0"
+
+#~ msgid ""
+#~ "This document describes the GNOME Hello application, which is a "
+#~ "demonstration of basic GNOME program functionality."
+#~ msgstr ""
+#~ "Det här dokumentet beskriver programmet GNOME Hello, vilket är en "
+#~ "demonstration av grundläggande funktionalitet för GNOME-program."
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "Havoc Pennington"
+#~ msgstr "Havoc Pennington"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "John Fleck"
+#~ msgstr "John Fleck"
+
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "Dokumentationsprojekt för GNOME"
+
+#~ msgid ""
+#~ "Permission is granted to copy, distribute and/or modify this document "
+#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+#~ "or any later version published by the Free Software Foundation with no "
+#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+#~ "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
+#~ "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+#~ msgstr ""
+#~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+#~ "och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type="
+#~ "\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
+#~ "medföljer denna handbok."
+
+#~ msgid ""
+#~ "This manual is part of a collection of GNOME manuals distributed under "
+#~ "the GFDL. If you want to distribute this manual separately from the "
+#~ "collection, you can do so by adding a copy of the license to the manual, "
+#~ "as described in section 6 of the license."
+#~ msgstr ""
+#~ "Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+#~ "villkoren i GFDL.  Om du vill distribuera denna handbok separat från "
+#~ "övriga handböcker kan du göra detta genom att lägga till en kopia av "
+#~ "licensavtalet i handboken enligt instruktionerna i avsnitt 6 i "
+#~ "licensavtalet."
+
+#~ msgid ""
+#~ "Many of the names used by companies to distinguish their products and "
+#~ "services are claimed as trademarks. Where those names appear in any GNOME "
+#~ "documentation, and the members of the GNOME Documentation Project are "
+#~ "made aware of those trademarks, then the names are in capital letters or "
+#~ "initial capital letters."
+#~ msgstr ""
+#~ "Flera namn på produkter och tjänster är registrerade varumärken. I de "
+#~ "fall dessa namn förekommer i GNOME-dokumentation - och medlemmarna i "
+#~ "GNOME-dokumentationsprojektet är medvetna om dessa varumärken - är de "
+#~ "skrivna med versaler eller med inledande versal."
+
+#~ msgid ""
+#~ "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+#~ "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES "
+#~ "THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+#~ "MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+#~ "RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+#~ "MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+#~ "MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+#~ "WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+#~ "SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES "
+#~ "AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED "
+#~ "VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS "
+#~ "DISCLAIMER; AND"
+#~ msgstr ""
+#~ "DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+#~ "GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+#~ "BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+#~ "DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+#~ "ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+#~ "EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV "
+#~ "DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN "
+#~ "MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA "
+#~ "FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA "
+#~ "SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR "
+#~ "ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. "
+#~ "DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. "
+#~ "DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD "
+#~ "VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING;"
+
+#~ msgid ""
+#~ "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT "
+#~ "(INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL "
+#~ "WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED "
+#~ "VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE "
+#~ "LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR "
+#~ "CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, "
+#~ "DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR "
+#~ "MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR "
+#~ "RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, "
+#~ "EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH "
+#~ "DAMAGES."
+#~ msgstr ""
+#~ "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, "
+#~ "OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER "
+#~ "DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN "
+#~ "MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD "
+#~ "VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER "
+#~ "STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA "
+#~ "ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN "
+#~ "INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I "
+#~ "ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER "
+#~ "SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV "
+#~ "DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA "
+#~ "BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR."
+
+#~ msgid ""
+#~ "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
+#~ "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
+#~ "UNDERSTANDING THAT: <placeholder-1/>"
+#~ msgstr ""
+#~ "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER "
+#~ "VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE "
+#~ "FÖRUTSÄTTNINGAR: <placeholder-1/>"
+
+#~ msgid "Havoc"
+#~ msgstr "Havoc"
+
+#~ msgid "Pennington"
+#~ msgstr "Pennington"
+
+#~ msgid "hp@pobox.com"
+#~ msgstr "hp@pobox.com"
+
+#~ msgid "John"
+#~ msgstr "John"
+
+#~ msgid "Fleck"
+#~ msgstr "Fleck"
+
+#~ msgid "jfleck@inkstain.net"
+#~ msgstr "jfleck@inkstain.net"
+
+#~ msgid "GNOME Hello Manual V 0"
+#~ msgstr "Handbok för GNOME Hello v0"
+
+#~ msgid "GNOME Hello Manual V 1"
+#~ msgstr "Handbok för GNOME Hello v1"
+
+#~ msgid "GNOME Hello Manual V 2.0"
+#~ msgstr "Handbok för GNOME Hello v2.0"
+
+#~ msgid "John Fleck <email>jfleck@inkstain.net</email>"
+#~ msgstr "John Fleck <email>jfleck@inkstain.net</email>"
+
+#~ msgid "This manual describes version 2.0 of GNOME Hello."
+#~ msgstr "Den här handboken beskriver version 2.0 av GNOME Hello."
+
+#~ msgid "Feedback"
+#~ msgstr "Återkoppling"
+
+#~ msgid ""
+#~ "To report a bug or make a suggestion regarding the <application>GNOME "
+#~ "Hello</application> application or this manual, follow the directions in "
+#~ "the <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback "
+#~ "Page</ulink>."
+#~ msgstr ""
+#~ "För att rapportera ett fel eller föreslå någonting angående programmet "
+#~ "<application>GNOME Hello</application> eller den här handboken, följ "
+#~ "anvisningarna på <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:"
+#~ "s återkopplingssida</ulink>."
+
+#~ msgid ""
+#~ "This is the <application>GNOME Hello</application> user's guide. It does "
+#~ "not contain any actual information. We are demonstrating how to install "
+#~ "help files."
+#~ msgstr ""
+#~ "Det här är användarguiden för <application>GNOME Hello</application>. Den "
+#~ "innehåller ingen direkt information. Vi demonstrerar hur man installerar "
+#~ "hjälpfiler."
+
+#~ msgid "Shows <placeholder-1/> main window."
+#~ msgstr "Visar huvudfönstret i <placeholder-1/>."
+
+#~ msgid "Advanced GnomeHello."
+#~ msgstr "Avancerad GnomeHello."
