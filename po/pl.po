@@ -1,29 +1,25 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# gnomepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Polish translation for gnome-hello.
+# Copyright © 1999-2016 the gnome-hello authors.
+# This file is distributed under the same license as the gnome-hello package.
 # Zbigniew Chyla <zbigniew.chyla@gmail.com>, 1999.
 # Artur Flinta <aflinta@at.kernel.pl>, 2003.
-# Piotr Drąg <piotrdrag@gmail.com>, 2008-2015.
-# Aviary.pl <gnomepl@aviary.pl>, 2008-2015.
+# Piotr Drąg <piotrdrag@gmail.com>, 2008-2016.
+# Aviary.pl <community-poland@mozilla.org>, 2008-2016.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: pl\n"
+"Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-03 01:54+0200\n"
-"PO-Revision-Date: 2015-09-03 01:55+0200\n"
+"POT-Creation-Date: 2016-08-20 16:25+0200\n"
+"PO-Revision-Date: 2016-08-20 16:27+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
@@ -53,7 +49,7 @@ msgstr "Specjalne pozdrowienia dla:\n"
 
 #: ../src/hello.c:42
 msgid "Say hello to specific people listed on the command line"
-msgstr "Pozdrawia osoby podane w wierszu poleceń"
+msgstr "Pozdrawia osoby podane w wierszu poleceń"
 
 #: ../src/hello.c:51
 msgid "Specify a message other than \"Hello, World!\""
@@ -93,7 +89,7 @@ msgstr "Należy podać kogoś do pozdrowienia.\n"
 #: ../src/hello.c:126
 #, c-format
 msgid "Command line arguments are only allowed with --greet.\n"
-msgstr "Parametry wiersza poleceń są dozwolone tylko z opcją --greet.\n"
+msgstr "Parametry wiersza poleceń są dozwolone tylko z opcją --greet.\n"
 
 #: ../src/menus.c:80
 msgid "_File"
@@ -109,7 +105,7 @@ msgstr "Pomo_c"
 
 #: ../src/menus.c:83
 msgid "_New"
-msgstr "_Nowa"
+msgstr "_Nowy"
 
 #: ../src/menus.c:84
 msgid "_Open"
@@ -181,7 +177,7 @@ msgstr "_Spis treści"
 
 #: ../src/menus.c:101
 msgid "_About"
-msgstr "_O programie"
+msgstr "_O programie"
 
 #: ../src/menus.c:102
 msgid "_Previous"
@@ -209,12 +205,12 @@ msgstr ""
 
 #: ../src/menus.c:200
 msgid "About GNOME Hello"
-msgstr "O programie GNOME Hello"
+msgstr "O programie GNOME Hello"
 
 #: ../src/menus.c:201
 msgid "translator-credits"
 msgstr ""
 "Zbigniew Chyla <zbigniew.chyla@gmail.com>, 1999\n"
 "Artur Flinta <aflinta@at.kernel.pl>, 2003\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2008-2015\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2008-2015"
+"Piotr Drąg <piotrdrag@gmail.com>, 2008-2016\n"
+"Aviary.pl <community-poland@mozilla.org>, 2008-2016"
