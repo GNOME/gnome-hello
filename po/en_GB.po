@@ -2,23 +2,20 @@
 # Copyright (C) 2004 THE gnome-hello's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-hello package.
 # Gareth Owen <gowen72@yahoo.com>, 2004.
-# Chris Leonard <cjlhomeaddress@gmail.com>, 2012.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "hello&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-08-04 11:20+0000\n"
-"PO-Revision-Date: 2012-09-21 03:50-0400\n"
-"Last-Translator: Chris Leonard <cjlhomeaddress@gmail.com>\n"
-"Language-Team: Sugar Labs\n"
-"Language: ky\n"
+"POT-Creation-Date: 2013-12-18 20:45+0000\n"
+"PO-Revision-Date: 2016-09-20 16:31+0200\n"
+"Last-Translator: David King <amigadave@amigadave.com>\n"
+"Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Project-Style: gnome\n"
 
 #: ../gnome-hello.desktop.in.h:1
 msgid "GNOME Hello Demo"
@@ -202,7 +199,6 @@ msgstr ""
 "Copyright © 1999 - 2010 GNOME Hello Contributors"
 
 #: ../src/menus.c:200
-#| msgid "- GNOME Hello"
 msgid "About GNOME Hello"
 msgstr "About GNOME Hello"
 
@@ -210,4 +206,5 @@ msgstr "About GNOME Hello"
 msgid "translator-credits"
 msgstr ""
 "Gareth Owen <gowen72@yahoo.com>\n"
-"David Lodge <dave@cirt.net>"
+"David Lodge <dave@cirt.net>\n"
+"David King <amigadave@amigadave.com>"
