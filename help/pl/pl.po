@@ -1,13 +1,13 @@
 # Polish translation for gnome-hello help.
 # Copyright © 2017 the gnome-hello authors.
-# This file is distributed under the same license as the gnome-hello package.
+# This file is distributed under the same license as the gnome-hello help.
 # Piotr Drąg <piotrdrag@gmail.com>, 2017.
 # Aviary.pl <community-poland@mozilla.org>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello-help\n"
-"POT-Creation-Date: 2017-06-28 17:53+0000\n"
+"POT-Creation-Date: 2017-09-15 22:17+0000\n"
 "PO-Revision-Date: 2017-09-16 00:15+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
