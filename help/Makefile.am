@@ -2,8 +2,7 @@
 
 HELP_ID = gnome-hello
 
-HELP_MEDIA = figures/gnome-hello.png \
-	     figures/gnome-hello-new.png \
+HELP_MEDIA = figures/gnome-hello-new.png \
 	     figures/gnome-hello-logo.png
 
 HELP_FILES = index.page \
