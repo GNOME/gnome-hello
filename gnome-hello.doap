@@ -8,7 +8,7 @@
   <shortdesc xml:lang="en">GNOME demo programme</shortdesc>
   <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/desktop-devel-list" />
   <download-page rdf:resource="http://download.gnome.org/sources/gnome-hello/" />
-  <category rdf:resource="http://api.gnome.org/doap-extensions#development" />
+  <!-- <category rdf:resource="http://api.gnome.org/doap-extensions#development" /> -->
 
   <!-- See also: http://foundation.gnome.org/membership/members.php -->
 
