@@ -27,7 +27,7 @@
   </p>
   <steps>
    <item><p>In a terminal, type:</p>
-         <p><cmd>git clone git://git.gnome.org/gnome-hello</cmd></p></item>
+         <p><cmd>git clone https://gitlab.gnome.org/GNOME/gnome-hello.git</cmd></p></item>
    <item><p><cmd>cd gnome-hello</cmd></p></item>
    <item><p><cmd>./autogen.sh --prefix=`pwd`/install</cmd></p></item>
    <item><p><cmd>make</cmd></p></item>
