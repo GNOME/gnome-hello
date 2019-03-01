@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+  xmlns:its="http://www.w3.org/2005/11/its"
   type="guide"
   id="what-is-like">
   
@@ -9,7 +10,7 @@
     <revision version="0.1" date="2009-08-01" status="final"/>
     <credit type="author">
       <name>Milo Casagrande</name>
-      <email>milo@ubuntu.com</email>
+      <email its:translate="no">milo@ubuntu.com</email>
     </credit>
 
     <license>

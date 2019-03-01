@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+  xmlns:its="http://www.w3.org/2005/11/its"
   type="guide"
   id="compiling">
   
@@ -8,7 +9,7 @@
     <revision version="0.1" date="2011-06-07" status="final"/>
     <credit type="author">
       <name>Tiffany Antopolski</name>
-      <email>tiffany@antopolski.com</email>
+      <email its:translate="no">tiffany@antopolski.com</email>
     </credit>
 
     <license>
@@ -27,11 +28,11 @@
   </p>
   <steps>
    <item><p>In a terminal, type:</p>
-         <p><cmd>git clone https://gitlab.gnome.org/GNOME/gnome-hello.git</cmd></p></item>
-   <item><p><cmd>cd gnome-hello</cmd></p></item>
-   <item><p><cmd>./autogen.sh --prefix=`pwd`/install</cmd></p></item>
-   <item><p><cmd>make</cmd></p></item>
-   <item><p><cmd>make install</cmd></p></item>
+         <p its:translate="no"><cmd>git clone https://gitlab.gnome.org/GNOME/gnome-hello.git</cmd></p></item>
+   <item><p its:translate="no"><cmd>cd gnome-hello</cmd></p></item>
+   <item><p its:translate="no"><cmd>./autogen.sh --prefix=`pwd`/install</cmd></p></item>
+   <item><p its:translate="no"><cmd>make</cmd></p></item>
+   <item><p its:translate="no"><cmd>make install</cmd></p></item>
   </steps>
   </section>
  
@@ -40,7 +41,7 @@
  <p>
   To run gnome-hello type:
  </p>
-  <p>
+  <p its:translate="no">
    <cmd>./src/gnome-hello</cmd>
   </p>
   </section>
@@ -50,7 +51,7 @@
     <p>
      To run most recent help pages (and view your changes if you made any) type:
    </p>
-   <p>
+   <p its:translate="no">
     <cmd>yelp help/C/</cmd>
    </p>
    </section>
