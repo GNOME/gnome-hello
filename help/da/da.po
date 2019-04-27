@@ -2,53 +2,160 @@
 # Copyright (C) 2010 gnome-hello's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-hello package.
 # joehansen <joedalton2@yahoo.dk>, 2010.
+# scootergrisen, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2010-10-05 17:43+0200\n"
-"PO-Revision-Date: 2010-09-29 18:29+0200\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"POT-Creation-Date: 2019-03-02 15:03+0000\n"
+"PO-Revision-Date: 2019-04-25 00:00+0200\n"
+"Last-Translator: scootergrisen\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../C/what-is.page:7(desc)
-msgid "Description of <app>GNOME Hello</app>."
-msgstr "Beskrivelse af <app>GNOME Hello</app>."
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Joe Hansen, 2010.\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
 
-#: ../C/what-is.page:10(name) ../C/what-is-like.page:11(name)
-#: ../C/what-can-do.page:10(name) ../C/index.page:9(name)
+#. (itstool) path: info/desc
+#: C/index.page:7
+msgid "Help for GNOME Hello."
+msgstr "Hjælp til GNOME Hello."
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#. (itstool) path: credit/name
+#: C/index.page:12 C/what-is.page:11 C/what-is-like.page:12
+#: C/what-can-do.page:11
 msgid "Milo Casagrande"
 msgstr "Milo Casagrande"
 
-#: ../C/what-is.page:11(email) ../C/what-is-like.page:12(email)
-#: ../C/what-can-do.page:11(email) ../C/index.page:10(email)
-msgid "milo@ubuntu.com"
-msgstr "milo@ubuntu.com"
+#. (itstool) path: credit/name
+#: C/index.page:16 C/compiling.page:11
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
 
-#: ../C/what-is.page:14(year) ../C/what-is-like.page:15(year)
-#: ../C/what-can-do.page:14(year) ../C/index.page:13(year)
-msgid "2009"
-msgstr "2009"
-
-#: ../C/what-is.page:15(name) ../C/what-is-like.page:16(name)
-#: ../C/what-can-do.page:15(name) ../C/index.page:14(name)
-msgid "GNOME Documentation Project"
-msgstr "GNOME-dokumentationsprojektet"
-
-#: ../C/what-is.page:18(license) ../C/what-is-like.page:19(license)
-#: ../C/what-can-do.page:18(license) ../C/index.page:17(license)
+#. (itstool) path: license/p
+#: C/index.page:21 C/compiling.page:16 C/what-is.page:16 C/what-is-like.page:17
+#: C/what-can-do.page:16
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
-#: ../C/what-is.page:23(title)
+#. (itstool) path: title/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:27
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+msgstr ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+
+#. (itstool) path: page/title
+#: C/index.page:27
+msgid ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
+msgstr ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello-logo</"
+"media>GNOME Hello"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "It's a small world"
+msgstr "Verden er lille"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Advanced"
+msgstr "Avanceret"
+
+#. (itstool) path: info/desc
+#: C/compiling.page:8
+msgid ""
+"<link xref=\"compiling#compile\">Compile</link> and <link xref="
+"\"compiling#run\">run</link> and <link xref=\"compiling#help\">more</link>."
+msgstr ""
+"<link xref=\"compiling#compile\">Kompiler</link> og <link xref="
+"\"compiling#run\">kør</link> og <link xref=\"compiling#help\">mere</link>."
+
+#. (itstool) path: page/title
+#: C/compiling.page:22
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Hent <app>GNOME Hello</app>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:25
+msgid "Compile"
+msgstr "Kompiler"
+
+#. (itstool) path: section/p
+#: C/compiling.page:26
+msgid "To compile the app from source:"
+msgstr "Kompiler programmet fra kildekoden:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:30
+msgid "In a terminal, type:"
+msgstr "Skriv følgende i en terminal:"
+
+#. (itstool) path: section/title
+#: C/compiling.page:40
+msgid "Run"
+msgstr "Kør"
+
+#. (itstool) path: section/p
+#: C/compiling.page:41
+msgid "To run gnome-hello type:"
+msgstr "Skriv følgende for at køre gnome-hello:"
+
+#. (itstool) path: section/title
+#: C/compiling.page:50
+msgid "View most up-to-date help pages"
+msgstr "Vis de nyeste hjælpesider"
+
+#. (itstool) path: section/p
+#: C/compiling.page:51
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Skriv følgende for at køre de nyeste hjælpesider (og vis dine ændringer, "
+"hvis du har foretaget nogen):"
+
+#. (itstool) path: info/desc
+#: C/what-is.page:8
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Beskrivelse af <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is.page:22
 msgid "What is <app>GNOME Hello</app>"
 msgstr "Hvad er <app>GNOME Hello</app>"
 
-#: ../C/what-is.page:25(p)
+#. (itstool) path: page/p
+#: C/what-is.page:24
 msgid ""
 "<app>GNOME Hello</app> is a very complex program, with many nice features "
 "and nice options."
@@ -56,47 +163,61 @@ msgstr ""
 "<app>GNOME Hello</app> er et meget komplekst program, med mange gode "
 "egenskaber og indstillingsmuligheder."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/what-is-like.page:30(None)
-msgid ""
-"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-msgstr ""
-"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
-
-#: ../C/what-is-like.page:8(desc)
+#. (itstool) path: info/desc
+#: C/what-is-like.page:9
 msgid "Pictures of <app>GNOME Hello</app>."
 msgstr "Billeder af <app>GNOME Hello</app>."
 
-#: ../C/what-is-like.page:24(title)
+#. (itstool) path: page/title
+#: C/what-is-like.page:23
 msgid "What does <app>GNOME Hello</app> look like?"
 msgstr "Hvordan ser <app>GNOME Hello</app> ud?"
 
-#: ../C/what-is-like.page:26(p)
+#. (itstool) path: page/p
+#: C/what-is-like.page:25
 msgid "This is how <app>GNOME Hello</app> looks like."
 msgstr "Sådan ser <app>GNOME Hello</app> ud."
 
-#: ../C/what-is-like.page:31(app) ../C/index.page:21(title)
-msgid "GNOME Hello"
-msgstr "GNOME Hello"
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:29
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
 
-#: ../C/what-is-like.page:30(media)
-msgid "<placeholder-1/> fantastic interface."
-msgstr "<placeholder-1/> fantastisk grænseflade."
+#. (itstool) path: page/p
+#: C/what-is-like.page:28
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app>s fantastiske brugeflade. </media>"
 
-#: ../C/what-can-do.page:7(desc)
+#. (itstool) path: info/desc
+#: C/what-can-do.page:8
 msgid "What can you do with <app>GNOME Hello</app>."
 msgstr "Hvad kan jeg gøre med <app>GNOME Hello</app>?"
 
-#: ../C/what-can-do.page:23(title)
+#. (itstool) path: page/title
+#: C/what-can-do.page:22
 msgid "What <app>GNOME Hello</app> does"
 msgstr "Hvad <app>GNOME Hello</app> gør"
 
-#: ../C/what-can-do.page:25(p)
+#. (itstool) path: page/p
+#: C/what-can-do.page:24
 msgid "At the moment <app>GNOME Hello</app> can't do many things."
 msgstr "I øjeblikket kan <app>GNOME Hello</app> ikke udføre mange ting."
 
-#: ../C/what-can-do.page:28(p)
+#. (itstool) path: page/p
+#: C/what-can-do.page:27
 msgid ""
 "This is just a demonstration on how to install help files and how to use "
 "Mallard, the new syntax for writing GNOME documentation."
@@ -105,37 +226,32 @@ msgstr ""
 "hvordan Mallard skal bruges, den nye syntaks for udarbejdelse af GNOME-"
 "dokumentation."
 
-#: ../C/what-can-do.page:32(p)
+#. (itstool) path: page/p
+#: C/what-can-do.page:31
 msgid ""
-"If you want to learn more about Mallard, see the <link href=\"http://live."
-"gnome.org/ProjectMallard\">Project Mallard</link> home page."
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
 msgstr ""
-"Hvis du vil vide mere om Mallard, så se <link href=\"http://live.gnome.org/"
-"ProjectMallard\">projekt Mallards</link> hjemmeside."
+"Hvis du vil vide mere om Mallard, så se <link href=\"http://projectmallard."
+"org/\">Project Mallard</link>-hjemmesiden."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: ../C/index.page:0(None)
-msgid "translator-credits"
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Værket er licenseret under en <_:link-1/>."
+
+#. (itstool) path: license/p
+#: C/legal.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
 msgstr ""
-"Joe Hansen, 2010.\n"
-"\n"
-"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-"Mere info: http://www.dansk-gruppen.dk"
-
-#~ msgid ""
-#~ "As a special exception, the copyright holders give you permission to "
-#~ "copy, modify, and distribute the example code contained in this document "
-#~ "under the terms of your choosing, without restriction."
-#~ msgstr ""
-#~ "Som en speciel undtagelse giver ophavsretindehaveren dig tilladelse til "
-#~ "at kopiere, ændre og distribuere eksempelkoden indeholdt i dette dokument "
-#~ "under de betingelser du måtte vælge, uden begrænsning."
-
-#~ msgid ""
-#~ "This work is licensed under a <link href=\"http://creativecommons.org/"
-#~ "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 "
-#~ "United States License</link>."
-#~ msgstr ""
-#~ "Dette arbejde er udgivet under <link href=\"http://creativecommons.org/"
-#~ "licenses/by-sa/3.0/us/\">Creative Commons Attribution-Share Alike 3.0 "
-#~ "United States License</link>."
+"Som en speciel undtagelse giver ophavsretindehaveren dig tilladelse til at "
+"kopiere, ændre og distribuere eksempelkoden indeholdt i dette dokument under "
+"de betingelser du måtte vælge, uden begrænsning."
