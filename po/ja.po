@@ -1,17 +1,18 @@
 # gnome-hello ja.po
-# Copyright (C) 2003,2007,2012 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2007, 2012, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-hello package.
-# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
-# Satoru SATOH <ss@gnome.gr.jp>, 2007
-# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2012
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Satoru SATOH <ss@gnome.gr.jp>, 2007.
+# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2012.
+# sicklylife <translation@sicklylife.jp>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello trunk\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-hello/issues\n"
 "POT-Creation-Date: 2018-06-10 16:55+0000\n"
-"PO-Revision-Date: 2012-08-11 20:10+0900\n"
-"Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
+"PO-Revision-Date: 2020-01-09 22:00+0900\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -74,11 +75,13 @@ msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
+"%s\n"
+"'%s --help' を実行すると利用可能なコマンドラインオプションの一覧が表示されます。\n"
 
 #: ../src/hello.c:121
 #, c-format
 msgid "You must specify someone to greet.\n"
-msgstr "挨拶する人を指定しなければなりません\n"
+msgstr "挨拶する人を指定しなければなりません。\n"
 
 #: ../src/hello.c:126
 #, c-format
@@ -187,22 +190,25 @@ msgstr "これは何もしません; ただのデモンストレーションで�
 
 #: ../src/menus.c:163
 msgid "Unable to open help file"
-msgstr ""
+msgstr "ヘルプファイルを開けません"
 
 #: ../src/menus.c:185
 msgid ""
 "Copyright © 1999 Havoc Pennington\n"
 "Copyright © 1999 - 2010 GNOME Hello Contributors"
 msgstr ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
 
 #: ../src/menus.c:200
-#, fuzzy
-#| msgid "- GNOME Hello"
 msgid "About GNOME Hello"
-msgstr "- GNOME Hello"
+msgstr "GNOME Hello について"
 
 #: ../src/menus.c:201
 msgid "translator-credits"
 msgstr ""
+"日本 GNOME ユーザー会 <http://www.gnome.gr.jp>\n"
+"Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
-"日本 GNOME ユーザー会 http://www.gnome.gr.jp"
+"Satoru SATOH <ss@gnome.gr.jp>\n"
+"sicklylife <translation@sicklylife.jp>"
