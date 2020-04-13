@@ -1,49 +1,227 @@
 # Ukrainian translation for gnome-hello.
 # Copyright (C) 2011 gnome-hello's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-hello package.
-# Sergiy Gavrylov <sergiovana@bigmir.net>, 2011.
 #
+# Sergiy Gavrylov <sergiovana@bigmir.net>, 2011.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-hello master\n"
-"POT-Creation-Date: 2011-04-18 14:05+0000\n"
-"PO-Revision-Date: 2011-04-24 20:33+0300\n"
-"Last-Translator: Sergiy Gavrylov <sergiovana@bigmir.net>\n"
+"POT-Creation-Date: 2020-01-09 14:57+0000\n"
+"PO-Revision-Date: 2020-04-13 10:08+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <linux@linux.org.ua>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n% "
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+" 10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.07.70\n"
 
-#: C/what-can-do.page:7(desc)
-msgid "What can you do with <app>GNOME Hello</app>."
-msgstr "Що ви можете робити в <app>GNOME Hello</app>?."
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+#| msgid "translator-credits"
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Сергій Гаврилов <sergiovana@bigmir.net>, 2011"
 
-#: C/what-can-do.page:10(name) C/what-is-like.page:11(name)
-#: C/what-is.page:10(name) C/index.page:9(name)
+#. (itstool) path: info/desc
+#: C/index.page:7
+#| msgid "GNOME Hello"
+msgid "Help for GNOME Hello."
+msgstr "Довідка до GNOME Hello."
+
+#. (itstool) path: info/title
+#: C/index.page:9
+#| msgid "GNOME Hello"
+msgctxt "text"
+msgid "GNOME Hello"
+msgstr "GNOME Hello"
+
+#. (itstool) path: credit/name
+#: C/index.page:12 C/what-is.page:11 C/what-is-like.page:12
+#: C/what-can-do.page:11
 msgid "Milo Casagrande"
 msgstr "Milo Casagrande"
 
-#: C/what-can-do.page:11(email) C/what-is-like.page:12(email)
-#: C/what-is.page:11(email) C/index.page:10(email)
-msgid "milo@ubuntu.com"
-msgstr "milo@ubuntu.com"
+#. (itstool) path: credit/name
+#: C/index.page:16 C/compiling.page:11
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
 
-#: C/what-can-do.page:15(p) C/what-is-like.page:16(p) C/what-is.page:15(p)
-#: C/index.page:14(p)
+#. (itstool) path: license/p
+#: C/index.page:21 C/compiling.page:16 C/what-is.page:16 C/what-is-like.page:17
+#: C/what-can-do.page:16
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
-#: C/what-can-do.page:21(title)
+#. (itstool) path: title/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:27
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+msgstr ""
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
+
+#. (itstool) path: page/title
+#: C/index.page:27
+msgid ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
+msgstr ""
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Логотип GNOME"
+" Hello</"
+"media>GNOME Hello"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Introduction"
+msgstr "Вступ"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "It's a small world"
+msgstr "Це малий світ"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Advanced"
+msgstr "Додатково"
+
+#. (itstool) path: info/desc
+#: C/compiling.page:8
+msgid ""
+"<link xref=\"compiling#compile\">Compile</link> and <link xref="
+"\"compiling#run\">run</link> and <link xref=\"compiling#help\">more</link>."
+msgstr ""
+"<link xref=\"compiling#compile\">Збирання</link>, <link xref="
+"\"compiling#run\">запуск</link> і <link xref=\"compiling#help\">подальші дії<"
+"/link>."
+
+#. (itstool) path: page/title
+#: C/compiling.page:22
+#| msgid "What is <app>GNOME Hello</app>"
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Отримання <app>GNOME Hello</app>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:25
+msgid "Compile"
+msgstr "Збирання"
+
+#. (itstool) path: section/p
+#: C/compiling.page:26
+msgid "To compile the app from source:"
+msgstr "Щоб зібрати програму з початкових кодів, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:30
+msgid "In a terminal, type:"
+msgstr "У терміналі введіть такі команди:"
+
+#. (itstool) path: section/title
+#: C/compiling.page:40
+msgid "Run"
+msgstr "Запуск"
+
+#. (itstool) path: section/p
+#: C/compiling.page:41
+msgid "To run gnome-hello type:"
+msgstr "Щоб запустити gnome-hello, віддайте таку команду:"
+
+#. (itstool) path: section/title
+#: C/compiling.page:50
+msgid "View most up-to-date help pages"
+msgstr "Перегляд найновішої версії сторінок довідки"
+
+#. (itstool) path: section/p
+#: C/compiling.page:51
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Щоб відкрити сторінки найсвіжішого варіанта довідки (і переглянути зміни,"
+" якщо ви такі внесли), віддайте таку команду:"
+
+#. (itstool) path: info/desc
+#: C/what-is.page:8
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Опис <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is.page:22
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Що це — <app>GNOME Hello</app>?"
+
+#. (itstool) path: page/p
+#: C/what-is.page:24
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"<app>GNOME Hello</app> — дуже складна програма, з багатьма чудовими "
+"можливостями та параметрами."
+
+#. (itstool) path: info/desc
+#: C/what-is-like.page:9
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Зображення <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is-like.page:23
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Як виглядає <app>GNOME Hello</app>?"
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:25
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Так виглядає <app>GNOME Hello</app>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:29
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:28
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"Фантастичний інтерфейс <app>GNOME Hello</app>. </media>"
+
+#. (itstool) path: info/desc
+#: C/what-can-do.page:8
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Що ви можете робити в <app>GNOME Hello</app>?."
+
+#. (itstool) path: page/title
+#: C/what-can-do.page:22
 msgid "What <app>GNOME Hello</app> does"
 msgstr "Що робить <app>GNOME Hello</app>"
 
-#: C/what-can-do.page:23(p)
+#. (itstool) path: page/p
+#: C/what-can-do.page:24
 msgid "At the moment <app>GNOME Hello</app> can't do many things."
 msgstr "На цей час, <app>GNOME Hello</app> багато чого не може."
 
-#: C/what-can-do.page:26(p)
+#. (itstool) path: page/p
+#: C/what-can-do.page:27
 msgid ""
 "This is just a demonstration on how to install help files and how to use "
 "Mallard, the new syntax for writing GNOME documentation."
@@ -52,59 +230,47 @@ msgstr ""
 "використовувати для написання документації GNOME нові правила синтаксису "
 "мови розмітки Mallard."
 
-#: C/what-can-do.page:30(p)
+#. (itstool) path: page/p
+#: C/what-can-do.page:31
+#| msgid ""
+#| "If you want to learn more about Mallard, see the <link href=\"http://live."
+#| "gnome.org/ProjectMallard\">Project Mallard</link> home page."
 msgid ""
-"If you want to learn more about Mallard, see the <link href=\"http://live."
-"gnome.org/ProjectMallard\">Project Mallard</link> home page."
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
 msgstr ""
-"Якщо хочете довідатись більше про Mallard, відвідайте домашню сторінку <link "
-"href=\"http://live.gnome.org/ProjectMallard\">Проекту Mallard</link>."
+"Якщо хочете довідатись більше про Mallard, відвідайте домашню сторінку <link"
+" href=\"http://projectmallard.org/\">Проєкту Mallard</link>."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/what-is-like.page:28(None)
+#. (itstool) path: p/link
+#: C/legal.xml:4
+#| msgid "Creative Commons Share Alike 3.0"
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "ліцензії Creative Commons Attribution-Share Alike 3.0 United State"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Ця робота розповсюджується за умов дотримання <_:link-1/>."
+
+#. (itstool) path: license/p
+#: C/legal.xml:6
 msgid ""
-"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
 msgstr ""
-"@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+"За виняткових обставин власники авторських прав можу надати вам дозвіл "
+"копіювати, змінювати і розповсюджувати приклади коду, що містяться у цьому "
+"документі, за довільних умов, без обмежень."
 
-#: C/what-is-like.page:8(desc)
-msgid "Pictures of <app>GNOME Hello</app>."
-msgstr "Зображення <app>GNOME Hello</app>."
+#~ msgid "milo@ubuntu.com"
+#~ msgstr "milo@ubuntu.com"
 
-#: C/what-is-like.page:22(title)
-msgid "What does <app>GNOME Hello</app> look like?"
-msgstr "Як виглядає <app>GNOME Hello</app>?"
+#~ msgid ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
+#~ msgstr ""
+#~ "@@image: 'figures/gnome-hello.png'; md5=fcc6be29f0ea0659d60dbc0f88da9610"
 
-#: C/what-is-like.page:24(p)
-msgid "This is how <app>GNOME Hello</app> looks like."
-msgstr "Так виглядає <app>GNOME Hello</app>."
-
-#: C/what-is-like.page:29(app) C/index.page:20(title)
-msgid "GNOME Hello"
-msgstr "GNOME Hello"
-
-#: C/what-is-like.page:28(media)
-msgid "<placeholder-1/> fantastic interface."
-msgstr "<placeholder-1/> фантастичний інтерфейс."
-
-#: C/what-is.page:7(desc)
-msgid "Description of <app>GNOME Hello</app>."
-msgstr "Опис <app>GNOME Hello</app>."
-
-#: C/what-is.page:21(title)
-msgid "What is <app>GNOME Hello</app>"
-msgstr "Що це — <app>GNOME Hello</app>?"
-
-#: C/what-is.page:23(p)
-msgid ""
-"<app>GNOME Hello</app> is a very complex program, with many nice features "
-"and nice options."
-msgstr ""
-"<app>GNOME Hello</app> — дуже складна програма, з багатьма чудовими "
-"можливостями та параметрами."
-
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/index.page:0(None)
-msgid "translator-credits"
-msgstr "Sergiy Gavrylov <sergiovana@bigmir.net>, 2011."
+#~ msgid "<placeholder-1/> fantastic interface."
+#~ msgstr "<placeholder-1/> фантастичний інтерфейс."
