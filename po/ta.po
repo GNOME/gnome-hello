@@ -1,0 +1,209 @@
+# Tamil translation for gnome-hello.
+# Copyright (C) 2017 gnome-hello's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+# Karthikeyan K <karthikeyank@cdac.in>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-hello master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-hello/issues\n"
+"POT-Creation-Date: 2018-06-10 16:55+0000\n"
+"PO-Revision-Date: 2020-08-01 22:06+0530\n"
+"Last-Translator: K. Karthikeyan <karthikeyank@cdac.in>\n"
+"Language-Team: Tamil <ta@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../gnome-hello.desktop.in.h:1
+msgid "GNOME Hello Demo"
+msgstr "குனோம் ஹலோ செய்முறை விளக்கம்"
+
+#: ../gnome-hello.desktop.in.h:2 ../src/menus.c:195
+msgid "Sample application using GNOME technologies"
+msgstr "குனோம் தொழில்நுட்பங்களைப் பயன்படுத்தி மாதிரி செயலி"
+
+#. Set the human-readable name for the application
+#: ../src/app.c:52 ../src/hello.c:103
+msgid "GNOME Hello"
+msgstr "குனோம் ஹலோ"
+
+#: ../src/app.c:74 ../src/menus.c:129
+msgid "Hello, World!"
+msgstr "ஹலோ, உலகம்!"
+
+# parse -க்கு மிகச் சரியான வார்த்தை தெரியவில்லை எனவே அதற்க்கு சற்றே இணையான 'புரிந்து' எனப் பயன்படுத்தியுள்ளேன்.
+# Don't know the exact translation for 'parse' so used 'understand' which a bit less refers the same.
+#: ../src/app.c:91
+#, c-format
+msgid "Could not parse geometry string `%s'"
+msgstr "வடிவியல் வாக்கியம் '%s' -ஐ புரிந்துகொள்ள இயலவில்லை."
+
+#: ../src/app.c:98
+msgid "Special Greetings to:\n"
+msgstr "இவர்களுக்கு சிறப்பு வாழ்த்துக்கள்:\n"
+
+#: ../src/hello.c:42
+msgid "Say hello to specific people listed on the command line"
+msgstr "கட்டளை வரியில் குறிப்பிடப்பட்டுள்ள நபர்களுக்கு மட்டும் ஹலோ சொல்லவும்"
+
+#: ../src/hello.c:51
+msgid "Specify a message other than \"Hello, World!\""
+msgstr "\"ஹலோ, உலகமே\" என்பதைத் தவிர்த்து வேறு தகவலைக் குறிப்பிடவும்."
+
+#: ../src/hello.c:52
+msgid "MESSAGE"
+msgstr "தகவல்"
+
+#: ../src/hello.c:60
+msgid "Specify the geometry of the main window"
+msgstr "முதன்மை சாளரத்தின் வடிவியலைக் குறிப்பிடவும்"
+
+#: ../src/hello.c:61
+msgid "GEOMETRY"
+msgstr "வடிவியல்"
+
+#: ../src/hello.c:91
+msgid "- GNOME Hello"
+msgstr "- குனோம் ஹலோ"
+
+#: ../src/hello.c:96
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"கட்டளை வரியில் கிடைக்கக்கூடிய எல்லா தேர்வுகளையும் காண %s --help என இயக்கவும்.\n"
+
+#: ../src/hello.c:121
+#, c-format
+msgid "You must specify someone to greet.\n"
+msgstr "வாழ்த்துவதற்க்கு நீங்கள் கண்டிப்பாக ஒரு நபரை குறிப்பிடவேண்டும்.\n"
+
+#: ../src/hello.c:126
+#, c-format
+msgid "Command line arguments are only allowed with --greet.\n"
+msgstr "கட்டளை வரியில் தருமதிப்பு --greet உடன் மட்டுமே ஏற்கப்படும்.\n"
+
+#: ../src/menus.c:80
+msgid "_File"
+msgstr "கோப்பு (_F)"
+
+#: ../src/menus.c:81
+msgid "_Edit"
+msgstr "தொகு  (_E)"
+
+#: ../src/menus.c:82
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+#: ../src/menus.c:83
+msgid "_New"
+msgstr "புதிய (_N)"
+
+#: ../src/menus.c:84
+msgid "_Open"
+msgstr "திற (_O)"
+
+#: ../src/menus.c:85
+msgid "_Save"
+msgstr "சேமி (_S)"
+
+#: ../src/menus.c:86
+msgid "Save _As"
+msgstr "இவ்வாறாகச் சேமி (_A)"
+
+#: ../src/menus.c:87
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+#: ../src/menus.c:88
+msgid "_Quit"
+msgstr "வெளியேறு (_Q)"
+
+#: ../src/menus.c:89
+msgid "Cu_t"
+msgstr "துண்டாடு (_t)"
+
+#: ../src/menus.c:90
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+#: ../src/menus.c:91
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+#: ../src/menus.c:92
+msgid "Select _All"
+msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+#: ../src/menus.c:93
+msgid "C_lear"
+msgstr "துடைத்தழி (_l)"
+
+#: ../src/menus.c:94
+msgid "_Undo"
+msgstr "மீளமை (_U)"
+
+#: ../src/menus.c:95
+msgid "_Redo"
+msgstr "மீண்டும் செய் (_R)"
+
+#: ../src/menus.c:96
+msgid "_Find"
+msgstr "தேடு (_F)"
+
+#: ../src/menus.c:97
+msgid "Find Ne_xt"
+msgstr "அடுத்து தேடு (_x)"
+
+#: ../src/menus.c:98
+msgid "R_eplace"
+msgstr "மாற்று (_e)"
+
+#: ../src/menus.c:99
+msgid "Pr_operties"
+msgstr "பண்புகள் (_o)"
+
+#: ../src/menus.c:100
+msgid "_Contents"
+msgstr "உள்ளடக்கம் (_C)"
+
+#: ../src/menus.c:101
+msgid "_About"
+msgstr "இதைப் பற்றி (_A)"
+
+#: ../src/menus.c:102
+msgid "_Previous"
+msgstr "முந்தைய (_P)"
+
+#: ../src/menus.c:103
+msgid "_Next"
+msgstr "அடுத்த (_N)"
+
+#: ../src/menus.c:118
+msgid "This does nothing; it is only a demonstration."
+msgstr "இது எதுவும் செய்யாது; இது ஒரு செயல்விளக்கம் மட்டுமே."
+
+#: ../src/menus.c:163
+msgid "Unable to open help file"
+msgstr "உதவிக் கோப்பை திறக்க இயலவில்லை"
+
+#: ../src/menus.c:185
+msgid ""
+"Copyright © 1999 Havoc Pennington\n"
+"Copyright © 1999 - 2010 GNOME Hello Contributors"
+msgstr ""
+"காப்புரிமை © 1999 Havoc Pennington\n"
+"காப்புரிமை © 1999 - 2010 குனோம் ஹலோ பங்களிப்பாளர்கள்"
+
+#: ../src/menus.c:200
+msgid "About GNOME Hello"
+msgstr "குனோம் ஹலோ செயலி பற்றி"
+
+#: ../src/menus.c:201
+msgid "translator-credits"
+msgstr "நன்றி-மொழிபெயர்ப்பாளர்"
