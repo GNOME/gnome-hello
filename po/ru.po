@@ -1,214 +1,258 @@
-# Copyright (C) 1999-2003 Free Software Foundation, Inc.
-# Sergey Panov  <sipan@mit.edu>, 1999.
+# Russian translation for gnome-hello.
+# Copyright (C) 2021 gnome-hello's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-hello package.
+# Alexey Rubtsov <rushills@gmail.com>, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-hello\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-hello&component=general\n"
-"POT-Creation-Date: 2011-02-06 18:37+0000\n"
-"PO-Revision-Date: 2011-07-27 22:28+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"Project-Id-Version: gnome-hello master\n"
+"POT-Creation-Date: 2020-08-01 16:37+0000\n"
+"PO-Revision-Date: 2021-06-26 16:11+0300\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
+"X-Generator: Poedit 3.0\n"
 
-#: ../gnome-hello.desktop.in.h:1
-msgid "GNOME Hello Demo"
-msgstr "Демонстрационная программа GNOME Hello"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Станислав Соловей <whats_up@tut.by>, 2013-2019.\n"
+"Юрий Мясоедов <ymyasoedov@yandex.ru>, 2014.\n"
+"Alexey Rubtsov <rushills@gmail.com>, 2021"
 
-#: ../gnome-hello.desktop.in.h:2
-#: ../src/menus.c:195
-msgid "Sample application using GNOME technologies"
-msgstr "Приложение-образец использующее технологии GNOME"
+#. (itstool) path: info/desc
+#: C/index.page:7
+msgid "Help for GNOME Hello."
+msgstr "Справка по GNOME Hello."
 
-#. Set the human-readable name for the application
-#: ../src/app.c:52
-#: ../src/hello.c:103
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
 msgid "GNOME Hello"
 msgstr "GNOME Hello"
 
-#: ../src/app.c:74
-#: ../src/menus.c:129
-msgid "Hello, World!"
-msgstr "Hello, World!"
+#. (itstool) path: credit/name
+#: C/index.page:12 C/what-is.page:11 C/what-is-like.page:12
+#: C/what-can-do.page:11
+msgid "Milo Casagrande"
+msgstr "Майло Касагранде (Milo Casagrande)"
 
-#: ../src/app.c:91
-#, c-format
-msgid "Could not parse geometry string `%s'"
-msgstr "Не удалось разобрать описание геометрии «%s»"
+#. (itstool) path: credit/name
+#: C/index.page:16 C/compiling.page:11
+msgid "Tiffany Antopolski"
+msgstr "Тиффани Антопольски (Tiffany Antopolski)"
 
-#: ../src/app.c:98
-msgid "Special Greetings to:\n"
-msgstr "Особое приветствие для:\n"
+#. (itstool) path: license/p
+#: C/index.page:21 C/compiling.page:16 C/what-is.page:16 C/what-is-like.page:17
+#: C/what-can-do.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
 
-#: ../src/hello.c:42
-msgid "Say hello to specific people listed on the command line"
-msgstr "Приветствует людей, указанных в командной строке"
-
-#: ../src/hello.c:51
-msgid "Specify a message other than \"Hello, World!\""
-msgstr "Указать приветствие, отличающееся от «Hello, World!»"
-
-#: ../src/hello.c:52
-msgid "MESSAGE"
-msgstr "СООБЩЕНИЕ"
-
-#: ../src/hello.c:60
-msgid "Specify the geometry of the main window"
-msgstr "Задать геометрию основного окна"
-
-#: ../src/hello.c:61
-msgid "GEOMETRY"
-msgstr "ГЕОМЕТРИЯ"
-
-#: ../src/hello.c:91
-#| msgid "GNOME Hello"
-msgid "- GNOME Hello"
-msgstr "— GNOME Hello"
-
-#: ../src/hello.c:96
-#, c-format
+#. (itstool) path: title/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:27
+msgctxt "_"
 msgid ""
-"%s\n"
-"Run '%s --help' to see a full list of available command line options.\n"
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 msgstr ""
-"%s\n"
-"Запустите «%s --help», чтобы вывести список всех доступных параметров командной строки.\n"
+"external ref='figures/gnome-hello-logo.png' "
+"md5='1ae47b7a7c4fbeb1f6bb72c0cf18d389'"
 
-#: ../src/hello.c:121
-#, c-format
-#| msgid "You must specify someone to greet."
-msgid "You must specify someone to greet.\n"
-msgstr "Вы должны указать, кого приветствовать.\n"
-
-#: ../src/hello.c:126
-#, c-format
-#| msgid "Command line arguments are only allowed with --greet."
-msgid "Command line arguments are only allowed with --greet.\n"
-msgstr "Аргументы командной строки разрешены только с ключом --greet.\n"
-
-#: ../src/menus.c:80
-msgid "_File"
-msgstr "_Файл"
-
-#: ../src/menus.c:81
-msgid "_Edit"
-msgstr "_Правка"
-
-#: ../src/menus.c:82
-msgid "_Help"
-msgstr "_Справка"
-
-#: ../src/menus.c:83
-#| msgid "New"
-msgid "_New"
-msgstr "_Создать"
-
-#: ../src/menus.c:84
-msgid "_Open"
-msgstr "_Открыть"
-
-#: ../src/menus.c:85
-msgid "_Save"
-msgstr "_Сохранить"
-
-#: ../src/menus.c:86
-msgid "Save _As"
-msgstr "Сохранить _как"
-
-#: ../src/menus.c:87
-msgid "_Close"
-msgstr "_Закрыть"
-
-#: ../src/menus.c:88
-msgid "_Quit"
-msgstr "_Закончить"
-
-#: ../src/menus.c:89
-msgid "Cu_t"
-msgstr "_Вырезать"
-
-#: ../src/menus.c:90
-msgid "_Copy"
-msgstr "_Копировать"
-
-#: ../src/menus.c:91
-msgid "_Paste"
-msgstr "_Вставить"
-
-#: ../src/menus.c:92
-msgid "Select _All"
-msgstr "_Выделить всё"
-
-#: ../src/menus.c:93
-msgid "C_lear"
-msgstr "О_чистить"
-
-#: ../src/menus.c:94
-msgid "_Undo"
-msgstr "_Отменить"
-
-#: ../src/menus.c:95
-msgid "_Redo"
-msgstr "_Повторить"
-
-#: ../src/menus.c:96
-msgid "_Find"
-msgstr "_Найти"
-
-#: ../src/menus.c:97
-msgid "Find Ne_xt"
-msgstr "Найти _следующее"
-
-#: ../src/menus.c:98
-msgid "R_eplace"
-msgstr "_Заменить"
-
-#: ../src/menus.c:99
-msgid "Pr_operties"
-msgstr "_Свойства"
-
-#: ../src/menus.c:100
-msgid "_Contents"
-msgstr "_Содержимое"
-
-#: ../src/menus.c:101
-msgid "_About"
-msgstr "_О программе"
-
-#: ../src/menus.c:102
-#| msgid "Previous hello"
-msgid "_Previous"
-msgstr "_Предыдущее"
-
-#: ../src/menus.c:103
-#| msgid "Next"
-msgid "_Next"
-msgstr "_Следующее"
-
-#: ../src/menus.c:118
-msgid "This does nothing; it is only a demonstration."
-msgstr "Не делает ничего; просто демонстрация."
-
-#: ../src/menus.c:163
-msgid "Unable to open help file"
-msgstr "Не удалось открыть файл справки"
-
-#: ../src/menus.c:185
+#. (itstool) path: page/title
+#: C/index.page:27
 msgid ""
-"Copyright © 1999 Havoc Pennington\n"
-"Copyright © 1999 - 2010 GNOME Hello Contributors"
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">GNOME Hello logo</"
+"media>GNOME Hello"
 msgstr ""
-"Авторские права © 1999 Havoc Pennington\n"
-"Авторские права © 1999 - 2010 GNOME Hello Contributors"
+"<media type=\"image\" src=\"figures/gnome-hello-logo.png\">Логотип GNOME "
+"Hello</media>GNOME Hello"
 
-#: ../src/menus.c:200
-#| msgid "GNOME Hello"
-msgid "About GNOME Hello"
-msgstr "О программе GNOME Hello"
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Introduction"
+msgstr "Введение"
 
-#: ../src/menus.c:201
-msgid "translator-credits"
-msgstr "Юрий Мясоедов <omerta13@yandex.ru>, 2011"
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "It's a small world"
+msgstr "Мир тесен"
 
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#. (itstool) path: info/desc
+#: C/compiling.page:8
+msgid ""
+"<link xref=\"compiling#compile\">Compile</link> and <link xref="
+"\"compiling#run\">run</link> and <link xref=\"compiling#help\">more</link>."
+msgstr ""
+"<link xref=\"compiling#compile\">Компиляция</link> и <link xref="
+"\"compiling#run\">запуск</link> и <link xref=\"compiling#help\">многое "
+"другое</link>."
+
+#. (itstool) path: page/title
+#: C/compiling.page:22
+msgid "Get <app>GNOME Hello</app>"
+msgstr "Получить <app>GNOME Hello</app>"
+
+#. (itstool) path: section/title
+#: C/compiling.page:25
+msgid "Compile"
+msgstr "Компиляция"
+
+#. (itstool) path: section/p
+#: C/compiling.page:26
+msgid "To compile the app from source:"
+msgstr "Чтобы скомпилировать приложение из исходного текста:"
+
+#. (itstool) path: item/p
+#: C/compiling.page:30
+msgid "In a terminal, type:"
+msgstr "В терминале введите:"
+
+#. (itstool) path: section/title
+#: C/compiling.page:40
+msgid "Run"
+msgstr "Запуск"
+
+#. (itstool) path: section/p
+#: C/compiling.page:41
+msgid "To run gnome-hello type:"
+msgstr "Чтобы запустить gnome-hello, введите:"
+
+#. (itstool) path: section/title
+#: C/compiling.page:50
+msgid "View most up-to-date help pages"
+msgstr "Просмотр наиболее актуальных страниц справки"
+
+#. (itstool) path: section/p
+#: C/compiling.page:51
+msgid ""
+"To run most recent help pages (and view your changes if you made any) type:"
+msgstr ""
+"Для запуска последних страниц справки (и просмотра ваших изменений, если вы "
+"их внесли) введите:"
+
+#. (itstool) path: info/desc
+#: C/what-is.page:8
+msgid "Description of <app>GNOME Hello</app>."
+msgstr "Описание <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is.page:22
+msgid "What is <app>GNOME Hello</app>"
+msgstr "Что такое <app>GNOME Hello</app>"
+
+#. (itstool) path: page/p
+#: C/what-is.page:24
+msgid ""
+"<app>GNOME Hello</app> is a very complex program, with many nice features "
+"and nice options."
+msgstr ""
+"<app>GNOME Hello</app> - это очень сложная программа, с множеством приятных "
+"функций и приятных опций."
+
+#. (itstool) path: info/desc
+#: C/what-is-like.page:9
+msgid "Pictures of <app>GNOME Hello</app>."
+msgstr "Изображения <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-is-like.page:23
+msgid "What does <app>GNOME Hello</app> look like?"
+msgstr "Как выглядит <app>GNOME Hello</app>?"
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:25
+msgid "This is how <app>GNOME Hello</app> looks like."
+msgstr "Вот как выглядит <app>GNOME Hello</app>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/what-is-like.page:29
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+msgstr ""
+"external ref='figures/gnome-hello-new.png' "
+"md5='8a1fcc6f46a22a1f500cfef9ca51b481'"
+
+#. (itstool) path: page/p
+#: C/what-is-like.page:28
+msgid ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png\"> "
+"<app>GNOME Hello</app> fantastic interface. </media>"
+msgstr ""
+"<media type=\"image\" mime=\"img/png\" src=\"figures/gnome-hello-new.png"
+"\">фантастический интерфейс <app>GNOME Hello</app> </media>"
+
+#. (itstool) path: info/desc
+#: C/what-can-do.page:8
+msgid "What can you do with <app>GNOME Hello</app>."
+msgstr "Что можно сделать с помощью <app>GNOME Hello</app>."
+
+#. (itstool) path: page/title
+#: C/what-can-do.page:22
+msgid "What <app>GNOME Hello</app> does"
+msgstr "Что делает <app>GNOME Hello</app> "
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:24
+msgid "At the moment <app>GNOME Hello</app> can't do many things."
+msgstr "На данный момент <app>GNOME Hello</app> не может сделать многого."
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:27
+msgid ""
+"This is just a demonstration on how to install help files and how to use "
+"Mallard, the new syntax for writing GNOME documentation."
+msgstr ""
+"Это просто демонстрация того, как устанавливать файлы справки и как "
+"использовать Mallard, новый синтаксис для написания документации GNOME."
+
+#. (itstool) path: page/p
+#: C/what-can-do.page:31
+msgid ""
+"If you want to learn more about Mallard, see the <link href=\"http://"
+"projectmallard.org/\">Project Mallard</link> home page."
+msgstr ""
+"Если вы хотите узнать больше о кряквах, см. домашнюю страницу <link href="
+"\"http://projectmallard.org/\">Project Mallard</link>."
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr ""
+"Лицензия Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Эта работа лицензирована на условиях <_:link-1/>."
+
+#. (itstool) path: license/p
+#: C/legal.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"В качестве особого исключения правообладатели дают вам разрешение "
+"копировать, изменять и распространять код примера, содержащийся в этом "
+"документе, на условиях по вашему выбору, без ограничений."
